@@ -1,0 +1,67 @@
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        blurThreshold: { value: 0.2 }
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+
+in vec3 a_position;
+
+in mediump vec2 a_uv0;
+out mediump vec2 v_uv0;
+
+in vec4 a_color;
+out vec4 v_color;
+
+void main () {
+  gl_Position = cc_matViewProj * vec4(a_position, 1);
+  v_uv0 = a_uv0;
+  v_color = a_color;
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+#include <texture>
+uniform FragConstants {
+  float blurThreshold;
+};
+uniform sampler2D texture;
+in mediump vec2 v_uv0;
+in vec4 v_color;
+
+void main () {
+  float scale = 40.0 * blurThreshold;
+  vec2 blurSize=vec2(scale,scale);
+  vec4 sum=vec4(0.0);
+  sum+=texture2D(texture,v_uv0-0.0004*blurSize)*0.05;
+  sum+=texture2D(texture,v_uv0-0.0003*blurSize)*0.09;
+  sum+=texture2D(texture,v_uv0-0.0002*blurSize)*0.12;
+  sum+=texture2D(texture,v_uv0-0.0001*blurSize)*0.15;
+  sum+=texture2D(texture,v_uv0)*0.16;
+  sum+=texture2D(texture,v_uv0+0.0001*blurSize)*0.15;
+  sum+=texture2D(texture,v_uv0+0.0002*blurSize)*0.12;
+  sum+=texture2D(texture,v_uv0+0.0003*blurSize)*0.09;
+  sum+=texture2D(texture,v_uv0+0.0004*blurSize)*0.05;
+  gl_FragColor = v_color*sum; 
+}
+
+}%

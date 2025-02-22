@@ -1,0 +1,96 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.  
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }        
+        time: {value: 1.0}
+        iResolution: { value: [1280,720] }
+        alphaThreshold: { value: 0.5 }
+}%
+
+
+CCProgram vs %{
+  precision highp float;
+
+  #include <cc-global>
+  #include <cc-local>
+
+  in vec3 a_position;
+
+  #if USE_TEXTURE
+  in vec2 a_uv0;
+  out vec2 v_uv0;
+  #endif
+
+  void main () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if CC_USE_MODEL
+    pos = cc_matViewProj * cc_matWorld * pos;
+    #else
+    pos = cc_matViewProj * pos;
+    #endif
+
+    #if USE_TEXTURE
+    v_uv0 = a_uv0;
+    #endif
+
+    gl_Position = pos;
+  }
+}%
+
+
+CCProgram fs %{
+  precision highp float;
+  
+  #include <alpha-test>
+  #include <texture>
+
+  in vec4 v_color;
+
+  #if USE_TEXTURE
+  in vec2 v_uv0;
+  uniform sampler2D texture;
+  #endif
+
+  uniform FragConstants {
+    float time;
+  };
+
+  uniform Properties {
+    vec2 iResolution;
+  };
+
+  #define F cos(x-y)*cos(y),sin(x+y)*sin(y)
+
+  vec2 s(vec2 p)
+  {
+    float d=time*0.2,x=16.*(p.x+d),y=16.*(p.y+d);
+    return vec2(F);
+  }
+
+  void mainImage( out vec4 fragColor, in vec2 fragCoord )
+  {
+    // 换成resolution
+    vec2 rs = iResolution.xy;
+    // 换成纹理坐标v_texCoord.xy
+    vec2 uv = fragCoord;
+    vec2 q = uv+3./iResolution.x*(s(uv)-s(uv+rs));
+    //反转y
+    //q.y=1.-q.y;
+    fragColor = texture2D(texture, q);
+  }
+
+  void main () {
+    mainImage(gl_FragColor, v_uv0.xy);
+  }
+}%

@@ -1,0 +1,19 @@
+#header-bdwykzw
+* * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/cfg_houtai.php > /data/logs/bdwykzw_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/delete.php > /data/logs/bdwykzw_log/delete 2>&1
+
+#bdwykzw 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/30minutes.php 1 >> /data/logs/bdwykzw_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/Sync.php 1 > /data/logs/bdwykzw_log/Sync1 2>&1
+
+#bdwykzw 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/30minutes.php 2 >> /data/logs/bdwykzw_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/Sync.php 2 > /data/logs/bdwykzw_log/Sync2 2>&1
+
+#bdwykzw 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/30minutes.php 3 >> /data/logs/bdwykzw_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/bdwykzw/s1_bdwykzw/crontab/Sync.php 3 > /data/logs/bdwykzw_log/Sync3 2>&1
+//------------end-----------------
+
+
+

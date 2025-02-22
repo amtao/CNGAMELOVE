@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "gradient",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "bc6f7f8c-7df1-4f12-b4f2-deeb230e34c0"
+  },
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true,
+        "USE_ALPHA_TEST": false
+      }
+    }
+  }
+}

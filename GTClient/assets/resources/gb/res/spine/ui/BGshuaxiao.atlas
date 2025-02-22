@@ -1,0 +1,20 @@
+
+BGshuaxiao.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 2, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/shaguang
+  rotate: false
+  xy: 2, 7
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

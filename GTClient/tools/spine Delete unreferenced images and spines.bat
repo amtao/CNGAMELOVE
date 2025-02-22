@@ -1,0 +1,2 @@
+python checkanddel.py
+pause

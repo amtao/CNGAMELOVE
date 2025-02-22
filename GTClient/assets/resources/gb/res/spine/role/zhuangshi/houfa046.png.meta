@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "669d6767-cf84-4caa-84a9-62d6aa17c2ad",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "houfa046": {
+      "ver": "1.0.4",
+      "uuid": "5bc18c35-31bb-45da-8456-304ab1f15e1d",
+      "rawTextureUuid": "669d6767-cf84-4caa-84a9-62d6aa17c2ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -45.5,
+      "offsetY": 38,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 417,
+      "height": 176,
+      "rawWidth": 512,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

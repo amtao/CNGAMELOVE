@@ -1,0 +1,7 @@
+登录接口 loginAccount 传递以下参数：
+openid : SDK登录返回的用户名(用户唯一标识)，获取不到就设置成1
+openkey : SDK端登录会返回对应token的值，帳號登錄驗證串
+parm1 : SDK端登录会返回的sessionid对应值，帳號登錄串
+
+支付：
+- 平台不提供透传游戏订单号，可不透传

@@ -1,0 +1,9 @@
+#header-eplocalqa
+* * * * *  /usr/local/services/php/bin/php /data/www/eplocalqa/s1_eplocalqa/crontab/cfg_houtai.php > /data/logs/eplocalqa_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/eplocalqa/s1_eplocalqa/crontab/delete.php > /data/logs/eplocalqa_log/delete 2>&1
+
+#eplocalqa 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/eplocalqa/s1_eplocalqa/crontab/30minutes.php 999 >> /data/logs/eplocalqa_log/30minutes999 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/eplocalqa/s1_eplocalqa/crontab/Sync.php 999 > /data/logs/eplocalqa_log/Sync999 2>&1
+
+//------------end-----------------

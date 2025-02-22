@@ -1,0 +1,2374 @@
+#紫禁繁花删档测试服 - epzjfh
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/cfg_houtai.php > /data/logs/epzjfh_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/delete.php > /data/logs/epzjfh_log/delete 2>&1
+
+#紫禁繁花删档测试服 - epzjfh
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 1 >> /data/logs/epzjfh_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 1 > /data/logs/epzjfh_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 1 > /data/logs/epzjfh_log/Sync1 2>&1
+
+
+#紫禁繁花2 - epzjfh
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 2 >> /data/logs/epzjfh_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 2 > /data/logs/epzjfh_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 2 > /data/logs/epzjfh_log/Sync1 2>&1
+
+
+#紫禁繁花3 - epzjfh
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 3 >> /data/logs/epzjfh_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 3 > /data/logs/epzjfh_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 3 > /data/logs/epzjfh_log/Sync1 2>&1
+
+
+
+#epzjfh 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 4 >> /data/logs/epzjfh_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 4 > /data/logs/epzjfh_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 4 > /data/logs/epzjfh_log/Sync4 2>&1
+
+#epzjfh 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 5 >> /data/logs/epzjfh_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 5 > /data/logs/epzjfh_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 5 > /data/logs/epzjfh_log/Sync5 2>&1
+
+#epzjfh 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 6 >> /data/logs/epzjfh_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 6 > /data/logs/epzjfh_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 6 > /data/logs/epzjfh_log/Sync6 2>&1
+
+#epzjfh 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 7 >> /data/logs/epzjfh_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 7 > /data/logs/epzjfh_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 7 > /data/logs/epzjfh_log/Sync7 2>&1
+
+#epzjfh 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 8 >> /data/logs/epzjfh_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 8 > /data/logs/epzjfh_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 8 > /data/logs/epzjfh_log/Sync8 2>&1
+
+#epzjfh 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 9 >> /data/logs/epzjfh_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 9 > /data/logs/epzjfh_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 9 > /data/logs/epzjfh_log/Sync9 2>&1
+
+#epzjfh 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 10 >> /data/logs/epzjfh_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 10 > /data/logs/epzjfh_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 10 > /data/logs/epzjfh_log/Sync10 2>&1
+
+#epzjfh 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 11 >> /data/logs/epzjfh_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 11 > /data/logs/epzjfh_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 11 > /data/logs/epzjfh_log/Sync11 2>&1
+
+#epzjfh 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 12 >> /data/logs/epzjfh_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 12 > /data/logs/epzjfh_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 12 > /data/logs/epzjfh_log/Sync12 2>&1
+
+#epzjfh 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 13 >> /data/logs/epzjfh_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 13 > /data/logs/epzjfh_log/flow13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 13 > /data/logs/epzjfh_log/Sync13 2>&1
+
+#epzjfh 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 14 >> /data/logs/epzjfh_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 14 > /data/logs/epzjfh_log/flow14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 14 > /data/logs/epzjfh_log/Sync14 2>&1
+
+#epzjfh 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 15 >> /data/logs/epzjfh_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 15 > /data/logs/epzjfh_log/flow15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 15 > /data/logs/epzjfh_log/Sync15 2>&1
+
+#epzjfh 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 16 >> /data/logs/epzjfh_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 16 > /data/logs/epzjfh_log/flow16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 16 > /data/logs/epzjfh_log/Sync16 2>&1
+
+#epzjfh 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 17 >> /data/logs/epzjfh_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 17 > /data/logs/epzjfh_log/flow17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 17 > /data/logs/epzjfh_log/Sync17 2>&1
+
+#epzjfh 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 18 >> /data/logs/epzjfh_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 18 > /data/logs/epzjfh_log/flow18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 18 > /data/logs/epzjfh_log/Sync18 2>&1
+
+#epzjfh 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 19 >> /data/logs/epzjfh_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 19 > /data/logs/epzjfh_log/flow19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 19 > /data/logs/epzjfh_log/Sync19 2>&1
+
+#epzjfh 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 20 >> /data/logs/epzjfh_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 20 > /data/logs/epzjfh_log/flow20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 20 > /data/logs/epzjfh_log/Sync20 2>&1
+
+#epzjfh 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 21 >> /data/logs/epzjfh_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 21 > /data/logs/epzjfh_log/flow21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 21 > /data/logs/epzjfh_log/Sync21 2>&1
+
+#epzjfh 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 22 >> /data/logs/epzjfh_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 22 > /data/logs/epzjfh_log/flow22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 22 > /data/logs/epzjfh_log/Sync22 2>&1
+
+#epzjfh 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 23 >> /data/logs/epzjfh_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 23 > /data/logs/epzjfh_log/flow23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 23 > /data/logs/epzjfh_log/Sync23 2>&1
+
+#epzjfh 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 24 >> /data/logs/epzjfh_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 24 > /data/logs/epzjfh_log/flow24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 24 > /data/logs/epzjfh_log/Sync24 2>&1
+
+#epzjfh 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 25 >> /data/logs/epzjfh_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 25 > /data/logs/epzjfh_log/flow25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 25 > /data/logs/epzjfh_log/Sync25 2>&1
+
+#epzjfh 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 26 >> /data/logs/epzjfh_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 26 > /data/logs/epzjfh_log/flow26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 26 > /data/logs/epzjfh_log/Sync26 2>&1
+
+#epzjfh 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 27 >> /data/logs/epzjfh_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 27 > /data/logs/epzjfh_log/flow27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 27 > /data/logs/epzjfh_log/Sync27 2>&1
+
+#epzjfh 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 28 >> /data/logs/epzjfh_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 28 > /data/logs/epzjfh_log/flow28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 28 > /data/logs/epzjfh_log/Sync28 2>&1
+
+#epzjfh 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 29 >> /data/logs/epzjfh_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 29 > /data/logs/epzjfh_log/flow29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 29 > /data/logs/epzjfh_log/Sync29 2>&1
+
+#epzjfh 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 30 >> /data/logs/epzjfh_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 30 > /data/logs/epzjfh_log/flow30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 30 > /data/logs/epzjfh_log/Sync30 2>&1
+
+#epzjfh 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 31 >> /data/logs/epzjfh_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 31 > /data/logs/epzjfh_log/flow31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 31 > /data/logs/epzjfh_log/Sync31 2>&1
+
+#epzjfh 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 32 >> /data/logs/epzjfh_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 32 > /data/logs/epzjfh_log/flow32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 32 > /data/logs/epzjfh_log/Sync32 2>&1
+
+#epzjfh 33区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 33 >> /data/logs/epzjfh_log/30minutes33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 33 > /data/logs/epzjfh_log/flow33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 33 > /data/logs/epzjfh_log/Sync33 2>&1
+
+#epzjfh 34区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 34 >> /data/logs/epzjfh_log/30minutes34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 34 > /data/logs/epzjfh_log/flow34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 34 > /data/logs/epzjfh_log/Sync34 2>&1
+
+#epzjfh 35区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 35 >> /data/logs/epzjfh_log/30minutes35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 35 > /data/logs/epzjfh_log/flow35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 35 > /data/logs/epzjfh_log/Sync35 2>&1
+
+#epzjfh 36区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 36 >> /data/logs/epzjfh_log/30minutes36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 36 > /data/logs/epzjfh_log/flow36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 36 > /data/logs/epzjfh_log/Sync36 2>&1
+
+#epzjfh 37区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 37 >> /data/logs/epzjfh_log/30minutes37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 37 > /data/logs/epzjfh_log/flow37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 37 > /data/logs/epzjfh_log/Sync37 2>&1
+
+#epzjfh 38区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 38 >> /data/logs/epzjfh_log/30minutes38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 38 > /data/logs/epzjfh_log/flow38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 38 > /data/logs/epzjfh_log/Sync38 2>&1
+
+#epzjfh 39区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 39 >> /data/logs/epzjfh_log/30minutes39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 39 > /data/logs/epzjfh_log/flow39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 39 > /data/logs/epzjfh_log/Sync39 2>&1
+
+#epzjfh 40区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 40 >> /data/logs/epzjfh_log/30minutes40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 40 > /data/logs/epzjfh_log/flow40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 40 > /data/logs/epzjfh_log/Sync40 2>&1
+
+#epzjfh 41区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 41 >> /data/logs/epzjfh_log/30minutes41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 41 > /data/logs/epzjfh_log/flow41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 41 > /data/logs/epzjfh_log/Sync41 2>&1
+
+#epzjfh 42区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 42 >> /data/logs/epzjfh_log/30minutes42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 42 > /data/logs/epzjfh_log/flow42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 42 > /data/logs/epzjfh_log/Sync42 2>&1
+
+#epzjfh 43区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 43 >> /data/logs/epzjfh_log/30minutes43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 43 > /data/logs/epzjfh_log/flow43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 43 > /data/logs/epzjfh_log/Sync43 2>&1
+
+#epzjfh 44区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 44 >> /data/logs/epzjfh_log/30minutes44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 44 > /data/logs/epzjfh_log/flow44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 44 > /data/logs/epzjfh_log/Sync44 2>&1
+
+#epzjfh 45区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 45 >> /data/logs/epzjfh_log/30minutes45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 45 > /data/logs/epzjfh_log/flow45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 45 > /data/logs/epzjfh_log/Sync45 2>&1
+
+#epzjfh 46区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 46 >> /data/logs/epzjfh_log/30minutes46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 46 > /data/logs/epzjfh_log/flow46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 46 > /data/logs/epzjfh_log/Sync46 2>&1
+
+#epzjfh 47区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 47 >> /data/logs/epzjfh_log/30minutes47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 47 > /data/logs/epzjfh_log/flow47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 47 > /data/logs/epzjfh_log/Sync47 2>&1
+
+#epzjfh 48区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 48 >> /data/logs/epzjfh_log/30minutes48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 48 > /data/logs/epzjfh_log/flow48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 48 > /data/logs/epzjfh_log/Sync48 2>&1
+
+#epzjfh 49区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 49 >> /data/logs/epzjfh_log/30minutes49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 49 > /data/logs/epzjfh_log/flow49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 49 > /data/logs/epzjfh_log/Sync49 2>&1
+
+#epzjfh 50区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 50 >> /data/logs/epzjfh_log/30minutes50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 50 > /data/logs/epzjfh_log/flow50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 50 > /data/logs/epzjfh_log/Sync50 2>&1
+
+#epzjfh 51区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 51 >> /data/logs/epzjfh_log/30minutes51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 51 > /data/logs/epzjfh_log/flow51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 51 > /data/logs/epzjfh_log/Sync51 2>&1
+
+#epzjfh 52区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 52 >> /data/logs/epzjfh_log/30minutes52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 52 > /data/logs/epzjfh_log/flow52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 52 > /data/logs/epzjfh_log/Sync52 2>&1
+
+#epzjfh 53区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 53 >> /data/logs/epzjfh_log/30minutes53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 53 > /data/logs/epzjfh_log/flow53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 53 > /data/logs/epzjfh_log/Sync53 2>&1
+
+#epzjfh 54区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 54 >> /data/logs/epzjfh_log/30minutes54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 54 > /data/logs/epzjfh_log/flow54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 54 > /data/logs/epzjfh_log/Sync54 2>&1
+
+#epzjfh 55区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 55 >> /data/logs/epzjfh_log/30minutes55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 55 > /data/logs/epzjfh_log/flow55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 55 > /data/logs/epzjfh_log/Sync55 2>&1
+
+#epzjfh 56区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 56 >> /data/logs/epzjfh_log/30minutes56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 56 > /data/logs/epzjfh_log/flow56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 56 > /data/logs/epzjfh_log/Sync56 2>&1
+
+#epzjfh 57区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 57 >> /data/logs/epzjfh_log/30minutes57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 57 > /data/logs/epzjfh_log/flow57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 57 > /data/logs/epzjfh_log/Sync57 2>&1
+
+#epzjfh 58区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 58 >> /data/logs/epzjfh_log/30minutes58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 58 > /data/logs/epzjfh_log/flow58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 58 > /data/logs/epzjfh_log/Sync58 2>&1
+
+#epzjfh 59区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 59 >> /data/logs/epzjfh_log/30minutes59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 59 > /data/logs/epzjfh_log/flow59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 59 > /data/logs/epzjfh_log/Sync59 2>&1
+
+#epzjfh 60区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 60 >> /data/logs/epzjfh_log/30minutes60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 60 > /data/logs/epzjfh_log/flow60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 60 > /data/logs/epzjfh_log/Sync60 2>&1
+
+#epzjfh 61区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 61 >> /data/logs/epzjfh_log/30minutes61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 61 > /data/logs/epzjfh_log/flow61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 61 > /data/logs/epzjfh_log/Sync61 2>&1
+
+#epzjfh 62区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 62 >> /data/logs/epzjfh_log/30minutes62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 62 > /data/logs/epzjfh_log/flow62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 62 > /data/logs/epzjfh_log/Sync62 2>&1
+
+#epzjfh 63区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 63 >> /data/logs/epzjfh_log/30minutes63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 63 > /data/logs/epzjfh_log/flow63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 63 > /data/logs/epzjfh_log/Sync63 2>&1
+
+#epzjfh 64区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 64 >> /data/logs/epzjfh_log/30minutes64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 64 > /data/logs/epzjfh_log/flow64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 64 > /data/logs/epzjfh_log/Sync64 2>&1
+
+#epzjfh 65区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 65 >> /data/logs/epzjfh_log/30minutes65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 65 > /data/logs/epzjfh_log/flow65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 65 > /data/logs/epzjfh_log/Sync65 2>&1
+
+#epzjfh 66区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 66 >> /data/logs/epzjfh_log/30minutes66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 66 > /data/logs/epzjfh_log/flow66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 66 > /data/logs/epzjfh_log/Sync66 2>&1
+
+#epzjfh 67区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 67 >> /data/logs/epzjfh_log/30minutes67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 67 > /data/logs/epzjfh_log/flow67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 67 > /data/logs/epzjfh_log/Sync67 2>&1
+
+#epzjfh 68区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 68 >> /data/logs/epzjfh_log/30minutes68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 68 > /data/logs/epzjfh_log/flow68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 68 > /data/logs/epzjfh_log/Sync68 2>&1
+
+#epzjfh 69区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 69 >> /data/logs/epzjfh_log/30minutes69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 69 > /data/logs/epzjfh_log/flow69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 69 > /data/logs/epzjfh_log/Sync69 2>&1
+
+#epzjfh 70区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 70 >> /data/logs/epzjfh_log/30minutes70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 70 > /data/logs/epzjfh_log/flow70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 70 > /data/logs/epzjfh_log/Sync70 2>&1
+
+#epzjfh 71区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 71 >> /data/logs/epzjfh_log/30minutes71 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 71 > /data/logs/epzjfh_log/flow71 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 71 > /data/logs/epzjfh_log/Sync71 2>&1
+
+#epzjfh 72区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 72 >> /data/logs/epzjfh_log/30minutes72 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 72 > /data/logs/epzjfh_log/flow72 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 72 > /data/logs/epzjfh_log/Sync72 2>&1
+
+#epzjfh 73区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 73 >> /data/logs/epzjfh_log/30minutes73 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 73 > /data/logs/epzjfh_log/flow73 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 73 > /data/logs/epzjfh_log/Sync73 2>&1
+
+#epzjfh 74区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 74 >> /data/logs/epzjfh_log/30minutes74 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 74 > /data/logs/epzjfh_log/flow74 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 74 > /data/logs/epzjfh_log/Sync74 2>&1
+
+#epzjfh 75区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 75 >> /data/logs/epzjfh_log/30minutes75 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 75 > /data/logs/epzjfh_log/flow75 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 75 > /data/logs/epzjfh_log/Sync75 2>&1
+
+#epzjfh 76区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 76 >> /data/logs/epzjfh_log/30minutes76 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 76 > /data/logs/epzjfh_log/flow76 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 76 > /data/logs/epzjfh_log/Sync76 2>&1
+
+#epzjfh 77区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 77 >> /data/logs/epzjfh_log/30minutes77 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 77 > /data/logs/epzjfh_log/flow77 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 77 > /data/logs/epzjfh_log/Sync77 2>&1
+
+#epzjfh 78区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 78 >> /data/logs/epzjfh_log/30minutes78 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 78 > /data/logs/epzjfh_log/flow78 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 78 > /data/logs/epzjfh_log/Sync78 2>&1
+
+#epzjfh 79区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 79 >> /data/logs/epzjfh_log/30minutes79 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 79 > /data/logs/epzjfh_log/flow79 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 79 > /data/logs/epzjfh_log/Sync79 2>&1
+
+#epzjfh 80区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 80 >> /data/logs/epzjfh_log/30minutes80 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 80 > /data/logs/epzjfh_log/flow80 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 80 > /data/logs/epzjfh_log/Sync80 2>&1
+
+#epzjfh 81区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 81 >> /data/logs/epzjfh_log/30minutes81 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 81 > /data/logs/epzjfh_log/flow81 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 81 > /data/logs/epzjfh_log/Sync81 2>&1
+
+#epzjfh 82区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 82 >> /data/logs/epzjfh_log/30minutes82 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 82 > /data/logs/epzjfh_log/flow82 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 82 > /data/logs/epzjfh_log/Sync82 2>&1
+
+#epzjfh 83区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 83 >> /data/logs/epzjfh_log/30minutes83 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 83 > /data/logs/epzjfh_log/flow83 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 83 > /data/logs/epzjfh_log/Sync83 2>&1
+
+#epzjfh 84区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 84 >> /data/logs/epzjfh_log/30minutes84 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 84 > /data/logs/epzjfh_log/flow84 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 84 > /data/logs/epzjfh_log/Sync84 2>&1
+
+#epzjfh 85区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 85 >> /data/logs/epzjfh_log/30minutes85 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 85 > /data/logs/epzjfh_log/flow85 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 85 > /data/logs/epzjfh_log/Sync85 2>&1
+
+#epzjfh 86区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 86 >> /data/logs/epzjfh_log/30minutes86 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 86 > /data/logs/epzjfh_log/flow86 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 86 > /data/logs/epzjfh_log/Sync86 2>&1
+
+#epzjfh 87区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 87 >> /data/logs/epzjfh_log/30minutes87 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 87 > /data/logs/epzjfh_log/flow87 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 87 > /data/logs/epzjfh_log/Sync87 2>&1
+
+#epzjfh 88区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 88 >> /data/logs/epzjfh_log/30minutes88 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 88 > /data/logs/epzjfh_log/flow88 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 88 > /data/logs/epzjfh_log/Sync88 2>&1
+
+#epzjfh 89区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 89 >> /data/logs/epzjfh_log/30minutes89 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 89 > /data/logs/epzjfh_log/flow89 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 89 > /data/logs/epzjfh_log/Sync89 2>&1
+
+#epzjfh 90区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 90 >> /data/logs/epzjfh_log/30minutes90 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 90 > /data/logs/epzjfh_log/flow90 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 90 > /data/logs/epzjfh_log/Sync90 2>&1
+
+#epzjfh 91区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 91 >> /data/logs/epzjfh_log/30minutes91 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 91 > /data/logs/epzjfh_log/flow91 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 91 > /data/logs/epzjfh_log/Sync91 2>&1
+
+#epzjfh 92区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 92 >> /data/logs/epzjfh_log/30minutes92 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 92 > /data/logs/epzjfh_log/flow92 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 92 > /data/logs/epzjfh_log/Sync92 2>&1
+
+#epzjfh 93区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 93 >> /data/logs/epzjfh_log/30minutes93 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 93 > /data/logs/epzjfh_log/flow93 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 93 > /data/logs/epzjfh_log/Sync93 2>&1
+
+#epzjfh 94区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 94 >> /data/logs/epzjfh_log/30minutes94 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 94 > /data/logs/epzjfh_log/flow94 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 94 > /data/logs/epzjfh_log/Sync94 2>&1
+
+#epzjfh 95区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 95 >> /data/logs/epzjfh_log/30minutes95 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 95 > /data/logs/epzjfh_log/flow95 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 95 > /data/logs/epzjfh_log/Sync95 2>&1
+
+#epzjfh 96区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 96 >> /data/logs/epzjfh_log/30minutes96 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 96 > /data/logs/epzjfh_log/flow96 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 96 > /data/logs/epzjfh_log/Sync96 2>&1
+
+#epzjfh 97区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 97 >> /data/logs/epzjfh_log/30minutes97 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 97 > /data/logs/epzjfh_log/flow97 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 97 > /data/logs/epzjfh_log/Sync97 2>&1
+
+#epzjfh 98区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 98 >> /data/logs/epzjfh_log/30minutes98 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 98 > /data/logs/epzjfh_log/flow98 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 98 > /data/logs/epzjfh_log/Sync98 2>&1
+
+#epzjfh 99区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 99 >> /data/logs/epzjfh_log/30minutes99 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 99 > /data/logs/epzjfh_log/flow99 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 99 > /data/logs/epzjfh_log/Sync99 2>&1
+
+#epzjfh 100区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 100 >> /data/logs/epzjfh_log/30minutes100 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 100 > /data/logs/epzjfh_log/flow100 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 100 > /data/logs/epzjfh_log/Sync100 2>&1
+
+#epzjfh 101区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 101 >> /data/logs/epzjfh_log/30minutes101 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 101 > /data/logs/epzjfh_log/flow101 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 101 > /data/logs/epzjfh_log/Sync101 2>&1
+
+#epzjfh 102区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 102 >> /data/logs/epzjfh_log/30minutes102 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 102 > /data/logs/epzjfh_log/flow102 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 102 > /data/logs/epzjfh_log/Sync102 2>&1
+
+#epzjfh 103区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 103 >> /data/logs/epzjfh_log/30minutes103 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 103 > /data/logs/epzjfh_log/flow103 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 103 > /data/logs/epzjfh_log/Sync103 2>&1
+
+#epzjfh 104区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 104 >> /data/logs/epzjfh_log/30minutes104 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 104 > /data/logs/epzjfh_log/flow104 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 104 > /data/logs/epzjfh_log/Sync104 2>&1
+
+#epzjfh 105区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 105 >> /data/logs/epzjfh_log/30minutes105 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 105 > /data/logs/epzjfh_log/flow105 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 105 > /data/logs/epzjfh_log/Sync105 2>&1
+
+#epzjfh 106区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 106 >> /data/logs/epzjfh_log/30minutes106 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 106 > /data/logs/epzjfh_log/flow106 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 106 > /data/logs/epzjfh_log/Sync106 2>&1
+
+#epzjfh 107区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 107 >> /data/logs/epzjfh_log/30minutes107 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 107 > /data/logs/epzjfh_log/flow107 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 107 > /data/logs/epzjfh_log/Sync107 2>&1
+
+#epzjfh 108区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 108 >> /data/logs/epzjfh_log/30minutes108 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 108 > /data/logs/epzjfh_log/flow108 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 108 > /data/logs/epzjfh_log/Sync108 2>&1
+
+#epzjfh 109区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 109 >> /data/logs/epzjfh_log/30minutes109 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 109 > /data/logs/epzjfh_log/flow109 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 109 > /data/logs/epzjfh_log/Sync109 2>&1
+
+#epzjfh 110区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 110 >> /data/logs/epzjfh_log/30minutes110 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 110 > /data/logs/epzjfh_log/flow110 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 110 > /data/logs/epzjfh_log/Sync110 2>&1
+
+#epzjfh 111区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 111 >> /data/logs/epzjfh_log/30minutes111 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 111 > /data/logs/epzjfh_log/flow111 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 111 > /data/logs/epzjfh_log/Sync111 2>&1
+
+#epzjfh 112区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 112 >> /data/logs/epzjfh_log/30minutes112 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 112 > /data/logs/epzjfh_log/flow112 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 112 > /data/logs/epzjfh_log/Sync112 2>&1
+
+#epzjfh 113区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 113 >> /data/logs/epzjfh_log/30minutes113 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 113 > /data/logs/epzjfh_log/flow113 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 113 > /data/logs/epzjfh_log/Sync113 2>&1
+
+#epzjfh 114区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 114 >> /data/logs/epzjfh_log/30minutes114 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 114 > /data/logs/epzjfh_log/flow114 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 114 > /data/logs/epzjfh_log/Sync114 2>&1
+
+#epzjfh 115区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 115 >> /data/logs/epzjfh_log/30minutes115 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 115 > /data/logs/epzjfh_log/flow115 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 115 > /data/logs/epzjfh_log/Sync115 2>&1
+
+#epzjfh 116区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 116 >> /data/logs/epzjfh_log/30minutes116 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 116 > /data/logs/epzjfh_log/flow116 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 116 > /data/logs/epzjfh_log/Sync116 2>&1
+
+#epzjfh 117区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 117 >> /data/logs/epzjfh_log/30minutes117 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 117 > /data/logs/epzjfh_log/flow117 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 117 > /data/logs/epzjfh_log/Sync117 2>&1
+
+#epzjfh 118区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 118 >> /data/logs/epzjfh_log/30minutes118 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 118 > /data/logs/epzjfh_log/flow118 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 118 > /data/logs/epzjfh_log/Sync118 2>&1
+
+#epzjfh 119区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 119 >> /data/logs/epzjfh_log/30minutes119 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 119 > /data/logs/epzjfh_log/flow119 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 119 > /data/logs/epzjfh_log/Sync119 2>&1
+
+#epzjfh 120区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 120 >> /data/logs/epzjfh_log/30minutes120 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 120 > /data/logs/epzjfh_log/flow120 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 120 > /data/logs/epzjfh_log/Sync120 2>&1
+
+#epzjfh 121区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 121 >> /data/logs/epzjfh_log/30minutes121 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 121 > /data/logs/epzjfh_log/flow121 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 121 > /data/logs/epzjfh_log/Sync121 2>&1
+
+#epzjfh 122区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 122 >> /data/logs/epzjfh_log/30minutes122 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 122 > /data/logs/epzjfh_log/flow122 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 122 > /data/logs/epzjfh_log/Sync122 2>&1
+
+#epzjfh 123区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 123 >> /data/logs/epzjfh_log/30minutes123 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 123 > /data/logs/epzjfh_log/flow123 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 123 > /data/logs/epzjfh_log/Sync123 2>&1
+
+#epzjfh 124区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 124 >> /data/logs/epzjfh_log/30minutes124 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 124 > /data/logs/epzjfh_log/flow124 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 124 > /data/logs/epzjfh_log/Sync124 2>&1
+
+#epzjfh 125区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 125 >> /data/logs/epzjfh_log/30minutes125 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 125 > /data/logs/epzjfh_log/flow125 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 125 > /data/logs/epzjfh_log/Sync125 2>&1
+
+#epzjfh 126区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 126 >> /data/logs/epzjfh_log/30minutes126 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 126 > /data/logs/epzjfh_log/flow126 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 126 > /data/logs/epzjfh_log/Sync126 2>&1
+
+#epzjfh 127区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 127 >> /data/logs/epzjfh_log/30minutes127 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 127 > /data/logs/epzjfh_log/flow127 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 127 > /data/logs/epzjfh_log/Sync127 2>&1
+
+#epzjfh 128区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 128 >> /data/logs/epzjfh_log/30minutes128 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 128 > /data/logs/epzjfh_log/flow128 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 128 > /data/logs/epzjfh_log/Sync128 2>&1
+
+#epzjfh 129区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 129 >> /data/logs/epzjfh_log/30minutes129 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 129 > /data/logs/epzjfh_log/flow129 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 129 > /data/logs/epzjfh_log/Sync129 2>&1
+
+#epzjfh 130区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 130 >> /data/logs/epzjfh_log/30minutes130 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 130 > /data/logs/epzjfh_log/flow130 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 130 > /data/logs/epzjfh_log/Sync130 2>&1
+
+#epzjfh 131区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 131 >> /data/logs/epzjfh_log/30minutes131 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 131 > /data/logs/epzjfh_log/flow131 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 131 > /data/logs/epzjfh_log/Sync131 2>&1
+
+#epzjfh 132区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 132 >> /data/logs/epzjfh_log/30minutes132 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 132 > /data/logs/epzjfh_log/flow132 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 132 > /data/logs/epzjfh_log/Sync132 2>&1
+
+#epzjfh 133区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 133 >> /data/logs/epzjfh_log/30minutes133 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 133 > /data/logs/epzjfh_log/flow133 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 133 > /data/logs/epzjfh_log/Sync133 2>&1
+
+#epzjfh 134区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 134 >> /data/logs/epzjfh_log/30minutes134 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 134 > /data/logs/epzjfh_log/flow134 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 134 > /data/logs/epzjfh_log/Sync134 2>&1
+
+#epzjfh 135区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 135 >> /data/logs/epzjfh_log/30minutes135 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 135 > /data/logs/epzjfh_log/flow135 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 135 > /data/logs/epzjfh_log/Sync135 2>&1
+
+#epzjfh 136区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 136 >> /data/logs/epzjfh_log/30minutes136 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 136 > /data/logs/epzjfh_log/flow136 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 136 > /data/logs/epzjfh_log/Sync136 2>&1
+
+#epzjfh 137区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 137 >> /data/logs/epzjfh_log/30minutes137 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 137 > /data/logs/epzjfh_log/flow137 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 137 > /data/logs/epzjfh_log/Sync137 2>&1
+
+#epzjfh 138区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 138 >> /data/logs/epzjfh_log/30minutes138 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 138 > /data/logs/epzjfh_log/flow138 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 138 > /data/logs/epzjfh_log/Sync138 2>&1
+
+#epzjfh 139区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 139 >> /data/logs/epzjfh_log/30minutes139 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 139 > /data/logs/epzjfh_log/flow139 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 139 > /data/logs/epzjfh_log/Sync139 2>&1
+
+#epzjfh 140区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 140 >> /data/logs/epzjfh_log/30minutes140 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 140 > /data/logs/epzjfh_log/flow140 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 140 > /data/logs/epzjfh_log/Sync140 2>&1
+
+#epzjfh 141区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 141 >> /data/logs/epzjfh_log/30minutes141 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 141 > /data/logs/epzjfh_log/flow141 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 141 > /data/logs/epzjfh_log/Sync141 2>&1
+
+#epzjfh 142区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 142 >> /data/logs/epzjfh_log/30minutes142 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 142 > /data/logs/epzjfh_log/flow142 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 142 > /data/logs/epzjfh_log/Sync142 2>&1
+
+#epzjfh 143区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 143 >> /data/logs/epzjfh_log/30minutes143 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 143 > /data/logs/epzjfh_log/flow143 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 143 > /data/logs/epzjfh_log/Sync143 2>&1
+
+#epzjfh 144区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 144 >> /data/logs/epzjfh_log/30minutes144 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 144 > /data/logs/epzjfh_log/flow144 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 144 > /data/logs/epzjfh_log/Sync144 2>&1
+
+#epzjfh 145区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 145 >> /data/logs/epzjfh_log/30minutes145 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 145 > /data/logs/epzjfh_log/flow145 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 145 > /data/logs/epzjfh_log/Sync145 2>&1
+
+#epzjfh 146区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 146 >> /data/logs/epzjfh_log/30minutes146 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 146 > /data/logs/epzjfh_log/flow146 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 146 > /data/logs/epzjfh_log/Sync146 2>&1
+
+#epzjfh 147区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 147 >> /data/logs/epzjfh_log/30minutes147 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 147 > /data/logs/epzjfh_log/flow147 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 147 > /data/logs/epzjfh_log/Sync147 2>&1
+
+#epzjfh 148区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 148 >> /data/logs/epzjfh_log/30minutes148 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 148 > /data/logs/epzjfh_log/flow148 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 148 > /data/logs/epzjfh_log/Sync148 2>&1
+
+#epzjfh 149区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 149 >> /data/logs/epzjfh_log/30minutes149 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 149 > /data/logs/epzjfh_log/flow149 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 149 > /data/logs/epzjfh_log/Sync149 2>&1
+
+#epzjfh 150区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 150 >> /data/logs/epzjfh_log/30minutes150 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 150 > /data/logs/epzjfh_log/flow150 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 150 > /data/logs/epzjfh_log/Sync150 2>&1
+
+#epzjfh 151区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 151 >> /data/logs/epzjfh_log/30minutes151 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 151 > /data/logs/epzjfh_log/flow151 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 151 > /data/logs/epzjfh_log/Sync151 2>&1
+
+#epzjfh 152区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 152 >> /data/logs/epzjfh_log/30minutes152 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 152 > /data/logs/epzjfh_log/flow152 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 152 > /data/logs/epzjfh_log/Sync152 2>&1
+
+#epzjfh 153区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 153 >> /data/logs/epzjfh_log/30minutes153 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 153 > /data/logs/epzjfh_log/flow153 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 153 > /data/logs/epzjfh_log/Sync153 2>&1
+
+#epzjfh 154区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 154 >> /data/logs/epzjfh_log/30minutes154 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 154 > /data/logs/epzjfh_log/flow154 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 154 > /data/logs/epzjfh_log/Sync154 2>&1
+
+#epzjfh 155区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 155 >> /data/logs/epzjfh_log/30minutes155 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 155 > /data/logs/epzjfh_log/flow155 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 155 > /data/logs/epzjfh_log/Sync155 2>&1
+
+#epzjfh 156区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 156 >> /data/logs/epzjfh_log/30minutes156 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 156 > /data/logs/epzjfh_log/flow156 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 156 > /data/logs/epzjfh_log/Sync156 2>&1
+
+#epzjfh 157区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 157 >> /data/logs/epzjfh_log/30minutes157 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 157 > /data/logs/epzjfh_log/flow157 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 157 > /data/logs/epzjfh_log/Sync157 2>&1
+
+#epzjfh 158区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 158 >> /data/logs/epzjfh_log/30minutes158 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 158 > /data/logs/epzjfh_log/flow158 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 158 > /data/logs/epzjfh_log/Sync158 2>&1
+
+#epzjfh 159区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 159 >> /data/logs/epzjfh_log/30minutes159 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 159 > /data/logs/epzjfh_log/flow159 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 159 > /data/logs/epzjfh_log/Sync159 2>&1
+
+#epzjfh 160区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 160 >> /data/logs/epzjfh_log/30minutes160 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 160 > /data/logs/epzjfh_log/flow160 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 160 > /data/logs/epzjfh_log/Sync160 2>&1
+
+#epzjfh 161区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 161 >> /data/logs/epzjfh_log/30minutes161 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 161 > /data/logs/epzjfh_log/flow161 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 161 > /data/logs/epzjfh_log/Sync161 2>&1
+
+#epzjfh 162区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 162 >> /data/logs/epzjfh_log/30minutes162 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 162 > /data/logs/epzjfh_log/flow162 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 162 > /data/logs/epzjfh_log/Sync162 2>&1
+
+#epzjfh 163区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 163 >> /data/logs/epzjfh_log/30minutes163 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 163 > /data/logs/epzjfh_log/flow163 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 163 > /data/logs/epzjfh_log/Sync163 2>&1
+
+#epzjfh 164区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 164 >> /data/logs/epzjfh_log/30minutes164 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 164 > /data/logs/epzjfh_log/flow164 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 164 > /data/logs/epzjfh_log/Sync164 2>&1
+
+#epzjfh 165区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 165 >> /data/logs/epzjfh_log/30minutes165 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 165 > /data/logs/epzjfh_log/flow165 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 165 > /data/logs/epzjfh_log/Sync165 2>&1
+
+#epzjfh 166区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 166 >> /data/logs/epzjfh_log/30minutes166 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 166 > /data/logs/epzjfh_log/flow166 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 166 > /data/logs/epzjfh_log/Sync166 2>&1
+
+#epzjfh 167区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 167 >> /data/logs/epzjfh_log/30minutes167 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 167 > /data/logs/epzjfh_log/flow167 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 167 > /data/logs/epzjfh_log/Sync167 2>&1
+
+#epzjfh 168区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 168 >> /data/logs/epzjfh_log/30minutes168 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 168 > /data/logs/epzjfh_log/flow168 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 168 > /data/logs/epzjfh_log/Sync168 2>&1
+
+#epzjfh 169区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 169 >> /data/logs/epzjfh_log/30minutes169 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 169 > /data/logs/epzjfh_log/flow169 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 169 > /data/logs/epzjfh_log/Sync169 2>&1
+
+#epzjfh 170区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 170 >> /data/logs/epzjfh_log/30minutes170 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 170 > /data/logs/epzjfh_log/flow170 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 170 > /data/logs/epzjfh_log/Sync170 2>&1
+
+#epzjfh 171区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 171 >> /data/logs/epzjfh_log/30minutes171 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 171 > /data/logs/epzjfh_log/flow171 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 171 > /data/logs/epzjfh_log/Sync171 2>&1
+
+#epzjfh 172区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 172 >> /data/logs/epzjfh_log/30minutes172 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 172 > /data/logs/epzjfh_log/flow172 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 172 > /data/logs/epzjfh_log/Sync172 2>&1
+
+#epzjfh 173区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 173 >> /data/logs/epzjfh_log/30minutes173 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 173 > /data/logs/epzjfh_log/flow173 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 173 > /data/logs/epzjfh_log/Sync173 2>&1
+
+#epzjfh 174区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 174 >> /data/logs/epzjfh_log/30minutes174 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 174 > /data/logs/epzjfh_log/flow174 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 174 > /data/logs/epzjfh_log/Sync174 2>&1
+
+#epzjfh 175区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 175 >> /data/logs/epzjfh_log/30minutes175 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 175 > /data/logs/epzjfh_log/flow175 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 175 > /data/logs/epzjfh_log/Sync175 2>&1
+
+#epzjfh 176区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 176 >> /data/logs/epzjfh_log/30minutes176 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 176 > /data/logs/epzjfh_log/flow176 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 176 > /data/logs/epzjfh_log/Sync176 2>&1
+
+#epzjfh 177区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 177 >> /data/logs/epzjfh_log/30minutes177 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 177 > /data/logs/epzjfh_log/flow177 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 177 > /data/logs/epzjfh_log/Sync177 2>&1
+
+#epzjfh 178区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 178 >> /data/logs/epzjfh_log/30minutes178 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 178 > /data/logs/epzjfh_log/flow178 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 178 > /data/logs/epzjfh_log/Sync178 2>&1
+
+#epzjfh 179区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 179 >> /data/logs/epzjfh_log/30minutes179 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 179 > /data/logs/epzjfh_log/flow179 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 179 > /data/logs/epzjfh_log/Sync179 2>&1
+
+#epzjfh 180区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 180 >> /data/logs/epzjfh_log/30minutes180 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 180 > /data/logs/epzjfh_log/flow180 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 180 > /data/logs/epzjfh_log/Sync180 2>&1
+
+#epzjfh 181区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 181 >> /data/logs/epzjfh_log/30minutes181 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 181 > /data/logs/epzjfh_log/flow181 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 181 > /data/logs/epzjfh_log/Sync181 2>&1
+
+#epzjfh 182区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 182 >> /data/logs/epzjfh_log/30minutes182 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 182 > /data/logs/epzjfh_log/flow182 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 182 > /data/logs/epzjfh_log/Sync182 2>&1
+
+#epzjfh 183区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 183 >> /data/logs/epzjfh_log/30minutes183 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 183 > /data/logs/epzjfh_log/flow183 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 183 > /data/logs/epzjfh_log/Sync183 2>&1
+
+#epzjfh 184区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 184 >> /data/logs/epzjfh_log/30minutes184 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 184 > /data/logs/epzjfh_log/flow184 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 184 > /data/logs/epzjfh_log/Sync184 2>&1
+
+#epzjfh 185区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 185 >> /data/logs/epzjfh_log/30minutes185 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 185 > /data/logs/epzjfh_log/flow185 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 185 > /data/logs/epzjfh_log/Sync185 2>&1
+
+#epzjfh 186区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 186 >> /data/logs/epzjfh_log/30minutes186 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 186 > /data/logs/epzjfh_log/flow186 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 186 > /data/logs/epzjfh_log/Sync186 2>&1
+
+#epzjfh 187区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 187 >> /data/logs/epzjfh_log/30minutes187 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 187 > /data/logs/epzjfh_log/flow187 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 187 > /data/logs/epzjfh_log/Sync187 2>&1
+
+#epzjfh 188区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 188 >> /data/logs/epzjfh_log/30minutes188 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 188 > /data/logs/epzjfh_log/flow188 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 188 > /data/logs/epzjfh_log/Sync188 2>&1
+
+#epzjfh 189区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 189 >> /data/logs/epzjfh_log/30minutes189 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 189 > /data/logs/epzjfh_log/flow189 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 189 > /data/logs/epzjfh_log/Sync189 2>&1
+
+#epzjfh 190区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 190 >> /data/logs/epzjfh_log/30minutes190 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 190 > /data/logs/epzjfh_log/flow190 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 190 > /data/logs/epzjfh_log/Sync190 2>&1
+
+#epzjfh 191区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 191 >> /data/logs/epzjfh_log/30minutes191 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 191 > /data/logs/epzjfh_log/flow191 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 191 > /data/logs/epzjfh_log/Sync191 2>&1
+
+#epzjfh 192区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 192 >> /data/logs/epzjfh_log/30minutes192 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 192 > /data/logs/epzjfh_log/flow192 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 192 > /data/logs/epzjfh_log/Sync192 2>&1
+
+#epzjfh 193区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 193 >> /data/logs/epzjfh_log/30minutes193 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 193 > /data/logs/epzjfh_log/flow193 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 193 > /data/logs/epzjfh_log/Sync193 2>&1
+
+#epzjfh 194区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 194 >> /data/logs/epzjfh_log/30minutes194 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 194 > /data/logs/epzjfh_log/flow194 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 194 > /data/logs/epzjfh_log/Sync194 2>&1
+
+#epzjfh 195区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 195 >> /data/logs/epzjfh_log/30minutes195 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 195 > /data/logs/epzjfh_log/flow195 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 195 > /data/logs/epzjfh_log/Sync195 2>&1
+
+#epzjfh 196区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 196 >> /data/logs/epzjfh_log/30minutes196 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 196 > /data/logs/epzjfh_log/flow196 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 196 > /data/logs/epzjfh_log/Sync196 2>&1
+
+#epzjfh 197区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 197 >> /data/logs/epzjfh_log/30minutes197 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 197 > /data/logs/epzjfh_log/flow197 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 197 > /data/logs/epzjfh_log/Sync197 2>&1
+
+#epzjfh 198区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 198 >> /data/logs/epzjfh_log/30minutes198 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 198 > /data/logs/epzjfh_log/flow198 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 198 > /data/logs/epzjfh_log/Sync198 2>&1
+
+#epzjfh 199区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 199 >> /data/logs/epzjfh_log/30minutes199 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 199 > /data/logs/epzjfh_log/flow199 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 199 > /data/logs/epzjfh_log/Sync199 2>&1
+
+#epzjfh 200区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 200 >> /data/logs/epzjfh_log/30minutes200 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 200 > /data/logs/epzjfh_log/flow200 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 200 > /data/logs/epzjfh_log/Sync200 2>&1
+
+#epzjfh 201区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 201 >> /data/logs/epzjfh_log/30minutes201 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 201 > /data/logs/epzjfh_log/flow201 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 201 > /data/logs/epzjfh_log/Sync201 2>&1
+
+#epzjfh 202区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 202 >> /data/logs/epzjfh_log/30minutes202 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 202 > /data/logs/epzjfh_log/flow202 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 202 > /data/logs/epzjfh_log/Sync202 2>&1
+
+#epzjfh 203区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 203 >> /data/logs/epzjfh_log/30minutes203 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 203 > /data/logs/epzjfh_log/flow203 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 203 > /data/logs/epzjfh_log/Sync203 2>&1
+
+#epzjfh 204区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 204 >> /data/logs/epzjfh_log/30minutes204 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 204 > /data/logs/epzjfh_log/flow204 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 204 > /data/logs/epzjfh_log/Sync204 2>&1
+
+#epzjfh 205区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 205 >> /data/logs/epzjfh_log/30minutes205 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 205 > /data/logs/epzjfh_log/flow205 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 205 > /data/logs/epzjfh_log/Sync205 2>&1
+
+#epzjfh 206区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 206 >> /data/logs/epzjfh_log/30minutes206 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 206 > /data/logs/epzjfh_log/flow206 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 206 > /data/logs/epzjfh_log/Sync206 2>&1
+
+#epzjfh 207区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 207 >> /data/logs/epzjfh_log/30minutes207 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 207 > /data/logs/epzjfh_log/flow207 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 207 > /data/logs/epzjfh_log/Sync207 2>&1
+
+#epzjfh 208区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 208 >> /data/logs/epzjfh_log/30minutes208 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 208 > /data/logs/epzjfh_log/flow208 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 208 > /data/logs/epzjfh_log/Sync208 2>&1
+
+#epzjfh 209区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 209 >> /data/logs/epzjfh_log/30minutes209 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 209 > /data/logs/epzjfh_log/flow209 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 209 > /data/logs/epzjfh_log/Sync209 2>&1
+
+#epzjfh 210区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 210 >> /data/logs/epzjfh_log/30minutes210 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 210 > /data/logs/epzjfh_log/flow210 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 210 > /data/logs/epzjfh_log/Sync210 2>&1
+
+#epzjfh 211区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 211 >> /data/logs/epzjfh_log/30minutes211 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 211 > /data/logs/epzjfh_log/flow211 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 211 > /data/logs/epzjfh_log/Sync211 2>&1
+
+#epzjfh 212区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 212 >> /data/logs/epzjfh_log/30minutes212 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 212 > /data/logs/epzjfh_log/flow212 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 212 > /data/logs/epzjfh_log/Sync212 2>&1
+
+#epzjfh 213区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 213 >> /data/logs/epzjfh_log/30minutes213 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 213 > /data/logs/epzjfh_log/flow213 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 213 > /data/logs/epzjfh_log/Sync213 2>&1
+
+#epzjfh 214区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 214 >> /data/logs/epzjfh_log/30minutes214 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 214 > /data/logs/epzjfh_log/flow214 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 214 > /data/logs/epzjfh_log/Sync214 2>&1
+
+#epzjfh 215区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 215 >> /data/logs/epzjfh_log/30minutes215 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 215 > /data/logs/epzjfh_log/flow215 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 215 > /data/logs/epzjfh_log/Sync215 2>&1
+
+#epzjfh 216区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 216 >> /data/logs/epzjfh_log/30minutes216 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 216 > /data/logs/epzjfh_log/flow216 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 216 > /data/logs/epzjfh_log/Sync216 2>&1
+
+#epzjfh 217区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 217 >> /data/logs/epzjfh_log/30minutes217 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 217 > /data/logs/epzjfh_log/flow217 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 217 > /data/logs/epzjfh_log/Sync217 2>&1
+
+#epzjfh 218区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 218 >> /data/logs/epzjfh_log/30minutes218 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 218 > /data/logs/epzjfh_log/flow218 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 218 > /data/logs/epzjfh_log/Sync218 2>&1
+
+#epzjfh 219区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 219 >> /data/logs/epzjfh_log/30minutes219 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 219 > /data/logs/epzjfh_log/flow219 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 219 > /data/logs/epzjfh_log/Sync219 2>&1
+
+#epzjfh 220区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 220 >> /data/logs/epzjfh_log/30minutes220 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 220 > /data/logs/epzjfh_log/flow220 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 220 > /data/logs/epzjfh_log/Sync220 2>&1
+
+#epzjfh 221区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 221 >> /data/logs/epzjfh_log/30minutes221 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 221 > /data/logs/epzjfh_log/flow221 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 221 > /data/logs/epzjfh_log/Sync221 2>&1
+
+#epzjfh 222区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 222 >> /data/logs/epzjfh_log/30minutes222 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 222 > /data/logs/epzjfh_log/flow222 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 222 > /data/logs/epzjfh_log/Sync222 2>&1
+
+#epzjfh 223区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 223 >> /data/logs/epzjfh_log/30minutes223 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 223 > /data/logs/epzjfh_log/flow223 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 223 > /data/logs/epzjfh_log/Sync223 2>&1
+
+#epzjfh 224区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 224 >> /data/logs/epzjfh_log/30minutes224 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 224 > /data/logs/epzjfh_log/flow224 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 224 > /data/logs/epzjfh_log/Sync224 2>&1
+
+#epzjfh 225区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 225 >> /data/logs/epzjfh_log/30minutes225 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 225 > /data/logs/epzjfh_log/flow225 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 225 > /data/logs/epzjfh_log/Sync225 2>&1
+
+#epzjfh 226区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 226 >> /data/logs/epzjfh_log/30minutes226 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 226 > /data/logs/epzjfh_log/flow226 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 226 > /data/logs/epzjfh_log/Sync226 2>&1
+
+#epzjfh 227区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 227 >> /data/logs/epzjfh_log/30minutes227 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 227 > /data/logs/epzjfh_log/flow227 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 227 > /data/logs/epzjfh_log/Sync227 2>&1
+
+#epzjfh 228区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 228 >> /data/logs/epzjfh_log/30minutes228 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 228 > /data/logs/epzjfh_log/flow228 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 228 > /data/logs/epzjfh_log/Sync228 2>&1
+
+#epzjfh 229区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 229 >> /data/logs/epzjfh_log/30minutes229 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 229 > /data/logs/epzjfh_log/flow229 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 229 > /data/logs/epzjfh_log/Sync229 2>&1
+
+#epzjfh 230区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 230 >> /data/logs/epzjfh_log/30minutes230 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 230 > /data/logs/epzjfh_log/flow230 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 230 > /data/logs/epzjfh_log/Sync230 2>&1
+
+#epzjfh 231区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 231 >> /data/logs/epzjfh_log/30minutes231 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 231 > /data/logs/epzjfh_log/flow231 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 231 > /data/logs/epzjfh_log/Sync231 2>&1
+
+#epzjfh 232区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 232 >> /data/logs/epzjfh_log/30minutes232 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 232 > /data/logs/epzjfh_log/flow232 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 232 > /data/logs/epzjfh_log/Sync232 2>&1
+
+#epzjfh 233区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 233 >> /data/logs/epzjfh_log/30minutes233 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 233 > /data/logs/epzjfh_log/flow233 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 233 > /data/logs/epzjfh_log/Sync233 2>&1
+
+#epzjfh 234区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 234 >> /data/logs/epzjfh_log/30minutes234 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 234 > /data/logs/epzjfh_log/flow234 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 234 > /data/logs/epzjfh_log/Sync234 2>&1
+
+#epzjfh 235区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 235 >> /data/logs/epzjfh_log/30minutes235 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 235 > /data/logs/epzjfh_log/flow235 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 235 > /data/logs/epzjfh_log/Sync235 2>&1
+
+#epzjfh 236区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 236 >> /data/logs/epzjfh_log/30minutes236 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 236 > /data/logs/epzjfh_log/flow236 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 236 > /data/logs/epzjfh_log/Sync236 2>&1
+
+#epzjfh 237区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 237 >> /data/logs/epzjfh_log/30minutes237 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 237 > /data/logs/epzjfh_log/flow237 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 237 > /data/logs/epzjfh_log/Sync237 2>&1
+
+#epzjfh 238区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 238 >> /data/logs/epzjfh_log/30minutes238 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 238 > /data/logs/epzjfh_log/flow238 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 238 > /data/logs/epzjfh_log/Sync238 2>&1
+
+#epzjfh 239区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 239 >> /data/logs/epzjfh_log/30minutes239 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 239 > /data/logs/epzjfh_log/flow239 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 239 > /data/logs/epzjfh_log/Sync239 2>&1
+
+#epzjfh 240区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 240 >> /data/logs/epzjfh_log/30minutes240 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 240 > /data/logs/epzjfh_log/flow240 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 240 > /data/logs/epzjfh_log/Sync240 2>&1
+
+#epzjfh 241区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 241 >> /data/logs/epzjfh_log/30minutes241 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 241 > /data/logs/epzjfh_log/flow241 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 241 > /data/logs/epzjfh_log/Sync241 2>&1
+
+#epzjfh 242区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 242 >> /data/logs/epzjfh_log/30minutes242 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 242 > /data/logs/epzjfh_log/flow242 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 242 > /data/logs/epzjfh_log/Sync242 2>&1
+
+#epzjfh 243区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 243 >> /data/logs/epzjfh_log/30minutes243 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 243 > /data/logs/epzjfh_log/flow243 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 243 > /data/logs/epzjfh_log/Sync243 2>&1
+
+#epzjfh 244区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 244 >> /data/logs/epzjfh_log/30minutes244 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 244 > /data/logs/epzjfh_log/flow244 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 244 > /data/logs/epzjfh_log/Sync244 2>&1
+
+#epzjfh 245区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 245 >> /data/logs/epzjfh_log/30minutes245 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 245 > /data/logs/epzjfh_log/flow245 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 245 > /data/logs/epzjfh_log/Sync245 2>&1
+
+#epzjfh 246区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 246 >> /data/logs/epzjfh_log/30minutes246 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 246 > /data/logs/epzjfh_log/flow246 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 246 > /data/logs/epzjfh_log/Sync246 2>&1
+
+#epzjfh 247区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 247 >> /data/logs/epzjfh_log/30minutes247 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 247 > /data/logs/epzjfh_log/flow247 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 247 > /data/logs/epzjfh_log/Sync247 2>&1
+
+#epzjfh 248区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 248 >> /data/logs/epzjfh_log/30minutes248 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 248 > /data/logs/epzjfh_log/flow248 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 248 > /data/logs/epzjfh_log/Sync248 2>&1
+
+#epzjfh 249区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 249 >> /data/logs/epzjfh_log/30minutes249 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 249 > /data/logs/epzjfh_log/flow249 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 249 > /data/logs/epzjfh_log/Sync249 2>&1
+
+#epzjfh 250区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 250 >> /data/logs/epzjfh_log/30minutes250 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 250 > /data/logs/epzjfh_log/flow250 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 250 > /data/logs/epzjfh_log/Sync250 2>&1
+
+#epzjfh 251区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 251 >> /data/logs/epzjfh_log/30minutes251 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 251 > /data/logs/epzjfh_log/flow251 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 251 > /data/logs/epzjfh_log/Sync251 2>&1
+
+#epzjfh 252区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 252 >> /data/logs/epzjfh_log/30minutes252 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 252 > /data/logs/epzjfh_log/flow252 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 252 > /data/logs/epzjfh_log/Sync252 2>&1
+
+#epzjfh 253区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 253 >> /data/logs/epzjfh_log/30minutes253 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 253 > /data/logs/epzjfh_log/flow253 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 253 > /data/logs/epzjfh_log/Sync253 2>&1
+
+#epzjfh 254区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 254 >> /data/logs/epzjfh_log/30minutes254 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 254 > /data/logs/epzjfh_log/flow254 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 254 > /data/logs/epzjfh_log/Sync254 2>&1
+
+#epzjfh 255区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 255 >> /data/logs/epzjfh_log/30minutes255 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 255 > /data/logs/epzjfh_log/flow255 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 255 > /data/logs/epzjfh_log/Sync255 2>&1
+
+#epzjfh 256区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 256 >> /data/logs/epzjfh_log/30minutes256 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 256 > /data/logs/epzjfh_log/flow256 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 256 > /data/logs/epzjfh_log/Sync256 2>&1
+
+#epzjfh 257区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 257 >> /data/logs/epzjfh_log/30minutes257 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 257 > /data/logs/epzjfh_log/flow257 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 257 > /data/logs/epzjfh_log/Sync257 2>&1
+
+#epzjfh 258区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 258 >> /data/logs/epzjfh_log/30minutes258 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 258 > /data/logs/epzjfh_log/flow258 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 258 > /data/logs/epzjfh_log/Sync258 2>&1
+
+#epzjfh 259区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 259 >> /data/logs/epzjfh_log/30minutes259 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 259 > /data/logs/epzjfh_log/flow259 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 259 > /data/logs/epzjfh_log/Sync259 2>&1
+
+#epzjfh 260区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 260 >> /data/logs/epzjfh_log/30minutes260 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 260 > /data/logs/epzjfh_log/flow260 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 260 > /data/logs/epzjfh_log/Sync260 2>&1
+
+#epzjfh 261区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 261 >> /data/logs/epzjfh_log/30minutes261 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 261 > /data/logs/epzjfh_log/flow261 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 261 > /data/logs/epzjfh_log/Sync261 2>&1
+
+#epzjfh 262区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 262 >> /data/logs/epzjfh_log/30minutes262 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 262 > /data/logs/epzjfh_log/flow262 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 262 > /data/logs/epzjfh_log/Sync262 2>&1
+
+#epzjfh 263区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 263 >> /data/logs/epzjfh_log/30minutes263 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 263 > /data/logs/epzjfh_log/flow263 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 263 > /data/logs/epzjfh_log/Sync263 2>&1
+
+#epzjfh 264区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 264 >> /data/logs/epzjfh_log/30minutes264 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 264 > /data/logs/epzjfh_log/flow264 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 264 > /data/logs/epzjfh_log/Sync264 2>&1
+
+#epzjfh 265区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 265 >> /data/logs/epzjfh_log/30minutes265 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 265 > /data/logs/epzjfh_log/flow265 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 265 > /data/logs/epzjfh_log/Sync265 2>&1
+
+#epzjfh 266区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 266 >> /data/logs/epzjfh_log/30minutes266 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 266 > /data/logs/epzjfh_log/flow266 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 266 > /data/logs/epzjfh_log/Sync266 2>&1
+
+#epzjfh 267区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 267 >> /data/logs/epzjfh_log/30minutes267 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 267 > /data/logs/epzjfh_log/flow267 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 267 > /data/logs/epzjfh_log/Sync267 2>&1
+
+#epzjfh 268区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 268 >> /data/logs/epzjfh_log/30minutes268 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 268 > /data/logs/epzjfh_log/flow268 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 268 > /data/logs/epzjfh_log/Sync268 2>&1
+
+#epzjfh 269区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 269 >> /data/logs/epzjfh_log/30minutes269 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 269 > /data/logs/epzjfh_log/flow269 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 269 > /data/logs/epzjfh_log/Sync269 2>&1
+
+#epzjfh 270区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 270 >> /data/logs/epzjfh_log/30minutes270 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 270 > /data/logs/epzjfh_log/flow270 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 270 > /data/logs/epzjfh_log/Sync270 2>&1
+
+#epzjfh 271区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 271 >> /data/logs/epzjfh_log/30minutes271 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 271 > /data/logs/epzjfh_log/flow271 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 271 > /data/logs/epzjfh_log/Sync271 2>&1
+
+#epzjfh 272区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 272 >> /data/logs/epzjfh_log/30minutes272 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 272 > /data/logs/epzjfh_log/flow272 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 272 > /data/logs/epzjfh_log/Sync272 2>&1
+
+#epzjfh 273区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 273 >> /data/logs/epzjfh_log/30minutes273 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 273 > /data/logs/epzjfh_log/flow273 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 273 > /data/logs/epzjfh_log/Sync273 2>&1
+
+#epzjfh 274区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 274 >> /data/logs/epzjfh_log/30minutes274 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 274 > /data/logs/epzjfh_log/flow274 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 274 > /data/logs/epzjfh_log/Sync274 2>&1
+
+#epzjfh 275区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 275 >> /data/logs/epzjfh_log/30minutes275 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 275 > /data/logs/epzjfh_log/flow275 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 275 > /data/logs/epzjfh_log/Sync275 2>&1
+
+#epzjfh 276区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 276 >> /data/logs/epzjfh_log/30minutes276 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 276 > /data/logs/epzjfh_log/flow276 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 276 > /data/logs/epzjfh_log/Sync276 2>&1
+
+#epzjfh 277区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 277 >> /data/logs/epzjfh_log/30minutes277 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 277 > /data/logs/epzjfh_log/flow277 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 277 > /data/logs/epzjfh_log/Sync277 2>&1
+
+#epzjfh 278区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 278 >> /data/logs/epzjfh_log/30minutes278 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 278 > /data/logs/epzjfh_log/flow278 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 278 > /data/logs/epzjfh_log/Sync278 2>&1
+
+#epzjfh 279区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 279 >> /data/logs/epzjfh_log/30minutes279 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 279 > /data/logs/epzjfh_log/flow279 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 279 > /data/logs/epzjfh_log/Sync279 2>&1
+
+#epzjfh 280区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 280 >> /data/logs/epzjfh_log/30minutes280 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 280 > /data/logs/epzjfh_log/flow280 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 280 > /data/logs/epzjfh_log/Sync280 2>&1
+
+#epzjfh 281区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 281 >> /data/logs/epzjfh_log/30minutes281 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 281 > /data/logs/epzjfh_log/flow281 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 281 > /data/logs/epzjfh_log/Sync281 2>&1
+
+#epzjfh 282区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 282 >> /data/logs/epzjfh_log/30minutes282 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 282 > /data/logs/epzjfh_log/flow282 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 282 > /data/logs/epzjfh_log/Sync282 2>&1
+
+#epzjfh 283区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 283 >> /data/logs/epzjfh_log/30minutes283 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 283 > /data/logs/epzjfh_log/flow283 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 283 > /data/logs/epzjfh_log/Sync283 2>&1
+
+#epzjfh 284区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 284 >> /data/logs/epzjfh_log/30minutes284 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 284 > /data/logs/epzjfh_log/flow284 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 284 > /data/logs/epzjfh_log/Sync284 2>&1
+
+#epzjfh 285区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 285 >> /data/logs/epzjfh_log/30minutes285 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 285 > /data/logs/epzjfh_log/flow285 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 285 > /data/logs/epzjfh_log/Sync285 2>&1
+
+#epzjfh 286区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 286 >> /data/logs/epzjfh_log/30minutes286 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 286 > /data/logs/epzjfh_log/flow286 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 286 > /data/logs/epzjfh_log/Sync286 2>&1
+
+#epzjfh 287区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 287 >> /data/logs/epzjfh_log/30minutes287 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 287 > /data/logs/epzjfh_log/flow287 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 287 > /data/logs/epzjfh_log/Sync287 2>&1
+
+#epzjfh 288区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 288 >> /data/logs/epzjfh_log/30minutes288 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 288 > /data/logs/epzjfh_log/flow288 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 288 > /data/logs/epzjfh_log/Sync288 2>&1
+
+#epzjfh 289区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 289 >> /data/logs/epzjfh_log/30minutes289 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 289 > /data/logs/epzjfh_log/flow289 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 289 > /data/logs/epzjfh_log/Sync289 2>&1
+
+#epzjfh 290区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 290 >> /data/logs/epzjfh_log/30minutes290 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 290 > /data/logs/epzjfh_log/flow290 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 290 > /data/logs/epzjfh_log/Sync290 2>&1
+
+#epzjfh 291区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 291 >> /data/logs/epzjfh_log/30minutes291 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 291 > /data/logs/epzjfh_log/flow291 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 291 > /data/logs/epzjfh_log/Sync291 2>&1
+
+#epzjfh 292区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 292 >> /data/logs/epzjfh_log/30minutes292 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 292 > /data/logs/epzjfh_log/flow292 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 292 > /data/logs/epzjfh_log/Sync292 2>&1
+
+#epzjfh 293区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 293 >> /data/logs/epzjfh_log/30minutes293 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 293 > /data/logs/epzjfh_log/flow293 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 293 > /data/logs/epzjfh_log/Sync293 2>&1
+
+#epzjfh 294区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 294 >> /data/logs/epzjfh_log/30minutes294 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 294 > /data/logs/epzjfh_log/flow294 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 294 > /data/logs/epzjfh_log/Sync294 2>&1
+
+#epzjfh 295区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 295 >> /data/logs/epzjfh_log/30minutes295 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 295 > /data/logs/epzjfh_log/flow295 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 295 > /data/logs/epzjfh_log/Sync295 2>&1
+
+#epzjfh 296区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 296 >> /data/logs/epzjfh_log/30minutes296 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 296 > /data/logs/epzjfh_log/flow296 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 296 > /data/logs/epzjfh_log/Sync296 2>&1
+
+#epzjfh 297区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 297 >> /data/logs/epzjfh_log/30minutes297 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 297 > /data/logs/epzjfh_log/flow297 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 297 > /data/logs/epzjfh_log/Sync297 2>&1
+
+#epzjfh 298区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 298 >> /data/logs/epzjfh_log/30minutes298 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 298 > /data/logs/epzjfh_log/flow298 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 298 > /data/logs/epzjfh_log/Sync298 2>&1
+
+#epzjfh 299区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 299 >> /data/logs/epzjfh_log/30minutes299 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 299 > /data/logs/epzjfh_log/flow299 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 299 > /data/logs/epzjfh_log/Sync299 2>&1
+
+#epzjfh 300区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 300 >> /data/logs/epzjfh_log/30minutes300 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 300 > /data/logs/epzjfh_log/flow300 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 300 > /data/logs/epzjfh_log/Sync300 2>&1
+
+#epzjfh 301区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 301 >> /data/logs/epzjfh_log/30minutes301 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 301 > /data/logs/epzjfh_log/flow301 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 301 > /data/logs/epzjfh_log/Sync301 2>&1
+
+#epzjfh 302区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 302 >> /data/logs/epzjfh_log/30minutes302 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 302 > /data/logs/epzjfh_log/flow302 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 302 > /data/logs/epzjfh_log/Sync302 2>&1
+
+#epzjfh 303区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 303 >> /data/logs/epzjfh_log/30minutes303 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 303 > /data/logs/epzjfh_log/flow303 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 303 > /data/logs/epzjfh_log/Sync303 2>&1
+
+#epzjfh 304区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 304 >> /data/logs/epzjfh_log/30minutes304 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 304 > /data/logs/epzjfh_log/flow304 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 304 > /data/logs/epzjfh_log/Sync304 2>&1
+
+#epzjfh 305区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 305 >> /data/logs/epzjfh_log/30minutes305 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 305 > /data/logs/epzjfh_log/flow305 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 305 > /data/logs/epzjfh_log/Sync305 2>&1
+
+#epzjfh 306区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 306 >> /data/logs/epzjfh_log/30minutes306 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 306 > /data/logs/epzjfh_log/flow306 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 306 > /data/logs/epzjfh_log/Sync306 2>&1
+
+#epzjfh 307区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 307 >> /data/logs/epzjfh_log/30minutes307 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 307 > /data/logs/epzjfh_log/flow307 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 307 > /data/logs/epzjfh_log/Sync307 2>&1
+
+#epzjfh 308区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 308 >> /data/logs/epzjfh_log/30minutes308 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 308 > /data/logs/epzjfh_log/flow308 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 308 > /data/logs/epzjfh_log/Sync308 2>&1
+
+#epzjfh 309区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 309 >> /data/logs/epzjfh_log/30minutes309 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 309 > /data/logs/epzjfh_log/flow309 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 309 > /data/logs/epzjfh_log/Sync309 2>&1
+
+#epzjfh 310区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 310 >> /data/logs/epzjfh_log/30minutes310 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 310 > /data/logs/epzjfh_log/flow310 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 310 > /data/logs/epzjfh_log/Sync310 2>&1
+
+#epzjfh 311区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 311 >> /data/logs/epzjfh_log/30minutes311 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 311 > /data/logs/epzjfh_log/flow311 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 311 > /data/logs/epzjfh_log/Sync311 2>&1
+
+#epzjfh 312区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 312 >> /data/logs/epzjfh_log/30minutes312 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 312 > /data/logs/epzjfh_log/flow312 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 312 > /data/logs/epzjfh_log/Sync312 2>&1
+
+#epzjfh 313区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 313 >> /data/logs/epzjfh_log/30minutes313 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 313 > /data/logs/epzjfh_log/flow313 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 313 > /data/logs/epzjfh_log/Sync313 2>&1
+
+#epzjfh 314区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 314 >> /data/logs/epzjfh_log/30minutes314 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 314 > /data/logs/epzjfh_log/flow314 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 314 > /data/logs/epzjfh_log/Sync314 2>&1
+
+#epzjfh 315区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 315 >> /data/logs/epzjfh_log/30minutes315 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 315 > /data/logs/epzjfh_log/flow315 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 315 > /data/logs/epzjfh_log/Sync315 2>&1
+
+#epzjfh 316区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 316 >> /data/logs/epzjfh_log/30minutes316 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 316 > /data/logs/epzjfh_log/flow316 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 316 > /data/logs/epzjfh_log/Sync316 2>&1
+
+#epzjfh 317区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 317 >> /data/logs/epzjfh_log/30minutes317 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 317 > /data/logs/epzjfh_log/flow317 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 317 > /data/logs/epzjfh_log/Sync317 2>&1
+
+#epzjfh 318区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 318 >> /data/logs/epzjfh_log/30minutes318 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 318 > /data/logs/epzjfh_log/flow318 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 318 > /data/logs/epzjfh_log/Sync318 2>&1
+
+#epzjfh 319区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 319 >> /data/logs/epzjfh_log/30minutes319 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 319 > /data/logs/epzjfh_log/flow319 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 319 > /data/logs/epzjfh_log/Sync319 2>&1
+
+#epzjfh 320区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 320 >> /data/logs/epzjfh_log/30minutes320 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 320 > /data/logs/epzjfh_log/flow320 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 320 > /data/logs/epzjfh_log/Sync320 2>&1
+
+#epzjfh 321区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 321 >> /data/logs/epzjfh_log/30minutes321 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 321 > /data/logs/epzjfh_log/flow321 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 321 > /data/logs/epzjfh_log/Sync321 2>&1
+
+#epzjfh 322区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 322 >> /data/logs/epzjfh_log/30minutes322 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 322 > /data/logs/epzjfh_log/flow322 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 322 > /data/logs/epzjfh_log/Sync322 2>&1
+
+#epzjfh 323区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 323 >> /data/logs/epzjfh_log/30minutes323 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 323 > /data/logs/epzjfh_log/flow323 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 323 > /data/logs/epzjfh_log/Sync323 2>&1
+
+#epzjfh 324区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 324 >> /data/logs/epzjfh_log/30minutes324 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 324 > /data/logs/epzjfh_log/flow324 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 324 > /data/logs/epzjfh_log/Sync324 2>&1
+
+#epzjfh 325区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 325 >> /data/logs/epzjfh_log/30minutes325 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 325 > /data/logs/epzjfh_log/flow325 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 325 > /data/logs/epzjfh_log/Sync325 2>&1
+
+#epzjfh 326区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 326 >> /data/logs/epzjfh_log/30minutes326 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 326 > /data/logs/epzjfh_log/flow326 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 326 > /data/logs/epzjfh_log/Sync326 2>&1
+
+#epzjfh 327区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 327 >> /data/logs/epzjfh_log/30minutes327 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 327 > /data/logs/epzjfh_log/flow327 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 327 > /data/logs/epzjfh_log/Sync327 2>&1
+
+#epzjfh 328区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 328 >> /data/logs/epzjfh_log/30minutes328 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 328 > /data/logs/epzjfh_log/flow328 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 328 > /data/logs/epzjfh_log/Sync328 2>&1
+
+#epzjfh 329区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 329 >> /data/logs/epzjfh_log/30minutes329 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 329 > /data/logs/epzjfh_log/flow329 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 329 > /data/logs/epzjfh_log/Sync329 2>&1
+
+#epzjfh 330区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 330 >> /data/logs/epzjfh_log/30minutes330 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 330 > /data/logs/epzjfh_log/flow330 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 330 > /data/logs/epzjfh_log/Sync330 2>&1
+
+#epzjfh 331区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 331 >> /data/logs/epzjfh_log/30minutes331 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 331 > /data/logs/epzjfh_log/flow331 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 331 > /data/logs/epzjfh_log/Sync331 2>&1
+
+#epzjfh 332区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 332 >> /data/logs/epzjfh_log/30minutes332 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 332 > /data/logs/epzjfh_log/flow332 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 332 > /data/logs/epzjfh_log/Sync332 2>&1
+
+#epzjfh 333区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 333 >> /data/logs/epzjfh_log/30minutes333 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 333 > /data/logs/epzjfh_log/flow333 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 333 > /data/logs/epzjfh_log/Sync333 2>&1
+
+#epzjfh 264区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 264 >> /data/logs/epzjfh_log/30minutes264 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 264 > /data/logs/epzjfh_log/flow264 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 264 > /data/logs/epzjfh_log/Sync264 2>&1
+
+#epzjfh 265区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 265 >> /data/logs/epzjfh_log/30minutes265 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 265 > /data/logs/epzjfh_log/flow265 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 265 > /data/logs/epzjfh_log/Sync265 2>&1
+
+#epzjfh 266区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 266 >> /data/logs/epzjfh_log/30minutes266 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 266 > /data/logs/epzjfh_log/flow266 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 266 > /data/logs/epzjfh_log/Sync266 2>&1
+
+#epzjfh 267区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 267 >> /data/logs/epzjfh_log/30minutes267 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 267 > /data/logs/epzjfh_log/flow267 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 267 > /data/logs/epzjfh_log/Sync267 2>&1
+
+#epzjfh 268区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 268 >> /data/logs/epzjfh_log/30minutes268 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 268 > /data/logs/epzjfh_log/flow268 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 268 > /data/logs/epzjfh_log/Sync268 2>&1
+
+#epzjfh 269区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 269 >> /data/logs/epzjfh_log/30minutes269 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 269 > /data/logs/epzjfh_log/flow269 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 269 > /data/logs/epzjfh_log/Sync269 2>&1
+
+#epzjfh 270区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 270 >> /data/logs/epzjfh_log/30minutes270 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 270 > /data/logs/epzjfh_log/flow270 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 270 > /data/logs/epzjfh_log/Sync270 2>&1
+
+#epzjfh 271区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 271 >> /data/logs/epzjfh_log/30minutes271 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 271 > /data/logs/epzjfh_log/flow271 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 271 > /data/logs/epzjfh_log/Sync271 2>&1
+
+#epzjfh 272区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 272 >> /data/logs/epzjfh_log/30minutes272 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 272 > /data/logs/epzjfh_log/flow272 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 272 > /data/logs/epzjfh_log/Sync272 2>&1
+
+#epzjfh 273区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 273 >> /data/logs/epzjfh_log/30minutes273 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 273 > /data/logs/epzjfh_log/flow273 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 273 > /data/logs/epzjfh_log/Sync273 2>&1
+
+#epzjfh 274区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 274 >> /data/logs/epzjfh_log/30minutes274 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 274 > /data/logs/epzjfh_log/flow274 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 274 > /data/logs/epzjfh_log/Sync274 2>&1
+
+#epzjfh 275区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 275 >> /data/logs/epzjfh_log/30minutes275 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 275 > /data/logs/epzjfh_log/flow275 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 275 > /data/logs/epzjfh_log/Sync275 2>&1
+
+#epzjfh 276区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 276 >> /data/logs/epzjfh_log/30minutes276 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 276 > /data/logs/epzjfh_log/flow276 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 276 > /data/logs/epzjfh_log/Sync276 2>&1
+
+#epzjfh 277区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 277 >> /data/logs/epzjfh_log/30minutes277 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 277 > /data/logs/epzjfh_log/flow277 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 277 > /data/logs/epzjfh_log/Sync277 2>&1
+
+#epzjfh 278区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 278 >> /data/logs/epzjfh_log/30minutes278 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 278 > /data/logs/epzjfh_log/flow278 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 278 > /data/logs/epzjfh_log/Sync278 2>&1
+
+#epzjfh 279区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 279 >> /data/logs/epzjfh_log/30minutes279 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 279 > /data/logs/epzjfh_log/flow279 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 279 > /data/logs/epzjfh_log/Sync279 2>&1
+
+#epzjfh 280区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 280 >> /data/logs/epzjfh_log/30minutes280 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 280 > /data/logs/epzjfh_log/flow280 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 280 > /data/logs/epzjfh_log/Sync280 2>&1
+
+#epzjfh 281区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 281 >> /data/logs/epzjfh_log/30minutes281 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 281 > /data/logs/epzjfh_log/flow281 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 281 > /data/logs/epzjfh_log/Sync281 2>&1
+
+#epzjfh 282区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 282 >> /data/logs/epzjfh_log/30minutes282 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 282 > /data/logs/epzjfh_log/flow282 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 282 > /data/logs/epzjfh_log/Sync282 2>&1
+
+#epzjfh 283区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 283 >> /data/logs/epzjfh_log/30minutes283 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 283 > /data/logs/epzjfh_log/flow283 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 283 > /data/logs/epzjfh_log/Sync283 2>&1
+
+#epzjfh 284区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 284 >> /data/logs/epzjfh_log/30minutes284 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 284 > /data/logs/epzjfh_log/flow284 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 284 > /data/logs/epzjfh_log/Sync284 2>&1
+
+#epzjfh 285区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 285 >> /data/logs/epzjfh_log/30minutes285 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 285 > /data/logs/epzjfh_log/flow285 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 285 > /data/logs/epzjfh_log/Sync285 2>&1
+
+#epzjfh 286区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 286 >> /data/logs/epzjfh_log/30minutes286 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 286 > /data/logs/epzjfh_log/flow286 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 286 > /data/logs/epzjfh_log/Sync286 2>&1
+
+#epzjfh 287区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 287 >> /data/logs/epzjfh_log/30minutes287 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 287 > /data/logs/epzjfh_log/flow287 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 287 > /data/logs/epzjfh_log/Sync287 2>&1
+
+#epzjfh 288区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 288 >> /data/logs/epzjfh_log/30minutes288 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 288 > /data/logs/epzjfh_log/flow288 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 288 > /data/logs/epzjfh_log/Sync288 2>&1
+
+#epzjfh 289区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 289 >> /data/logs/epzjfh_log/30minutes289 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 289 > /data/logs/epzjfh_log/flow289 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 289 > /data/logs/epzjfh_log/Sync289 2>&1
+
+#epzjfh 290区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 290 >> /data/logs/epzjfh_log/30minutes290 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 290 > /data/logs/epzjfh_log/flow290 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 290 > /data/logs/epzjfh_log/Sync290 2>&1
+
+#epzjfh 291区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 291 >> /data/logs/epzjfh_log/30minutes291 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 291 > /data/logs/epzjfh_log/flow291 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 291 > /data/logs/epzjfh_log/Sync291 2>&1
+
+#epzjfh 292区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 292 >> /data/logs/epzjfh_log/30minutes292 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 292 > /data/logs/epzjfh_log/flow292 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 292 > /data/logs/epzjfh_log/Sync292 2>&1
+
+#epzjfh 293区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 293 >> /data/logs/epzjfh_log/30minutes293 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 293 > /data/logs/epzjfh_log/flow293 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 293 > /data/logs/epzjfh_log/Sync293 2>&1
+
+#epzjfh 294区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 294 >> /data/logs/epzjfh_log/30minutes294 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 294 > /data/logs/epzjfh_log/flow294 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 294 > /data/logs/epzjfh_log/Sync294 2>&1
+
+#epzjfh 295区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 295 >> /data/logs/epzjfh_log/30minutes295 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 295 > /data/logs/epzjfh_log/flow295 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 295 > /data/logs/epzjfh_log/Sync295 2>&1
+
+#epzjfh 296区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 296 >> /data/logs/epzjfh_log/30minutes296 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 296 > /data/logs/epzjfh_log/flow296 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 296 > /data/logs/epzjfh_log/Sync296 2>&1
+
+#epzjfh 297区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 297 >> /data/logs/epzjfh_log/30minutes297 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 297 > /data/logs/epzjfh_log/flow297 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 297 > /data/logs/epzjfh_log/Sync297 2>&1
+
+#epzjfh 298区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 298 >> /data/logs/epzjfh_log/30minutes298 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 298 > /data/logs/epzjfh_log/flow298 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 298 > /data/logs/epzjfh_log/Sync298 2>&1
+
+#epzjfh 299区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 299 >> /data/logs/epzjfh_log/30minutes299 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 299 > /data/logs/epzjfh_log/flow299 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 299 > /data/logs/epzjfh_log/Sync299 2>&1
+
+#epzjfh 300区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 300 >> /data/logs/epzjfh_log/30minutes300 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 300 > /data/logs/epzjfh_log/flow300 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 300 > /data/logs/epzjfh_log/Sync300 2>&1
+
+#epzjfh 301区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 301 >> /data/logs/epzjfh_log/30minutes301 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 301 > /data/logs/epzjfh_log/flow301 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 301 > /data/logs/epzjfh_log/Sync301 2>&1
+
+#epzjfh 302区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 302 >> /data/logs/epzjfh_log/30minutes302 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 302 > /data/logs/epzjfh_log/flow302 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 302 > /data/logs/epzjfh_log/Sync302 2>&1
+
+#epzjfh 303区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 303 >> /data/logs/epzjfh_log/30minutes303 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 303 > /data/logs/epzjfh_log/flow303 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 303 > /data/logs/epzjfh_log/Sync303 2>&1
+
+#epzjfh 304区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 304 >> /data/logs/epzjfh_log/30minutes304 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 304 > /data/logs/epzjfh_log/flow304 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 304 > /data/logs/epzjfh_log/Sync304 2>&1
+
+#epzjfh 305区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 305 >> /data/logs/epzjfh_log/30minutes305 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 305 > /data/logs/epzjfh_log/flow305 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 305 > /data/logs/epzjfh_log/Sync305 2>&1
+
+#epzjfh 306区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 306 >> /data/logs/epzjfh_log/30minutes306 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 306 > /data/logs/epzjfh_log/flow306 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 306 > /data/logs/epzjfh_log/Sync306 2>&1
+
+#epzjfh 307区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 307 >> /data/logs/epzjfh_log/30minutes307 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 307 > /data/logs/epzjfh_log/flow307 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 307 > /data/logs/epzjfh_log/Sync307 2>&1
+
+#epzjfh 308区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 308 >> /data/logs/epzjfh_log/30minutes308 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 308 > /data/logs/epzjfh_log/flow308 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 308 > /data/logs/epzjfh_log/Sync308 2>&1
+
+#epzjfh 309区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 309 >> /data/logs/epzjfh_log/30minutes309 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 309 > /data/logs/epzjfh_log/flow309 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 309 > /data/logs/epzjfh_log/Sync309 2>&1
+
+#epzjfh 310区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 310 >> /data/logs/epzjfh_log/30minutes310 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 310 > /data/logs/epzjfh_log/flow310 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 310 > /data/logs/epzjfh_log/Sync310 2>&1
+
+#epzjfh 311区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 311 >> /data/logs/epzjfh_log/30minutes311 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 311 > /data/logs/epzjfh_log/flow311 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 311 > /data/logs/epzjfh_log/Sync311 2>&1
+
+#epzjfh 312区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 312 >> /data/logs/epzjfh_log/30minutes312 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 312 > /data/logs/epzjfh_log/flow312 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 312 > /data/logs/epzjfh_log/Sync312 2>&1
+
+#epzjfh 313区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 313 >> /data/logs/epzjfh_log/30minutes313 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 313 > /data/logs/epzjfh_log/flow313 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 313 > /data/logs/epzjfh_log/Sync313 2>&1
+
+#epzjfh 314区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 314 >> /data/logs/epzjfh_log/30minutes314 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 314 > /data/logs/epzjfh_log/flow314 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 314 > /data/logs/epzjfh_log/Sync314 2>&1
+
+#epzjfh 315区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 315 >> /data/logs/epzjfh_log/30minutes315 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 315 > /data/logs/epzjfh_log/flow315 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 315 > /data/logs/epzjfh_log/Sync315 2>&1
+
+#epzjfh 316区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 316 >> /data/logs/epzjfh_log/30minutes316 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 316 > /data/logs/epzjfh_log/flow316 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 316 > /data/logs/epzjfh_log/Sync316 2>&1
+
+#epzjfh 317区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 317 >> /data/logs/epzjfh_log/30minutes317 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 317 > /data/logs/epzjfh_log/flow317 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 317 > /data/logs/epzjfh_log/Sync317 2>&1
+
+#epzjfh 318区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 318 >> /data/logs/epzjfh_log/30minutes318 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 318 > /data/logs/epzjfh_log/flow318 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 318 > /data/logs/epzjfh_log/Sync318 2>&1
+
+#epzjfh 319区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 319 >> /data/logs/epzjfh_log/30minutes319 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 319 > /data/logs/epzjfh_log/flow319 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 319 > /data/logs/epzjfh_log/Sync319 2>&1
+
+#epzjfh 320区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 320 >> /data/logs/epzjfh_log/30minutes320 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 320 > /data/logs/epzjfh_log/flow320 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 320 > /data/logs/epzjfh_log/Sync320 2>&1
+
+#epzjfh 321区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 321 >> /data/logs/epzjfh_log/30minutes321 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 321 > /data/logs/epzjfh_log/flow321 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 321 > /data/logs/epzjfh_log/Sync321 2>&1
+
+#epzjfh 322区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 322 >> /data/logs/epzjfh_log/30minutes322 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 322 > /data/logs/epzjfh_log/flow322 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 322 > /data/logs/epzjfh_log/Sync322 2>&1
+
+#epzjfh 323区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 323 >> /data/logs/epzjfh_log/30minutes323 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 323 > /data/logs/epzjfh_log/flow323 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 323 > /data/logs/epzjfh_log/Sync323 2>&1
+
+#epzjfh 324区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 324 >> /data/logs/epzjfh_log/30minutes324 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 324 > /data/logs/epzjfh_log/flow324 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 324 > /data/logs/epzjfh_log/Sync324 2>&1
+
+#epzjfh 325区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 325 >> /data/logs/epzjfh_log/30minutes325 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 325 > /data/logs/epzjfh_log/flow325 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 325 > /data/logs/epzjfh_log/Sync325 2>&1
+
+#epzjfh 326区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 326 >> /data/logs/epzjfh_log/30minutes326 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 326 > /data/logs/epzjfh_log/flow326 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 326 > /data/logs/epzjfh_log/Sync326 2>&1
+
+#epzjfh 327区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 327 >> /data/logs/epzjfh_log/30minutes327 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 327 > /data/logs/epzjfh_log/flow327 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 327 > /data/logs/epzjfh_log/Sync327 2>&1
+
+#epzjfh 328区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 328 >> /data/logs/epzjfh_log/30minutes328 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 328 > /data/logs/epzjfh_log/flow328 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 328 > /data/logs/epzjfh_log/Sync328 2>&1
+
+#epzjfh 329区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 329 >> /data/logs/epzjfh_log/30minutes329 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 329 > /data/logs/epzjfh_log/flow329 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 329 > /data/logs/epzjfh_log/Sync329 2>&1
+
+#epzjfh 330区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 330 >> /data/logs/epzjfh_log/30minutes330 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 330 > /data/logs/epzjfh_log/flow330 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 330 > /data/logs/epzjfh_log/Sync330 2>&1
+
+#epzjfh 331区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 331 >> /data/logs/epzjfh_log/30minutes331 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 331 > /data/logs/epzjfh_log/flow331 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 331 > /data/logs/epzjfh_log/Sync331 2>&1
+
+#epzjfh 332区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 332 >> /data/logs/epzjfh_log/30minutes332 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 332 > /data/logs/epzjfh_log/flow332 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 332 > /data/logs/epzjfh_log/Sync332 2>&1
+
+#epzjfh 333区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 333 >> /data/logs/epzjfh_log/30minutes333 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 333 > /data/logs/epzjfh_log/flow333 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 333 > /data/logs/epzjfh_log/Sync333 2>&1
+
+#epzjfh 334区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 334 >> /data/logs/epzjfh_log/30minutes334 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 334 > /data/logs/epzjfh_log/flow334 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 334 > /data/logs/epzjfh_log/Sync334 2>&1
+
+#epzjfh 335区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 335 >> /data/logs/epzjfh_log/30minutes335 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 335 > /data/logs/epzjfh_log/flow335 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 335 > /data/logs/epzjfh_log/Sync335 2>&1
+
+#epzjfh 336区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 336 >> /data/logs/epzjfh_log/30minutes336 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 336 > /data/logs/epzjfh_log/flow336 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 336 > /data/logs/epzjfh_log/Sync336 2>&1
+
+#epzjfh 337区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 337 >> /data/logs/epzjfh_log/30minutes337 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 337 > /data/logs/epzjfh_log/flow337 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 337 > /data/logs/epzjfh_log/Sync337 2>&1
+
+#epzjfh 338区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 338 >> /data/logs/epzjfh_log/30minutes338 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 338 > /data/logs/epzjfh_log/flow338 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 338 > /data/logs/epzjfh_log/Sync338 2>&1
+
+#epzjfh 339区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 339 >> /data/logs/epzjfh_log/30minutes339 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 339 > /data/logs/epzjfh_log/flow339 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 339 > /data/logs/epzjfh_log/Sync339 2>&1
+
+#epzjfh 340区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 340 >> /data/logs/epzjfh_log/30minutes340 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 340 > /data/logs/epzjfh_log/flow340 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 340 > /data/logs/epzjfh_log/Sync340 2>&1
+
+#epzjfh 341区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 341 >> /data/logs/epzjfh_log/30minutes341 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 341 > /data/logs/epzjfh_log/flow341 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 341 > /data/logs/epzjfh_log/Sync341 2>&1
+
+#epzjfh 342区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 342 >> /data/logs/epzjfh_log/30minutes342 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 342 > /data/logs/epzjfh_log/flow342 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 342 > /data/logs/epzjfh_log/Sync342 2>&1
+
+#epzjfh 343区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 343 >> /data/logs/epzjfh_log/30minutes343 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 343 > /data/logs/epzjfh_log/flow343 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 343 > /data/logs/epzjfh_log/Sync343 2>&1
+
+#epzjfh 344区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 344 >> /data/logs/epzjfh_log/30minutes344 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 344 > /data/logs/epzjfh_log/flow344 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 344 > /data/logs/epzjfh_log/Sync344 2>&1
+
+#epzjfh 345区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 345 >> /data/logs/epzjfh_log/30minutes345 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 345 > /data/logs/epzjfh_log/flow345 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 345 > /data/logs/epzjfh_log/Sync345 2>&1
+
+#epzjfh 346区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 346 >> /data/logs/epzjfh_log/30minutes346 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 346 > /data/logs/epzjfh_log/flow346 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 346 > /data/logs/epzjfh_log/Sync346 2>&1
+
+#epzjfh 347区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 347 >> /data/logs/epzjfh_log/30minutes347 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 347 > /data/logs/epzjfh_log/flow347 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 347 > /data/logs/epzjfh_log/Sync347 2>&1
+
+#epzjfh 348区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 348 >> /data/logs/epzjfh_log/30minutes348 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 348 > /data/logs/epzjfh_log/flow348 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 348 > /data/logs/epzjfh_log/Sync348 2>&1
+
+#epzjfh 349区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 349 >> /data/logs/epzjfh_log/30minutes349 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 349 > /data/logs/epzjfh_log/flow349 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 349 > /data/logs/epzjfh_log/Sync349 2>&1
+
+#epzjfh 350区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 350 >> /data/logs/epzjfh_log/30minutes350 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 350 > /data/logs/epzjfh_log/flow350 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 350 > /data/logs/epzjfh_log/Sync350 2>&1
+
+#epzjfh 351区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 351 >> /data/logs/epzjfh_log/30minutes351 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 351 > /data/logs/epzjfh_log/flow351 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 351 > /data/logs/epzjfh_log/Sync351 2>&1
+
+#epzjfh 352区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 352 >> /data/logs/epzjfh_log/30minutes352 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 352 > /data/logs/epzjfh_log/flow352 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 352 > /data/logs/epzjfh_log/Sync352 2>&1
+
+#epzjfh 353区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 353 >> /data/logs/epzjfh_log/30minutes353 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 353 > /data/logs/epzjfh_log/flow353 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 353 > /data/logs/epzjfh_log/Sync353 2>&1
+
+#epzjfh 354区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 354 >> /data/logs/epzjfh_log/30minutes354 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 354 > /data/logs/epzjfh_log/flow354 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 354 > /data/logs/epzjfh_log/Sync354 2>&1
+
+#epzjfh 355区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 355 >> /data/logs/epzjfh_log/30minutes355 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 355 > /data/logs/epzjfh_log/flow355 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 355 > /data/logs/epzjfh_log/Sync355 2>&1
+
+#epzjfh 356区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 356 >> /data/logs/epzjfh_log/30minutes356 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 356 > /data/logs/epzjfh_log/flow356 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 356 > /data/logs/epzjfh_log/Sync356 2>&1
+
+#epzjfh 357区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 357 >> /data/logs/epzjfh_log/30minutes357 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 357 > /data/logs/epzjfh_log/flow357 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 357 > /data/logs/epzjfh_log/Sync357 2>&1
+
+#epzjfh 358区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 358 >> /data/logs/epzjfh_log/30minutes358 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 358 > /data/logs/epzjfh_log/flow358 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 358 > /data/logs/epzjfh_log/Sync358 2>&1
+
+#epzjfh 359区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 359 >> /data/logs/epzjfh_log/30minutes359 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 359 > /data/logs/epzjfh_log/flow359 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 359 > /data/logs/epzjfh_log/Sync359 2>&1
+
+#epzjfh 360区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 360 >> /data/logs/epzjfh_log/30minutes360 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 360 > /data/logs/epzjfh_log/flow360 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 360 > /data/logs/epzjfh_log/Sync360 2>&1
+
+#epzjfh 361区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 361 >> /data/logs/epzjfh_log/30minutes361 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 361 > /data/logs/epzjfh_log/flow361 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 361 > /data/logs/epzjfh_log/Sync361 2>&1
+
+#epzjfh 362区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 362 >> /data/logs/epzjfh_log/30minutes362 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 362 > /data/logs/epzjfh_log/flow362 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 362 > /data/logs/epzjfh_log/Sync362 2>&1
+
+#epzjfh 363区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 363 >> /data/logs/epzjfh_log/30minutes363 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 363 > /data/logs/epzjfh_log/flow363 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 363 > /data/logs/epzjfh_log/Sync363 2>&1
+
+#epzjfh 364区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 364 >> /data/logs/epzjfh_log/30minutes364 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 364 > /data/logs/epzjfh_log/flow364 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 364 > /data/logs/epzjfh_log/Sync364 2>&1
+
+#epzjfh 365区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 365 >> /data/logs/epzjfh_log/30minutes365 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 365 > /data/logs/epzjfh_log/flow365 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 365 > /data/logs/epzjfh_log/Sync365 2>&1
+
+#epzjfh 366区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 366 >> /data/logs/epzjfh_log/30minutes366 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 366 > /data/logs/epzjfh_log/flow366 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 366 > /data/logs/epzjfh_log/Sync366 2>&1
+
+#epzjfh 367区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 367 >> /data/logs/epzjfh_log/30minutes367 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 367 > /data/logs/epzjfh_log/flow367 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 367 > /data/logs/epzjfh_log/Sync367 2>&1
+
+#epzjfh 368区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 368 >> /data/logs/epzjfh_log/30minutes368 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 368 > /data/logs/epzjfh_log/flow368 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 368 > /data/logs/epzjfh_log/Sync368 2>&1
+
+#epzjfh 369区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 369 >> /data/logs/epzjfh_log/30minutes369 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 369 > /data/logs/epzjfh_log/flow369 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 369 > /data/logs/epzjfh_log/Sync369 2>&1
+
+#epzjfh 370区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 370 >> /data/logs/epzjfh_log/30minutes370 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 370 > /data/logs/epzjfh_log/flow370 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 370 > /data/logs/epzjfh_log/Sync370 2>&1
+
+#epzjfh 371区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 371 >> /data/logs/epzjfh_log/30minutes371 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 371 > /data/logs/epzjfh_log/flow371 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 371 > /data/logs/epzjfh_log/Sync371 2>&1
+
+#epzjfh 372区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 372 >> /data/logs/epzjfh_log/30minutes372 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 372 > /data/logs/epzjfh_log/flow372 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 372 > /data/logs/epzjfh_log/Sync372 2>&1
+
+#epzjfh 373区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 373 >> /data/logs/epzjfh_log/30minutes373 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 373 > /data/logs/epzjfh_log/flow373 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 373 > /data/logs/epzjfh_log/Sync373 2>&1
+
+#epzjfh 374区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 374 >> /data/logs/epzjfh_log/30minutes374 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 374 > /data/logs/epzjfh_log/flow374 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 374 > /data/logs/epzjfh_log/Sync374 2>&1
+
+#epzjfh 375区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 375 >> /data/logs/epzjfh_log/30minutes375 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 375 > /data/logs/epzjfh_log/flow375 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 375 > /data/logs/epzjfh_log/Sync375 2>&1
+
+#epzjfh 376区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 376 >> /data/logs/epzjfh_log/30minutes376 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 376 > /data/logs/epzjfh_log/flow376 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 376 > /data/logs/epzjfh_log/Sync376 2>&1
+
+#epzjfh 377区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 377 >> /data/logs/epzjfh_log/30minutes377 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 377 > /data/logs/epzjfh_log/flow377 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 377 > /data/logs/epzjfh_log/Sync377 2>&1
+
+#epzjfh 378区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 378 >> /data/logs/epzjfh_log/30minutes378 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 378 > /data/logs/epzjfh_log/flow378 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 378 > /data/logs/epzjfh_log/Sync378 2>&1
+
+#epzjfh 379区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 379 >> /data/logs/epzjfh_log/30minutes379 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 379 > /data/logs/epzjfh_log/flow379 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 379 > /data/logs/epzjfh_log/Sync379 2>&1
+
+#epzjfh 380区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 380 >> /data/logs/epzjfh_log/30minutes380 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 380 > /data/logs/epzjfh_log/flow380 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 380 > /data/logs/epzjfh_log/Sync380 2>&1
+
+#epzjfh 381区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 381 >> /data/logs/epzjfh_log/30minutes381 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 381 > /data/logs/epzjfh_log/flow381 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 381 > /data/logs/epzjfh_log/Sync381 2>&1
+
+#epzjfh 382区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 382 >> /data/logs/epzjfh_log/30minutes382 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 382 > /data/logs/epzjfh_log/flow382 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 382 > /data/logs/epzjfh_log/Sync382 2>&1
+
+#epzjfh 383区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 383 >> /data/logs/epzjfh_log/30minutes383 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 383 > /data/logs/epzjfh_log/flow383 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 383 > /data/logs/epzjfh_log/Sync383 2>&1
+
+#epzjfh 384区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 384 >> /data/logs/epzjfh_log/30minutes384 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 384 > /data/logs/epzjfh_log/flow384 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 384 > /data/logs/epzjfh_log/Sync384 2>&1
+
+#epzjfh 385区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 385 >> /data/logs/epzjfh_log/30minutes385 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 385 > /data/logs/epzjfh_log/flow385 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 385 > /data/logs/epzjfh_log/Sync385 2>&1
+
+#epzjfh 386区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 386 >> /data/logs/epzjfh_log/30minutes386 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 386 > /data/logs/epzjfh_log/flow386 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 386 > /data/logs/epzjfh_log/Sync386 2>&1
+
+#epzjfh 387区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 387 >> /data/logs/epzjfh_log/30minutes387 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 387 > /data/logs/epzjfh_log/flow387 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 387 > /data/logs/epzjfh_log/Sync387 2>&1
+
+#epzjfh 388区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 388 >> /data/logs/epzjfh_log/30minutes388 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 388 > /data/logs/epzjfh_log/flow388 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 388 > /data/logs/epzjfh_log/Sync388 2>&1
+
+#epzjfh 389区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 389 >> /data/logs/epzjfh_log/30minutes389 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 389 > /data/logs/epzjfh_log/flow389 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 389 > /data/logs/epzjfh_log/Sync389 2>&1
+
+#epzjfh 390区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 390 >> /data/logs/epzjfh_log/30minutes390 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 390 > /data/logs/epzjfh_log/flow390 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 390 > /data/logs/epzjfh_log/Sync390 2>&1
+
+#epzjfh 391区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 391 >> /data/logs/epzjfh_log/30minutes391 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 391 > /data/logs/epzjfh_log/flow391 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 391 > /data/logs/epzjfh_log/Sync391 2>&1
+
+#epzjfh 392区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 392 >> /data/logs/epzjfh_log/30minutes392 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 392 > /data/logs/epzjfh_log/flow392 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 392 > /data/logs/epzjfh_log/Sync392 2>&1
+
+#epzjfh 393区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 393 >> /data/logs/epzjfh_log/30minutes393 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 393 > /data/logs/epzjfh_log/flow393 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 393 > /data/logs/epzjfh_log/Sync393 2>&1
+
+#epzjfh 394区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 394 >> /data/logs/epzjfh_log/30minutes394 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 394 > /data/logs/epzjfh_log/flow394 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 394 > /data/logs/epzjfh_log/Sync394 2>&1
+
+#epzjfh 395区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 395 >> /data/logs/epzjfh_log/30minutes395 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 395 > /data/logs/epzjfh_log/flow395 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 395 > /data/logs/epzjfh_log/Sync395 2>&1
+
+#epzjfh 396区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 396 >> /data/logs/epzjfh_log/30minutes396 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 396 > /data/logs/epzjfh_log/flow396 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 396 > /data/logs/epzjfh_log/Sync396 2>&1
+
+#epzjfh 397区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 397 >> /data/logs/epzjfh_log/30minutes397 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 397 > /data/logs/epzjfh_log/flow397 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 397 > /data/logs/epzjfh_log/Sync397 2>&1
+
+#epzjfh 398区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 398 >> /data/logs/epzjfh_log/30minutes398 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 398 > /data/logs/epzjfh_log/flow398 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 398 > /data/logs/epzjfh_log/Sync398 2>&1
+
+#epzjfh 399区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 399 >> /data/logs/epzjfh_log/30minutes399 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 399 > /data/logs/epzjfh_log/flow399 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 399 > /data/logs/epzjfh_log/Sync399 2>&1
+
+#epzjfh 400区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 400 >> /data/logs/epzjfh_log/30minutes400 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 400 > /data/logs/epzjfh_log/flow400 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 400 > /data/logs/epzjfh_log/Sync400 2>&1
+
+#epzjfh 401区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 401 >> /data/logs/epzjfh_log/30minutes401 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 401 > /data/logs/epzjfh_log/flow401 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 401 > /data/logs/epzjfh_log/Sync401 2>&1
+
+#epzjfh 402区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 402 >> /data/logs/epzjfh_log/30minutes402 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 402 > /data/logs/epzjfh_log/flow402 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 402 > /data/logs/epzjfh_log/Sync402 2>&1
+
+#epzjfh 403区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/30minutes.php 403 >> /data/logs/epzjfh_log/30minutes403 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/flow.php 403 > /data/logs/epzjfh_log/flow403 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfh/s1_epzjfh/crontab/Sync.php 403 > /data/logs/epzjfh_log/Sync403 2>&1
+
+//------------end-----------------

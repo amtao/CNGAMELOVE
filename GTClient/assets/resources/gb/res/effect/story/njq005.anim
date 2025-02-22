@@ -1,0 +1,323 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "njq005",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 8.25,
+  "sample": 40,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "juanzhou": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.725,
+              "value": [
+                -414,
+                644
+              ]
+            },
+            {
+              "frame": 1.325,
+              "value": [
+                0,
+                246
+              ]
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0.725,
+              "value": 0.1
+            },
+            {
+              "frame": 1.325,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.725,
+              "value": 0.1
+            },
+            {
+              "frame": 1.325,
+              "value": 1
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.725,
+              "value": -180
+            },
+            {
+              "frame": 0.875,
+              "value": -225
+            },
+            {
+              "frame": 1.025,
+              "value": -270
+            },
+            {
+              "frame": 1.175,
+              "value": -315
+            },
+            {
+              "frame": 1.325,
+              "value": -360
+            }
+          ]
+        }
+      },
+      "juanzhou3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.875,
+              "value": 0
+            },
+            {
+              "frame": 2.15,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "juanzhou2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.325,
+              "value": 0
+            },
+            {
+              "frame": 1.725,
+              "value": 255
+            },
+            {
+              "frame": 3.5,
+              "value": 255
+            }
+          ],
+          "scale": [
+            {
+              "frame": 1.325,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "frame": 1.725,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.2,
+                "y": 1.2
+              }
+            },
+            {
+              "frame": 2,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      },
+      "juanzhou4": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.125,
+              "value": 0
+            },
+            {
+              "frame": 2.75,
+              "value": 255
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 2.125,
+              "value": 0,
+              "curve": [
+                0.01,
+                1.43,
+                1.02,
+                1.4
+              ]
+            },
+            {
+              "frame": 2.75,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "juanzhou2/beiban": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 5.25,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                171.524,
+                -231,
+                0
+              ]
+            },
+            {
+              "frame": 8.25,
+              "value": [
+                67,
+                -231
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      },
+      "juanzhou2/huaAll": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 1.325,
+              "value": 0
+            },
+            {
+              "frame": 2.25,
+              "value": 255
+            }
+          ],
+          "angle": [
+            {
+              "frame": 1.5,
+              "value": -18
+            },
+            {
+              "frame": 2.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "juanzhou2/huaAll/hua2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 2.25,
+              "value": 180
+            },
+            {
+              "frame": 5.25,
+              "value": 90
+            }
+          ]
+        }
+      },
+      "juanzhou2/huaAll/hua1": {
+        "props": {
+          "angle": [
+            {
+              "frame": 2.25,
+              "value": 180
+            },
+            {
+              "frame": 5.25,
+              "value": 90
+            }
+          ]
+        }
+      },
+      "juanzhou2/img_jqhgd": {
+        "props": {
+          "position": [
+            {
+              "frame": 1.5,
+              "value": [
+                252.223,
+                216.94,
+                0
+              ]
+            },
+            {
+              "frame": 2.25,
+              "value": [
+                223,
+                201,
+                0
+              ]
+            },
+            {
+              "frame": 3,
+              "value": [
+                234.486,
+                202.598,
+                0
+              ]
+            },
+            {
+              "frame": 3.75,
+              "value": [
+                223,
+                201,
+                0
+              ]
+            },
+            {
+              "frame": 4.5,
+              "value": [
+                234.486,
+                202.598,
+                0
+              ]
+            },
+            {
+              "frame": 5.275,
+              "value": [
+                223,
+                201,
+                0
+              ]
+            },
+            {
+              "frame": 6.025,
+              "value": [
+                234.486,
+                202.598,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": [
+        {
+          "frame": 6.025,
+          "value": 255
+        },
+        {
+          "frame": 7.025,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

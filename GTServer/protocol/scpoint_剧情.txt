@@ -1,0 +1,621 @@
+剧情选择
+api:
+    scpoint
+method:
+    story
+params:
+    id      配置xuanxiang
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"scpoint": {
+    			"selectGroup": {
+    				"id": 73718
+    			},
+    			"belief": {
+                    "id": 76       个人声望
+                }
+    		},
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 3,
+    				"count": 750
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558582341
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"food": 23078055
+    			}
+    		},
+    		"scpoint": {
+                "heroJB": {         伙伴羁绊
+                    "id": //伙伴id
+                    "num": 值
+                },
+                "wifeJB":同上  知己声望
+                "heroSW":同上  伙伴声望
+    		}
+    	}
+    }
+
+
+
+羁绊剧情
+api:
+    scpoint
+method:
+    recored
+params:
+    id  hero_pve
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"scpoint": {
+    			"list": [{
+    				"id": "100",    hero_pve配置中非jiban_X的值
+    				"type": 1,      hero_pve配置中type
+    				"roleid": 10,   hero_pve配置中roleid
+    				"jbs": []       hero_pve配置中jiban_X
+    			}, {
+    				"id": "2101",
+    				"type": 2,
+    				"roleid": 1,
+    				"jbs": []
+    			}, {
+    				"id": "2202",
+    				"type": 2,
+    				"roleid": 2,
+    				"jbs": []
+    			}, {
+    				"id": "110",
+    				"type": 1,
+    				"roleid": 11,
+    				"jbs": []
+    			}, {
+    				"id": "900",
+    				"type": 1,
+    				"roleid": 9,
+    				"jbs": []
+    			}, {
+    				"id": "2301",
+    				"type": 2,
+    				"roleid": 3,
+    				"jbs": []
+    			}, {
+    				"id": "1600",
+    				"type": 1,
+    				"roleid": 16,
+    				"jbs": ["jiban8"]
+    			}, {
+    				"id": "2401",
+    				"type": 2,
+    				"roleid": 4,
+    				"jbs": []
+    			}, {
+    				"id": "1700",
+    				"type": 1,
+    				"roleid": 17,
+    				"jbs": ["jiban35"]
+    			}, {
+    				"id": "2501",
+    				"type": 2,
+    				"roleid": 5,
+    				"jbs": []
+    			}, {
+    				"id": "20",
+    				"type": 1,
+    				"roleid": 2,
+    				"jbs": []
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 14,
+    				"jbs": ["jiban18"]
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 15,
+    				"jbs": ["jiban13", "jiban21"]
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 18,
+    				"jbs": ["jiban32"]
+    			}, {
+    				"id": "100",
+    				"type": 1,
+    				"roleid": 10,
+    				"jbs": []
+    			}, {
+    				"id": "2101",
+    				"type": 2,
+    				"roleid": 1,
+    				"jbs": []
+    			}, {
+    				"id": "2202",
+    				"type": 2,
+    				"roleid": 2,
+    				"jbs": []
+    			}, {
+    				"id": "110",
+    				"type": 1,
+    				"roleid": 11,
+    				"jbs": []
+    			}, {
+    				"id": "900",
+    				"type": 1,
+    				"roleid": 9,
+    				"jbs": []
+    			}, {
+    				"id": "2301",
+    				"type": 2,
+    				"roleid": 3,
+    				"jbs": []
+    			}, {
+    				"id": "1600",
+    				"type": 1,
+    				"roleid": 16,
+    				"jbs": ["jiban8"]
+    			}, {
+    				"id": "2401",
+    				"type": 2,
+    				"roleid": 4,
+    				"jbs": []
+    			}, {
+    				"id": "1700",
+    				"type": 1,
+    				"roleid": 17,
+    				"jbs": ["jiban35"]
+    			}, {
+    				"id": "2501",
+    				"type": 2,
+    				"roleid": 5,
+    				"jbs": []
+    			}, {
+    				"id": "20",
+    				"type": 1,
+    				"roleid": 2,
+    				"jbs": []
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 14,
+    				"jbs": ["jiban18"]
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 15,
+    				"jbs": ["jiban13", "jiban21"]
+    			}, {
+    				"id": 0,
+    				"type": 1,
+    				"roleid": 18,
+    				"jbs": ["jiban32"]
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558583486
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+日常剧情
+api:
+    scpoint
+method:
+    zwStory
+params:
+    id  xuanxiang
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"jingYing": {
+    			"exp": {
+    				"type": 11,
+    				"count": 1,
+    				"itemid": 52,
+    				"heroId": 1,
+    				"cd": {
+    					"next": 1558585679,
+    					"num": 15,
+    					"label": "zhengwu"
+    				}
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 7,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"cur": 8,
+    				"rwd": 1
+    			}, {
+    				"id": 11,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 18,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 9,
+    				"cur": 0,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 162,
+    				"rwd": 1
+    			}, {
+    				"id": 2,
+    				"cur": 302,
+    				"rwd": 1
+    			}, {
+    				"id": 6,
+    				"cur": 15,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 56,
+    				"rwd": 1
+    			}],
+    			"protect": {
+    				"cur": 1,
+    				"ctime": 1558437780,
+    				"cd": [{
+    					"id": 1,
+    					"over": 1558441380
+    				}]
+    			}
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 29032,
+    				"e2": 24786,
+    				"e3": 26572,
+    				"e4": 25923,
+    				"e": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558583891
+    			}
+    		}
+    	},
+    	"u": {
+    		"scpoint": {
+    			"heroJB": [{
+    				"id": 18,
+    				"num": 200
+    			},
+                "wifeJB":同上  知己声望
+                "heroSW":同上  伙伴声望
+                ]
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": "18",
+    				"level": "41",
+    				"senior": "3",
+    				"exp": "10846",
+    				"zzexp": 150,
+    				"pkexp": 925,
+    				"epskill": [{
+    					"id": 1,
+    					"level": 2
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 37,
+    					"level": 1
+    				}, {
+    					"id": 13,
+    					"level": 1
+    				}, {
+    					"id": 18,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 4
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": "0",
+    					"e2": "0",
+    					"e3": "0",
+    					"e4": "0"
+    				},
+    				"zz": {
+    					"e1": 2,
+    					"e2": 2,
+    					"e3": 8,
+    					"e4": 3
+    				},
+    				"zep": {
+    					"e1": 51,
+    					"e2": 100,
+    					"e3": 400,
+    					"e4": 150
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 65
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 485,
+    					"e3": 485,
+    					"e2": 485,
+    					"e1": 485
+    				},
+    				"jep": {
+    					"e1": 5,
+    					"e2": 5,
+    					"e3": 88,
+    					"e4": 27
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 541,
+    					"e2": 590,
+    					"e3": 973,
+    					"e4": 754,
+    					"e": 0
+    				}
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+办差剧情
+api:
+    scpoint
+method:
+    jyStory
+params:
+    id xuanxiang
+return:
+
+
+
+
+剧情中的飞鸽传书
+api:
+    scpoint
+method:
+    emailStory
+params:
+    id  award
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"scpoint": {
+    			"selectGroup": {
+    				"id": 393
+    			}
+    		},
+    		"task": {
+    			"tmain": {
+    				"id": 55,
+    				"num": 0,
+    				"max": 1
+    			}
+    		},
+    		"feige": {
+    			"feige": [{
+    				"id": 1000,
+    				"select": ["e10001_12"]
+    			}]
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 6,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 12,
+    				"cur": 15,
+    				"rwd": 0
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558593775
+    			}
+    		}
+    	},
+    	"u": {
+    		"scpoint": {
+    			"heroJB": [{
+    				"id": 10,
+    				"num": 5
+    			}]
+    		}
+    	}
+    }
+
+
+
+伙伴知己闲谈剧情选项
+api:
+    scpoint
+method:
+    heroOrwifeStory
+params:
+    pid
+    type    1:伙伴 非1:知己
+    id      award配置
+return:
+
+
+
+徒弟邮件
+api:
+    scpoint
+method:
+    emailSonStory
+params:
+    sid     徒弟id
+    time    时间戳
+    id      award配置
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 1,
+    				"id": 21420,
+    				"count": 1
+    			}]
+    		},
+    		"feige": {
+    			"sonFeige": [{
+    				"sid": 3383,
+    				"id": "10",
+    				"city": 3,
+    				"select": ["e10_1"],
+    				"time": 1558083196
+    			}, {
+    				"sid": 3383,
+    				"id": "9",
+    				"city": 2,
+    				"select": ["e9_2"],
+    				"time": 1558597137
+    			}, {
+    				"sid": 3389,
+    				"id": "9",
+    				"city": 2,
+    				"select": [],
+    				"time": 1558597144
+    			}]
+    		},
+    		"son": {
+    			"lilianList": [{
+    				"id": 1,
+    				"sid": 3383,
+    				"msgId": 0,
+    				"cityId": 2,
+    				"cd": {
+    					"next": 1558600737,
+    					"label": "lilian"
+    				}
+    			}, {
+    				"id": 2,
+    				"sid": 3389,
+    				"msgId": "9",
+    				"cityId": 2,
+    				"cd": {
+    					"next": 1558597144,
+    					"label": "lilian"
+    				}
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558595615
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 21420,
+    				"count": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+
+api:
+method:
+params:
+return:
+
+
+
+
+api:
+method:
+params:
+return:
+
+
+
+

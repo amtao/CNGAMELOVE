@@ -1,0 +1,21 @@
+#header-grqnejq
+* * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/cfg_houtai.php > /data/logs/grqnejq_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/delete.php > /data/logs/grqnejq_log/delete 2>&1
+
+#grqnejq 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/30minutes.php 1 >> /data/logs/grqnejq_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/Sync.php 1 > /data/logs/grqnejq_log/Sync1 2>&1
+
+#grqnejq 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/30minutes.php 2 >> /data/logs/grqnejq_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/Sync.php 2 > /data/logs/grqnejq_log/Sync2 2>&1
+
+#grqnejq 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/30minutes.php 3 >> /data/logs/grqnejq_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/grqnejq/s1_grqnejq/crontab/Sync.php 3 > /data/logs/grqnejq_log/Sync3 2>&1
+
+//------------end-----------------
+
+
+
+

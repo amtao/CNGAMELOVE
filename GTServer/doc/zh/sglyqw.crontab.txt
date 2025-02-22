@@ -1,0 +1,13 @@
+#header-sglyqw
+* * * * *  /usr/local/services/php/bin/php /data/www/sglyqw/s1_sglyqw/crontab/cfg_houtai.php > /data/logs/sglyqw_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/sglyqw/s1_sglyqw/crontab/delete.php > /data/logs/sglyqw_log/delete 2>&1
+
+#sglyqw 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/sglyqw/s1_sglyqw/crontab/30minutes.php 1 >> /data/logs/sglyqw_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/sglyqw/s1_sglyqw/crontab/Sync.php 1 > /data/logs/sglyqw_log/Sync1 2>&1
+
+//------------end-----------------
+
+
+
+

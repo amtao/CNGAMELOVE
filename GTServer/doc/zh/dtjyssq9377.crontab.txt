@@ -1,0 +1,8 @@
+#大唐9377专服-dtjyssq9377
+* * * * *  /usr/local/services/php/bin/php /data/www/dtjyssq9377/s1_dtjyssq9377/crontab/cfg_houtai.php > /data/logs/dtjyssq9377_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/dtjyssq9377/s1_dtjyssq9377/crontab/delete.php > /data/logs/dtjyssq9377_log/delete 2>&1
+
+#大唐9377专服-dtjyssq9377 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/dtjyssq9377/s1_dtjyssq9377/crontab/30minutes.php 1 >> /data/logs/dtjyssq9377_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtjyssq9377/s1_dtjyssq9377/crontab/flow.php 1 > /data/logs/dtjyssq9377_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtjyssq9377/s1_dtjyssq9377/crontab/Sync.php 1 > /data/logs/dtjyssq9377_log/Sync1 2>&1

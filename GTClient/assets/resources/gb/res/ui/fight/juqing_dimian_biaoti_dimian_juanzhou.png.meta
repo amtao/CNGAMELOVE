@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "3011a458-7da2-4359-b55c-e68e251e215f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 68,
+  "height": 141,
+  "platformSettings": {},
+  "subMetas": {
+    "juqing_dimian_biaoti_dimian_juanzhou": {
+      "ver": "1.0.4",
+      "uuid": "5036d935-ff0f-4eeb-8e73-13e3a3845b80",
+      "rawTextureUuid": "3011a458-7da2-4359-b55c-e68e251e215f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 68,
+      "height": 141,
+      "rawWidth": 68,
+      "rawHeight": 141,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 24,
+      "borderRight": 24,
+      "subMetas": {}
+    }
+  }
+}

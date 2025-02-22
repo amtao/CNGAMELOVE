@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FightGame_node_npc_ep_roll_2_2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {},
+    "comps": {},
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            -145,
+            0
+          ],
+          "curve": [
+            0.16,
+            0.84,
+            0.5817150395778364,
+            1.1220316622691293
+          ]
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

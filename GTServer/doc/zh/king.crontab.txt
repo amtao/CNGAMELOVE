@@ -1,0 +1,5 @@
+#皇帝组-king
+* * * * *  /usr/local/services/php/bin/php /data/www/king/s1_king/crontab/cfg_houtai.php >> /data/logs/king_log/cfg_houtai 2>&1
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/king/s1_king/crontab/30minutes.php >> /data/logs/king_log/30minutes 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/king/s1_king/crontab/flow.php 1 >> /data/logs/king_log/flow 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/king/s1_king/crontab/Sync.php 1 >> /data/logs/king_log/Sync 2>&1

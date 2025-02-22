@@ -1,0 +1,95 @@
+#卢里华专服-llhzf
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/cfg_houtai.php > /data/logs/llhzf_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/delete.php > /data/logs/llhzf_log/delete 2>&1
+
+#卢里华专服-llhzf 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 1 >> /data/logs/llhzf_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/flow.php 1 > /data/logs/llhzf_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 1 > /data/logs/llhzf_log/Sync1 2>&1
+
+#卢里华专服-llhzf 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 2 >> /data/logs/llhzf_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/flow.php 2 > /data/logs/llhzf_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 2 > /data/logs/llhzf_log/Sync2 2>&1
+
+#llhzf 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 3 >> /data/logs/llhzf_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/flow.php 3 > /data/logs/llhzf_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 3 > /data/logs/llhzf_log/Sync3 2>&1
+
+#llhzf 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 4 >> /data/logs/llhzf_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 4 > /data/logs/llhzf_log/Sync4 2>&1
+
+#llhzf 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 5 >> /data/logs/llhzf_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 5 > /data/logs/llhzf_log/Sync5 2>&1
+
+#llhzf 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 6 >> /data/logs/llhzf_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 6 > /data/logs/llhzf_log/Sync6 2>&1
+
+#llhzf 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 7 >> /data/logs/llhzf_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 7 > /data/logs/llhzf_log/Sync7 2>&1
+
+#llhzf 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 8 >> /data/logs/llhzf_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 8 > /data/logs/llhzf_log/Sync8 2>&1
+
+#llhzf 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 9 >> /data/logs/llhzf_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 9 > /data/logs/llhzf_log/Sync9 2>&1
+
+#llhzf 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 10 >> /data/logs/llhzf_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 10 > /data/logs/llhzf_log/Sync10 2>&1
+
+#llhzf 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 11 >> /data/logs/llhzf_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 11 > /data/logs/llhzf_log/Sync11 2>&1
+
+#llhzf 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 12 >> /data/logs/llhzf_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 12 > /data/logs/llhzf_log/Sync12 2>&1
+
+#llhzf 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 13 >> /data/logs/llhzf_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 13 > /data/logs/llhzf_log/Sync13 2>&1
+
+#llhzf 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 14 >> /data/logs/llhzf_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 14 > /data/logs/llhzf_log/Sync14 2>&1
+
+#llhzf 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 15 >> /data/logs/llhzf_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 15 > /data/logs/llhzf_log/Sync15 2>&1
+
+#llhzf 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/30minutes.php 16 >> /data/logs/llhzf_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/llhzf/s1_llhzf/crontab/Sync.php 16 > /data/logs/llhzf_log/Sync16 2>&1
+
+//------------end-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+三象游戏
+游戏名字： 我要做首辅
+appID:129
+gameID:129
+appSecret: GJYPCCBA0158C005B9E951E53D6DWLFB
+appKey:
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDX0sT6vfcVqBpaNJnWlA1qXbeu
++r6KhyFnyxrc8X1DNcm2SXWncFih3vnRSRce14iQlHLBHrXHSnYIzxlyizZcbDM9
+8WwbMxmLMNmI1eup8YjS+znftKmIXDEoKzeX5GpE8lrtWDZ05W3eT+2Rq5Hz0FVh
+sidG5GgMT8NkCmfeNwIDAQAB
+-----END PUBLIC KEY-----
+
+
+
+支付回调通知接口：
+http://jwdgr.zhisnet.cn/pay/3xyxwyzsf_callback.php
+
+
+
+预下单接口：
+接口地址：http://jwdgr.zhisnet.cn/pay/3xyxwyzsf_callback.php
+请求方式：get 或 post，
+请求参数：
+orderid    游戏内订单号;
+productname  商品标题;
+money      金额,单位元；
+access_token  授权码;
+openid		用户平台唯一标识,即登录接口返回的num1字段
+serverid   区服id;
+servername   区服名称；
+uid        玩家游戏内角色id；
+rolename     玩家角色名称；
+biaoshi      固定值1;
+
+响应结果：格式JSON
+errorCode : 处理结果，0：成功，1：失败
+data ： 平台下单后平台返回的结果
+
+例子：
+request: 
+
+	POST /pay/3xyxwyzsf_callback.php HTTP/1.1
+	Accept: */*
+	Accept-Language: zh-cn
+	host: http://jwdgr.zhisnet.cn
+	
+	Content-Type: application/x-www-form-urlencoded
+	Content-Length: 12
+	Connection:close
+	orderid=14546_999&money=6.......
+	
+response:
+成功：
+{"errorCode":0,"data":"值为平台返回的值"}
+失败：
+{"errorCode":1,"data":"createOrder error"}
+
+
+
+

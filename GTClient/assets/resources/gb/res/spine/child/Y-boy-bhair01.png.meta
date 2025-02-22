@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "f5b66687-34fb-4d71-9ae0-ad1b8eba94fe",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 512,
+  "height": 512,
+  "platformSettings": {},
+  "subMetas": {
+    "Y-boy-bhair01": {
+      "ver": "1.0.4",
+      "uuid": "53ec5afb-224e-4419-a14e-153816c2bb63",
+      "rawTextureUuid": "f5b66687-34fb-4d71-9ae0-ad1b8eba94fe",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -4.5,
+      "offsetY": 22,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 499,
+      "height": 464,
+      "rawWidth": 512,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "sample": 40,
+  "curveData": {
+    "paths": {
+      "jq005_xq001": {
+        "comps": {
+          "cc.Sprite": {}
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "value": 255
+            },
+            {
+              "frame": 3,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "curve": "linear",
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "curve": [
+                0.46,
+                0.45,
+                0.32,
+                0.43
+              ],
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "jq005_word001": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 3.775,
+              "value": 0
+            },
+            {
+              "frame": 4.75,
+              "value": 255
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            },
+            {
+              "frame": 8.5,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 3.775,
+              "value": -424
+            },
+            {
+              "frame": 4.75,
+              "value": -294
+            },
+            {
+              "frame": 7.5,
+              "value": -294
+            },
+            {
+              "frame": 8.5,
+              "value": -397
+            }
+          ]
+        }
+      },
+      "jq005_xq003": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.475,
+              "value": 0
+            },
+            {
+              "frame": 6.5,
+              "value": 255
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            },
+            {
+              "frame": 8.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "jq005_xq002": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2.725,
+              "value": 0
+            },
+            {
+              "frame": 3.75,
+              "value": 255
+            },
+            {
+              "frame": 4.75,
+              "value": 255
+            },
+            {
+              "frame": 5.75,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "jq005_word002": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 5.475,
+              "value": 0
+            },
+            {
+              "frame": 6.5,
+              "value": 255
+            },
+            {
+              "frame": 7.5,
+              "value": 255
+            },
+            {
+              "frame": 8.5,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 5.475,
+              "value": 383
+            },
+            {
+              "frame": 6.5,
+              "value": 280
+            },
+            {
+              "frame": 7.5,
+              "value": 280
+            },
+            {
+              "frame": 8.5,
+              "value": 383
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": []
+    }
+  },
+  "__type__": "cc.AnimationClip",
+  "_duration": 8.5,
+  "_name": "jq001"
+}

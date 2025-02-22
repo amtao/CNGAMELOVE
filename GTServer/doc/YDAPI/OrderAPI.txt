@@ -1,0 +1,262 @@
+【游动平台订单支付系统---天天挂机接入说明文档】业务流程：
+
+游戏客户端 (1)------>游戏服务器端(调用游戏内订单申请接口获取游戏内订单号)
+			|
+		  (2)------>进入支付界面，调用平台支付接口
+		  	|
+			|		+--------易宝银行卡支付------------>调用易宝银行卡通用网页支付接口---->进入易宝银行卡支付界面---------------+
+			|		|																										|
+			|		|																										|
+			|		|																										|
+		  (3)------>+--------易宝非银行卡(充值卡)支付------------------------------------>易宝非银行卡(充值卡)支付接口---------+--->
+			|		|																										|
+			|		|																										|
+			|		|																										|
+			|		+--------支付宝支付--------------->调用平台订单申请接口-------------->调出支付宝接口(详见支付宝SDK)---------+
+			|
+			|
+		  (4)------>结束
+
+
+==============================================================================================
+接口名称：游戏内订单申请接口
+接口说明：玩家点击充值界面的具体道具购买时调用
+请求地址：使用服务器列表请求（/p11/serverconfig.php?func=serverlist）返回的url值
+请求方式：GET/POST
+请求参数：
+	cmd: c
+	func：getTradeCodeNew
+	ver：版本号
+	uid：游戏内角色ID
+	uidkey：游戏内登录token
+	platform：平台标识，例如：youdong
+	param：具体参数，按照json格式传递
+		0 => 渠道标识，无特别说明情况，默认是平台标识
+		1 => 道具类型，1: 钻石，2：月卡
+		2 => 订单金额
+		3 => 等价游戏币
+		
+响应格式：JSON
+响应结果：
+	0：状态码, 成功=1，失败=0
+	1：
+		状态码=0时返回失败的原因，
+		状态码=1时，返回以下数据
+		0：状态码，成功=1，失败=0
+		1：状态码=0时返回失败的原因，状态码=1时，返回游戏内订单号
+			
+例子：
+request：
+
+POST /mi73/json-gateway.php HTTP/1.1
+Host: 121.40.188.224
+Accept: */*
+Content-Length: 130
+Content-Type: application/x-www-form-urlencoded
+
+cmd=g&ver=2.3.4&func=getTradeCodeNew&uid=10108&uidkey=19e1580ba89a9e7c44a6bcc45b7796f0&platform=youdong&param=["youdong",1,10,100]
+
+response：
+
+[1,[1,8589]]
+
+* 转换格式后内容如下：
+array (
+  0 => 1,
+  1 => 
+  array (
+    0 => 1,
+    1 => 8589,
+  ),
+)
+
+==============================================================================================
+接口名称：平台订单申请接口
+接口说明：需要提供商户订单号情况下调用，如支付宝
+请求地址：http://appstore.tuziyouxi.com/genorder.php
+请求方式：GET/POST
+请求参数：
+	appid: 由平台提供的应用唯一标识(AppID)(本次接入的天天挂机AppID使用22)
+	username: 帐户名, 6~23位英文或数字字符串
+	amount：订单金额，单位：分
+	serverid：服务器唯一标识
+	roleid: 游戏角色唯一标识
+	extrainfo：订单透传参数，一般用来透传应用内订单号
+
+响应格式：JSON
+响应结果：
+	status：状态码，见文本末尾的附表1
+	msg：	结果信息
+	data:
+		status != 0，返回空数组
+		status == 0，返回以下数据
+		orderno => 平台订单流水号
+			
+例子：
+request：
+
+POST genorder.php HTTP/1.1
+Host: appstore.tuziyouxi.com
+Accept: */*
+Content-Length: 84
+Content-Type: application/x-www-form-urlencoded
+
+appid=22&username=testname&amount=1000&serverid=999&roleid=10108&extrainfo=10086_999
+
+response：
+
+{"status":0,"msg":"\u64cd\u4f5c\u6210\u529f","data":{"orderno":"20141107140837671-000000009393"}}
+
+* 转换格式后内容如下：
+array (
+  'status' => 0,
+  'msg' => '操作成功',
+  'data' => 
+  array (
+    'orderno' => '20141107140837671-000000009393',
+  ),
+)
+
+==============================================================================================
+接口名称：易宝银行卡通用网页支付接口
+接口说明：玩家选择易宝银行卡方式支付订单时调用，成功会返回包含一个跳转链接，客户端只需要加载这个链接易宝便会自行引导玩家操作支付
+请求地址：http://appstore.tuziyouxi.com/yeepay/toMobilepay.php
+请求方式：GET/POST
+请求参数：(以下参数按照快速接入情况说明，部分可选参数不在此文档说明)
+	appid: 由平台提供的应用唯一标识(AppID)(本次接入的天天挂机AppID使用22)
+	username: 帐户名, 6~23位英文或数字字符串
+	amount：订单金额，单位：分
+	serverid：服务器唯一标识
+	roleid: 游戏角色唯一标识
+	extrainfo：订单透传参数，一般用来透传应用内订单号
+	
+	productname：道具商品名称
+	productdesc：道具商品描述
+
+响应格式：JSON
+响应结果：
+	status：状态码，见文本末尾的附表1
+	msg：	结果信息
+	data:
+		status != 0，返回空数组
+		status == 0，返回以下数据
+		orderid => 平台订单流水号
+		url => 支付请求的跳转链接，客户端加载该网页链接之后网页内会自动引导玩家完成支付操作
+			
+例子：
+request：
+
+POST yeepay/toMobilepay.php HTTP/1.1
+Host: appstore.tuziyouxi.com
+Accept: */*
+Content-Length: 84
+Content-Type: application/x-www-form-urlencoded
+
+appid=22&username=testname&amount=1000&serverid=999&roleid=10108&extrainfo=10095_999&productname=100钻石&productdesc=100钻石
+
+response：
+
+{"status":0,"msg":"\u6210\u529f","data":{"orderid":"20141107144224622-000000009396","url":"https:\/\/ok.yeepay.com\/payapi\/mobile\/pay\/request?merchantaccount=YB01000001137&encryptkey=oWYQumRhwUdSkyLGIakBYw9Orz4t3PSnBfU4Wdne6GjIsYCwgTdN8LueTSWFnioQToaR8MovI%2FtycWEj8jC50pu8rCBvakayz%2FAwi9SptvDIBe%2BYsTgIDL3wX8qFLcd1sa5%2FZmvJ9nFJ80MsKZLhEn5DPX6py7RY2IH24HsCnP4%3D&data=a5AWf9MhJzoymejwOubtpRPiFwQl3qg9e46dQEwkpU7AiLB0jXNyoU3rNTKPWwLNi41U19SZ79kvjGCe6twaUvJP21xcTflI6PvdA9pSlyMJSmEtKpyhvlegUc%2F61lydwTugW1jXMVKRNthb%2FuEjQUntyHOtwOMFOu26vKpf1nAL6BSuncrzU%2FY2n6cieVP1qTliWvH%2FnBMRF7JHuJ7g7xsADwU78zCwe%2B6lozMInAYuxV0Mib%2BJTTM%2BdFdeLuC%2F4s4B9NLweBgoBtUXUW8dyvXBkLWNp5dq9DD%2BN7l0agL1hUj0LzTs5y7kFPVb0brYdg9Wuz8HQziUcpOAZfUxknt4Gn8S6toAQHjJB114tA2DDBgdSdwDx6%2BMn4p0E55CCvG%2BtAe8OTVbWdw%2FMoDwPJWJU8yR1lRAdPI0sDnim%2B1HwKS24%2B5aUKYTBrs3UKSJOOrhD%2BVCZBRBiUaVVUCG8YIIxK0lNDYWOe6O5etW5XbSyaVkjE8AIhPp7k%2FMItxW93wGepoHCOQhpRJ6y0916mdA1z0Mdem5e4WZuJexG0d6%2FpvEAwju9%2FGcSaw5WmIGggjErSU0NhY57o7l61bldtLJpWSMTwAiE%2BnuT8wi3Fb3fAZ6mgcI5CGlEnrLT3Xq74tVSpoe726Q%2BrFfVkX2dMiwkYU8%2BREBJGoBp0gyGBgMwCtjsS2n%2FCAFMtMpjDV5M7WrHnNp2J%2BNhUh0HqhvC7I8yiAZlgO82%2FX1688YYYFrpK4Yi%2BSuVND7SXUfxpYU6prybDq0sswYF0sk9x%2B7yMj60EF%2FEPqYmZDX2vAx0RjM7O0vYGpBWRIicB4O4nFu5z%2FVk9lUHo1SfM00RDyOffaIVfT0ACsfQzImPO%2BEDUqds0iDWdJniZst%2Fz2wLoSwa3BqNJ0lN9uqC5w%2F%2BOuKe4h%2BoNM4y3n3RjVTABzRycNGa1U6Fv0ue3JoaM0FWQeQ32zQdI7ExYe8%2BpTeGJ3KQw%3D%3D"}}
+
+* 转换格式后内容如下：
+array (
+  'status' => 0,
+  'msg' => '成功',
+  'data' => 
+  array (
+    'orderid' => '20141107144224622-000000009396',
+    'url' => 'https://ok.yeepay.com/payapi/mobile/pay/request?merchantaccount=YB01000001137&encryptkey=oWYQumRhwUdSkyLGIakBYw9Orz4t3PSnBfU4Wdne6GjIsYCwgTdN8LueTSWFnioQToaR8MovI%2FtycWEj8jC50pu8rCBvakayz%2FAwi9SptvDIBe%2BYsTgIDL3wX8qFLcd1sa5%2FZmvJ9nFJ80MsKZLhEn5DPX6py7RY2IH24HsCnP4%3D&data=a5AWf9MhJzoymejwOubtpRPiFwQl3qg9e46dQEwkpU7AiLB0jXNyoU3rNTKPWwLNi41U19SZ79kvjGCe6twaUvJP21xcTflI6PvdA9pSlyMJSmEtKpyhvlegUc%2F61lydwTugW1jXMVKRNthb%2FuEjQUntyHOtwOMFOu26vKpf1nAL6BSuncrzU%2FY2n6cieVP1qTliWvH%2FnBMRF7JHuJ7g7xsADwU78zCwe%2B6lozMInAYuxV0Mib%2BJTTM%2BdFdeLuC%2F4s4B9NLweBgoBtUXUW8dyvXBkLWNp5dq9DD%2BN7l0agL1hUj0LzTs5y7kFPVb0brYdg9Wuz8HQziUcpOAZfUxknt4Gn8S6toAQHjJB114tA2DDBgdSdwDx6%2BMn4p0E55CCvG%2BtAe8OTVbWdw%2FMoDwPJWJU8yR1lRAdPI0sDnim%2B1HwKS24%2B5aUKYTBrs3UKSJOOrhD%2BVCZBRBiUaVVUCG8YIIxK0lNDYWOe6O5etW5XbSyaVkjE8AIhPp7k%2FMItxW93wGepoHCOQhpRJ6y0916mdA1z0Mdem5e4WZuJexG0d6%2FpvEAwju9%2FGcSaw5WmIGggjErSU0NhY57o7l61bldtLJpWSMTwAiE%2BnuT8wi3Fb3fAZ6mgcI5CGlEnrLT3Xq74tVSpoe726Q%2BrFfVkX2dMiwkYU8%2BREBJGoBp0gyGBgMwCtjsS2n%2FCAFMtMpjDV5M7WrHnNp2J%2BNhUh0HqhvC7I8yiAZlgO82%2FX1688YYYFrpK4Yi%2BSuVND7SXUfxpYU6prybDq0sswYF0sk9x%2B7yMj60EF%2FEPqYmZDX2vAx0RjM7O0vYGpBWRIicB4O4nFu5z%2FVk9lUHo1SfM00RDyOffaIVfT0ACsfQzImPO%2BEDUqds0iDWdJniZst%2Fz2wLoSwa3BqNJ0lN9uqC5w%2F%2BOuKe4h%2BoNM4y3n3RjVTABzRycNGa1U6Fv0ue3JoaM0FWQeQ32zQdI7ExYe8%2BpTeGJ3KQw%3D%3D',
+  ),
+)
+
+==============================================================================================
+接口名称：易宝非银行卡(充值卡)支付接口
+接口说明：玩家选择易宝非银行卡(充值卡)方式支付订单时调用
+请求地址：http://appstore.tuziyouxi.com/yeepay/cardPayRequest.php
+请求方式：GET/POST
+请求参数：(以下参数按照快速接入情况说明，部分可选参数不在此文档说明)
+	appid: 由平台提供的应用唯一标识(AppID)(本次接入的天天挂机AppID使用22)
+	username: 帐户名, 6~23位英文或数字字符串
+	amount：订单金额，单位：分
+	serverid：服务器唯一标识
+	roleid: 游戏角色唯一标识
+	extrainfo：订单透传参数，一般用来透传应用内订单号
+	
+	productname：道具商品名称
+	productdesc：道具商品描述
+	cardamount：充值卡金额，单位：元，与充值卡面额必须保持一致
+	cardno：充值卡卡号
+	cardpwd：充值卡密码
+	cardtype：易宝充值卡类型码，见文本末尾的附表2
+
+响应格式：JSON
+响应结果：
+	status：状态码，见文本末尾的附表1
+	msg：	结果信息
+	data:
+		status != 0，返回空数组
+		status == 0，返回以下数据
+		orderid => 平台订单流水号
+			
+例子：
+request：
+
+POST yeepay/cardPayRequest.php HTTP/1.1
+Host: appstore.tuziyouxi.com
+Accept: */*
+Content-Length: 84
+Content-Type: application/x-www-form-urlencoded
+
+appid=22&username=testname&amount=1000&serverid=999&roleid=10108&extrainfo=10095_999&productname=100钻石&productdesc=100钻石&cardamount=50&cardno=1186200373984905&cardpwd=353197521551246861&cardtype=SZX
+
+response：
+
+{"status":0,"msg":"\u64cd\u4f5c\u6210\u529f","data":{"orderno":"20141107140837671-000000009393"}}
+
+* 转换格式后内容如下：
+array (
+  'status' => 0,
+  'msg' => '操作成功',
+  'data' => 
+  array (
+    'orderid' => '20141107140837671-000000009393',
+  ),
+)
+
+==============================================================================================
+附表1
+==============================================================================================
+响应操作状态码 =>	状态码说明
+	999			未知异常
+    -1			失败
+    0			成功
+	1			账户已存在
+	2			数据库错误
+	3			密码错误
+	4			账号不存在
+	5			参数错误
+	6			邮箱已存在
+	7			邮箱不存在
+
+==============================================================================================
+附表2
+==============================================================================================
+易宝充值卡类型码	=> 	类型码说明
+	SZX				神州行充值卡
+	SZX_WAP			神州行充值卡(wap)
+	JUNNET			骏网一卡通
+	ZHENGTU			征途游戏卡
+	SNDACARD		盛大游戏卡
+	ZHIFUKA			51支付卡
+	QQCARD			Q币卡支付
+	YPCARD			易宝一卡通支付
+	UNICOM			联通充值卡
+	JIUYOU			久游一卡通
+	NETEASE			网易一卡通
+	WANMEI			完美一卡通
+	SOHU			搜狐一卡通
+	TELECOM			电信充值卡
+	TIANXIA			天下通一卡通
+	ZONGYOU			纵游一卡通
+	TIANHONG		天宏一卡通
+	

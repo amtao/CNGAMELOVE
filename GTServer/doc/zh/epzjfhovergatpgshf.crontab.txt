@@ -1,0 +1,9 @@
+#header-epzjfhovergatpgshf
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergatpgshf/s1_epzjfhovergatpgshf/crontab/cfg_houtai.php > /data/logs/epzjfhovergatpgshf_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergatpgshf/s1_epzjfhovergatpgshf/crontab/delete.php > /data/logs/epzjfhovergatpgshf_log/delete 2>&1
+
+#epzjfhovergatpgshf 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergatpgshf/s1_epzjfhovergatpgshf/crontab/30minutes.php 999 >> /data/logs/epzjfhovergatpgshf_log/30minutes999 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergatpgshf/s1_epzjfhovergatpgshf/crontab/Sync.php 999 > /data/logs/epzjfhovergatpgshf_log/Sync999 2>&1
+
+//------------end-----------------

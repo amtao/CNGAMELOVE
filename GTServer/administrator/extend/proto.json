@@ -1,0 +1,5604 @@
+[
+  {
+    "n":"SC",
+    "a":"服务端到客户端",
+    "p":{
+      "loginMod":["SC_loginMod","登入模块"],
+      "user":["SC_User","玩家模块"],
+      "hero":["SC_Hero","门客模块"],
+      "wife":["SC_Wife","红颜模块"],
+      "son":["SC_Son","子嗣模块"],
+      "item":["SC_Item","道具模块"],
+      "jingYing":["SC_JyngYing","经营模块"],
+      "bag":["SC_Bag","背包模块"],
+      "school":["SC_School","书院模块"],
+      "system":["SC_System","系统模块"],
+      "ranking":["SC_Ranking","排行榜模块"],
+      "laofang":["SC_Laofang","牢房"],
+      "wordboss":["SC_WordBoss","副本世界BOSS"],
+      "huanggong":["SC_HuangGong","皇宫"],
+      "chenghao":["SC_ChengHao","称号"],
+      "xunfang":["SC_XunFang","寻访"],
+      "msgwin":["SC_MsgWin","弹窗模块"],
+      "mail":["SC_Mail","邮件列表"],
+      "club":["SC_Club","联盟模块"],
+      "xianshi":["SC_XianShi","限时奖励"],
+      "daily":["SC_Daily","每日任务"],
+      "chengjiu":["SC_ChengJiu","成就"],
+      "fuli":["SC_FuLi","福利"],
+      "jiulou":["SC_JiuLou","酒楼"],
+      "shop":["SC_Shop", "商城"],
+      "yamen":["SC_Yamen", "衙门战"],
+      "task":["SC_Task", "任务"],
+      "order":["SC_Order", "充值"],
+      "huodonglist":["SC_huodonglist", "生效活动列表"],
+      "xshuodong":["SC_xshuodong", "限时活动"],
+      "cbhuodong":["SC_cbhuodong", "冲榜活动"],
+      "czhuodong":["SC_czhuodong", "充值活动"],
+      "jchuodong":["SC_jchuodong", "四大奸臣活动"],
+      "jghuodong":["SC_jghuodong", "巾帼五虎活动"],
+      "njhuodong":["SC_njhuodong", "巾帼女将活动"],
+      "xghuodong":["SC_xghuodong", "新官上任活动"],
+      "penalize":["SC_Penalize", "惩戒来福活动"],
+      "nationalDay":["SC_NationalDay", "国庆狂欢活动"],
+      "doubleNinth":["SC_DoubleNinth", "重阳节活动"],
+      "doubleEleven":["SC_DoubleEleven", "双十一活动"],
+      "ThanksDay":["SC_ThanksDay", "感恩节活动"],
+      "zphuodong":["SC_zphuodong", "转盘双12活动"],
+      "sdhuodong":["SC_sdhuodong", "双旦活动"],
+      "xbhuodong":["SC_xbhuodong", "寻宝活动"],
+      "zchuodong":["SC_zchuodong", "招财进宝活动"],
+      "chat":["SC_Chat","聊天模块"],
+      "recode":["SC_Code","兑换码模块"],
+      "notice":["SC_Notice","公告"],
+      "derail":["SC_Derail","功能开关"],
+      "hunt":["SC_Hunt","狩猎模块"],
+      "taofa":["SC_Taofa","讨伐模块"],
+      "hanlin":["SC_HanLin","翰林院"],
+      "trade":["SC_Trade","丝绸之路"],
+      "kuayamen":["SC_Kuayamen","跨服衙门"],
+      "friends":["SC_Friends","好友模块"],
+      "gzj":["SC_Gzj","国子监"]
+    }
+  },
+  {
+    "n":"CS",
+    "a":"客户端到服务端",
+    "p":{
+      "login":["CS_Login","登入模块"],
+      "guide":["CS_Guide","新手引导模块"],
+      "user":["CS_User","用户模块"],
+      "hero":["CS_Hero","门客模块"],
+      "item":["CS_Item","道具模块"],
+      "wife":["CS_Wife","红颜模块"],
+      "school":["CS_School","书院模块"],
+      "son":["CS_Son","子嗣模块"],
+      "ranking":["CS_Ranking","排行榜膜拜"],
+      "laofang":["CS_Laofang","牢房"],
+      "wordboss":["CS_WordBoss","副本世界BOSS"],
+      "huanggong":["CS_HuangGong","皇宫"],
+      "chenghao":["CS_ChengHao","称号"],
+      "xunfang":["CS_XunFang","寻访"],
+      "mail":["CS_Mail","邮件列表"],
+      "club":["CS_Club","联盟模块"],
+      "daily":["CS_Daily","每日任务"],
+      "chengjiu":["CS_ChengJiu","成就"],
+      "qiandao":["CS_QianDao","签到"],
+      "fuli":["CS_FuLi","福利"],
+      "jiulou":["CS_JiuLou","酒楼"],
+      "shop" : ["CS_Shop", "商城"],
+      "task":["CS_Task", "任务"],
+      "yamen":["CS_Yamen", "衙门战"],
+      "order":["CS_Order", "充值"],
+      "huodong":["CS_huodong", "活动"],
+      "chat":["CS_Chat","聊天模块"],
+      "recode":["CS_Code","兑换码模块"],
+      "hunt":["CS_Hunt","狩猎模块"],
+      "taofa":["CS_Taofa","讨伐模块"],
+      "hanlin":["CS_HanLin","翰林院"],
+      "silkroad":["CS_Trade","丝绸之路"],
+      "kuayamen":["CS_Kuayamen","跨服衙门"],
+      "friends":["CS_Friends","好友模块"],
+      "guozijian":["CS_Gzj","国子监"]
+    }
+  },
+  {
+    "n":"SC_loginMod",
+    "a":"登入模块",
+    "p":{
+      "loginAccount":["SC_LoginAccount","登入"]
+    }
+  },
+  {
+    "n":"Null",
+    "a":"无参数",
+    "p":{
+    }
+  },
+  {
+    "n":"ErrorCode",
+    "a":"错误代码",
+    "e":[
+      ["noNum","次数不足"],
+      ["noFood","粮草不足"]
+    ]
+  },
+  {
+    "n": "Resource",
+    "a":"玩家资源",
+    "p": {
+      "exp": [0,"政绩"],
+      "expMax": [0,"升级政绩"],
+      "money": [0,"钱"],
+      "army": [0,"兵"],
+      "food": [0,"粮"],
+      "gold": [0,"元宝"]
+    }
+  },
+  {
+    "n": "Ability",
+    "a":"能力",
+    "p": {
+      "force":[0,"武力"],
+      "force2":[0,"智力"],
+      "force3":[0,"政治"],
+      "force4":[0,"魅力"]
+    }
+  },
+  {
+    "n": "UserInfo",
+    "a":"玩家基本信息",
+    "p": {
+      "uid":[0,"UID"],
+      "name":["","名字"],
+      "job":[1,"头像编号"],
+      "sex":[1,"性别1男2女"],
+      "level":[0,"官阶"],
+      "exp":[0,"政绩"],
+      "vip":[0,"VIP"],
+      "cashbuy":[0,"充值元宝数"],
+      "step":[0,"账号进度"],
+      "guide":[0,"新手引导步骤"],
+      "chenghao":[0,"称号"],
+      "cash":[0,"元宝"],
+      "coin":[0,"金币"],
+      "food":[0,"粮草"],
+      "army":[0,"军队"],
+
+      "bmap":[1,"地图大关ID"],
+      "mmap":[1,"地图中关ID"],
+      "smap":[0,"地图小关ID"],
+      "mkill":[0,"已经杀掉的小兵数量/已伤的BOSS血量"],
+
+      "voice":[0,"声音开关"],
+      "music":[0,"音乐开关"],
+      "regtime":[0,"创建角色时间"]
+    }
+  },
+
+  {
+    "n":"UserGuide",
+    "a":"新手引导步骤",
+    "p":{
+      "gnew":[0,"新手剧情引导步骤"],
+      "smap":[0,"小地图引导步骤"],
+      "mmap":[0,"中地图引导步骤"],
+      "bmap":[0,"大地图引导步骤"]
+    }
+  },
+  {
+    "n":"FourEp",
+    "a":"四项属性",
+    "p":{
+      "e1":[0,"武力"],
+      "e2":[0,"智力"],
+      "e3":[0,"政治"],
+      "e4":[0,"魅力"]
+    }
+  },
+
+  {
+    "n":"Thing",
+    "a":"物品",
+    "p":{
+      "id":[0,"物品id"],
+      "num":[0,"物品数量"]
+    }
+  },
+  {
+    "n":"ServerState",
+    "a":"物品",
+    "e":[
+      ["no","没有"],
+      ["normal","正常"],
+      ["crowded","拥挤"],
+      ["full","爆满"],
+      ["line","排队"],
+      ["new","新服"],
+      ["bloken","维护"]
+    ]
+  },
+  {
+    "n":"Server",
+    "a":"服务器信息",
+    "p":{
+      "id":[0,"索引"],
+      "name":["","服务器名称"],
+      "url":["","地址"],
+      "state":[0,"状态0:没有 1:正常 2:拥挤 3:爆满 4:排队 5:新服 6:维护"],
+      "platform":["","平台"],
+      "status":[1,"1:正常 2:拥挤 3:爆满 4:排队 5:新服 6:维护"],
+      "skin":[1,"1:原配置 2新配置"]
+    }
+  },
+  {
+    "n":"SC_Mail",
+    "a":"邮件列表",
+    "p": {
+      "mailList":[["MailInfo","id"],"邮件信息"]
+    }
+  },
+  {
+    "n":"MailInfo",
+    "a":"邮件信息",
+    "p": {
+      "id":[0,"邮件ID"],
+      "mtitle":["","标题"],
+      "mcontent":["","内容"],
+      "items":[["ItemInfo","id"],"道具列表"],
+      "mtype":[0,"邮件类型 0:无道具列表  1:有道具列表 2:其他"],
+      "fts":[0,"发送时间"],
+      "rts":[0,"读取时间"]
+    }
+  },
+  {
+    "n":"CS_Mail",
+    "a":"邮件列表",
+    "p": {
+      "getMail":["GmType","获得邮件"],
+      "redMails":["RmType","读取/领取邮件"],
+      "delMails":["DmType","删除邮件"],
+      "openMails":["OmType","打开邮件"]
+    }
+  },
+  {
+    "n":"CS_Daily",
+    "a":"每日任务",
+    "p": {
+      "getrwd":["DailyRwdId","领取档次奖励"],
+      "gettask":["DailyTaskId","领取任务奖励"]
+    }
+  },
+  {
+    "n":"DailyRwdId",
+    "a":"活跃值奖励档次ID",
+    "p": {
+      "id":[0,"活跃值奖励档次ID"]
+    }
+  },
+  {
+    "n":"DailyTaskId",
+    "a":"任务档次ID",
+    "p": {
+      "id":[0,"任务档次ID"]
+    }
+  },
+  {
+    "n":"SC_huodonglist",
+    "a":"生效活动列表",
+    "p": {
+      "all":[["Shdallinfo","id"],"活动基础信息"]
+    }
+  },
+  {
+    "n":"Shdallinfo",
+    "a":"活动基础信息",
+    "p": {
+      "id":[0,"标识对应的哪个活动id"],
+      "title":["","活动标题"],
+      "pindex":[0,"图片id"],
+      "sTime":[0,"活动开始时间戳"],
+      "eTime":[0,"活动结束时间戳"],
+      "showTime":[0,"展示结束时间戳"],
+      "yueTime":[0,"预选赛结束时间戳"],
+      "yushowTime":[0,"预选赛展示时间戳"],
+      "type":[1,"1:普通活动 2:限时活动 3:冲榜活动 4:充值活动 5:奸臣 6:巾帼"],
+      "news":[0,"标识是否可领取 1:可以领取 0:不可"],
+      "cd":["CdLabel","活动倒计时"]
+    }
+  },
+  {
+    "n":"SC_jchuodong",
+    "a":"四大奸臣",
+    "p": {
+      "jianchen":["Sjianchen","四大奸臣"]
+    }
+  },
+  {
+    "n":"Sjianchen",
+    "a":"四大奸臣",
+    "p": {
+      "cfg":["Sjccfg","活动配置"]
+    }
+  },
+  {
+    "n":"Sjccfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Sjchdrwd","id"],"活动档次信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Sjchdrwd",
+    "a":"活动档次信息",
+    "p": {
+      "id":[0,"门客id"],
+      "need":[0,"需要多少的奸臣令"]
+    }
+  },
+  {
+    "n":"SC_sdhuodong",
+    "a":"双旦活动",
+    "p": {
+      "zadan":["Szadan","双旦-砸蛋活动"],
+      "sdzmd":[["Ssdzmd","id"],"砸蛋-走马灯"],
+      "win":[["sdItemInfo","id"],"砸蛋-弹窗特效"],
+      "souji":["Ssouji","双旦-收集兑换"]
+    }
+  },
+  {
+    "n":"sdItemInfo",
+    "a":"道具信息",
+    "p":{
+      "kind":[1,"道具类型1:道具,2枚举,3红颜亲密,4红颜魅力,5门客书籍经验,6门客技能经验,7门客,8红颜,9红颜好感度"],
+      "id":[0,"道具ID"],
+      "count":[1,"数量"],
+      "tip":[0,"0:不提示1提示"]
+    }
+  },
+  {
+    "n":"SC_zchuodong",
+    "a":"招财进宝活动",
+    "p": {
+      "zhaocai":["Szhaocai","招财进宝"],
+      "zczmd":[["Szczmd","id"],"招财进宝-走马灯"],
+      "zclog":[["Szclog","id"],"招财进宝-获奖日志"],
+      "win":[["ZPWin"],"招财进宝-弹窗特效"],
+
+      "scoreRank":[["fUserInfo","id"],"招财进宝-个人积分排行"],
+      "clublist":[["Scblist","id"],"招财进宝-联盟积分列表"],
+      "myScore":["XgMyScore","招财进宝-我的排名"],
+      "myclubRid":["XgMyclubRid","招财进宝-我的联盟排名"]
+
+    }
+  },
+  {
+    "n":"Szclog",
+    "a":"招财进宝-获奖日志",
+    "p": {
+      "id":[0,"位置"],
+      "dc":[0,"档次id"],
+      "name":["","获奖人名字"],
+      "time":[0,"获奖时间"]
+    }
+  },
+  {
+    "n":"Szczmd",
+    "a":"招财进宝-走马灯",
+    "p": {
+      "id":[0,"位置"],
+      "list":[["ZPzmdlist","id"],"获得档次列表"],
+      "name":["","获奖人名字"]
+    }
+  },
+
+  {
+    "n":"Szhaocai",
+    "a":"招财进宝",
+    "p": {
+      "cfg":["Szccfg","招财进宝活动配置"],
+      "cons":[0,"当前积分"],
+      "set":[0,"消费提示 1:提示 0:不提示"]
+    }
+  },
+  {
+    "n":"Szccfg",
+    "a":"招财进宝活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":["Szcrwd","招财树"],
+      "rank":["rwdType","奖励类别"],
+      "jifen":[["Szcjifen","id"],"积分领取奖励"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"rwdType",
+    "a":"奖励类别",
+    "p":{
+      "my" : [["Scbhdrwd","id"],"活动档次信息"],
+      "club" : [["Scbclubhdrwd","id"],"活动档次信息"]
+    }
+  },
+
+  {
+    "n":"Szcjifen",
+    "a":"积分领取奖励",
+    "p": {
+      "id":[0,"档次id"],
+      "need":[0,"需要达到的积分"],
+      "items":[["ItemInfo","id"],"道具列表"],
+      "isGet":[0,"是否已领取 1:不可领取 0:可领取 2:已领取"]
+    }
+  },
+  {
+    "n":"Szcrwd",
+    "a":"档次信息",
+    "p": {
+      "need":[0,"一次需要的元宝"],
+      "needTen":[0,"10次需要的元宝"],
+      "jifen":[0,"转一次获得积分"],
+      "list":[["Szclist","id"],"档次列表"],
+      "cd":["CdNum","次数冷却"],
+      "free":[0,"每天免费次数"]
+    }
+  },
+  {
+    "n":"Szclist",
+    "a":"档次列表",
+    "p": {
+      "id":[0,"档次"],
+      "items" : ["ItemInfo","奖励道具"],
+      "tip":[0,"1:最贵的东西,提示"]
+    }
+  },
+
+
+  {
+    "n":"SC_xbhuodong",
+    "a":"寻宝活动",
+    "p": {
+      "xunbao":["Sxunbao","寻宝大冒险"],
+      "run":["Sxunbaorun","寻宝大冒险-摇"]
+    }
+  },
+  {
+    "n":"Sxunbaorun",
+    "a":"寻宝大冒险-摇",
+    "p": {
+      "cons":[0,"当前位于哪个格子id"],
+      "yao":[0,"摇出的点数"],
+      "quan":[0,"已经转过的圈数"],
+      "sid":[0,"使用技能"],
+      "num":[0,"剩余骰子个数"]
+    }
+  },
+  {
+    "n":"Sxunbao",
+    "a":"寻宝大冒险",
+    "p": {
+      "cfg":["Ssdxbcfg","寻宝大冒险活动配置"]
+    }
+  },
+  {
+    "n":"Ssdxbcfg",
+    "a":"寻宝大冒险",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Ssdxbrwd","id"],"通过圈数奖励配置"],
+      "touzi":[["Ssdxbtouzi","id"],"每日重置,获得骰子"],
+      "gezi":["Ssdxbgezi","格子配置"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Ssdxbrwd",
+    "a":"通过圈数奖励配置",
+    "p": {
+      "id":[0,"档次id"],
+      "need":[0,"需要的圈数"],
+      "items":[["ItemInfo","id"],"道具列表"],
+      "isGet":[0,"是否已领取 0:不可领取 1:可领取 2:已领取"]
+    }
+  },
+  {
+    "n":"Ssdxbtouzi",
+    "a":"每日重置,获得骰子",
+    "p": {
+      "id":[0,"档次id"],
+      "max":[0,"满足条件"],
+      "items":["ItemInfo","道具列表"],
+      "msg":["","活动说明"],
+      "has":[0,"当前拥有"],
+      "isGet":[0,"是否已领取 0:不可领取 1:可领取 2:已领取"]
+    }
+  },
+  {
+    "n":"Ssdxblist",
+    "a":"格子配置",
+    "p": {
+      "id":[0,"档次id"],
+      "items":["ItemInfo","道具列表"],
+      "type":[0," 0:默认 1:下等礼包 2:中等礼包 3:上等礼包"],
+      "sid":[0,"技能id 0:无技能  1:黑洞 2:..."],
+      "isGet":[0,"0:未踩中1:踩中"]
+    }
+  },
+  {
+    "n":"Ssdxbgezi",
+    "a":"格子配置",
+    "p": {
+      "min":[0,"初始格子id"],
+      "max":[0,"结束格子id"],
+      "list":[["Ssdxblist","id"],"道具列表"]
+    }
+  },
+  {
+    "n":"Ssouji",
+    "a":"双旦-收集兑换",
+    "p": {
+      "cfg":["Ssdsjcfg","双旦-收集兑换活动配置"],
+      "cons":[0,"铃铛个数"]
+    }
+  },
+  {
+    "n":"Ssdsjcfg",
+    "a":"双旦-收集兑换",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Ssdsjrwd"],"奖励信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Ssdsjrwd",
+    "a":"双旦-收集兑换",
+    "p": {
+      "dc":[0,"档次"],
+      "need":[["ItemInfo"],"兑换需要的物品"],
+      "items":["ItemInfo","兑换获得的礼包"],
+      "limit":[0,"是否限购 0: 不限购 1:限购"],
+      "lnum":[0,"剩余限购次数"],
+      "maxnum":[0,"最大限购次数"],
+      "tip":[0,"礼包特效,0:不提示1:提示"]
+    }
+  },
+  {
+    "n":"Ssdzmd",
+    "a":"砸蛋-走马灯",
+    "p": {
+      "id":[0,"位置"],
+      "list":[["ZPzmdlist","id"],"获得档次列表"],
+      "name":["","获奖人名字"]
+    }
+  },
+  {
+    "n":"Szadan",
+    "a":"双旦-砸蛋活动",
+    "p": {
+      "cfg":["Ssdcfg","活动配置"],
+      "cons":[0,"单抽是否消费提示0:不提示 1:提示"]
+    }
+  },
+  {
+    "n":"Ssdcfg",
+    "a":"双旦-砸蛋活动",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":["Ssdhdrwd","奖励信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Ssdhdrwd",
+    "a":"奖励信息",
+    "p": {
+      "need":[0,"一次需要的元宝"],
+      "needTen":[0,"10次需要的元宝"],
+      "list":[["Szplist","id"],"档次列表"]
+    }
+  },
+  {
+    "n":"SC_zphuodong",
+    "a":"转盘双12",
+    "p": {
+      "zhuanpan":["Szhuanpan","转盘双12"],
+      "total":["Szhtotal","双12-剩余积分不删档"],
+      "zpzmd":[["Szpzmd","id"],"转盘-走马灯"],
+      "zplog":[["Szplog","id"],"转盘-获奖日志"],
+      "win":[["ZPWin"],"双12-弹窗特效"],
+      "xsRank":["xsRankWin","排行榜榜"]
+    }
+  },
+  {
+    "n":"Szplog",
+    "a":"转盘-获奖日志",
+    "p": {
+      "id":[0,"位置"],
+      "dc":[0,"档次id"],
+      "name":["","获奖人名字"],
+      "type":[0,"1:外圈2:内圈"],
+      "time":[0,"获奖时间"]
+    }
+  },
+  {
+    "n":"Szpzmd",
+    "a":"双12-弹窗特效",
+    "p": {
+      "id":[0,"位置"],
+      "list":[["ZPzmdlist","id"],"获得档次列表"],
+      "name":["","获奖人名字"],
+      "type":[0,"1:外圈2:内圈"]
+    }
+  },
+  {
+    "n":"ZPzmdlist",
+    "a":"获得档次列表",
+    "p": {
+      "id":[0,"档次id"],
+      "count":[0,"获得该档次的个数数量"]
+    }
+  },
+  {
+    "n":"ZPWin",
+    "a":"双12-弹窗特效",
+    "p": {
+      "id":[0,"档次id"]
+    }
+  },
+  {
+    "n":"Szhtotal",
+    "a":"双12-剩余积分不删档",
+    "p": {
+      "fenshu":[0,"剩余积分"]
+    }
+  },
+  {
+    "n":"Szhuanpan",
+    "a":"转盘双12",
+    "p": {
+      "cfg":["Szpcfg","活动配置"],
+      "cons":[0,"活动期间获得的积分"]
+    }
+  },
+  {
+    "n":"Szpcfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "wairwd":["Szphdrwd","外圈档次信息"],
+      "neirwd":["Szphdrwd","内圈档次信息"],
+      "shop":["ExchangeShop","兑换商店"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Szphdrwd",
+    "a":"档次信息",
+    "p": {
+      "need":[0,"一次需要的元宝"],
+      "needTen":[0,"10次需要的元宝"],
+      "jifen":[0,"转一次获得积分"],
+      "cishu":[0,"第几次必获得东西  0:表示 没有必获得的东西"],
+      "dc":[0,"必获得东西的档次id 跟list里面的序号对应"],
+      "list":[["Szplist","id"],"档次列表"],
+      "cd":["CdNum","次数冷却"],
+      "free":[0,"每天免费次数"]
+    }
+  },
+  {
+    "n":"Szplist",
+    "a":"档次列表",
+    "p": {
+      "dc":[0,"档次"],
+      "items" : ["ItemInfo","奖励道具"],
+      "tip":[0,"1:最贵的东西,提示"]
+    }
+  },
+
+
+  {
+    "n":"SC_xghuodong",
+    "a":"新官上任",
+    "p": {
+      "shop":[["Shopxg","id"],"新官上任-商城列表"],
+      "boss":["Xgboss","新官上任-boss血量"],
+      "exchange":["ExchangeShop","新官上任-兑换商城"],
+      "bag":[["ItemInfo"],"新官上任-仓库"],
+      "scoreRank":[["fUserInfo","id"],"新官上任-个人积分排行"],
+      "clublist":[["Scblist","id"],"新官上任-联盟积分列表"],
+      "cfg":["ScgInfoxg","新官上任-配置信息"],
+      "win":["XghuodongTx","新官上任-弹窗特效"],
+      "rwdLog":[["XgLog"],"新官上任-奖励日志"],
+      "myScore":["XgMyScore","新官上任-我的排名"],
+      "myclubRid":["XgMyclubRid","新官上任-我的联盟排名"],
+      "score":["XgScore","新官上任-积分"]
+    }
+  },
+  {
+    "n":"SC_Penalize",
+    "a":"惩戒来福",
+    "p": {
+      "shop":[["Shopxg","id"],"惩戒来福-商城列表"],
+      "boss":["Xgboss","惩戒来福-boss血量"],
+      "exchange":["ExchangeShop","惩戒来福-兑换商城"],
+      "bag":[["ItemInfo"],"惩戒来福-仓库"],
+      "scoreRank":[["fUserInfo","id"],"惩戒来福-个人积分排行"],
+      "clublist":[["Scblist","id"],"惩戒来福-联盟积分列表"],
+      "cfg":["ScgInfoxg","惩戒来福-配置信息"],
+      "win":["XghuodongTx","惩戒来福-弹窗特效"],
+      "rwdLog":[["XgLog"],"惩戒来福-奖励日志"],
+      "myScore":["XgMyScore","惩戒来福-我的排名"],
+      "myclubRid":["XgMyclubRid","惩戒来福-我的联盟排名"],
+      "score":["XgScore","惩戒来福-积分"]
+    }
+  },
+  {
+    "n":"XgScore",
+    "a":"新官上任-积分",
+    "p":{
+      "hdscore" : [0,"活动分数"],
+      "score" : [0,"活动积分"],
+      "kill_rwd" : [0,"是否领取击杀奖励"]
+    }
+  },
+  {
+    "n":"Xgboss",
+    "a":"新官上任-boss血量",
+    "p":{
+      "boss" : [0,"boss血量"]
+    }
+  },
+  {
+    "n":"XgMyclubRid",
+    "a":"新官上任-我的联盟排名",
+    "p":{
+      "rid" : [0,"联盟排名"],
+      "score" : [0,"联盟积分"],
+      "name" : ["","联盟名字"]
+    }
+  },
+  {
+    "n":"XgMyScore",
+    "a":"新官上任-我的排名",
+    "p":{
+      "myName" : ["","我的名称"],
+      "myScore" : [0,"我的积分"],
+      "myScorerank" : [0,"我的排名"]
+    }
+  },
+  {
+    "n":"XgLog",
+    "a":"新官上任-奖励日志",
+    "p":{
+      "name" : ["","用户名称"],
+      "uitem" : [0,"使用道具id"],
+      "item" : [0,"获得道具id"],
+      "num" : [0,"获得道具数量"]
+    }
+  },
+  {
+    "n":"XghuodongTx",
+    "a":"新官上任-弹窗特效",
+    "p":{
+      "damage" : ["XgBossdamage","boss伤害"],
+      "reward" : ["XgReward","奖励弹窗"]
+    }
+  },
+  {
+    "n":"XgBossdamage",
+    "a":"boss伤害",
+    "p":{
+      "score" : [0,"伤害"]
+    }
+  },
+  {
+    "n":"XgReward",
+    "a":"奖励弹窗",
+    "p":{
+      "score" : [0,"积分"],
+      "hdscore" : [0,"活动积分"],
+      "items" : [["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"ScgInfoxg",
+    "a":"新官上任-配置信息",
+    "p":{
+      "info" : ["Shdinfo","活动基础信息"],
+      "boss" : [0,"boss总血量"],
+      "story" : ["","故事"],
+      "rwd" : ["rwdType","奖励类别"],
+      "play_time" : ["CanPlay","可以打的时间段"]
+    }
+  },
+  {
+    "n":"CanPlay",
+    "a":"新官上任-可以打的时间段",
+    "p":{
+      "startTime" : [9,"每天开始时间-小时"],
+      "endTime" : [22,"每天结束时间-小时"]
+    }
+  },
+  {
+    "n":"rwdType",
+    "a":"奖励类别",
+    "p":{
+      "my" : [["Scbhdrwd","id"],"活动档次信息"],
+      "club" : [["Scbclubhdrwd","id"],"活动档次信息"]
+    }
+  },
+  {
+    "n":"Shopxg",
+    "a":"新官上任-商城列表",
+    "p":{
+      "id" : [0,"商品id"],
+      "need" : ["ItemInfo","购买道具所需物品,0表示不能购买"],
+      "limit" : [0,"当前商品限购"],
+      "is_limit" : [0,"是否限购"],
+      "items":["ItemInfo","奖励道具"]
+    }
+  },
+  {
+    "n":"ExchangeShop",
+    "a":"新官上任-兑换商城",
+    "p":{
+      "list":[["ExchangeList","id"],"新官上任-兑换列表"]
+    }
+  },
+  {
+    "n":"ExchangeList",
+    "a":"新官上任-兑换列表",
+    "p":{
+      "id" : [0,"商品id"],
+      "need" : [0,"购买道具所需积分"],
+      "limit" : [0,"当前商品限购"],
+      "is_limit" : [0,"是否限购"],
+      "items":["ItemInfo","奖励道具"]
+    }
+  },
+  {
+    "n":"SC_njhuodong",
+    "a":"巾帼女将",
+    "p": {
+      "nvjiang":["Snvjiang","女将"]
+    }
+  },
+  {
+    "n":"Snvjiang",
+    "a":"女将",
+    "p": {
+      "cfg":["Sjgcfg","活动配置"]
+    }
+  },
+  {
+    "n":"SC_jghuodong",
+    "a":"巾帼五虎",
+    "p": {
+      "jinguo":["Sjinguo","四大奸臣"]
+    }
+  },
+  {
+    "n":"Sjinguo",
+    "a":"巾帼五虎",
+    "p": {
+      "cfg":["Sjgcfg","活动配置"]
+    }
+  },
+  {
+    "n":"Sjgcfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Sjghdrwd","id"],"活动档次信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Sjghdrwd",
+    "a":"活动档次信息",
+    "p": {
+      "id":[0,"门客id"],
+      "need":[0,"需要多少的奸臣令"]
+    }
+  },
+  {
+    "n":"SC_czhuodong",
+    "a":"充值活动",
+    "p": {
+      "day":["Sxshuodong","充值活动-每日充值"],
+      "total":["Sxshuodong","充值活动-累计充值"],
+      "leitian":["Sxshuodong","充值活动-累天充值"]
+
+    }
+  },
+  {
+    "n":"SC_cbhuodong",
+    "a":"冲榜活动",
+    "p": {
+      "club":["Scbhuodongclub","联盟冲榜活动配置"],
+      "clublist":[["Scblist","id"],"联盟冲榜列表"],
+      "myclubRid":["Scbrid","联盟冲榜我的排名"],
+      "guanqia":["Scbhuodong","关卡冲榜活动配置"],
+      "guanqialist":[["Scblist","id"],"关卡冲榜列表"],
+      "myguanqiaRid":["Scbrid","关卡冲榜我的排名"],
+      "shili":["Scbhuodong","势力冲榜活动配置"],
+      "shililist":[["Scblist","id"],"势力冲榜列表"],
+      "myshiliRid":["Scbrid","势力冲榜我的排名"],
+      "love":["Scbhuodong","亲密冲榜活动配置"],
+      "lovelist":[["Scblist","id"],"亲密冲榜列表"],
+      "myloveRid":["Scbrid","亲密冲榜我的排名"],
+      "yamen":["Scbhuodong","衙门冲榜活动配置"],
+      "yamenlist":[["Scblist","id"],"衙门冲榜列表"],
+      "myyamenRid":["Scbrid","衙门冲榜我的排名"],
+      "yinliang":["Scbhuodong","银两冲榜活动配置"],
+      "yinlianglist":[["Scblist","id"],"银两冲榜列表"],
+      "myYinLiangRid":["Scbrid","银两冲榜我的排名"],
+      "jiulou":["Scbhuodong","酒楼冲榜活动配置"],
+      "jiuloulist":[["Scblist","id"],"酒楼冲榜列表"],
+      "myJiuLouRid":["Scbrid","酒楼冲榜我的排名"],
+      "shibing":["Scbhuodong","士兵冲榜活动配置"],
+      "shibinglist":[["Scblist","id"],"士兵冲榜列表"],
+      "myShiBingRid":["Scbrid","士兵冲榜我的排名"],
+      "meili":["Scbhuodong","魅力冲榜活动配置"],
+      "meililist":[["Scblist","id"],"魅力冲榜列表"],
+      "myMeiLiRid":["Scbrid","魅力冲榜我的排名"]
+    }
+  },
+  {
+    "n":"Scbhuodong",
+    "a":"冲榜活动配置",
+    "p": {
+      "cfg":["Scbcfg","活动配置"]
+    }
+  },
+  {
+    "n":"Scbcfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Scbhdrwd","id"],"活动档次信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Scbhdrwd",
+    "a":"活动配置",
+    "p": {
+      "rand":["srand","排名范围"],
+      "member":[["ItemInfo"],"奖励道具列表"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Scbhuodongclub",
+    "a":"冲榜活动配置",
+    "p": {
+      "cfg":["Scbclubcfg","活动配置"]
+    }
+  },
+  {
+    "n":"Scbclubcfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Scbclubhdrwd","id"],"活动档次信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Scbclubhdrwd",
+    "a":"活动配置",
+    "p": {
+      "rand":["srand","排名范围"],
+      "mengzhu":[["ItemInfo"],"奖励道具列表"],
+      "member":[["ItemInfo"],"奖励道具列表"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"srand",
+    "a":"范围",
+    "p": {
+      "rs":[0,"开始排名范围"],
+      "re":[0,"结束排名范围"]
+    }
+  },
+  {
+    "n":"Scblist",
+    "a":"冲榜列表",
+    "p": {
+      "rid":[0,"排名"],
+      "name":["","名字"],
+      "score":[0,"分数"]
+    }
+  },
+  {
+    "n":"Scbrid",
+    "a":"冲榜我的排名",
+    "p": {
+      "rid":[0,"排名"],
+      "name":["","名字"],
+      "score":[0,"分数"]
+    }
+  },
+  {
+    "n":"SC_xshuodong",
+    "a":"限时活动",
+    "p": {
+      "cash":["Sxshuodong","限时元宝消耗活动"],
+      "amy":["Sxshuodong","限时士兵消耗活动"],
+      "coin":["Sxshuodong","限时银两消耗活动"],
+      "juanzhou":["Sxshuodong","限时强化卷轴消耗活动"],
+      "qinmi":["Sxshuodong","亲密度涨幅"],
+      "shili":["Sxshuodong","势力涨幅"],
+      "zhengwu":["Sxshuodong","处理政务次数"],
+      "login":["Sxshuodong","累计登录天数"],
+      "yamen":["Sxshuodong","衙门分数涨幅"],
+      "lianyin":["Sxshuodong","联姻次数"],
+      "school":["Sxshuodong","书院学习"],
+      "jingshang":["Sxshuodong","经营商产次数"],
+      "nongchan":["Sxshuodong","经营农产次数"],
+      "zhaomu":["Sxshuodong","招募士兵次数"],
+      "jishag2d":["Sxshuodong","击杀葛尔丹次数"],
+      "cjfanren":["Sxshuodong","惩戒犯人次数"],
+      "tiaozhanshu":["Sxshuodong","挑战书消耗"],
+      "zhenzai":["Sxshuodong","赈灾次数"],
+      "tilidan":["Sxshuodong","体力丹消耗"],
+      "huolidan":["Sxshuodong","活力丹消耗"],
+      "meilizhi":["Sxshuodong","魅力值涨幅"],
+      "fuyanhui":["Sxshuodong","赴宴次数"],
+      "clubbosshit":["Sxshuodong","联盟副本伤害"],
+      "clubbossjs":["Sxshuodong","联盟副本击杀（累计击杀僵尸）"],
+      "jiulouzf":["Sxshuodong","酒楼积分涨幅"],
+      "xsRank":["xsRankWin","限时排行榜榜"]
+    }
+  },
+  {
+    "n":"xsRankWin",
+    "a":"限时活动信息",
+    "p": {
+      "type":[0,"榜单类型"],
+      "xsRank":[["Scblist","id"],"排行榜"],
+      "myName":["","我的名字"],
+      "myRid":[0,"我排名"],
+      "myNum":[0,"我榜单值"]
+    }
+  },
+  {
+    "n":"Sxshuodong",
+    "a":"限时活动信息",
+    "p": {
+      "cfg":["Scfg","活动配置"],
+      "cons":[0,"消耗的资源数量"],
+      "rwd":[0,"0:未领取过档次 大于0:领取到的最大档次"]
+    }
+  },
+  {
+    "n":"Scfg",
+    "a":"活动配置",
+    "p": {
+      "info":["Shdinfo","活动基础信息"],
+      "rwd":[["Shdrwd","id"],"活动档次信息"],
+      "msg":["","活动说明"]
+    }
+  },
+  {
+    "n":"Shdinfo",
+    "a":"活动基础信息",
+    "p": {
+      "id":[0,"标识对应的哪个活动id"],
+      "title":["","活动标题"],
+      "pindex":[0,"图片id"],
+      "sTime":[0,"活动开始时间戳"],
+      "eTime":[0,"活动结束时间戳"],
+      "showTime":[0,"展示结束时间戳"],
+      "type":[1,"1:普通活动 2:限时活动 3:冲榜活动 4:充值活动 5:奸臣 6:巾帼"],
+      "news":[0,"标识是否可领取 1:可以领取 0:不可"]
+    }
+  },
+  {
+    "n":"Shdrwd",
+    "a":"活动档次信息",
+    "p": {
+      "id":[0,"档次id"],
+      "need":[0,"领取该档次需要的资源"],
+      "items":[["ItemInfo"],"道具列表"],
+      "jiazhi":[0,"档次价值"]
+    }
+  },
+
+
+  {
+    "n":"CS_Task",
+    "a":"充值",
+    "p": {
+      "taskdo":["Cdo","做主线任务"]
+    }
+  },
+  {
+    "n":"CS_huodong",
+    "a":"活动",
+    "p": {
+      "hdList":["ChdList","生效活动列表"],
+      "hd201Info":["CxshdInfo","元宝消耗信息"],
+      "hd201Rwd":["CxshdRwd","元宝消耗领取奖励"],
+      "hd202Info":["CxshdInfo","士兵消耗信息"],
+      "hd202Rwd":["CxshdRwd","士兵消耗领取奖励"],
+      "hd203Info":["CxshdInfo","银两消耗信息"],
+      "hd203Rwd":["CxshdRwd","银两消耗领取奖励"],
+      "hd204Info":["CxshdInfo","强化卷轴消耗信息"],
+      "hd204Rwd":["CxshdRwd","强化卷轴消耗领取奖励"],
+      "hd205Info":["CxshdInfo","亲密度涨幅信息"],
+      "hd205Rwd":["CxshdRwd","亲密度涨幅领取奖励"],
+      "hd206Info":["CxshdInfo","势力涨幅信息"],
+      "hd206Rwd":["CxshdRwd","势力涨幅领取奖励"],
+      "hd207Info":["CxshdInfo","处理政务次数信息"],
+      "hd207Rwd":["CxshdRwd","处理政务次数领取奖励"],
+      "hd208Info":["CxshdInfo","累计登录天数信息"],
+      "hd208Rwd":["CxshdRwd","累计登录天数领取奖励"],
+      "hd209Info":["CxshdInfo","衙门分数涨幅信息"],
+      "hd209Rwd":["CxshdRwd","衙门分数涨幅领取奖励"],
+      "hd210Info":["CxshdInfo","联姻次数信息"],
+      "hd210Rwd":["CxshdRwd","联姻次数领取奖励"],
+      "hd211Info":["CxshdInfo","书院学习信息"],
+      "hd211Rwd":["CxshdRwd","书院学习领取奖励"],
+      "hd212Info":["CxshdInfo","经营商产次数信息"],
+      "hd212Rwd":["CxshdRwd","经营商产次数领取奖励"],
+      "hd213Info":["CxshdInfo","经营农产次数信息"],
+      "hd213Rwd":["CxshdRwd","经营农产次数领取奖励"],
+      "hd214Info":["CxshdInfo","招募士兵次数信息"],
+      "hd214Rwd":["CxshdRwd","招募士兵次数领取奖励"],
+      "hd215Info":["CxshdInfo","击杀葛尔丹次数信息"],
+      "hd215Rwd":["CxshdRwd","击杀葛尔丹次数领取奖励"],
+      "hd216Info":["CxshdInfo","挑战书消耗信息"],
+      "hd216Rwd":["CxshdRwd","挑战书消耗领取奖励"],
+      "hd217Info":["CxshdInfo","惩戒犯人次数信息"],
+      "hd217Rwd":["CxshdRwd","惩戒犯人次数领取奖励"],
+      "hd218Info":["CxshdInfo","赈灾次数信息"],
+      "hd218Rwd":["CxshdRwd","赈灾次数领取奖励"],
+      "hd219Info":["CxshdInfo","体力丹消耗信息"],
+      "hd219Rwd":["CxshdRwd","体力丹消耗领取奖励"],
+      "hd220Info":["CxshdInfo","活力丹消耗信息"],
+      "hd220Rwd":["CxshdRwd","活力丹消耗领取奖励"],
+      "hd221Info":["CxshdInfo","魅力值涨幅信息"],
+      "hd221Rwd":["CxshdRwd","魅力值涨幅领取奖励"],
+      "hd222Info":["CxshdInfo","赴宴次数信息"],
+      "hd222Rwd":["CxshdRwd","赴宴次数领取奖励"],
+      "hd223Info":["CxshdInfo","联盟副本伤害信息"],
+      "hd223Rwd":["CxshdRwd","联盟副本伤害领取奖励"],
+      "hd224Info":["CxshdInfo","联盟副本击杀（累计击杀僵尸）信息"],
+      "hd224Rwd":["CxshdRwd","联盟副本击杀（累计击杀僵尸）领取奖励"],
+      "hd225Info":["CxshdInfo","酒楼积分涨幅信息"],
+      "hd225Rwd":["CxshdRwd","酒楼积分涨幅领取奖励"],
+
+      "hd250Info":["CxshdInfo","联盟冲榜"],
+      "hd251Info":["CxshdInfo","关卡冲榜"],
+      "hd252Info":["CxshdInfo","势力冲榜"],
+      "hd253Info":["CxshdInfo","亲密冲榜"],
+      "hd254Info":["CxshdInfo","衙门冲榜"],
+      "hd255Info":["CxshdInfo","银两冲榜"],
+      "hd256Info":["CxshdInfo","酒楼冲榜"],
+      "hd257Info":["CxshdInfo","士兵冲榜"],
+      "hd258Info":["CxshdInfo","魅力冲榜"],
+
+      "hd260Info":["CxshdInfo","充值活动-每日充值"],
+      "hd260Rwd":["CxshdRwd","充值活动-每日充值领取奖励"],
+      "hd261Info":["CxshdInfo","充值活动-累计充值"],
+      "hd261Rwd":["CxshdRwd","充值活动-累计充值领取奖励"],
+      "hd262Info":["CxshdInfo","充值活动-累天充值"],
+      "hd262Rwd":["CxshdRwd","充值活动-累天充值领取奖励"],
+
+      "hd270Info":["CxshdInfo","四大奸臣"],
+      "hd270Rwd":["CjchdRwd","四大奸臣领取奖励"],
+      "hd271Info":["CxshdInfo","巾帼五虎"],
+      "hd271Rwd":["CjghdRwd","巾帼五虎领取奖励"],
+      "hd272Info":["CxshdInfo","巾帼女将"],
+      "hd272Rwd":["CjghdRwd","巾帼女将领取奖励"],
+
+
+      "hd280Info":["CxshdInfo","新官上任"],
+      "hd280buy":["CxghdBuy","新官上任-商城购买"],
+      "hd280exchange":["CxghdExchange","新官上任-积分兑换"],
+      "hd280play":["CxghdPlay","新官上任-打"],
+      "hd280paihang":["","新官上任-排行和奖励"],
+      "hd280Rwd":["","新官上任-领取奖励"],
+
+      "hd281Info":["CxshdInfo","重阳节活动"],
+      "hd281buy":["CxghdBuy","重阳节活动-商城购买"],
+      "hd281exchange":["CxghdExchange","重阳节活动-积分兑换"],
+      "hd281play":["CxghdPlay","重阳节活动-打"],
+      "hd281paihang":["","重阳节活动-排行和奖励"],
+      "hd281Rwd":["","重阳节活动-领取奖励"],
+      "hd281getRwd":["DnGetRecharge","重阳节活动-领取每日充值档次"],
+
+      "hd282Info":["CxshdInfo","惩戒来福"],
+      "hd282buy":["CxghdBuy","惩戒来福-商城购买"],
+      "hd282exchange":["CxghdExchange","惩戒来福-积分兑换"],
+      "hd282play":["CxghdPlay","惩戒来福-打"],
+      "hd282paihang":["","惩戒来福-排行和奖励"],
+      "hd282Rwd":["","惩戒来福-领取奖励"],
+
+      "hd283Info":["CxshdInfo","国庆狂欢活动"],
+      "hd283buy":["CxghdBuy","国庆狂欢活动-商城购买"],
+      "hd283exchange":["CxghdExchange","国庆狂欢活动-积分兑换"],
+      "hd283play":["CxghdPlay","国庆狂欢活动-打"],
+      "hd283paihang":["","国庆狂欢活动-排行和奖励"],
+      "hd283Rwd":["","国庆狂欢活动-领取奖励"],
+
+      "hd284Info":["CxshdInfo","感恩节活动"],
+      "hd284buy":["CxghdBuy","感恩节活动-商城购买"],
+      "hd284exchange":["CxghdExchange","感恩节活动-积分兑换"],
+      "hd284play":["CxghdPlay","感恩节活动-打"],
+      "hd284paihang":["","感恩节活动-排行和奖励"],
+      "hd284Rwd":["","感恩节活动-领取奖励"],
+      "hd284getRwd":["DnGetRecharge","感恩节活动-领取每日充值档次"],
+
+      "hd285Info":["CxshdInfo","双十一活动"],
+      "hd285buy":["CxghdBuy","双十一活动-商城单品购买"],
+      "hd285buyGift":["CxghdBuy","双十一活动-商城礼包购买"],
+      "hd285getRwd":["DnGetRecharge","双十一活动-领取每日充值档次"],
+
+      "hd290Info":["CxshdInfo","双12转盘 -- 基本信息"],
+      "hd290Yao":["Cxzpyao","双12转盘  -- 摇奖"],
+      "hd290log":["Cxzplog","双12转盘  -- 日志"],
+      "hd290exchange":["Cxzpdui","双12转盘  -- 兑换"],
+
+      "hd291Info":["CxshdInfo","双旦 -- (二个活动)基本信息"],
+      "hd291Zadan":["Cxsdzd","双旦-- 砸蛋"],
+      "hd291Set":["CxsdSet","双旦 -- 单抽消费提示"],
+
+      "hd292exchange":["Cxzpdui","双旦-搜集 兑换"],
+
+      "hd293Info":["CxshdInfo","寻宝大冒险基本信息"],
+      "hd293Rwd":["Cxzpdui","寻宝大冒险 - 领取圈数奖励"],
+      "hd293Task":["Cxzpdui","寻宝大冒险 - 领取每日重置任务"],
+      "hd293Run":["ChdList","寻宝大冒险 - 要骰子转圈圈"],
+
+      "hd294Info":["CxzcInfo","招财进宝基本信息"],
+      "hd294Zao":["CxzcZao","招财进宝  -- 摇奖"],
+      "hd294log":["Cxzclog","招财进宝  -- 日志"],
+      "hd294Get":["CxzcGet","招财进宝  -- 领取"],
+      "hd294Set":["CxzcSet","招财进宝  --单抽消费提示"],
+      "hd294paihang":["","招财进宝-排行和奖励"],
+
+      "hdGetXSRank":["XShdGetRank","获取限时排行榜"]
+    }
+  },
+  {
+    "n":"CxzcInfo",
+    "a":"招财参数",
+    "p": {
+      "id":["Null","id"]
+    }
+  },
+  {
+    "n":"CxzcZao",
+    "a":"招财参数",
+    "p": {
+      "num":[0,"次数 1 次 或者 10次"]
+    }
+  },
+  {
+    "n":"Cxzclog",
+    "a":"招财参数",
+    "p": {
+      "id":[0,"位置标识"]
+    }
+  },
+  {
+    "n":"CxzcGet",
+    "a":"招财参数",
+    "p": {
+      "id":[0,"档次dc"]
+    }
+  },
+  {
+    "n":"CxzcSet",
+    "a":"招财参数",
+    "p": {
+      "type":[0,"单抽是否消费提示0:不提示 1:提示"]
+    }
+  },
+
+  {
+    "n":"CxsdSet",
+    "a":"双旦 -- 单抽消费提示",
+    "p": {
+      "type":[0,"单抽是否消费提示0:不提示 1:提示"]
+    }
+  },
+  {
+    "n":"Cxzpdui",
+    "a":"双12转盘  -- 日志",
+    "p": {
+      "id":[0,"档次id"]
+    }
+  },
+  {
+    "n":"Cxzplog",
+    "a":"双12转盘  -- 日志",
+    "p": {
+      "id":[0,"位置标识"]
+    }
+  },
+  {
+    "n":"Cxzpyao",
+    "a":"双12转盘  -- 摇奖",
+    "p": {
+      "type":[0,"1:外圈  2:内圈"],
+      "num":[0,"次数 1 次 或者 10次"]
+    }
+  },
+  {
+    "n":"Cxsdzd",
+    "a":"双旦-砸蛋",
+    "p": {
+      "num":[0,"次数 1 次 或者 10次"]
+    }
+  },
+  {
+    "n":"DeGetRecharge",
+    "a":"双十一活动-领取每日充值档次",
+    "p": {
+      "id":[0,"档次id"]
+    }
+  },
+  {
+    "n":"DnGetRecharge",
+    "a":"重阳节活动-领取每日充值档次",
+    "p": {
+      "id":[0,"档次id"]
+    }
+  },
+  {
+    "n":"XShdGetRank",
+    "a":"获取限时排行榜",
+    "p": {
+      "type":[0,"活动类型编号"]
+    }
+  },
+  {
+    "n":"CjchdRwd",
+    "a":"四大奸臣领取奖励",
+    "p": {
+      "id":[0,"门客id"]
+    }
+  },
+  {
+    "n":"CjghdRwd",
+    "a":"巾帼五虎领取奖励",
+    "p": {
+      "id":[0,"门客id"]
+    }
+  },
+  {
+    "n":"ChdList",
+    "a":"生效列表",
+    "p": {
+      "id":["Null","id"]
+    }
+  },
+  {
+    "n":"CxshdRwd",
+    "a":"活动领取奖励",
+    "p": {
+      "id":["Null","id"]
+    }
+  },
+  {
+    "n":"CxshdInfo",
+    "a":"活动信息",
+    "p": {
+      "id":["Null","玩家id"]
+    }
+  },
+  {
+    "n":"CxghdBuy",
+    "a":"新官上任-商城购买",
+    "p": {
+      "id":[0,"商品id"]
+    }
+  },
+  {
+    "n":"CxghdExchange",
+    "a":"新官上任-积分兑换",
+    "p": {
+      "id":[0,"商品id"]
+    }
+  },
+  {
+    "n":"CxghdPlay",
+    "a":"新官上任-打",
+    "p": {
+      "id":[0,"道具id"]
+    }
+  },
+  {
+    "n":"CS_Order",
+    "a":"任务",
+    "p": {
+      "getOrderId":["CgetOrderId","获取订单id"],
+      "orderBack":["CorderBack","充值客户端回调请求=>用于同步信息"],
+      "AppFailCallback":["CAppFailCallback","因为苹果支付成功回调前不与服务端通信，故出现错误很难查询，"]
+    }
+  },
+  {
+    "n":"CAppFailCallback",
+    "a":"苹果支付成功回调前不与服务端通信",
+    "p": {
+      "type":[0,"类型"],
+      "cs1":["","参数1"],
+      "cs2":["","参数2"],
+      "cs3":["","参数3"],
+      "cs4":["","参数4"],
+      "cs5":["","参数5"],
+      "cs6":["","参数6"],
+      "cs7":["","参数7"],
+      "cs8":["","参数8"]
+    }
+  },
+  {
+    "n":"CorderBack",
+    "a":"用于同步信息",
+    "p": {
+      "id":["Null","玩家id"]
+    }
+  },
+  {
+    "n":"CgetOrderId",
+    "a":"获取订单id",
+    "p": {
+      "id":["Null","玩家id"],
+      "platform":["Null","平台标识"]
+    }
+  },
+  {
+    "n":"Cdo",
+    "a":"做主线任务",
+    "p": {
+      "id":[0,"主线任务id"]
+    }
+  },
+
+  {
+    "n":"SC_Order",
+    "a":"充值",
+    "p": {
+      "back":["Sback","回调"],
+      "rorder":["Srorder","下单返回信息"],
+      "rshop":[["Srshop","id"],"充值-充值档次"],
+      "vipexp":[["Svipexp","id"],"vip经验"]
+    }
+  },
+  {
+    "n":"Sback",
+    "a":"回调",
+    "p": {
+      "cs":[2,"1:成功,2失败"]
+    }
+  },
+  {
+    "n":"Svipexp",
+    "a":"vip经验",
+    "p": {
+      "level":[0,"vip等级"],
+      "recharge":[0,"累积充值钻石"]
+    }
+  },
+  {
+    "n":"Srshop",
+    "a":"充值档次",
+    "p": {
+      "dc":[0,"档次"],
+      "rmb":[0,"人民币"],
+      "diamond":[0,"钻石"],
+      "type":[1,"1:普通 2:月卡 3:年卡"],
+      "beishu":[1,"倍数"]
+    }
+  },
+  {
+    "n":"Srorder",
+    "a":"下单返回信息",
+    "p": {
+      "id":[0,"订单id(整个游戏订单id唯一)"],
+      "servid":[0,"服务器id"],
+      "payflag":["","切支付标识"]
+    }
+  },
+  {
+    "n":"SC_Task",
+    "a":"任务",
+    "p": {
+      "tmain":["Stmain","当前主线任务"]
+    }
+  },
+  {
+    "n":"Stmain",
+    "a":"当前主线任务",
+    "p": {
+      "id":[1,"主线任务id"],
+      "num":[0,"当前数值"],
+      "max":[0,"目标数值"]
+    }
+  },
+  {
+    "n":"SC_JiuLou",
+    "a":"酒楼",
+    "p": {
+      "yhInfo":["SyhInfo","个人宴会信息"],
+      "yhType":["SyhType","我的宴会状态"],
+      "yhshow":[["SjyInfo","id"],"家宴+官宴列表"],
+      "yhBaseInfo":["SyhBaseInfo","玩家id查询--宴会信息"],
+      "jlShop":["SjlShop","酒楼-兑换商店列表"],
+      "yhOld":[["SyhOld","id"],"酒楼-消息-我的历史宴会"],
+      "yhbad":[["Syhbad","id"],"酒楼-消息-仇人信息"],
+      "jlShopfresh":["SjlShopfresh","酒楼-兑换商店元宝刷新"],
+      "jlfy":["Sjlfy","宴会--赴会次数"],
+      "yhList":[["fUserInfo","id"],"宴会排行榜"],
+      "lbList":[["fUserInfo","id"],"酒楼-消息-来宾统计"],
+      "myYhRid":["SmyYhRid","宴会-我的排行信息"],
+      "win":["JiuLouWin","弹窗"]
+    }
+  },
+  {
+    "n":"Syhbad",
+    "a":"酒楼-消息-仇人信息",
+    "p": {
+      "id":[0,"玩家id"],
+      "name":["","玩家名字"],
+      "level":[0,"官品"],
+      "shili":[0,"势力"],
+      "ctime":[0,"做坏事时间"]
+    }
+  },
+  {
+    "n":"SjyInfo",
+    "a":"家宴列表",
+    "p": {
+      "uid":[0,"玩家id"],
+      "type":[0,"1:家宴 2:官宴(/家宴公开)"],
+      "name":["","玩家名字"]
+    }
+  },
+  {
+    "n":"SyhInfo",
+    "a":"个人宴会信息",
+    "p": {
+      "id":[0,"1:家宴  2:官宴"],
+      "name":["","玩家名字"],
+      "job":[1,"头像编号"],
+      "sex":[1,"性别1男2女"],
+      "level":[0,"官阶"],
+      "uid":[0,"来贺礼的玩家id"],
+      "num":[0,"已参加宴会人数"],
+      "maxnum":[0,"参加宴会最大人数"],
+      "score":[0,"当前宴会分数"],
+      "ltime":["CdLabel","倒计时"],
+      "list":[["xwInfo","id"],"席位列表"]
+    }
+  },
+  {
+    "n":"SyhType",
+    "a":"我的宴会状态",
+    "p": {
+      "type":[0,"0:无宴会,1:家宴,2:官宴"]
+    }
+  },
+  {
+    "n":"SmyYhRid",
+    "a":"宴会-我的排行信息",
+    "p": {
+      "rid":[0,"我的排名"],
+      "score":[0,"宴会分数"]
+    }
+  },
+  {
+    "n":"JiuLouWin",
+    "a":"酒楼弹窗",
+    "p": {
+      "yhnew":["JiuLouWinYhNew","新客人弹窗"]
+    }
+  },
+  {
+    "n":"JiuLouWinYhNew",
+    "a":"酒楼新客人弹窗",
+    "p": {
+      "maxnum":[0,"宴会总人数"],
+      "bad":[0,"捣蛋人数"],
+      "isover":[0,"宴会是不是结束了 1:结束了 0:未结束"],
+      "allscore":[0,"宴会获得总积分"],
+      "list":[["yhnewlist","id"],"新客人列表"],
+      "oldtype":[0,"结束宴会的id 1:家宴 2:官宴"]
+    }
+  },
+  {
+    "n":"yhnewlist",
+    "a":"新客人列表",
+    "p": {
+      "id":[0,"玩家id"],
+      "name":["","玩家名字"],
+      "score":[0,"宴会积分"]
+    }
+  },
+  {
+    "n":"Sjlfy",
+    "a":"宴会--赴会次数",
+    "p": {
+      "fynum":[0,"当前剩余赴宴次数"],
+      "fymax":[0,"赴宴次数最大值"]
+    }
+  },
+  {
+    "n":"SjlShopfresh",
+    "a":"酒楼-兑换商店元宝刷新",
+    "p": {
+      "fnum":[0,"刷新商品剩余次数"],
+      "fmax":[0,"刷新商品最大次数"],
+      "fcost":[0,"刷新商品花费元宝"]
+    }
+  },
+  {
+    "n":"SyhOld",
+    "a":"酒楼-消息-我的历史宴会",
+    "p": {
+      "id":[0,"1:家宴  2:官宴"],
+      "score":[0,"宴会获得 的分数"],
+      "bad":[0,"捣乱人数"],
+      "ctime":[0,"宴会创建时间"],
+      "num":[0,"赴会人数"]
+    }
+  },
+  {
+    "n":"SjlShop",
+    "a":"酒楼-兑换商店列表",
+    "p": {
+      "score":[0,"当前积分"],
+      "ltime":["CdLabel","刷新倒计时"],
+      "list":[["jlshopList","id"],"商品列表"]
+    }
+  },
+  {
+    "n":"jlshopList",
+    "a":"商品列表",
+    "p": {
+      "id":[0,"商品标识"],
+      "item":["ItemInfo","兑换道具"],
+      "cost":[0,"兑换需要花费多少积分"],
+      "buy":[0,"是否已兑换"],
+      "discount":[10,"打折 10:不打折 "]
+    }
+  },
+  {
+    "n":"SyhBaseInfo",
+    "a":"家宴",
+    "p": {
+      "yhname":["","宴会名字:家宴/官宴"],
+      "fname":["","当前宴会名字"],
+      "xiwei":[0,"席位个数"],
+      "maxXiWei":[0,"最大席位个数"],
+      "ltime":["CdLabel","刷新倒计时"]
+    }
+  },
+  {
+    "n":"xwInfo",
+    "a":"家宴",
+    "p": {
+      "id":[0,"席位id"],
+      "uid":[0,"来贺礼的玩家id"],
+      "name":["","名字"],
+      "sex":[0,"性别1男2女"],
+      "job":[0,"头像编号"],
+      "type":[0,"1:100礼金  2:500 礼金   3:礼盒  4:老鼠 "]
+    }
+  },
+
+  {
+    "n":"CS_JiuLou",
+    "a":"酒楼",
+    "p": {
+      "jlInfo":["CJlInfo","酒楼信息"],
+      "yhFind":["CYhFind","编号赴会-查询"],
+      "yhGo":["CYhGo","编号赴会-前往"],
+      "yhChi":["CYhChi","吃宴会"],
+      "shopChange":["CShopChange","商店积分兑换-兑换"],
+      "shopRefresh":["CShopRefresh","商店-刷新"],
+      "yhHold":["CYhHold","举办宴会"],
+      "jlRanking":["CJlRanking","酒楼-排行榜"]
+    }
+  },
+  {
+    "n":"CS_QianDao",
+    "a":"签到",
+    "p": {
+      "rwd":["Null","签到领奖"]
+    }
+  },
+  {
+    "n":"CS_FuLi",
+    "a":"福利",
+    "p": {
+      "qiandao":["Null","签到领奖"],
+      "fcho":["Null","首充领奖"],
+      "vip":["FuLiVipId","VIP领奖"],
+      "mooncard":["FuLiCardId","月卡/年卡"]
+    }
+  },
+  {
+    "n":"FuLiVipId",
+    "a":"福利VIP领奖ID",
+    "p": {
+      "id":[0,"vip等级"]
+    }
+  },
+  {
+    "n":"FuLiCardId",
+    "a":"月卡种类ID",
+    "p": {
+      "id":[0,"月卡种类ID 1:月卡 2:年卡"]
+    }
+  },
+  {
+    "n":"CJlRanking",
+    "a":"酒楼-排行榜",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CXxGuest",
+    "a":"消息信息-来宾统计",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CXxbad",
+    "a":"消息信息-仇人",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CXxInfo",
+    "a":"消息信息-我的宴会",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CYhHold",
+    "a":"举办宴会",
+    "p": {
+      "type":[0,"1:家宴  2:官宴"],
+      "isOpen":[0,"是否公开宴会1:公开 0:不公开(默认,只对家宴有效)"]
+    }
+  },
+  {
+    "n":"CShopRefresh",
+    "a":"商店-刷新",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CShopChange",
+    "a":"商店积分兑换-兑换",
+    "p": {
+      "id":[0,"物品标识id"]
+    }
+  },
+  {
+    "n":"CShopInfo",
+    "a":"商店信息",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CYhChi",
+    "a":"吃宴会",
+    "p": {
+      "fuid":[0,"谁开的宴会"],
+      "xwid":[0,"席位id"],
+      "type":[0,"1:100礼金  2:500 礼金   3:礼盒  4:老鼠"]
+    }
+  },
+  {
+    "n":"CYhGo",
+    "a":"编号赴会-前往",
+    "p": {
+      "fuid":[0,"玩家id"]
+    }
+  },
+  {
+    "n":"CYhFind",
+    "a":"编号赴会-查询",
+    "p": {
+      "fuid":[0,"玩家id"]
+    }
+  },
+  {
+    "n":"CJlInfo",
+    "a":"酒楼信息",
+    "p": {
+      "id":["Null","宴会id"]
+    }
+  },
+  {
+    "n":"CS_ChengJiu",
+    "a":"成就",
+    "p": {
+      "rwd":["ChengJiuRwd","领取成就奖励"]
+    }
+  },
+  {
+    "n":"ChengJiuRwd",
+    "a":"成就ID",
+    "p": {
+      "id":[0,"成就ID"]
+    }
+  },
+  {
+    "n":"GmType",
+    "a":"获得邮件",
+    "p": {
+      "mid":["Null","邮件id"]
+    }
+  },
+  {
+    "n":"RmType",
+    "a":"读取/领取邮件",
+    "p": {
+      "mid":[0,"邮件id"]
+    }
+  },
+  {
+    "n":"DmType",
+    "a":"删除邮件",
+    "p": {
+      "mid":[0,"邮件id"]
+    }
+  },
+  {
+    "n":"OmType",
+    "a":"打开邮件",
+    "p": {
+      "mid":[0,"邮件id"]
+    }
+  },
+  {
+    "n":"SC_Club",
+    "a":"联盟模块",
+    "p": {
+      "clubList":[["SClubList","id"],"联盟榜单/排行榜"],
+      "myClubRid":["SCmyClubRid","我的联盟排名"],
+      "clubInfo":["SClubInfo","联盟信息"],
+      "memberInfo":["SMemberInfo","联盟个人信息"],
+      "shopList":[["SShopList","id"],"贡献兑换商店列表"],
+      "applyList":[["SapplyList","id"],"申请列表"],
+      "bossft":[["FightList","id"],"公会boss战斗出战列表"],
+      "bossInfo":[["SbossInfo","id"],"公会boss信息"],
+      "bossInfoList":["SbossInfoList","公会boss列表信息"],
+      "heroLog":[["SheroLog","id"],"战报信息(boss未被击杀) "],
+      "uidLog":["SuidLog","战报列表(boss被击杀) "],
+      "clubLog":[["SclubLog","id"],"公会日志"],
+      "win":["clubbosswin","弹窗特效"],
+      "transInfo":[["membersInfo","id"],"转让列表"],
+
+      "clubKuaInfo":["SCclubKuaInfo","帮会战-信息"],
+      "clubKuaMsg":["SCclubKuaMsg","帮会战-说明"],
+      "clubKuaCszr":["SCclubKuaCszr","帮会战-参赛阵容"],
+      "clubKuapkzr":["SCclubKuapkzr","帮会战-pk阵容"],
+      "clubKuaWin":["SCclubKuaWin","帮会战-pk获胜/失败弹窗"],
+      "clubKuahit":["SCclubKuahitmyf","帮会战-pk伤害排行"],
+      "clubKuapklog":[["SCclubKualog","id"],"帮会战-pk播放日志"],
+      "clubKuapkrwd":["SCclubKuapkrwd","帮会战-pk奖励信息"],
+      "clubKualooklog":[["SCclubKualooklog","id"],"查看更多日志"],
+      "kuaHeroList":[["FightList","id"],"公会跨服战pk战斗出战列表"]
+    }
+  },
+  {
+    "n":"SCclubKuaMsg",
+    "a":"帮会战-说明",
+    "p": {
+      "msg":["","说明"]
+    }
+  },
+  {
+    "n":"SCclubKuaWin",
+    "a":"帮会战-pk获胜/失败弹窗",
+    "p": {
+      "isWin":[0,"0:失败 1:获胜 2:平局"],
+      "gejifen":[0,"胜负积分"],
+      "cid":[0,"公会id"],
+      "name":["","公会名字"],
+      "fcid":[0,"敌方公会id"],
+      "fname":["","敌方公会名字"]
+    }
+  },
+  {
+    "n":"SCclubKuahitmyf",
+    "a":"帮会战-pk伤害排行",
+    "p": {
+      "my":["SCclubKuahit","帮会战-pk伤害排行"],
+      "f":["SCclubKuahit","帮会战-pk伤害排行"]
+    }
+  },
+  {
+    "n":"SCclubKuahit",
+    "a":"帮会战-pk伤害排行",
+    "p": {
+      "isWin":[0,"0:失败 1:获胜 2:平局"],
+      "cname":["","公会名字"],
+      "servid":[0,"服务器id"],
+      "list":[["SChitlist","id"],"排行列表"]
+    }
+  },
+  {
+    "n":"SChitlist",
+    "a":"排行列表",
+    "p": {
+      "name":["","名字"],
+      "hh":[0,"击杀个数"],
+      "hit":[0,"伤害"]
+    }
+  },
+  {
+    "n":"SCclubKualooklog",
+    "a":"查看更多日志",
+    "p": {
+      "cid":[0,"获胜者公会id"],
+      "servid":[0,"获胜者服务器id"],
+      "name":["","获胜者公会名字"],
+      "power":[0,"获胜者公会总战力"],
+      "fcid":[0,"失败者公会id"],
+      "fservid":[0,"失败公会服务器id"],
+      "fname":["","失败公会名字"],
+      "fpower":[0,"失败者公会总战力"],
+      "win":[0,"0:失败 1:获胜 2:平局"],
+      "pktime":[0,"对战时间"]
+    }
+  },
+  {
+    "n":"SCclubKuapkrwd",
+    "a":"帮会战-pk奖励信息",
+    "p": {
+      "isWin":[0,"0:失败 1:获胜 2:平局"],
+      "club":[["ItemInfo"],"帮会奖励"],
+      "member":[["ItemInfo"],"个人奖励"],
+      "getCuid":[0,"0:未领取 领取帮会奖励uid"],
+      "getCname":["","领取帮会奖励名字"],
+      "isGet":[0,"个人奖励0:未领取 1:已领取"],
+      "fservid":[0,"对手公会服务器id"],
+      "fcid":[0,"公会id"],
+      "fname":["","对手公会名字"],
+      "flevel":[0,"对手公会等级"]
+    }
+  },
+  {
+    "n":"SCclubKualog",
+    "a":"帮会战-pk播放日志",
+    "p": {
+      "in":["SCinandpk","门客入场"],
+      "pk":["SCinandpk","门客pk"]
+    }
+  },
+  {
+    "n":"SCinandpk",
+    "a":"门客",
+    "p": {
+      "my":["SCclubheroinfo","我方门客信息"],
+      "f":["SCclubheroinfo","敌方门客信息"]
+    }
+  },
+  {
+    "n":"SCclubheroinfo",
+    "a":"帮会战门客信息",
+    "p": {
+      "uid":[0,"玩家uid"],
+      "name":["","玩家名字"],
+      "post":[0,"职位"],
+      "padd":[0,"职位加成"],
+      "hid":[0,"玩家门客"],
+      "use":[0,"使用道具"],
+      "dx":[0,"使用对象0:自己,1敌方"],
+      "add":[0,"道具加成基数100"],
+      "power":[0,"门客战力"],
+      "is_win":[0,"是否获胜0:失败 1:获胜"],
+      "huihe":[0,"当前回合数"],
+      "out":[0,"0:出场1:继续战斗"]
+    }
+  },
+  {
+    "n":"SCmyClubRid",
+    "a":"我的联盟排名",
+    "p": {
+      "cName":["","帮会名字"],
+      "cRid":[0,"帮会排名"]
+    }
+  },
+  {
+    "n":"SCclubKuapkzr",
+    "a":"帮会战-pk阵容",
+    "p": {
+      "myclub":["SCclubKuaCszr","帮会战-我方pk阵容"],
+      "diclub":["SCclubKuaCszr","帮会战-敌方pk阵容"]
+    }
+  },
+  {
+    "n":"SCclubKuaCszr",
+    "a":"帮会战-参赛阵容",
+    "p": {
+      "allshili":[0,"参赛总战力"],
+      "allnum":[0,"参赛总人数"],
+      "servid":[0,"服务器id"],
+      "cname":["","公会名字"],
+      "list":[["SCcslist","id"],"参赛列表"],
+      "post":["SCpost","帮会职位buff"],
+      "mzpic":["SCmzpic","盟主头像"],
+      "clevel":[0,"帮会等级"]
+    }
+  },
+  {
+    "n":"SCmzpic",
+    "a":"盟主头像",
+    "p": {
+      "sex":[0,"性别"],
+      "level":[0,"等级"],
+      "job":[0,"角色id"],
+      "chenghao":[0,"称号"]
+    }
+  },
+  {
+    "n":"SCpost",
+    "a":"帮会职位buff",
+    "p": {
+      "mz":[0,"盟主buff"],
+      "fmz":[0,"副盟主buff"],
+      "jy":[0,"精英buff"],
+      "cy":[0,"成员buff"]
+    }
+  },
+  {
+    "n":"SCcslist",
+    "a":"参赛列表",
+    "p": {
+      "uid":[0,"玩家uid"],
+      "name":["","玩家名字"],
+      "post":[0,"职位 1:盟主  2:副盟主 3:精英 4:成员 5:其他"],
+      "heroid":[0,"门客id"],
+      "hname":["","门客名字"],
+      "hpower":[0,"门客战斗力"],
+      "jnid":[0,"使用锦囊id"]
+    }
+  },
+  {
+    "n":"SCclubKuaInfo",
+    "a":"帮会战-信息",
+    "p": {
+      "ltime":["CdLabel","倒计时"],
+      "tType":[0,"1:报名;2:匹配;3:等待开战;4:开战;5:距离下次报名;"],
+      "mType":[0,"0:暂未匹配到对手帮会,1:匹配到的对手帮会"],
+      "msevid":[0,"匹配到对手的服务器id"],
+      "mName":["","匹配到对手的帮会名字"],
+      "mytype":[0,"0:未获取参战资格,1:获取参战资格"],
+      "allshili":[0,"参赛总战力"],
+      "heroid":[0,"我参赛门客id"],
+      "hname":["","我参赛门客名字"],
+      "hpower":[0,"我参赛门客战斗力"],
+      "usejn":[0,"锦囊id"],
+      "usejnhid":[0,"伏兵锦囊会下发门客id"],
+      "rwdltype":[0,"奖励宝箱0:不显示,1:显示阶段"],
+      "rwdltime":["CdLabel","奖励倒计时"]
+    }
+  },
+  {
+    "n":"SclubLog",
+    "a":"公会日志",
+    "p": {
+      "type":[0,"1:建设;2:更改公告;3:击杀;4:开启副本;5:职位变更;6:联盟名字更改;7:逐出联盟;8:联盟升级;9:加入联盟,10:主动退出帮会,11:随机加入帮会"],
+      "name":["","当事人"],
+      "fname":["","执行人"],
+      "time":[0,"事件发生时间"],
+      "num1":[0,"数据1"],
+      "num2":[0,"数据2"],
+      "items":[["ItemInfo"],"道具列表"]
+    }
+  },
+  {
+    "n":"clubbosswin",
+    "a":"公会打boss弹窗",
+    "p": {
+      "cbosspkwin":["Scbosspkwin","打公会boss弹窗"]
+    }
+  },
+  {
+    "n":"Scbosspkwin",
+    "a":"打公会boss弹窗",
+    "p": {
+      "id":[0,"公会bossid"],
+      "hit":[0,"门客造成的伤害"],
+      "gx":[0,"获得的贡献"],
+      "items":[["ItemInfo"],"道具列表"]
+    }
+  },
+  {
+    "n":"SuidLog",
+    "a":"战报列表(boss被击杀)",
+    "p": {
+      "kill":["","玩家名字"],
+      "list":[["jslist"],"击杀伤害排行"]
+    }
+  },
+  {
+    "n":"jslist",
+    "a":"击杀伤害排行",
+    "p": {
+      "name":["","玩家名字"],
+      "hit":[0,"伤害"],
+      "gx":[0,"贡献"],
+      "uid":[0,"玩家id"]
+    }
+  },
+  {
+    "n":"SheroLog",
+    "a":"战报信息(boss未被击杀)",
+    "p": {
+      "name":["","玩家名字"],
+      "heroname":["","门客名字"],
+      "hit":[0,"伤害"],
+      "time":[0,"打boss时间"]
+    }
+  },
+  {
+    "n":"SbossInfo",
+    "a":"公会boss信息",
+    "p": {
+      "id":[0,"bossID,没有下发,表示未开启"],
+      "hp":[0,"boss血量"],
+      "type":[0,"1:未击杀 2:已击杀 3:逃跑"],
+      "ltime":["CdLabel","倒计时"],
+      "count":[0,"当前轮数"],
+      "money":[0,"元宝金额"]
+    }
+  },
+  {
+    "n":"SbossInfoList",
+    "a":"公会boss列表信息",
+    "p": {
+      "num":[0,"已通关轮数"],
+      "list":[["SbossList"],"boss关卡轮数"]
+    }
+  },
+  {
+    "n":"SbossList",
+    "a":"boss关卡轮数",
+    "p": {
+      "gid":[1,"关卡id"],
+      "count":[1,"当前轮数"]
+    }
+  },
+  {
+    "n":"SapplyList",
+    "a":"申请列表",
+    "p": {
+      "id":[0,"玩家UID"],
+      "name":["","名字"],
+      "job":[1,"头像编号"],
+      "sex":[1,"性别1男2女"],
+      "level":[0,"官阶"],
+      "chenghao":[0,"称号"],
+      "shili":[0,"总势力"]
+    }
+  },
+  {
+    "n":"SC_XianShi",
+    "a":"限时奖励",
+    "p": {
+      "usecash":["XianShiAct","限时元宝消耗"],
+      "usebook":["XianShiAct","限时强化卷轴消耗"],
+      "shiliup":["XianShiAct","限时势力涨幅"],
+      "loginday":["XianShiAct","限时登录天数"],
+      "killg2d":["XianShiAct","限时葛二蛋击杀次数"],
+      "goeat":["XianShiAct","限时赴宴次数"],
+      "clubbossdmg":["XianShiAct","限时联盟副本伤害"],
+      "clubbosskill":["XianShiAct","限时联盟副本击杀"]
+    }
+  },
+  {
+    "n":"SC_Daily",
+    "a":"每日任务",
+    "p": {
+      "tasks":[["DTask","id"],"任务列表"],
+      "score":[0,"活跃值"],
+      "rwds":[["DailyRwd","id"],"积分奖励"]
+    }
+  },
+  {
+    "n":"SC_FuLi",
+    "a":"福利模块",
+    "p": {
+      "qiandao":["QianDaoDay","签到信息"],
+      "mooncard":[["CardType","id"],"年月卡活动"],
+      "shenji":[["FuLiShenJi","id"],"神迹福利"],
+      "guanqun":["QQNum","官群福利"],
+      "fchofuli":["FchoFuli","首充福利"],
+      "vipfuli":[["VipFuLiType","id"],"vip福利"],
+      "win":["FuLiWin","福利弹窗"],
+      "wxqq":["FuLiWXQQ","加微信加QQ"]
+    }
+  },
+  {
+    "n":"FuLiWXQQ",
+    "a":"加微信加QQ",
+    "p": {
+      "wx":["FuLiAddwxqq","加微信"],
+      "qq":["FuLiAddwxqq","加QQ"]
+    }
+  },
+  {
+    "n":"FuLiAddwxqq",
+    "a":"加微信/加QQ",
+    "p": {
+      "index":[0,"0:默认  1:海外"],
+      "num":["","微信号"],
+      "host":["ItemInfo","赠送的主道具"],
+      "items":[["ItemInfo","id"],"其他奖励道具"],
+      "msg":["","说明"]
+    }
+  },
+  {
+    "n":"QianDaoDay",
+    "a":"签到信息",
+    "p": {
+      "days":[1,"签到第几天"],
+      "qiandao":[0,"0-未签到,1-签到"]
+    }
+  },
+  {
+    "n":"CardType",
+    "a":"年月卡购买状态",
+    "p": {
+      "id":[0,"1月卡 2年卡"],
+      "type":[0,"0:未购买,1已购买未领取,2已领取"],
+      "days":[0,"剩余天数 最后一天 领取完之后 可购买"]
+    }
+  },
+  {
+    "n":"QQNum",
+    "a":"官群QQ",
+    "p": {
+      "qq":["","管群Q号"],
+      "status":[1,"官群福利,1开启2关闭"]
+    }
+  },
+  {
+    "n":"FchoFuli",
+    "a":"首充福利购买状态",
+    "p": {
+      "type":[0,"0未充值,1已充值,2已领取"]
+    }
+  },
+  {
+    "n":"VipFuLiType",
+    "a":"VIP福利状态",
+    "p": {
+      "id":[0,"VIP 等级 2,3,4,5"],
+      "type":[0,"0未达成(缺失),1已达成未领取 ,2已领取"]
+    }
+  },
+  {
+    "n":"FuLiShenJi",
+    "a":"神迹福利",
+    "p": {
+      "id":[0,"神迹种类1.十倍商产 2.学而不倦 3.连升三级 4.天资聪慧 5.天赐元宝 6.红颜赐福"],
+      "times":[0,"今日已触发次数(总次数VIP表取)"]
+    }
+  },
+  {
+    "n":"FuLiWin",
+    "a":"福利弹窗",
+    "p": {
+      "shenji":[["ShenJiWin","id"],"神迹弹窗"]
+    }
+  },
+  {
+    "n":"ShenJiWin",
+    "a":"神迹弹窗",
+    "p": {
+      "id":[0,"神迹类型"]
+    }
+  },
+
+
+
+
+  {
+    "n":"DTask",
+    "a":"任务信息",
+    "p": {
+      "id":[0,"奖励档次ID"],
+      "num":[0,"完成数量"],
+      "rwd":[0,"是否已领取0未领取 1 已领取"]
+    }
+  },
+  {
+    "n":"DailyRwd",
+    "a":"积分奖励",
+    "p": {
+      "id":[0,"奖励档次ID"],
+      "rwd":[0,"是否已领取0未领取 1 已领取"]
+    }
+  },
+  {
+    "n":"SC_ChengJiu",
+    "a":"成就信息",
+    "p": {
+      "cjlist":[["ChenhJiulist","id"],"成就列表"]
+    }
+  },
+  {
+    "n":"ChenhJiulist",
+    "a":"成就列表信息",
+    "p": {
+      "id":[0,"成就id"],
+      "num":[0,"累计次数"],
+      "rwd":[0,"领取的奖励档次"]
+    }
+  },
+
+
+  {
+    "n":"XianShiAct",
+    "a":"限时奖励信息",
+    "p": {
+      "begintime":[0,"开始时间"],
+      "endtime":[0,"结束时间"],
+      "count":[0,"当前累计"],
+      "rwdid":[0,"已领取档次ID"],
+      "list":[["XianShiRwd","id"],"奖励列表"]
+    }
+  },
+  {
+    "n":"XianShiRwd",
+    "a":"限时奖励档次信息",
+    "p": {
+      "items":[0,"奖励道具列表"],
+      "sum":[0,"目标数量"]
+    }
+  },
+  {
+    "n":"SShopList",
+    "a":"贡献兑换商店列表",
+    "p": {
+      "id":[0,"档次id"],
+      "item":["ItemInfo","奖励道具"],
+      "payGX":[0,"花费的贡献"],
+      "lock":[0,"是否上锁,0:已开锁 大于0:未解锁,解锁等级"],
+      "num":[0,"剩余兑换次数"]
+    }
+  },
+  {
+    "n":"SMemberInfo",
+    "a":"联盟个人信息",
+    "p": {
+      "cid":[0,"联盟id"],
+      "allgx":[0,"总贡献"],
+      "leftgx":[0,"剩余贡献"],
+      "dcid":[0,"今日贡献的档次id,0:未建设 1:初建 2:中建 3:高建 4:道具建设 5:高级道具建设"],
+      "post":[0,"1:盟主  2:副盟主 3:精英 4:成员 5:其他"],
+      "ltime":["CdLabel","倒计时"]
+    }
+  },
+  {
+    "n":"SClubInfo",
+    "a":"联盟信息",
+    "p": {
+      "id":[0,"联盟id"],
+      "name":["","名字"],
+      "level":[0,"等级"],
+      "sex":[0,"性别1男2女"],
+      "job":[0,"头像编号"],
+      "exp":[0,"联盟总经验"],
+      "fund":[0,"财富值"],
+      "qq":[0,"QQ"],
+      "laoma":["","微信"],
+      "outmsg":["","对外宣言"],
+      "notice":["","公告"],
+      "members":[["membersInfo","id"],"成员列表"],
+      "isJoin":[0,"是否允许其他玩家随机加入 1:是 0:否"],
+      "pwdTip":[0,"0:不弹窗 1:弹窗"]
+    }
+  },
+  {
+    "n":"membersInfo",
+    "a":"成员列表",
+    "p": {
+      "id":[0,"玩家UID"],
+      "name":["","名字"],
+      "post":[0,"职位"],
+      "sex":[0,"性别1男2女"],
+      "job":[0,"头像编号"],
+      "shili":[0,"势力"],
+      "level":[0,"官阶"],
+      "gx":[0,"贡献"],
+      "allGx":[0,"总贡献"],
+      "chenghao":[0,"称号"],
+      "jianshe":[0,"0:未建设 1:初建   2:中建  3:高建  4:道具建设   5:高级道具建设"],
+      "loginTime":[0,"登陆时间戳"]
+    }
+  },
+  {
+    "n":"SClubList",
+    "a":"联盟榜单/排行榜",
+    "p": {
+      "id":[0,"联盟id"],
+      "name":["","名字"],
+      "level":[0,"等级"],
+      "sex":[0,"性别1男2女"],
+      "job":[0,"头像编号"],
+      "exp":[0,"联盟总经验"],
+      "fund":[0,"财富值"],
+      "qq":[0,"QQ"],
+      "laoma":["","微信"],
+      "outmsg":["","对外宣言"],
+      "notice":["","公告"],
+      "members":[["membersInfo","id"],"成员列表"],
+      "allShiLi":[0,"联盟总势力"],
+      "isJoin":[0,"是否允许其他玩家随机加入 1:是 0:否"],
+      "rid":[0,"排名id"]
+    }
+  },
+  {
+    "n":"CS_Club",
+    "a":"联盟模块",
+    "p": {
+      "clubCreate":["CCreate","创建联盟"],
+      "clubRand":["CRand","随机入盟"],
+      "clubFind":["CFind","查询联盟"],
+      "clubApply":["CApply","申请入盟"],
+      "clubList":["CClubList","联盟榜单/排行榜"],
+      "clubInfo":["CClubInfo","联盟信息"],
+      "clubName":["CName","联盟名字修改"],
+      "clubPwd":["CclubPwd","联盟密码修改"],
+      "clubInfoSave":["CInfoSave","联盟信息保存"],
+      "isJoin":["CIsJoin","是否允许其他玩家随机加入"],
+      "applyList":["CApplyList","申请列表"],
+      "noJoin":["CNoJoin","拒绝加入联盟"],
+      "yesJoin":["CYesJoin","同意加入"],
+      "outClub":["COutClub","退出联盟"],
+      "delClub":["CDelClub","删除联盟"],
+      "dayGongXian":["CDayGongXian","每日贡献"],
+      "memberPost":["CMemberPost","职位变更/逐出联盟"],
+      "shopList":["CShopList","贡献兑换商店列表"],
+      "shopBuy":["CShopBuy","贡献兑换商店=>兑换"],
+      "clubBossInfo":["CClubBossInfo","联盟boss信息"],
+      "clubBossOpen":["CClubBossOpen","开启联盟副本"],
+      "clubBossPK":["CClubBossPK","联盟boss-pk"],
+      "clubHeroCone":["CClubHeroCone","联盟门客复活"],
+      "clubBosslog":["CClubBosslog","boss未被打死, 每个门客的日志"],
+      "clubBossHitList":["CClubBossHitList","联盟boss战报列表=>伤害排行"],
+      "transList":["NULL","转让列表"],
+      "transWang":["TransWang","转让帮主"],
+
+      "kuaPKinfo":["CSkuaPKinfo","帮会战信息"],
+      "kuaPKCszr":["CSkuaPKCszr","帮会战参赛阵容"],
+      "kuaPKAdd":["CSkuaPKAdd","帮会战门客派遣/更换"],
+      "kuaPKBack":["CSkuaPKBack","帮会战门客撤回"],
+      "kuaPKzr":["CSkuaPKBack","帮会战帮会战pk阵容"],
+      "kuaPKusejn":["CSkuaPKusejn","帮会战帮会战pk使用锦囊"],
+      "kuaLookWin":["CSkuaLookWin","帮会战帮会战pk获胜/失败弹窗"],
+      "kuaPKbflog":["CSkuaPKbflog","帮会战帮会战pk播放日志"],
+      "kuaLookHit":["CSkuaLookHit","帮会战帮会战pk伤害排行"],
+      "kuaPKrwdinfo":["CSkuaPKrwdinfo","帮会战帮会战pk奖励信息"],
+      "kuaPKrwdget":["CSkuaPKrwdget","帮会战帮会战pk奖励领取"]
+
+    }
+  },
+
+  {
+    "n":"CSkuaLookWin",
+    "a":"帮会战帮会战pk获胜/失败弹窗",
+    "p": {
+      "cid":[0,"公会id"]
+    }
+  },
+  {
+    "n":"CSkuaLookHit",
+    "a":"帮会战帮会战pk伤害排行",
+    "p": {
+      "cid":[0,"公会id"]
+    }
+  },
+  {
+    "n":"CSkuaPKrwdget",
+    "a":"帮会战帮会战pk奖励领取",
+    "p": {
+      "id":[0,"1: 个人奖励   2:联盟奖励"]
+    }
+  },
+  {
+    "n":"CSkuaPKrwdinfo",
+    "a":"帮会战帮会战pk奖励信息",
+    "p": {
+      "id":["Null","id"]
+    }
+  },
+  {
+    "n":"CSkuaPKusejn",
+    "a":"帮会战使用锦囊",
+    "p": {
+      "id":[0,"锦囊id"],
+      "heroid":[0,"门客id(使用伏兵锦囊)"]
+    }
+  },
+  {
+    "n":"CSkuaPKAdd",
+    "a":"帮会战派遣/更换",
+    "p": {
+      "hid":[0,"门客id"]
+    }
+  },
+  {
+    "n":"CSkuaPKbflog",
+    "a":"帮会战帮会战pk播放日志",
+    "p": {
+      "cid":[0,"公会id"]
+    }
+  },
+  {
+    "n":"CSkuaPKBack",
+    "a":"帮会战撤回",
+    "p": {
+      "hid":["Null","门客id"]
+    }
+  },
+  {
+    "n":"CSkuaPKCszr",
+    "a":"帮会战参赛阵容",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CSkuaPKinfo",
+    "a":"帮会战信息",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CClubBossHitList",
+    "a":"联盟boss战报列表=>伤害排行",
+    "p": {
+      "id":[0,"bossid"]
+    }
+  },
+  {
+    "n":"TransWang",
+    "a":"转让帮主",
+    "p": {
+      "fuid":[0,"转让uid"],
+      "password":[0,"密码"]
+    }
+  },
+  {
+    "n":"COutClub",
+    "a":"退出联盟",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CClubBosslog",
+    "a":"boss未被打死, 每个门客的日志",
+    "p": {
+      "id":[0,"bossid"]
+    }
+  },
+  {
+    "n":"CClubHeroCone",
+    "a":"联盟门客复活",
+    "p": {
+      "id":[0,"门客id"]
+    }
+  },
+  {
+    "n":"CClubBossPK",
+    "a":"联盟boss-pk",
+    "p": {
+      "cbid":[0,"联盟bossid"],
+      "id":[0,"门客id"]
+    }
+  },
+  {
+    "n":"CClubBossOpen",
+    "a":"开启联盟副本",
+    "p": {
+      "cbid":[0,"联盟bossid"],
+      "type":[0,"1:钻石消耗  2:财富值消耗"]
+    }
+  },
+  {
+    "n":"CClubBossInfo",
+    "a":"联盟boss信息",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CShopList",
+    "a":"贡献兑换商店列表",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CClubInfo",
+    "a":"申请列表",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CApplyList",
+    "a":"申请列表",
+    "p": {
+      "cid":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CMemberPost",
+    "a":"职位变更/逐出联盟",
+    "p": {
+      "fuid":[0,"玩家id"],
+      "postid":[0,"1:盟主 2:副盟主 3: 精英   4:成员    5:逐出联盟"]
+    }
+  },
+  {
+    "n":"CShopBuy",
+    "a":"贡献兑换商店=>兑换",
+    "p": {
+      "id":[0,"物品标识id"]
+    }
+  },
+  {
+    "n":"CDayGongXian",
+    "a":"每日贡献",
+    "p": {
+      "dcid":[0,"档次id"]
+    }
+  },
+  {
+    "n":"CDelClub",
+    "a":"删除联盟",
+    "p": {
+      "password":[0,"密码"]
+    }
+  },
+  {
+    "n":"CYesJoin",
+    "a":"拒绝加入联盟",
+    "p": {
+      "fuid":[0,"玩家id"]
+    }
+  },
+  {
+    "n":"CNoJoin",
+    "a":"拒绝加入联盟",
+    "p": {
+      "fuid":[0,">0:对应uid/单个拒绝     0:一键拒绝"]
+    }
+  },
+  {
+    "n":"CIsJoin",
+    "a":"是否允许其他玩家随机加入",
+    "p": {
+      "join":[0,"加入"]
+    }
+  },
+  {
+    "n":"CInfoSave",
+    "a":"联盟信息保存",
+    "p": {
+      "laoma":["","微信"],
+      "qq":[0,"QQ"],
+      "outmsg":["","对外宣言"],
+      "notice":["","公告"]
+    }
+  },
+  {
+    "n":"CName",
+    "a":"联盟名字修改",
+    "p": {
+      "name":["","联盟名称(必填)"],
+      "type":[0,"改名类型 0:元宝改名 1:道具改名"]
+    }
+  },
+  {
+    "n":"CclubPwd",
+    "a":"联盟密码修改",
+    "p": {
+      "password":["","联盟密码"]
+    }
+  },
+  {
+    "n":"CClubList",
+    "a":"联盟榜单",
+    "p": {
+      "cid":[0,"联盟id"]
+    }
+  },
+  {
+    "n":"CApply",
+    "a":"申请入盟",
+    "p": {
+      "cid":[0,"联盟id"]
+    }
+  },
+  {
+    "n":"CFind",
+    "a":"查询联盟",
+    "p": {
+      "cid":[0,"联盟id"]
+    }
+  },
+  {
+    "n":"CRand",
+    "a":"随机入盟",
+    "p": {
+      "CRand":["Null","联盟id"]
+    }
+  },
+  {
+    "n":"CCreate",
+    "a":"创建联盟",
+    "p": {
+      "name":["","联盟名称(必填)"],
+      "laoma":["","微信"],
+      "qq":[0,"QQ"],
+      "password":[0,"密码(必填)"],
+      "outmsg":["","对外公告"],
+      "isJoin":[0,"是否允许其他玩家随机加入,1:是 0:否"]
+    }
+  },
+  {
+    "n":"SC_Bag",
+    "a":"背包",
+    "p":{
+      "bag_list":[["Thing","id"],"背包列表"],
+      "bagList1":[["Thing","id"],"背包列表"],
+      "bagList2":[["Thing","id"],"背包列表"]
+    }
+  },
+  {
+    "n":"SC_User",
+    "a":"玩家模块",
+    "p": {
+      "user":["UserInfo","玩家基础信息"],
+      "guide":["UserGuide","引导步骤信息"],
+      "pvb":[["FightList","id"],"战斗出战列表"],
+      "pvb2":["Pvb2Date","战斗2信息"],
+      "ep":["FourEp","总属性"],
+      "fuser":["FuserData","获取其他玩家信息详细信息"],
+      "win":["UserModelWin","弹窗"],
+      "changjing":["SChangjing","用户场景"]
+    }
+  },
+  {
+    "n":"SChangjing",
+    "a":"用户场景",
+    "p":{
+      "ver":[1,"默认版本1 , 新版本 2 "],
+      "set":[0,"设置场景id默认未0"],
+      "list":[["SCJhlist","id"],"获得的场景id"]
+    }
+  },
+  {
+    "n":"SCJhlist",
+    "a":"用户场景",
+    "p":{
+      "id":[0,"获得的场景id"],
+      "cd" :["CdNum","冷却时间"]
+    }
+  },
+  {
+    "n":"FuserData",
+    "a":"获取其他玩家信息详细信息",
+    "p":{
+      "id":[0,"玩家UID"],
+      "name":["","名字"],
+      "job":[1,"头像编号"],
+      "sex":[1,"性别1男2女"],
+      "level":[0,"官阶"],
+      "exp":[0,"政绩"],
+      "vip":[0,"VIP"],
+      "bmap":[0,"地图大关ID"],
+      "mmap":[0,"地图中关ID"],
+      "smap":[0,"地图小关ID"],
+      "clubid":[0,"工会ID"],
+      "clubname":["","工会名字"],
+      "chenghao":[0,"称号"],
+      "ep":["FourEp","四项属性"],
+      "shili":[0,"总势力"],
+      "love":[0,"亲密度"],
+      "xuanyan":["","宣言"],
+      "chlist":[["Schlist","id"],"玩家称号列表"]
+    }
+  },
+  {
+    "n":"FightList",
+    "a":"门客出战列表",
+    "p":{
+      "id":[0,"门客ID"],
+      "f":[0,"已经复活次数"],
+      "h":[0,"活着1,死了0"]
+    }
+  },
+  {
+    "n":"Pvb2Date",
+    "a":"战斗2信息",
+    "p":{
+      "next":[0,"冷却时间"],
+      "label":["","标签"]
+    }
+  },
+
+  {
+    "n":"SC_Hero",
+    "a":"门客模块",
+    "p": {
+      "heroList":[["HeroInfo","id"],"门客列表"]
+    }
+  },
+  {
+    "n":"SC_Wife",
+    "a":"红颜模块",
+    "p": {
+      "wifeList":[["WifeInfo","id"],"红颜列表"],
+      "jingLi":["CdNumOpen","精力恢复"],
+      "base":["WifeBase","红颜基础信息"],
+      "win":["WifeWin","弹窗"],
+      "firstborn":["WifeFB","第一次生孩子"]
+    }
+  },
+  {
+    "n":"WifeFB",
+    "a":"第一次生孩子",
+    "p": {
+      "id":[0,"第一次生孩子1 "]
+    }
+  },
+  {
+    "n":"SC_Son",
+    "a":"子嗣模块",
+    "p": {
+      "sonList":[["SonInfo","id"]," 子嗣列表"],
+      "base":["SonBase"," 子嗣基础信息"],
+      "qList":[["SoneMarryDate","id"],"提亲列表"],
+      "cList":["ZhaoQinDate","招亲列表"],
+      "win":["SonWin","弹窗"],
+      "firstkeju":["SonFirstKeju","第一次科举"]
+    }
+  },
+  {
+    "n":"SonFirstKeju",
+    "a":"第一次科举",
+    "p": {
+      "id":[0,"第一次科举1"]
+    }
+  },
+  {
+    "n":"SonWin",
+    "a":"子嗣模块弹窗",
+    "p": {
+      "jiehun":[["SonJieHunWin"],"子嗣结婚"],
+      "backitem":["ItemInfo","退婚返还道具弹窗"],
+      "upsonep":[["Supsonep"],"子嗣升级属性弹窗"]
+    }
+  },
+  {
+    "n":"Supsonep",
+    "a":"子嗣升级属性弹窗",
+    "p": {
+      "sid":[0,"子嗣ID"],
+      "ep":["fourEps","子嗣增加属性"]
+    }
+  },
+  {
+    "n":"SonJieHunWin",
+    "a":"子嗣结婚",
+    "p": {
+      "sid":[0,"子嗣ID"],
+      "items":[["ItemInfo","id"],"奖励道具列表"]
+    }
+  },
+  {
+    "n":"WifeWin",
+    "a":"红颜模块弹窗",
+    "p": {
+      "ooxx":["wifeId","宠幸弹窗"],
+      "baby":["SonId","生孩子"],
+      "yjxo":[["Syjxo","id"],"一键宠幸弹窗"]
+    }
+  },
+  {
+    "n":"Syjxo",
+    "a":"一键宠幸弹窗",
+    "p": {
+      "wifeid":[0,"红颜id"],
+      "exp":[0,"经验"],
+      "shenji":[0,"没有触发神迹1:触发"]
+    }
+  },
+  {
+    "n":"ZhaoQinDate",
+    "a":"对我的提亲列表",
+    "p": {
+      "list":[["SoneMarryDate"],"招亲列表信息"],
+      "otime":["CdLabel","刷新倒计时"],
+      "rpay":[0,"刷新列表费用"]
+    }
+  },
+  {
+    "n":"SoneMarryDate",
+    "a":"子嗣相亲信息",
+    "p": {
+      "fuid":[0,"亲家UID"],
+      "fname":["","亲家名字"],
+      "sname":["","子嗣名字"],
+      "sonuid":[0,"子嗣ID"],
+      "honor":[0,"子嗣学位"],
+      "sex":[0,"子嗣性别"],
+      "ep":["fourEps","子嗣属性"]
+    }
+  },
+
+  {
+    "n":"SC_Item",
+    "a":"道具模块",
+    "p": {
+      "itemList":[["ItemInfo","id"],"道具列表"],
+      "hecheng":[["HeChengList"],"活动合成列表"]
+    }
+  },
+  {
+    "n":"HeChengList",
+    "a":"合成列表",
+    "p": {
+      "itemid":[0,"目标道具ID"],
+      "times":[0,"今天剩余合成次数"],
+      "totonum":[0,"总次数"],
+      "need":[["ItemInfo","id"],"需求道具列表"],
+      "outtime":[0,"过期时间"]
+    }
+  },
+
+
+  {
+    "n":"HeroInfo",
+    "a":"门客信息",
+    "p":{
+      "id":[0,"门客ID"],
+      "level":[1,"等级"],
+      "senior":[1,"爵位"],
+      "exp":[0,"经验"],
+      "epskill":[["EpSkilInfo","id"],"资质技能"],
+      "pkskill":[["SkilInfo","id"],"PK技能"],
+      "ghskill":[["SkilInfo","id"],"光环技能"],
+      "zzexp":[0,"书籍经验点数"],
+      "pkexp":[0,"技能经验点数"],
+      "zz":["fourEps","总资质"],
+      "zep":["fourEps","资质加成"],
+      "hep":["fourEps","药丸加成"],
+      "wep":["fourEps","红颜加成"],
+      "gep":["fourEps","光环加成"],
+      "aep":["fourEps","总属性表"]
+    }
+  },
+
+  {
+    "n":"fourEps",
+    "a":"四项基础属性",
+    "p":{
+      "e1":[0,"武力"],
+      "e2":[0,"智力"],
+      "e3":[0,"政治"],
+      "e4":[0,"魅力"]
+    }
+  },
+
+  {
+    "n":"WifeInfo",
+    "a":"红颜信息",
+    "p":{
+      "id":[0,"红颜ID"],
+      "love":[1,"亲密度"],
+      "flower":[20,"魅力"],
+      "exp":[0,"红颜经验"],
+      "skill":[["SskilInfo","id"],"奸情技能"],
+      "state":[20,"某种状态暂时没用"],
+      "num":[0,"子嗣数量"]
+    }
+  },
+  {
+    "n":"SskilInfo",
+    "a":"技能信息",
+    "p":{
+      "id":[0,"技能ID"],
+      "exp":[0,"等级升级经验"],
+      "level":[1,"等级"]
+    }
+  },
+
+  {
+    "n":"WifeBase",
+    "a":"红颜基础信息",
+    "p":{
+      "allLove":[0,"总亲密"]
+    }
+  },
+
+
+  {
+    "n":"SonBase",
+    "a":"幼儿园信息",
+    "p":{
+      "seat":[2,"子嗣席位数量"]
+    }
+  },
+  {
+    "n":"SonInfo",
+    "a":"子嗣信息",
+    "p":{
+      "id":[0,"子嗣ID"],
+      "name":["","名字"],
+      "sex":[0,"性别"],
+      "mom":[0,"老妈ID"],
+      "state":["SomState","状态枚举"],
+      "ep":["FourEp","子嗣属性"],
+
+      "talent":[0,"天赋品级"],
+      "cpoto":[0,"儿童形象"],
+      "level":[0,"等级"],
+      "exp":[0,"经验"],
+
+      "power":[0,"活力值"],
+      "cd":["CdLabel","冷却恢复时间 倒计时标记:sonpow"],
+      "honor":[0,"科举名次,秀才状元"],
+
+      "tquid":[0,"提亲UID (等于0 表示全服提亲)"],
+      "tqitem":[0,"提亲道具"],
+      "tqcd":["CdLabel","提亲超时时间"],
+      "sptime":[0,"结婚时间"],
+      "spouse":["SoneMarryDate","配偶信息"],
+      "myqjadd":[0,"我方亲家加成"],
+      "fqjadd":[0,"对方亲家加成"]
+    }
+  },
+
+  {
+    "n":"SomState",
+    "a":"子嗣状态",
+    "e":[
+      ["tName","未取名"],
+      ["baby","婴儿"],
+      ["Child","儿童"],
+      ["Student","等待科举"],
+      ["loser","等待结婚"],
+      ["request","提亲中"],
+      ["pass","被拒绝"],
+      ["timeout","提亲超时"],
+      ["ok","等待确认婚礼"],
+      ["huen","结婚后"]
+    ]
+  },
+
+
+  {
+    "n":"ItemInfo",
+    "a":"道具信息",
+    "p":{
+      "kind":[1,"道具类型1:道具,2枚举,3红颜亲密,4红颜魅力,5门客书籍经验,6门客技能经验,7门客,8红颜,9红颜好感度"],
+      "id":[0,"道具ID"],
+      "count":[1,"数量"]
+    }
+  },
+
+
+  {
+    "n":"SkilInfo",
+    "a":"技能信息",
+    "p":{
+      "id":[0,"技能ID"],
+      "level":[1,"等级"]
+    }
+  },
+  {
+    "n":"EpSkilInfo",
+    "a":"资质技能信息",
+    "p":{
+      "id":[0,"技能ID"],
+      "level":[1,"等级"],
+      "hlv":[0,"翰林等级"]
+    }
+  },
+
+
+
+  {
+    "n":"SC_JyngYing",
+    "a":"经营模块",
+    "p": {
+      "coin":["CdjyNum","经营商业"],
+      "food":["CdjyNum","经营农业"],
+      "army":["CdjyNum","经营招募"],
+      "exp":["zwCdNum","处理政务"],
+      "qzam":["QzAiMin","勤政爱民"],
+      "win":["JyngYingWin","经营弹窗信息"]
+    }
+  },
+  {
+    "n":"CdjyNum",
+    "a":"经营次数/冷却时间",
+    "p":{
+      "max":[0,"最大次数"],
+      "num":[0,"次数"],
+      "next":[0,"冷却（相对时间）"],
+      "label":["","倒计时事件标签"]
+    }
+  },
+
+
+  {
+    "n":"QzAiMin",
+    "a":"勤政爱民",
+    "p": {
+      "now":[0,"当前点数"],
+      "max":[0,"点数上限"]
+    }
+  },
+  {
+    "n":"JyngYingWin",
+    "a":"经营弹窗",
+    "p": {
+      "haoshi":[["JyngYingWinHaoShiWin","id"],"好事成双"]
+    }
+  },
+  {
+    "n":"JyngYingWinHaoShiWin",
+    "a":"好事成双",
+    "p": {
+      "zyid":[0,"资源ID 2~4"],
+      "bas":[0,"倍数"]
+    }
+  },
+  {
+    "n":"SC_School",
+    "a":"学院模块",
+    "p": {
+      "base":["SchoolDate","学院基础信息"],
+      "list":[["deskData","id"],"桌位信息"]
+    }
+  },
+  {
+    "n":"SC_Ranking",
+    "a":"排行榜模块",
+    "p": {
+      "shili":[["fUserInfo","id"],"势力榜"],
+      "guanka":[["fUserInfo","id"],"关卡榜"],
+      "love":[["fUserInfo","id"],"亲密榜"],
+      "shiliKua":[["fUserInfo","id"],"跨服势力榜"],
+      "clubKua":[["SClubList","id"],"跨服联盟榜"],
+
+      "clubkuajf":[["SCclubkuajf","id"],"跨服公会盟战积分榜"],
+      "myclubkuaRid":["SCclubkuajf","我的排名"],
+
+      "mobai":["MoBaiMsg","膜拜信息"],
+      "selfRid":["SelfRids","我的排名"],
+      "win":["RankingWin","排行榜弹窗"]
+    }
+  },
+  {
+    "n":"SCclubkuajf",
+    "a":"公会盟战积分榜",
+    "p": {
+      "servid":[0,"区服"],
+      "cname":["","公会名字"],
+      "mzname":["","盟主名字"],
+      "score":[0,"分数"],
+      "rid":[0,"排名"]
+    }
+  },
+  {
+    "n":"RankingWin",
+    "a":"排行榜弹窗",
+    "p": {
+      "mobai":["FuserData","膜拜弹窗"]
+    }
+  },
+  {
+    "n":"SC_Laofang",
+    "a":"牢房模块",
+    "p": {
+      "laofang":["LaoFang","牢房信息"],
+      "mingwang":["MingWang","名望信息"],
+      "win":["LaoFangWin","弹窗"]
+
+    }
+  },
+  {
+    "n":"LaoFangWin",
+    "a":"牢房弹窗",
+    "p": {
+      "shouyawin":["ShouYaWin","收押犯人"]
+    }
+  },
+  {
+    "n":"CS_Laofang",
+    "a":"牢房模块",
+    "p": {
+      "bianDa":["DaType","打或者一键打"]
+    }
+  },
+  {
+    "n":"DaType",
+    "a":"鞭打方式",
+    "p": {
+      "type":[0,"0普通打,1死里打"]
+    }
+  },
+  {
+    "n":"LaoFang",
+    "a":"牢房信息",
+    "p": {
+      "kaifang":[0,"开放到第几只"],
+      "da":[0,"当前打哪一只"],
+      "hit":[0,"当前只打了几下"]
+    }
+  },
+  {
+    "n":"MingWang",
+    "a":"名望信息",
+    "p": {
+      "mw":[0,"当前名望值"],
+      "maxmw":[0,"名望值最大值"],
+      "eday":[0,"每日产出"]
+    }
+  },
+
+  {
+    "n":"SC_XunFang",
+    "a":"寻访",
+    "p": {
+      "xfInfo":["CdNumOpen","寻访信息(体力倒计时)"],
+      "recover":["REcover","寻访-赈灾-运势恢复"],
+      "zhenZai":["ZHenZai","寻访-赈灾-转运"],
+      "win":["XunFangWin","寻访弹窗特效"]
+    }
+  },
+  {
+    "n":"REcover",
+    "a":"寻访-赈灾-运势恢复",
+    "p": {
+      "num":[0,"当前运势"],
+      "ysSet":[0,"运势设置"],
+      "auto2":[0,"0:自动银两赈灾未设置 1:自动银两赈灾已设置"],
+      "auto3":[0,"0:自动粮草赈灾未设置 1:自动粮草赈灾已设置"]
+    }
+  },
+  {
+    "n":"ZHenZai",
+    "a":"寻访-赈灾-转运",
+    "p": {
+      "used":[0,"已使用的免费转运次数 "],
+      "num":[0,"已赈灾次数"]
+    }
+  },
+
+  {
+    "n":"SC_ChengHao",
+    "a":"称号",
+    "p": {
+      "chInfo":["CHinfo","称号信息"],
+      "wyrwd":["Cswyrwd"," 王爷领取奖励"]
+    }
+  },
+  {
+    "n":"Schlist",
+    "a":"玩家称号列表",
+    "p": {
+      "id":[0,"称号id"]
+    }
+  },
+  {
+    "n":"Cswyrwd",
+    "a":"王爷领取奖励",
+    "p": {
+      "get":[0,"0:不能领取1:可领取2:已领取"]
+    }
+  },
+  {
+    "n":"CHinfo",
+    "a":"称号信息",
+    "p": {
+      "setid":[0,"设置的称号id,0:无"],
+      "list":[["CHlist","id"],"称号列表"]
+    }
+  },
+  {
+    "n":"CHlist",
+    "a":"称号列表",
+    "p": {
+      "chid":[0,"称号id"],
+      "getT":[0,"获得时间"],
+      "endT":[0,"过期时间,0:永久"]
+    }
+  },
+  {
+    "n":"CS_XunFang",
+    "a":"寻访",
+    "p": {
+      "xunfang":["xfNum","旧寻访"],
+      "recover":["xfRec","恢复体力"],
+      "zzHand":["xfHand","手动赈灾"],
+      "xunfan":["Xunfan","寻访"],
+      "yunshi":["Yunshi","自动赈灾"]
+    }
+  },
+  {
+    "n":"Xunfan",
+    "a":"寻访",
+    "p": {
+      "type":[0,"0:不是一键寻访  1:一键寻访"]
+    }
+  },
+  {
+    "n":"Yunshi",
+    "a":"自动赈灾",
+    "p": {
+      "auto2":[0,"0:自动银两赈灾未设置  1:自动银两赈灾已设置"],
+      "auto3":[0,"0:自动粮草赈灾未设置  1:自动粮草赈灾已设置"],
+      "ysSet":[0,"运势设置"]
+    }
+  },
+  {
+    "n":"XunFangWin",
+    "a":"寻访弹窗列表",
+    "p": {
+      "xfAll":[["XFNpcWin"],"寻访/一键寻访"],
+      "yunsi":[["XFYunShiWin"],"寻访/一键寻访"]
+    }
+  },
+  {
+    "n":"XFYunShiWin",
+    "a":"寻访加运势",
+    "p": {
+      "ys":[0,"运势值"]
+    }
+  },
+  {
+    "n":"XFNpcWin",
+    "a":"寻访NPC",
+    "p": {
+      "npcid":[0,"NPCID"],
+      "type":[0,"事件 0:没人 1加道具 2减道具 3加好感 4获得红颜 5加亲密"],
+      "haogan":[0,"红颜好感度1~5"],
+      "items":[["ItemInfo"],"道具"]
+    }
+  },
+  {
+    "n":"xfNum",
+    "a":"寻访",
+    "p": {
+      "type":[0,"0:不是一键寻访  1:一键寻访"],
+      "auto2":[0,"0:自动银两赈灾未设置  1:自动银两赈灾已设置"],
+      "auto3":[0,"0:自动粮草赈灾未设置  1:自动粮草赈灾已设置"],
+      "ysSet":[0,"运势设置"]
+    }
+  },
+  {
+    "n":"xfRec",
+    "a":"恢复体力",
+    "p": {
+      "type":["Null","恢复体力"]
+    }
+  },
+  {
+    "n":"xfHand",
+    "a":"手动赈灾",
+    "p": {
+      "type":[0,"1:元宝 2:银两 3:粮草"]
+    }
+  },
+  {
+    "n":"CS_ChengHao",
+    "a":"称号",
+    "p": {
+      "setChengHao":["ChHaoId","设置称号"],
+      "offChengHao":["ChHaoId","取消称号"],
+      "wyrwd":["Cwyrwd","王爷领取奖励"]
+    }
+  },
+  {
+    "n":"Cwyrwd",
+    "a":"王爷领取奖励",
+    "p": {
+      "chid":["Null","称号id"]
+    }
+  },
+  {
+    "n":"ChHaoId",
+    "a":"称号id",
+    "p": {
+      "chid":[0,"称号id"]
+    }
+  },
+  {
+    "n":"SC_HuangGong",
+    "a":"皇宫",
+    "p": {
+      "qingAn":["QAtype","皇宫请安"],
+      "wang1":[["fUserInfo","id"],"摄政王"],
+      "wang2":[["fUserInfo","id"],"文宣王"],
+      "wang3":[["fUserInfo","id"],"平西王"],
+      "wang4":[["fUserInfo","id"],"镇南王"],
+      "wang5":[["fUserInfo","id"],"成武王"],
+      "wang6":[["fUserInfo","id"],"北静王"],
+      "wang7":[["fUserInfo","id"],"逍遥王"],
+      "wang8":[["fUserInfo","id"],"宣武皇"],
+      "wang1now":["FuserData","当前摄政王"],
+      "wang2now":["FuserData","当前文宣王"],
+      "wang3now":["FuserData","当前平西王"],
+      "wang4now":["FuserData","当前镇南王"],
+      "wang5now":["FuserData","当前成武王"],
+      "wang6now":["FuserData","当前北静王"],
+      "wang7now":["FuserData","当前逍遥王"],
+      "wang8now":["FuserData","当前宣武皇"],
+      "wang1now2":[["FuserData","id"],"当前摄政王"],
+      "wang2now2":[["FuserData","id"],"当前文宣王"],
+      "wang3now2":[["FuserData","id"],"当前平西王"],
+      "wang4now2":[["FuserData","id"],"当前镇南王"],
+      "wang5now2":[["FuserData","id"],"当前成武王"],
+      "wang6now2":[["FuserData","id"],"当前北静王"],
+      "wang7now2":[["FuserData","id"],"当前逍遥王"],
+      "wang8now2":[["FuserData","id"],"当前宣武皇"]
+    }
+  },
+  {
+    "n":"QAtype",
+    "a":"皇宫请安",
+    "p": {
+      "type":[0,"请安,0:未请安 1:已请安"]
+    }
+  },
+  {
+    "n":"CS_HuangGong",
+    "a":"皇宫",
+    "p": {
+      "qingAn":["HGqingAn","皇宫请安"],
+      "setDeclarate":["HGsetDe","设置宣言"]
+    }
+  },
+  {
+    "n":"HGsetDe",
+    "a":"设置宣言",
+    "p": {
+      "cid":[0,"王爷称号 1,2,3"],
+      "msg":["","宣言内容"]
+    }
+  },
+  {
+    "n":"HGqingAn",
+    "a":"皇宫",
+    "p": {
+      "qa":["Null","请安"]
+    }
+  },
+  {
+    "n":"SC_WordBoss",
+    "a":"世界BOSS",
+    "p": {
+      "menggu":["WBMengGu","蒙古军来袭"],
+      "ge2dan":["WBGe2Dan","葛二蛋来袭"],
+      "ge2danMyDmg":["WordG2dMyDmgRk","葛二蛋我的伤害和排名"],
+      "shop":["WordShop","积分兑换"],
+      "scoreRank":[["fUserInfo","id"],"积分排行"],
+      "myScore":["WordMyScore","我的分数排名"],
+      "hurtRank":[["fUserInfo","id"],"葛二蛋伤害排行榜"],
+      "rwdLog":[["fUserInfo","id"],"蒙古军奖励日志"],
+      "g2dkill":[["fUserInfo","id"],"葛二蛋击杀榜"],
+      "mgft":[["FightList","id"],"蒙古出战表"],
+      "g2dft":[["FightList","id"],"葛二蛋出战表"],
+      "win":["WordBossWin","弹窗特效"]
+    }
+  },
+  {
+    "n":"WordBossWin",
+    "a":"世界BOSS",
+    "p": {
+      "mghitwin":["HitMgwinWin","打蒙古军胜利弹窗"],
+      "mghitfail":["HitMgfailWin","打蒙古军失败弹窗"],
+      "g2dHit":["HitgerdanWin","打葛二蛋弹窗信息"],
+      "g2dKill":["GerdanKillWin","打葛二蛋击杀弹窗"],
+      "g2dRank":["GerdanRankRwdWin","葛二蛋排行奖励"]
+    }
+  },
+  {
+    "n":"HitMgwinWin",
+    "a":"打蒙古军胜利弹窗",
+    "p": {
+      "bo":[1,"第几波"],
+      "score":[0,"副本积分"],
+      "score2":[0,"副本分数"],
+      "items":[["ItemInfo"],"道具列表"],
+      "damage":[0,"伤害值"]
+    }
+  },
+  {
+    "n":"HitG2dWin",
+    "a":"打蒙葛尔丹伤血弹窗",
+    "p": {
+    }
+  },
+  {
+    "n":"G2dKillWin",
+    "a":"打蒙葛尔丹伤血弹窗",
+    "p": {
+    }
+  },
+  {
+    "n":"HitMgfailWin",
+    "a":"打蒙古军失败弹窗",
+    "p": {
+      "bo":[1,"第几波"],
+      "damage":[0,"伤害值"]
+    }
+  },
+  {
+    "n":"HitgerdanWin",
+    "a":"打葛二蛋弹窗信息",
+    "p": {
+      "score":[0,"副本积分"],
+      "score2":[0,"副本分数"],
+      "damage":[0,"伤害值"]
+    }
+  },
+  {
+    "n":"GerdanKillWin",
+    "a":"打葛二蛋击杀弹窗",
+    "p": {
+      "score":[0,"副本积分"],
+      "score2":[0,"副本分数"],
+      "items":[["ItemInfo"],"道具列表"]
+    }
+  },
+  {
+    "n":"GerdanRankRwdWin",
+    "a":"葛二蛋排行奖励",
+    "p": {
+      "rid":[0,"名次"],
+      "kill":[3,"3击杀,4逃跑"],
+      "score":[0,"副本积分"],
+      "score2":[0,"副本分数"],
+      "items":[["ItemInfo"],"道具列表"]
+    }
+  },
+
+  {
+    "n":"CS_WordBoss",
+    "a":"世界BOSS",
+    "p": {
+      "wordboss":["Null","打开世界BOSS"],
+      "hitmenggu":["heroId","蒙古军打"],
+      "hitgeerdan":["heroId","葛二蛋打"],
+      "goFightmg":["Null","蒙古军进入战斗"],
+      "goFightg2d":["Null","葛二蛋进入战斗"],
+      "scoreRank":["Null","点击积分击杀榜"],
+      "g2dHitRank":["Null","点击伤害排行"],
+      "shopBuy":["WordShopId","积分兑换"],
+      "comebackmg":["heroId","蒙古 复活门客"],
+      "comebackg2d":["heroId","二蛋 复活门客"]
+    }
+  },
+  {
+    "n":"WordShopId",
+    "a":"商品ID,不是道具itemid",
+    "p": {
+      "id":[0,"商品配置ID"]
+    }
+  },
+  {
+    "n":"WBMengGu",
+    "a":"蒙古军来袭",
+    "p": {
+      "state":[0,"1未开始,2战斗中,3已结束"],
+      "cd":["CdLabel","蒙古军来袭倒计时"],
+      "bo":[1,"当前达到第几波"],
+      "damage":[0,"当前BOSS伤血量"],
+      "heroft":[["FightList","id"],"门客出战列表"]
+    }
+  },
+  {
+    "n":"WBGe2Dan",
+    "a":"葛二蛋来袭",
+    "p": {
+      "state":[0,"1未开始,2战斗中,3已结束"],
+      "cd":["CdLabel","葛二蛋来袭/逃跑倒计时"],
+      "allhp":[0,"葛二蛋总血量"],
+      "damage":[0,"葛二蛋总伤害"]
+    }
+  },
+  {
+    "n":"WordG2dMyDmgRk",
+    "a":"葛二蛋我的伤害信息",
+    "p": {
+      "g2dmyrank":[0,"我的伤害排名"],
+      "g2dmydamage":[0,"我的总伤害值"],
+      "g2dallman":[0,"参与总人数"]
+    }
+  },
+  {
+    "n":"WordShop",
+    "a":"积分兑换",
+    "p": {
+      "score":[0,"当前积分"],
+      "buys":[["WordShopItem","id"],"已购买信息"]
+    }
+  },
+
+  {
+    "n":"WordMyScore",
+    "a":"副本我的分数信息",
+    "p": {
+      "myScore":[0,"我的排行分数"],
+      "myScorerank":[0,"我的分数排名"]
+    }
+  },
+
+  {
+    "n":"WordShopItem",
+    "a":"副本积分兑换次数",
+    "p": {
+      "id":[0,"商品标记"],
+      "num":[0,"已购买次数"]
+    }
+  },
+
+  {
+    "n":"MoBaiMsg",
+    "a":"排行榜膜拜信息",
+    "p": {
+      "shili":[0,"势力榜膜拜"],
+      "guanka":[0,"关卡榜膜拜"],
+      "love":[0,"亲密榜膜拜"],
+      "shiliKua":[0,"跨服势力膜拜"],
+      "clubKua":[0,"跨服联盟膜拜"]
+    }
+  },
+  {
+    "n":"SelfRids",
+    "a":"我的排名信息",
+    "p": {
+      "shili":[0,"势力排名"],
+      "guanka":[0,"关卡排名"],
+      "love":[0,"亲密排名"],
+      "shiliKua":[0,"跨服势力排名"]
+    }
+  },
+
+  {
+    "n":"fUserInfo",
+    "a":"看别人的玩家信息缩略信息",
+    "p": {
+      "id":[0,"序列号"],
+      "uid":[0,"玩家UID"],
+      "name":["","名字"],
+      "level":[0,"官阶"],
+      "vip":[0,"VIP"],
+      "job":[0,"job"],
+      "sex":[0,"sex"],
+      "chenghao":[0,"称号"],
+      "rid":[0,"排名"],
+      "num":[0,"附加信息"],
+      "num2":[0,"附加信息2"],
+      "num3":[0,"附加信息3"]
+    }
+  },
+  {
+    "n":"fUserInfo2",
+    "a":"看别人的玩家信息缩略信息",
+    "p": {
+      "id":[0,"序列号"],
+      "uid":[0,"玩家UID"],
+      "name":["","名字"],
+      "level":[0,"官阶"],
+      "vip":[0,"VIP"],
+      "job":[0,"job"],
+      "sex":[0,"sex"],
+      "chenghao":[0,"称号"],
+      "rid":[0,"排名"],
+      "num":[0,"附加信息"],
+      "num2":[0,"附加信息2"],
+      "suoding":[0,"房主锁定次数"]
+    }
+  },
+  {
+    "n":"fUserInfo3",
+    "a":"看别人的玩家信息缩略信息",
+    "p": {
+      "id":[0,"序列号"],
+      "uid":[0,"玩家UID"],
+      "name":["","名字"],
+      "level":[0,"官阶"],
+      "vip":[0,"VIP"],
+      "job":[0,"job"],
+      "sex":[0,"sex"],
+      "chenghao":[0,"称号"],
+      "rid":[0,"排名"],
+      "num":[0,"附加信息"],
+      "num2":[0,"附加信息2"],
+      "type":[0,"玩家锁定信息"]
+    }
+  },
+  {
+    "n":"SchoolDate",
+    "a":"学院信息",
+    "p":{
+      "desk":[1,"学位数量"]
+    }
+  },
+  {
+    "n":"deskData",
+    "a":"桌位信息",
+    "p":{
+      "id":[0,"编号"],
+      "hid":[0,"门客ID"],
+      "cd":["CdLabel","完成时间"]
+    }
+  },
+
+  {
+    "n":"SC_System",
+    "a":"系统模块",
+    "p":{
+      "server_list":[["Server","id"],"选区列表"],
+      "errror":["errrMsg","错误弹窗"],
+      "sys":["SysDate","系统数据"],
+      "randname":["RandName","随机名字"],
+      "kefu":["KefuInfo","客服信息"],
+      "server_info":[["ServerInfo","id"],"服务器列表详情"]
+    }
+  },
+  {
+    "n":"ServerInfo",
+    "a":"服务器列表详情",
+    "p":{
+      "id":[1,"服务器id"],
+      "he":[1,"合服id"],
+      "kua":[1,"跨服id"]
+    }
+  },
+  {
+    "n":"KefuInfo",
+    "a":"客服信息",
+    "p":{
+      "body":["","内容"]
+    }
+  },
+  {
+    "n":"RandName",
+    "a":"随机名字",
+    "p":{
+      "name":["","名字"]
+    }
+  },
+  {
+    "n":"SysDate",
+    "a":"系统数据",
+    "p":{
+      "time":[0,"服务器时间"]
+    }
+  },
+  {
+    "n":"errrMsg",
+    "a":"错误弹窗",
+    "p":{
+      "type":[0,"弹窗类型"],
+      "msg":["","错误信息"]
+    }
+  },
+
+  {
+    "n":"LoginAccount",
+    "a":"登入",
+    "p":{
+      "platform":["","渠道"],
+      "openid":["","用户id"],
+      "openkey":["","Open Key"],
+      "parm1":["","备用参数1"],
+      "parm2":["","备用参数2"],
+      "parm3":["","备用参数3"],
+      "parm4":["","备用参数4，设备号"],
+      "parm5":["","备用参数5，json"]
+    }
+  },
+
+  {
+    "n":"CdNum",
+    "a":"次数/冷却时间",
+    "p":{
+      "num":[0,"次数"],
+      "next":[0,"冷却（相对时间）"],
+      "label":["","倒计时事件标签"]
+    }
+  },
+  {
+    "n":"CdNumOpen",
+    "a":"次数/冷却时间/开关",
+    "p":{
+      "num":[0,"次数"],
+      "next":[0,"冷却（相对时间）"],
+      "label":["","倒计时事件标签"],
+      "isopen":[0,"一键设置开关0:关,1:开"]
+    }
+  },
+
+  {
+    "n":"CdLabel",
+    "a":"冷却/完成时间",
+    "p":{
+      "next":[0,"冷却/完成 时间"],
+      "label":["","倒计时事件标签"]
+    }
+  },
+
+  {
+    "n":"zwCdNum",
+    "a":"政务信息",
+    "p":{
+      "type":[1,"情景ID"],
+      "itemid":[2,"道具ID"],
+      "count":[0,"道具数量"],
+      "cd":["CdNum","次数冷却"]
+    }
+  },
+  {
+    "n":"CS_System",
+    "a":"系统模块",
+    "p":{
+    }
+  },
+  {
+    "n":"CS_Login",
+    "a":"登入模块",
+    "p":{
+      "loginAccount":["LoginAccount","登入"]
+    }
+  },
+  {
+    "n":"CS_Guide",
+    "a":"新手引导模块",
+    "p":{
+      "login":["Clogin","进入游戏"],
+      "randName":["Null","随机名字"],
+      "setUinfo":["ClearUser","取名字"],
+      "guide":["UserGuide","新手引导保存"],
+      "guideUpguan":["Null","新手引导平民升官"],
+      "kefu":["Null","客服信息"]
+    }
+  },
+  {
+    "n":"ClearUser",
+    "a":"新建角色参数",
+    "p":{
+      "name":["","角色名"],
+      "sex":[0,"性别"],
+      "job":[0,"职业"]
+    }
+  },
+  {
+    "n":"SC_LoginAccount",
+    "a":"登入模块",
+    "p":{
+      "uid":[0,"uid"],
+      "token":["","token"],
+      "backurl":["","回调地址"],
+      "num1":["","备用数据1"],
+      "gamename":["","游戏名称"]
+    }
+  },
+
+  {
+    "n":"CS_User",
+    "a":"用户模块",
+    "p":{
+      "jingYing":["jingYingId","经营操作"],
+      "jingYingLing":["jingYingIdCount","使用征收令"],
+      "jingYingAll":["Null","一键征收"],
+      "qzam":["Null","勤政爱民"],
+      "zhengWu":["zhengWuAct","政务处理"],
+      "zhengWuLing":["ItemCount","政务令"],
+      "pve":["Null","地图打小兵"],
+      "pvb":["heroId","地图BOSS"],
+      "pvb2":["Null","全军出击"],
+      "comeback":["heroId","打地图BOSS门客复活"],
+      "adok":["labelId","心跳请求"],
+      "randName":["Null","随机名字"],
+      "getFuserMember":["UserId","获取其他玩家信息"],
+      "shengguan":["Null","升官"],
+      "resetName":["UserName","改名"],
+      "resetImage":["UserImage","改头像"],
+      "refjingying":["Null","经营刷新"],
+      "refwife":["Null","红颜刷新"],
+      "refxunfang":["Null","寻访刷新"],
+      "refson":["Null","子嗣刷新"],
+      "getuback":["Null","获取用户场景"],
+      "setuback":["SSetuback","设置用户场景"]
+    }
+  },
+  {
+    "n":"SSetuback",
+    "a":"设置用户场景",
+    "p":{
+      "id":[0,"场景id"]
+    }
+  },
+  {
+    "n":"Clogin",
+    "a":"进入游戏",
+    "p":{
+      "platform":["","平台,例如uccqsf"]
+    }
+  },
+  {
+    "n":"UserModelWin",
+    "a":"用户模块弹窗",
+    "p":{
+      "pvewin":["UserPveWin","打关卡小兵"],
+      "pvbwin":["UserPvbWin","打关卡BOSS"],
+      "pvb2win":["UserPvb2Win","一键出击"]
+
+    }
+  },
+  {
+    "n":"UserPveWin",
+    "a":"打关卡小兵弹窗",
+    "p":{
+      "kill":[0,"击杀敌军数量"],
+      "deil":[0,"我军损失数量"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"UserPvbWin",
+    "a":"打关卡BOSS弹窗",
+    "p":{
+      "bmid":[0,"当前打的BOSS"],
+      "damage":[0,"对BOSS伤害值"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"UserPvb2Win",
+    "a":"打关卡BOSS2弹窗",
+    "p":{
+      "bmid":[0,"当前打的BOSS"],
+      "damagelist":[["Pvb2Herodamage","id"],"门客伤害信息"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"Pvb2Herodamage",
+    "a":"门客伤害信息",
+    "p":{
+      "id":[0,"门客ID"],
+      "damage":[0,"伤害值"]
+    }
+  },
+  {
+    "n":"ShouYaWin",
+    "a":"收押犯人弹窗",
+    "p":{
+      "fid":[0,"犯人ID"]
+    }
+  },
+
+
+  {
+    "n":"UserId",
+    "a":"玩家ID",
+    "p":{
+      "id":[0,"玩家UID"]
+    }
+  },
+  {
+    "n":"UserName",
+    "a":"玩家名称",
+    "p":{
+      "name":["","玩家名称"]
+    }
+  },
+  {
+    "n":"UserImage",
+    "a":"玩家头像",
+    "p":{
+      "sex":[1,"性别1男2女"],
+      "job":[1,"头像编号"]
+    }
+  },
+  {
+    "n":"labelId",
+    "a":"心跳事件",
+    "p":{
+      "label":["","倒计时事件ID"]
+    }
+  },
+
+  {
+    "n":"jingYingId",
+    "a":"经营种类",
+    "p":{
+      "jyid":[0,"2:商业, 3:农业, 4:军队"]
+    }
+  },
+  {
+    "n":"zhengWuAct",
+    "a":"政务处理种类",
+    "p":{
+      "act":[0,"1贪官得资源 2 清官得政绩"]
+    }
+  },
+  {
+    "n":"ItemCount",
+    "a":"道具数量",
+    "p":{
+      "num":[1,"道具数量"]
+    }
+  },
+  {
+    "n":"jingYingIdCount",
+    "a":"使用征收领",
+    "p":{
+      "jyid":[0,"2:商业, 3:农业, 4:军队"],
+      "num":[1,"道具数量"]
+    }
+  },
+  {
+    "n":"CS_Hero",
+    "a":"门客模块",
+    "p":{
+      "upgrade":["heroId","升级门客"],
+      "upsenior":["heroId","门客提拔"],
+      "upzzskill":["heroSkillIdType","门客资质技能升级"],
+      "uppkskill":["heroSkillId","门客PK技能升级"],
+      "upghskill":["heroGhkillId","门客光环技能升级"]
+    }
+  },
+  {
+    "n":"heroId",
+    "a":"门客参数",
+    "p":{
+      "id":[0,"门客ID"]
+    }
+  },
+  {
+    "n":"heroSkillId",
+    "a":"门客技能ID参数",
+    "p":{
+      "id":[0,"门客ID"],
+      "sid":[0,"技能ID"]
+    }
+  },
+  {
+    "n":"heroSkillIdType",
+    "a":"门客技能ID参数",
+    "p":{
+      "id":[0,"门客ID"],
+      "sid":[0,"技能ID"],
+      "type":[0,"升级种类1:书籍经验升级 , 2:卷轴概率升级"]
+    }
+  },
+  {
+    "n":"heroGhkillId",
+    "a":"门客光环技能升级",
+    "p":{
+      "id":[0,"门客ID"],
+      "sid":[0,"技能ID"]
+    }
+  },
+  {
+    "n":"CS_Item",
+    "a":"道具模块",
+    "p":{
+      "useitem":["itemBase","使用道具,item,item2 类型"],
+      "useforhero":["itemHeroBase","使用道具到门客身上,hero,类型"],
+      "hecheng":["itemId","道具合成"],
+      "itemlist":["Null","道具列表"]
+    }
+  },
+
+  {
+    "n":"itemId",
+    "a":"道具ID",
+    "p":{
+      "id":[0,"道具ID"]
+    }
+  },
+
+  {
+    "n":"itemBase",
+    "a":"道具参数",
+    "p":{
+      "id":[0,"道具ID"],
+      "count":[0,"数量"]
+    }
+  },
+
+  {
+    "n":"itemHeroBase",
+    "a":"门客使用道具参数",
+    "p":{
+      "id":[0,"道具ID"],
+      "count":[0,"数量"],
+      "heroid":[0,"门客ID"]
+    }
+  },
+
+  {
+    "n":"CS_Wife",
+    "a":"红颜模块",
+    "p":{
+      "xxoo":["wifeId","宠幸"],
+      "sjxo":["Null","随机宠幸"],
+      "yjxo":["Null","一键宠幸"],
+      "reward":["wifeRewardId","赏赐"],
+      "upskill":["wifeSkillId","升级红颜技能"],
+      "weige":["Null","恢复精力"]
+    }
+  },
+  {
+    "n":"wifeId",
+    "a":"宠幸参数",
+    "p":{
+      "id":[0,"红颜ID"]
+    }
+  },
+  {
+    "n":"wifeRewardId",
+    "a":"赏赐参数",
+    "p":{
+      "id":[0,"红颜ID"],
+      "itemId":[0,"道具ID"],
+      "count":[0,"道具数量"]
+    }
+  },
+
+  {
+    "n":"wifeSkillId",
+    "a":"升级红颜技能参数",
+    "p":{
+      "id":[0,"红颜ID"],
+      "skillId":[0,"技能ID"]
+    }
+  },
+
+  {
+    "n":"CS_School",
+    "a":"学院模块",
+    "p":{
+      "buydesk":["Null","购买学位"],
+      "start":["SchoolStart","开始学习"],
+      "over":["SchoolOver","完成学习"],
+      "allover":["Null","一键完成"]
+    }
+  },
+
+  {
+    "n":"SchoolStart",
+    "a":"开始学习",
+    "p":{
+      "id":[0,"座位id 1开始"],
+      "hid":[0,"门客ID"]
+    }
+  },
+  {
+    "n":"SchoolOver",
+    "a":"完成学习",
+    "p":{
+      "id":[0,"座位id 1开始"]
+    }
+  },
+
+  {
+    "n":"CS_Son",
+    "a":"子嗣模块",
+    "p":{
+      "buyseat":["Null","购买子嗣席位"],
+      "sonname":["SonName","取名字"],
+      "rname":["SonName","改名字"],
+      "play":["SonId","培养"],
+      "onfood":["SonId","恢复活力"],
+      "allplay":["Null","一键培养"],
+      "allfood":["Null","一键恢复"],
+      "keju":["SonId","科举"],
+
+      "meipo":["Null","点击媒婆"],
+      "tiqin":["TiqinDate","提亲"],
+      "getTiqin":["Null","刷新对我的提请请求"],
+      "zhaoqin":["SonId","刷新全服招亲表"],
+      "jiehun":["SonJeiHun","结婚 从全服招亲列表中 选中一个人结婚"],
+      "agree":["SonJeiHun","同意提亲请求 选中来提亲的 进行联姻"],
+      "pass":["TiQinUidSid","拒绝提亲请求"],
+      "allpass":["Null","拒绝所有提亲请求"],
+      "cancel":["SonId","终止联姻/全服提亲撤回/个人提亲撤回/被拒绝撤回/超时撤回"],
+      "rstzhaoqin":["SonId","立即刷新全服招亲表"]
+    }
+  },
+
+  {
+    "n":"TiqinDate",
+    "a":"提亲参数",
+    "p":{
+      "uid":[0,"对方UID,全服0"],
+      "type":[0,"元宝1 , 道具2"],
+      "sid":[0,"提亲子嗣ID"]
+    }
+  },
+  {
+    "n":"TiQinUidSid",
+    "a":"提亲UID和sid",
+    "p":{
+      "uid":[0,"对方UID"],
+      "sid":[0,"提亲子嗣ID"]
+    }
+  },
+
+  {
+    "n":"SonJeiHun",
+    "a":"提亲参数",
+    "p":{
+      "uid":[0,"对方UID,全服0"],
+      "type":[0,"元宝1 , 道具2"],
+      "sid":[0,"对方子嗣ID"],
+      "mysid":[0,"我的子嗣ID"]
+    }
+  },
+
+  {
+    "n":"SonId",
+    "a":"子嗣参数",
+    "p":{
+      "id":[0,"子嗣ID"]
+    }
+  },
+  {
+    "n":"SonName",
+    "a":"子嗣取名",
+    "p":{
+      "id":[0,"子嗣ID"],
+      "name":["","子嗣名字"]
+    }
+  },
+
+  {
+    "n":"CS_Ranking",
+    "a":"排行榜膜拜",
+    "p":{
+      "paihang":["RfPaiHang","刷新排行榜"],
+      "mobai":["MoBai","膜拜123"]
+    }
+  },
+  {
+    "n":"MoBai",
+    "a":"膜拜榜单",
+    "p":{
+      "type":[0,"1:势力,2关卡,3亲密,4:跨服势力,5:跨服联盟,6:跨服联盟战积分"]
+    }
+  },
+  {
+    "n":"RfPaiHang",
+    "a":"排行榜请求",
+    "p":{
+      "type":[0,"0:123榜,1:势力,2关卡,3亲密,4:跨服势力,5:跨服联盟,6:跨服公会盟战积分榜"]
+    }
+  },
+  {
+    "n":"SC_MsgWin",
+    "a":"通用弹窗模块",
+    "p":{
+      "items":[["ItemInfo","id"],"通用道具增减列表"],
+      "newnpc":[["ItemInfo","id"],"获得门客,红颜,弹窗"],
+      "fight":["FightWin","战斗弹窗"]
+    }
+  },
+  {
+    "n":"FightWin",
+    "a":"战斗弹窗",
+    "p":{
+      "win":[1,"战斗结果 1:胜利 0:失败"],
+      "map":["MapInfo","地图信息"],
+      "members":[["FightMember","id"],"战斗成员信息"],
+      "items":[["ItemInfo","id"],"战斗获得道具"]
+    }
+  },
+  {
+    "n":"MapInfo",
+    "a":"地图信息",
+    "p":{
+      "title":["","地图名称"],
+      "bgimg":[1,"背景id"]
+    }
+  },
+  {
+    "n":"FightMember",
+    "a":"战斗成员信息",
+    "p":{
+      "name":["","名称"],
+      "index":[1,"头像id"],
+      "itype":[1,"头像类型 1:人物 2：怪物"],
+      "user" :["fUserInfo","用户信息"],
+      "level":[1,"官品"],
+      "e1":[100,"武力值"],
+      "e2":[100,"智力值"],
+      "army_max":[10000,"兵力上限"],
+      "army":[1000,"初始兵力"],
+      "coin":[100,"金币"],
+      "die":[1000,"死亡兵力/消耗金币"],
+      "army_type":["npc1","小兵类型"]
+    }
+  },
+  {
+    "n":"SC_Shop",
+    "a":"商城",
+    "p":{
+      "list":[["OneBuyInfo","id"],"单品限购列表"],
+      "giftlist":["ShopGiftInfo","特惠礼包"]
+    }
+  },
+  {
+    "n":"OneBuyInfo",
+    "a":"单品限购单项",
+    "p":{
+      "id" : [0,"商品id"],
+      "need" : [0,"购买道具所需元宝"],
+      "limit" : [0,"当前商品限购"],
+      "islimit" : [0,"是否限购"],
+      "vip" : [0,"购买当前商品所需的vip等级"],
+      "item":["ItemInfo","奖励道具"]
+    }
+  },
+  {
+    "n":"ShopGiftInfo",
+    "a":"特惠礼包",
+    "p":{
+      "cft": ["CftInfo","基础信息"],
+      "list": [["ShopGiftList","id"],"商品列表"]
+    }
+  },
+  {
+    "n":"CftInfo",
+    "a":"基础信息",
+    "p":{
+      "id": [0,"活动id"],
+      "title": ["","活动名称"],
+      "sTime": [0,"开始时间"],
+      "eTime": [0,"结束时间"],
+      "cd" :["CdLabel","倒计时"]
+    }
+  },
+  {
+    "n":"ShopGiftList",
+    "a":"商品列表",
+    "p":{
+      "id" : [0,"商品id"],
+      "name" : ["","礼包名称"],
+      "need" : [0,"购买道具所需元宝"],
+      "limit" : [0,"当前商品限购"],
+      "islimit" : [0,"是否限购"],
+      "vip" : [0,"购买当前商品所需的vip等级"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"CS_Shop",
+    "a":"商城",
+    "p":{
+      "shoplist" :["NULL","商城列表"],
+      "shopLimit" : ["ShopLimit","单品限购"],
+      "shopGift" : ["ShopGift","特惠礼包"]
+    }
+  },
+  {
+    "n":"ShopLimit",
+    "a":"单品限购",
+    "p":{
+      "id":[0,"单品限购id"]
+    }
+  },
+  {
+    "n":"ShopGift",
+    "a":"特惠礼包",
+    "p":{
+      "id":[0,"特惠礼包id"]
+    }
+  },
+  {
+    "n":"CS_Yamen",
+    "a":"衙门战",
+    "p":{
+      "yamen":["Null","进入衙门"],
+      "chushi":["Null","使用出使令"],
+      "tiaozhan":["FuidHid2","使用挑战卡"],
+      "fuchou":["FuidHid","复仇"],
+      "zhuisha":["FuidHid","追杀"],
+      "findzhuisha":["Fuid","追杀查询"],
+      "pizun":["Null","批准进入战斗"],
+
+      "fight":["heroId","选一个人打"],
+      "seladd":["YaMenAddId","选择加成"],
+      "getrwd":["Null","选择翻拍奖励"],
+      "getrank":["Null","刷新排行榜"],
+      "yamenhistory":["ChatId","衙门日志历史信息"]
+    }
+  },
+  {
+    "n":"Fuid",
+    "a":"玩家UID",
+    "p":{
+      "fuid":[0,"玩家UID"]
+    }
+  },
+  {
+    "n":"FuidHid",
+    "a":"玩家UID门客ID",
+    "p":{
+      "fuid":[0,"玩家UID"],
+      "hid":[0,"门客ID"]
+    }
+  },
+  {
+    "n":"FuidHid2",
+    "a":"玩家UID门客ID日志ID",
+    "p":{
+      "fuid":[0,"玩家UID"],
+      "hid":[0,"门客ID"],
+      "id":[0,"日志ID"]
+    }
+  },
+  {
+    "n":"YaMenAddId",
+    "a":"衙门战加成ID",
+    "p":{
+      "id":[0,"加成ID"]
+    }
+  },
+
+  {
+    "n":"SC_Yamen",
+    "a":"衙门战",
+    "p":{
+      "info":["PVP_Info","个人信息"],
+      "fight":["PVP_fight","战斗状态"],
+      "cslist":[["FightList","id"],"正常出战,出使令,出战列表"],
+      "fclist":[["FightList","id"],"复仇,挑战,追杀,出战列表"],
+      "rank":[["fUserInfo","id"],"积分排行"],
+      "deflog":[["YamenDefInfo","id"],"防守信息"],
+      "enymsg":[["YamenEnymsg","id"],"仇人信息"],
+      "myrank":["MyYamenRamk","我的积分排名"],
+      "kill20log":[["Yamen20log","id"],"击败20以上日志"],
+      "win":["YamenWin","衙门战弹窗"],
+      "zhuisha":["YamenFind","追杀信息"]
+    }
+  },
+  {
+    "n":"MyYamenRamk",
+    "a":"衙门战",
+    "p":{
+      "score":[0,"我的积分"],
+      "rank":[0,"我的排名"]
+    }
+  },
+
+  {
+    "n":"PVP_Info",
+    "a":"衙门战个人信息",
+    "p":{
+      "state":[0,"衙门状态:非战斗0 无人 1冷却 2申请 3出使 4用尽 - 战斗中:11自动 12出征 13挑战 14复仇 15追杀"],
+      "cd" :["CdLabel","冷却时间"],
+      "fitnum":[0,"剩余 自动出战次数"],
+      "chunum":[0,"出师令可使用次数"],
+      "chumax":[0,"出师令使用次数上限"],
+      "qhid":[0,"申请出战门客"],
+      "fuser":["fUserInfo","申请出战门客"]
+    }
+  },
+  {
+    "n":"PVP_fight",
+    "a":"衙门战斗信息",
+    "p":{
+      "hid":[0,"当前出战门客"],
+      "fuser":["fUserInfo","当前对阵玩家"],
+      "fheros":[["HeroIcon","id"],"当前对阵的3个门客信息"],
+      "shop":[["YaMenAddShop","id"],"加成商店列表"],
+      "fstate":[0,"当前战斗状态 0未战斗  1等待杀人中  2等待选择连胜奖励"],
+      "ackadd":[0,"攻击加成"],
+      "skilladd":[0,"技能加成"],
+      "hp":[0,"当前血量"],
+      "hpmax":[0,"血量上限"],
+      "killnum":[0,"当前击败几个门客"],
+      "fheronum":[0,"对方门客数量"],
+      "money":[0,"衙门大力丸"]
+    }
+  },
+  {
+    "n":"HeroIcon",
+    "a":"衙门战斗门客头像简略信息",
+    "p":{
+      "id":[0,"门客ID"],
+      "senior":[0,"门客爵位"]
+    }
+  },
+  {
+    "n":"YamenWin",
+    "a":"衙门战弹窗",
+    "p":{
+      "fight":["YamenFightWin","战斗"],
+      "rwd":["YamenRwdtWin","翻牌"],
+      "over":["YamenFightOver","战斗结束弹窗"]
+    }
+  },
+  {
+    "n":"YamenFightWin",
+    "a":"衙门战战斗弹窗",
+    "p":{
+      "base":[["YaMenMember"],"阵营信息"],
+      "log":[["YaMenFigHtLog","id"],"战斗日志"],
+      "win":[0,"胜负"],
+      "winnum":[0,"连胜次数"],
+      "nrwd":[0,"再打n场获得连胜奖励"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"YamenRwdtWin",
+    "a":"衙门战翻牌奖励弹窗",
+    "p":{
+      "jiade":[["ItemInfo"],"假的道具"],
+      "items":[["ItemInfo"],"奖励道具"]
+    }
+  },
+  {
+    "n":"YamenFightOver",
+    "a":"衙门战结束弹窗",
+    "p":{
+      "isover":[0,"战斗是否已结束0:未结束,1:已结束"],
+      "fuser":["fUserInfo","敌对玩家信息"],
+      "killnum":[0,"击杀数量"],
+      "win":[0,"是否全歼"],
+      "hid":[0,"出战门客id"]
+    }
+  },
+  {
+    "n":"YaMenMember",
+    "a":"衙门战阵营信息",
+    "p":{
+      "hid":[0,"门客ID"],
+      "level":[0,"门客等级"],
+      "azz":[0,"综合资质"],
+      "hpmax":[0,"生命值上限"],
+      "hp":[0,"初始生命值总量"]
+    }
+  },
+  {
+    "n":"YaMenFigHtLog",
+    "a":"衙门战战斗日志",
+    "p":{
+      "aid":[0,"出手方0,1"],
+      "damge":[0,"伤害值"],
+      "type":[0,"攻击效果 0普攻,1暴击"]
+    }
+  },
+  {
+    "n":"YaMenAddShop",
+    "a":"衙门战加成商店购买物品信息",
+    "p":{
+      "id":[0,"购买类型ID"],
+      "type":[0,"购买状态0:未被购买 1已被购买"],
+      "add":[0,"加成数值"]
+    }
+  },
+  {
+    "n":"YamenDefInfo",
+    "a":"衙门战防守消息",
+    "p":{
+      "id":[0,"序列号"],
+      "uid":[0,"玩家UID"],
+      "name":["","名字"],
+      "level":[0,"官阶"],
+      "vip":[0,"VIP"],
+      "chenghao":[0,"称号"],
+      "rid":[0,"排名"],
+
+      "hid":[0,"门客ID"],
+      "fscore":[0,"对方衙门分数"],
+      "kill":[0,"击败我方几个门客"],
+      "win":[0,"是否全歼"],
+      "mscore":[0,"我的衙门分数增减"],
+      "dtime":[0,"攻打时间"]
+    }
+  },
+  {
+    "n":"Yamen20log",
+    "a":"衙门战击败20名日志",
+    "p":{
+      "id":[0,"序列号"],
+      "user":["fUserInfo","进攻方"],
+      "fuser":["fUserInfo","防守方"],
+      "hid":[0,"使用门客"],
+      "kill":[0,"击杀数量"],
+      "win":[0,"是否全歼"],
+      "lkill":[0,"连杀数"],
+      "ftype":[0,"战斗类型/只关注追杀"],
+      "ktime":[0,"时间"]
+    }
+  },
+  {
+    "n":"YamenEnymsg",
+    "a":"衙门战仇人信息",
+    "p":{
+      "id":[0,"序列号UID"],
+      "fuser":["FuserData","仇人信息"],
+      "score":[0,"衙门积分"],
+      "time":[0,"结仇时间"]
+    }
+  },
+  {
+    "n":"YamenFind",
+    "a":"衙门战追杀查询信息",
+    "p":{
+      "fuser":["FuserData","玩家详细信息"],
+      "rank":[0,"衙门名次"],
+      "score":[0,"衙门积分"],
+      "hnum":[0,"门客数量"]
+    }
+  },
+  {
+    "n":"SC_Chat",
+    "a":"聊天模块",
+    "p":{
+      "sev":[["ChatMsgInfo","id"],"公共频道"],
+      "club":[["ChatMsgInfo","id"],"工会频道"],
+      "kuafu":[["ChatMsgInfo","id"],"跨服频道"],
+      "pao":[["PaoMsgInfo","id"],"跑马灯信息"],
+      "blacklist":[["FuserData"],"黑名单列表"]
+    }
+  },
+  {
+    "n":"ChatMsgInfo",
+    "a":"聊天数据",
+    "p":{
+      "id":[0,"列表序号"],
+      "user":["fUserInfo","玩家信息"],
+      "type":[0,"类型"],
+      "msg":["","消息体"],
+      "time":[0,"时间"],
+      "isGM":[0,"是否是官方号"]
+    }
+  },
+  {
+    "n":"PaoMsgInfo",
+    "a":"跑马灯数据",
+    "p":{
+      "id":[0,"列表序号"],
+      "msg":["","消息体"],
+      "outtime":[0,"过期时间"]
+    }
+  },
+  {
+    "n":"CS_Chat",
+    "a":"聊天模块",
+    "p":{
+      "sev":["ChatMsg","公共频道"],
+      "sevhistory":["ChatId","公共频道历史信息"],
+      "club":["ChatMsg","工会频道"],
+      "kuafu":["ChatMsg","跨服频道"],
+      "clubhistory":["ChatId","工会频道历史信息"],
+      "kuafuhistory":["ChatId","跨服频道历史信息"],
+      "addblacklist":["BlackId","加入黑名单"],
+      "subblacklist":["BlackId","移除黑名单"]
+    }
+  },
+  {
+    "n":"BlackId",
+    "a":"黑名单",
+    "p":{
+      "buid":[0,"黑名单的uid"]
+    }
+  },
+  {
+    "n":"ChatMsg",
+    "a":"聊天字符串",
+    "p":{
+      "msg":["","文字信息"]
+    }
+  },
+  {
+    "n":"ChatId",
+    "a":"历史信息ID",
+    "p":{
+      "id":[0,"历史ID"]
+    }
+  },
+  {
+    "n":"SC_Code",
+    "a":"兑换码模块",
+    "p":{
+      "exchange":["SC_MsgWin","兑换码信息"]
+    }
+  },
+  {
+    "n":"CS_Code",
+    "a":"兑换码模块",
+    "p":{
+      "exchange":["CodeMsg","兑换码信息"]
+    }
+  },
+  {
+    "n":"CodeMsg",
+    "a":"兑换码信息",
+    "p":{
+      "key":["","兑换码"]
+    }
+  },
+  {
+    "n":"SC_Notice",
+    "a":"公告模块",
+    "p":{
+      "list":[["NoticeMsg"],"公告信息"],
+      "listNew":[["NoticeMsg"],"新版公告信息"]
+    }
+  },
+  {
+    "n":"NoticeMsg",
+    "a":"公告信息",
+    "p":{
+      "title":["","标题"],
+      "header":["","头部"],
+      "body":["","内容"]
+    }
+  },
+  {
+    "n":"SC_Derail",
+    "a":"功能开关",
+    "p":{
+      "list":["DerailList","开关列表"]
+    }
+  },
+  {
+    "n":"DerailList",
+    "a":"开关列表",
+    "p":{
+      "status":[1,"官群福利开关 1:开启 2:关闭"],
+      "blacklist":[1,"黑名单 1:开启 2:关闭"],
+      "switch":["","开关 例如 hunt:1;taofa:1;'wxqq':0:未开放 1:只开放加微信 2:只开放加Q群 3:开放加微信和加QQ,jyOpen:家宴公开0关闭1开启;"]
+    }
+  },
+  {
+    "n":"SC_Hunt",
+    "a":"狩猎",
+    "p":{
+      "hdInfo":["HuntCfg","活动配置"],
+      "hunt":["HuntHdInfo","个人活动信息"],
+      "rwdLog":[["HuntLog"],"日志"],
+      "firstScore":["HuntFirstScore","第一名信息"],
+      "allScore":["HuntAllScore","全服积分"],
+      "scoreRank":[["fUserInfo","id"],"积分排行"],
+      "rwd":[["Scbhdrwd","id"],"活动奖励档次信息"],
+      "fail":["HuntFail","失败弹窗"],
+      "win":["HuntWin","胜利弹窗"],
+      "myScore":["HuntMyScore","狩猎-我的排名"],
+      "huntFinish":["HuntOpen","狩猎-是否开启"]
+    }
+  },
+  {
+    "n":"HuntOpen",
+    "a":"狩猎-是否开启",
+    "p":{
+      "status" : [1,"1:结束"]
+    }
+  },
+  {
+    "n":"HuntMyScore",
+    "a":"狩猎-我的排名",
+    "p":{
+      "myName" : ["","我的名称"],
+      "myScore" : [0,"我的积分"],
+      "myScorerank" : [0,"我的排名"]
+    }
+  },
+  {
+    "n":"HuntWin",
+    "a":"胜利弹窗",
+    "p":{
+      "score":[0,"获得的积分"],
+      "items":[["ItemInfo"],"奖励道具"],
+      "hurt":[100,"造成伤害"]
+    }
+  },
+  {
+    "n":"HuntFail",
+    "a":"失败弹窗",
+    "p":{
+      "hurt":[0,"还差多少伤害"]
+    }
+  },
+  {
+    "n":"HuntCfg",
+    "a":"活动配置",
+    "p":{
+      "status":[0,"活动状态 0未开启 1开启中 2活动结束展示中"],
+      "showTime":[0,"活动结束展示时间"],
+      "startTime":[0,"开始时间"],
+      "cd" :["CdLabel","倒计时"]
+    }
+  },
+  {
+    "n":"HuntHdInfo",
+    "a":"个人活动信息",
+    "p":{
+      "score":[0,"积分"],
+      "guanka":[1,"达到第几关"],
+      "rwd_level" :[0,"全服奖励已领取档次"],
+      "cd" :["CdLabel","倒计时"]
+    }
+  },
+  {
+    "n":"HuntLog",
+    "a":"狩猎-奖励日志",
+    "p":{
+      "name" : ["","用户名称"],
+      "guanka" : [0,"关卡id"],
+      "item" : [0,"获得道具id"],
+      "num" : [0,"获得道具数量"]
+    }
+  },
+  {
+    "n":"HuntFirstScore",
+    "a":"狩猎-第一名信息",
+    "p":{
+      "user" : ["fUserInfo","用户信息"],
+      "Score" : [0,"积分"],
+      "Scorerank" : [1,"排名"]
+    }
+  },
+  {
+    "n":"HuntAllScore",
+    "a":"狩猎-全服积分",
+    "p":{
+      "score" : [0,"总积分"]
+    }
+  },
+  {
+    "n":"CS_Hunt",
+    "a":"狩猎",
+    "p":{
+      "hunt":["NULL","打开狩猎"],
+      "play":["HuntPlay","打猎物"],
+      "jf_rwd":["Cjf_rwd","领取全服奖励"],
+      "rankRwd":["NULL","排行奖励信息"],
+      "allDressRwd":["NULL","全服奖励信息"],
+      "paihang":["NULL","排行榜"],
+      "isOpen":["NULL","是否开启"]
+    }
+  },
+  {
+    "n":"Cjf_rwd",
+    "a":"领取全服奖励",
+    "p":{
+      "id" : [0,"领取全服奖励"]
+    }
+  },
+  {
+    "n":"HuntPlay",
+    "a":"狩猎-打猎物",
+    "p":{
+      "id" : [1,"4个准度1、2、3、4"]
+    }
+  },
+  {
+    "n":"SC_Taofa",
+    "a":"讨伐模块",
+    "p":{
+      "playInfo" : ["TfPlayInfo","讨伐-关卡信息"],
+      "scoreRank":[["fUserInfo","id"],"积分排行"],
+      "myRand":["TfMyScore","讨伐-我的排名"],
+      "rootInfo":["TfRootInfo","一键讨伐信息"],
+      "win":["TfWinMsg","胜利弹窗"],
+      "fail":["TfFailMsg","失败弹窗"]
+    }
+  },
+  {
+    "n":"TfWinMsg",
+    "a":"胜利弹窗",
+    "p":{
+      "pass":[0,"过了几关"],
+      "pvewin":["pvePlayRwd","战斗奖励信息"]
+    }
+  },
+  {
+    "n":"pvePlayRwd",
+    "a":"战斗奖励信息",
+    "p":{
+      "items":[["ItemInfo","id"],"奖励道具"]
+    }
+  },
+  {
+    "n":"TfFailMsg",
+    "a":"失败弹窗",
+    "p":{
+      "army":[0,"打了多少兵"]
+    }
+  },
+  {
+    "n":"TfRootInfo",
+    "a":"一键讨伐信息",
+    "p":{
+      "low" : [0,"最低关数"],
+      "max" : [0,"最高关数"],
+      "info" : [["RootDetail"],"信息"]
+    }
+  },
+  {
+    "n":"RootDetail",
+    "a":"一键讨伐-信息",
+    "p":{
+      "id" : [0,"关数"],
+      "army" : [0,"需要的士兵"]
+    }
+  },
+  {
+    "n":"TfMyScore",
+    "a":"讨伐-我的排名",
+    "p":{
+      "rid" : [0,"排名"],
+      "score" : [0,"积分"],
+      "name" : ["","名称"]
+    }
+  },
+  {
+    "n":"TfPlayInfo",
+    "a":"关卡信息",
+    "p":{
+      "gid" : [0,"关卡id"],
+      "data" : [["TfLevelInfo"],"档次信息"]
+    }
+  },
+  {
+    "n":"TfLevelInfo",
+    "a":"档次信息",
+    "p":{
+      "id" : [0,"怪物id"],
+      "army":[0,"兵力"],
+      "rwd" : [["ItemInfo","id"],"奖励列表"]
+    }
+  },
+  {
+    "n":"CS_Taofa",
+    "a":"讨伐模块",
+    "p":{
+      "taofa" : ["NULL","讨伐-进入讨伐"],
+      "play" :["TfPlay","讨伐-打"],
+      "paihang":["NULL","排行榜"],
+      "rootPlay":["TfRootPlay","一键讨伐-打"],
+      "rootInfo":["NULL","一键讨伐-信息"]
+    }
+  },
+  {
+    "n":"TfPlay",
+    "a":"讨伐-打",
+    "p":{
+      "id" : [0,"怪物id"]
+    }
+  },
+  {
+    "n":"TfRootPlay",
+    "a":"一键讨伐",
+    "p":{
+      "gid" : [0,"关卡id"]
+    }
+  },
+
+  {
+    "n":"SC_HanLin",
+    "a":"翰林院",
+    "p":{
+      "ting" : [["fUserInfo"],"大厅桌位列表"],
+      "info" : ["HanLinInfo","个人信息"],
+      "desk":["HanLindesk","房间信息"],
+      "win":["HanLinWin","翰林弹窗"]
+    }
+  },
+  {
+    "n":"HanLinWin",
+    "a":"翰林院弹窗",
+    "p":{
+      "tif":["HanLinWinTif","踢人战斗弹窗"],
+      "tim":["HanLinWinTim","被T提示弹窗"],
+      "fang":["HanLinWinFang","放学提示弹窗"],
+      "find":["fUserInfo","翰林查询弹窗"],
+      "upskill":[["HanLinUpSkillhero","id"],"门客翰林技能"]
+    }
+  },
+  {
+    "n":"HanLinUpSkillhero",
+    "a":"门客翰林技能",
+    "p":{
+      "heroid": [0,"门客ID"],
+      "skillid": [0,"资质技能ID"],
+      "lv": [0,"提示等级"]
+    }
+  },
+  {
+    "n":"HanLinFindwin",
+    "a":"翰林院踢人战斗弹窗",
+    "p":{
+      "win":[0,"0:失败 1:胜利"],
+      "fuser1":["fUserInfo","进攻方"],
+      "fuser2":["fUserInfo","防守方"]
+    }
+  },
+  {
+    "n":"HanLinWinTif",
+    "a":"翰林院踢人战斗弹窗",
+    "p":{
+      "win":[0,"0:失败 1:胜利"],
+      "fuser1":["fUserInfo","进攻方"],
+      "fuser2":["fUserInfo","防守方"]
+    }
+  },
+  {
+    "n":"HanLinWinTim",
+    "a":"翰林院被T提示弹窗",
+    "p":{
+      "fuser":["fUserInfo","T的人"],
+      "score":[0,"分数"],
+      "time":[0,"时间"]
+    }
+  },
+  {
+    "n":"HanLinWinFang",
+    "a":"翰林院放学提示弹窗",
+    "p":{
+      "score":[0,"分数"],
+      "time":[0,"时间"]
+    }
+  },
+  {
+    "n":"HanLinInfo",
+    "a":"翰林院个人信息",
+    "p":{
+      "level":[0,"翰林等级"],
+      "exp":[0,"翰林经验"],
+      "ruid":[0,"房间号"],
+      "ctime":[0,"被T冷却时间"]
+    }
+  },
+  {
+    "n":"HanLindesk",
+    "a":"房间详细信息",
+    "p":{
+      "master":["fUserInfo2","桌长信息"],
+      "desks":[["fUserInfo3"],"座位信息"],
+      "log":[["HanLinLog"],"日志"]
+    }
+  },
+  {
+    "n":"HanLinLog",
+    "a":"翰林院日志",
+    "p":{
+      "name1":["","名字1"],
+      "name2":["","名字2"],
+      "type":[0,"类型"],
+      "time":[0,"时间"]
+    }
+  },
+  {
+    "n":"CS_HanLin",
+    "a":"翰林院",
+    "p":{
+      "listinfo" : ["NULL","刷新大厅"],
+      "opendesk" : ["NULL","新建房间"],
+      "comein":["HanLinDeskParms","进入房间"],
+      "sitdown":["HanLinRidParms","加入空位置"],
+      "ti":["HanLinTiParms","踢人打架"],
+      "find":["HanLinDeskParms","查询房间"],
+      "upskill":["NULL","升级技能"],
+      "suoding":["HanLinTiParms","保护玩家"]
+    }
+  },
+  {
+    "n":"HanLinDeskParms",
+    "a":"房间",
+    "p":{
+      "fuid" : [0,"卓编号"]
+    }
+  },
+  {
+    "n":"HanLinRidParms",
+    "a":"坐位",
+    "p":{
+      "fuid" : [0,"卓编号"],
+      "rid" : [0,"坑位编号"]
+    }
+  },
+  {
+    "n":"HanLinTiParms",
+    "a":"踢人",
+    "p":{
+      "fuid" : [0,"卓编号"],
+      "rid" : [0,"坑位编号"],
+      "uid" : [0,"对方UID"]
+    }
+  },
+  {
+    "n":"CS_Trade",
+    "a":"丝绸之路",
+    "p":{
+      "trade" : ["NULL","获取丝绸之路信息"],
+      "play" : ["TradePK","丝绸之路-pk"],
+      "rootPlay" : ["TradePK","丝绸之路-一键通商"],
+      "paihang" : ["NULL","排行榜"]
+    }
+  },
+  {
+    "n":"TradePK",
+    "a":"丝绸之路-pk",
+    "p":{
+      "gid" : [0,"关卡id"]
+    }
+  },
+  {
+    "n":"SC_Trade",
+    "a":"丝绸之路模块",
+    "p":{
+      "Info" : ["TradeInfo","丝绸之路-关卡信息"],
+      "scoreRank":[["fUserInfo","id"],"积分排行"],
+      "myRand":["TfMyScore","丝绸之路-我的排名"],
+      "win":["TfWinMsg","胜利弹窗"],
+      "fail":["TfFailMsg","失败弹窗"],
+      "fight":["RradeFightWin","战斗弹窗"]
+    }
+  },
+  {
+    "n":"RradeFightWin",
+    "a":"战斗弹窗",
+    "p":{
+      "win":[1,"战斗结果 1:胜利 0:失败"],
+      "map":["MapInfo","地图信息"],
+      "members":[["FightMember","id"],"战斗成员信息"]
+    }
+  },
+  {
+    "n":"TradeInfo",
+    "a":"关卡信息",
+    "p":{
+      "gid" : [0,"关卡id"],
+      "status" : [0,"是否开启一键丝绸 1:开启 0:关闭"],
+      "rwd" : [["ItemInfo","id"],"奖励列表"]
+    }
+  },
+  {
+    "n":"SC_NationalDay",
+    "a":"国庆狂欢活动",
+    "p": {
+      "shop":[["Shopxg","id"],"国庆狂欢活动-商城列表"],
+      "boss":["Xgboss","国庆狂欢活动-boss血量"],
+      "exchange":["ExchangeShop","国庆狂欢活动-兑换商城"],
+      "bag":[["ItemInfo"],"国庆狂欢活动-仓库"],
+      "scoreRank":[["fUserInfo","id"],"国庆狂欢活动-个人积分排行"],
+      "clublist":[["Scblist","id"],"国庆狂欢活动-联盟积分列表"],
+      "cfg":["ScgInfoxg","国庆狂欢活动-配置信息"],
+      "win":["XghuodongTx","国庆狂欢活动-弹窗特效"],
+      "rwdLog":[["XgLog"],"国庆狂欢活动奖励日志"],
+      "myScore":["XgMyScore","国庆狂欢活动-我的排名"],
+      "myclubRid":["XgMyclubRid","国庆狂欢活动-我的联盟排名"],
+      "score":["XgScore","国庆狂欢活动-积分"]
+    }
+  },
+  {
+    "n":"CS_Friends",
+    "a":"好友模块",
+    "p":{
+      "flist":["Null","好友列表"],
+      "fapply":["Fuid","好友-申请"],
+      "fapplylist":["Null","好友申请列表"],
+      "fok":["Fuid","好友申请列表 - 同意"],
+      "fno":["Fuid","好友申请列表 - 拒绝"],
+      "fsub":["Fuid","好友列表 - 删除"],
+      "qjlist":["Null","亲家列表"],
+      "qjvisit":["Fuid","亲家拜访0:一键拜访>0:uid拜访"],
+      "ffchat":["Fuid","获取私聊信息"],
+      "fschat":["Sfschat","发送私聊"],
+      "fssub":["Fuid","私聊列表 - 删除私聊玩家"],
+      "fhistory":["CFhistory","输出历史列表"],
+      "frchat":["Fuid","刷新私聊信息"]
+    }
+  },
+  {
+    "n":"CFhistory",
+    "a":"输出历史列表",
+    "p":{
+      "fuid":[0,"对象uid"],
+      "id":[0,"语句标号"]
+    }
+  },
+  {
+    "n":"Sfschat",
+    "a":"发送私聊",
+    "p":{
+      "fuid":[0,"对象"],
+      "msg":["","语句"]
+    }
+  },
+  {
+    "n":"CS_Kuayamen",
+    "a":"跨服衙门战",
+    "p":{
+      "comehd":["Null","进入活动"],
+      "yamen":["Null","进入衙门"],
+      "chushi":["Null","使用出使令"],
+      "tiaozhan":["FuidHid2","使用挑战卡"],
+      "fuchou":["FuidHid","复仇"],
+      "zhuisha":["FuidHid","追杀"],
+      "findzhuisha":["Fuid","追杀查询"],
+      "pizun":["Null","批准进入战斗"],
+      "getSevRwd":["","领取本服奖励"],
+      "fight":["heroId","选一个人打"],
+      "seladd":["YaMenAddId","选择加成"],
+      "getrwd":["Null","选择翻牌奖励"],
+      "getRank":["Null","刷新排行榜"],
+      "yamenhistory":["ChatId","衙门日志历史信息"],
+      "kuafu":["ChatMsg","跨服频道"],
+      "kuafuhistory":["ChatId","跨服频道历史信息"],
+      "getYxRank":["NULL","获取预选赛排名"],
+      "getMyRank":["NULL","获取我的排名和本服排名信息"]
+    }
+  },
+  {
+    "n":"SC_Friends",
+    "a":"好友系统",
+    "p":{
+      "flist":[["fUserInfo","id"],"好友列表"],
+      "fapplylist":[["fUserInfo","id"],"好友申请列表"],
+      "qjlist":[["fUserInfo","id"],"亲家列表"],
+      "sltip":[["Ssltip","id"],"私聊红点列表"],
+      "fllist":[["Sfllist","id"],"私聊列表"],
+      "sonshili":["SSonshili","一键拜访势力"]
+    }
+  },
+  {
+    "n":"SSonshili",
+    "a":"一键拜访势力",
+    "p":{
+      "num":[0,"子嗣总势力值"]
+    }
+  },
+  {
+    "n":"Ssllist",
+    "a":"私聊对话列表",
+    "p":{
+      "id":[0,"列表序号"],
+      "uid":[0,"私聊对象uid"],
+      "msg":["","私聊信息"],
+      "time":[0,"时间"]
+    }
+  },
+  {
+    "n":"Sfllist",
+    "a":"私聊列表",
+    "p":{
+      "id":[0,"私聊对象uid"],
+      "sllist":[["Ssllist","id"],"私聊对话列表"]
+    }
+  },
+  {
+    "n":"Ssltip",
+    "a":"私聊红点列表",
+    "p":{
+      "fuid":[0,"私聊对象uid"]
+    }
+  },
+  {
+    "n":"SC_Kuayamen",
+    "a":"跨服衙门战",
+    "p":{
+      "hdinfo":["KuaHdInfo","跨服衙门活动信息"],
+      "info":["PVP_Info","个人信息"],
+      "fight":["PVP_fight","战斗状态"],
+      "cslist":[["FightList","id"],"正常出战,出使令,出战列表"],
+      "fclist":[["FightList","id"],"复仇,挑战,追杀,出战列表"],
+      "scoreRank":[["fUserInfo","id"],"积分排行"],
+      "severRank":[["SeverInfo","id"],"服务器积分排行"],
+      "deflog":[["YamenDefInfo","id"],"防守信息"],
+      "enymsg":[["YamenEnymsg","id"],"仇人信息"],
+      "myScore":["MyKuaYamenRank","我的积分排名"],
+      "severScore":["MyKuaYamenRank","本服积分排名信息"],
+      "kill20log":[["Yamen20log","id"],"击败20以上日志"],
+      "win":["YamenWin","衙门战弹窗"],
+      "zhuisha":["YamenFind","追杀信息"],
+      "yuxuan":["KuaYamenState","预选赛门票"],
+      "lingqu":["KuaYamenState","领取全服奖励"],
+      "chat":[["ChatMsgInfo","id"],"跨服衙门聊天频道"],
+      "firstScoreRank":["FirstYamenData","排名第一的区服信息"]
+    }
+  },
+  {
+    "n":"KuaHdInfo",
+    "a":"跨服衙门活动信息",
+    "p":{
+      "hd_status" : [0,"状态 1:预选赛 2:预选赛展示 3:正式赛 4:正式赛展示"],
+      "num" : [100,"预选赛选取人数"],
+      "rwd" :["KuaYamenRwd","跨服衙门奖励"],
+      "yueTime" :["KuaHdCdTime","预选赛倒计时"],
+      "yushowTime" :["KuaHdCdTime","正式赛开启倒计时"],
+      "eTime" :["KuaHdCdTime","正式赛结束倒计时"]
+    }
+  },
+  {
+    "n":"FirstYamenData",
+    "a":"排名第一的区服信息",
+    "p":{
+      "sid" : [0,"区服"],
+      "score" : [0,"积分"],
+      "scorerank" : [0,"排名"]
+    }
+  },
+  {
+    "n":"KuaHdCdTime",
+    "a":"跨服衙门倒计时",
+    "p":{
+      "cd":["CdLabel","活动倒计时"]
+    }
+  },
+  {
+    "n":"MyKuaYamenRank",
+    "a":"我的排名",
+    "p":{
+      "myName" : ["","名字"],
+      "myScore" : [0,"积分"],
+      "myScorerank" : [0,"排名"]
+    }
+  },
+  {
+    "n":"SeverInfo",
+    "a":"服务器积分排行",
+    "p":{
+      "sid" : [0,"服务区id"],
+      "name" : ["","第一名名称"],
+      "rid" : [0,"排名"],
+      "num" : [0,"积分"]
+    }
+  },
+  {
+    "n":"KuaYamenState",
+    "a":"跨服衙门领取状态",
+    "p":{
+      "state" : [0,"状态 1：获得 0:未获得"]
+    }
+  },
+  {
+    "n":"KuaYamenRwd",
+    "a":"跨服衙门领取状态",
+    "p":{
+      "my" : [["Scbhdrwd","id"],"活动档次信息"],
+      "sever" : [["Scbhdrwd","id"],"活动档次信息"]
+    }
+  },
+  {
+    "n":"SC_DoubleNinth",
+    "a":"重阳节活动",
+    "p": {
+      "shop":[["Shopxg","id"],"重阳节活动-商城列表"],
+      "boss":["Xgboss","重阳节活动-boss血量"],
+      "exchange":["ExchangeShop","重阳节活动-兑换商城"],
+      "bag":[["ItemInfo"],"重阳节活动-仓库"],
+      "scoreRank":[["fUserInfo","id"],"重阳节活动-个人积分排行"],
+      "clublist":[["Scblist","id"],"重阳节活动-联盟积分列表"],
+      "cfg":["ScgInfoDn","重阳节活动-配置信息"],
+      "win":["XghuodongTx","重阳节活动-弹窗特效"],
+      "rwdLog":[["XgLog"],"重阳节活动-奖励日志"],
+      "myScore":["XgMyScore","重阳节活动-我的排名"],
+      "myclubRid":["XgMyclubRid","重阳节活动-我的联盟排名"],
+      "score":["XgScore","重阳节活动-积分"],
+      "leiji":["DnLeiji","重阳节活动-累计充值"]
+    }
+  },
+  {
+    "n":"DnLeiji",
+    "a":"重阳节活动-累计充值",
+    "p":{
+      "total" :[0,"每日累计金额"],
+      "rwd" : [0,"已领取档次"]
+    }
+  },
+  {
+    "n":"ScgInfoDn",
+    "a":"重阳节活动-配置信息",
+    "p":{
+      "info" : ["Shdinfo","活动基础信息"],
+      "boss" : [0,"boss总血量"],
+      "story" : ["","故事"],
+      "rwd" : ["rwdType","奖励类别"],
+      "play_time" : ["CanPlay","可以打的时间段"],
+      "recharge" :[["DnRechange","id"],"充值档次奖励列表"]
+    }
+  },
+  {
+    "n":"DnRechange",
+    "a":"充值档次奖励列表",
+    "p":{
+      "id" : [0,"档次id"],
+      "money" : [0,"需要达到的金额"],
+      "items" : [["ItemInfo","id"],"奖励列表"]
+    }
+  },
+  {
+    "n":"SC_DoubleEleven",
+    "a":"双十一活动",
+    "p": {
+      "list":["HdOneBuyInfo","单品限购列表"],
+      "giftlist":["ShopGiftInfo","特惠礼包"],
+      "cfg":["ScgInfoDe","双十一活动-配置信息"],
+      "win":["XghuodongTx","双十一活动-弹窗特效"],
+      "leiji":["DeLeiji","双十一活动-累计充值"]
+    }
+  },
+  {
+    "n":"DeLeiji",
+    "a":"双十一活动-累计充值",
+    "p":{
+      "total" :[0,"每日累计金额"],
+      "rwd" : [0,"已领取档次"]
+    }
+  },
+  {
+    "n":"ScgInfoDe",
+    "a":"双十一活动-配置信息",
+    "p":{
+      "sTime":[0,"活动开始时间戳"],
+      "eTime":[0,"活动结束时间戳"],
+      "info" : ["Shdinfo","充值奖励基础信息"],
+      "rwd" :[["DnRechange","id"],"充值档次奖励列表"]
+    }
+  },
+  {
+    "n":"HdOneBuyInfo",
+    "a":"活动-单品限购",
+    "p":{
+      "cft": ["CftInfo","基础信息"],
+      "items": [["OneBuyInfo","id"],"商品列表"]
+    }
+  },
+  {
+    "n":"SC_ThanksDay",
+    "a":"感恩节活动",
+    "p": {
+      "shop":[["Shopxg","id"],"感恩节活动-商城列表"],
+      "boss":["Xgboss","感恩节活动-boss血量"],
+      "exchange":["ExchangeShop","感恩节活动-兑换商城"],
+      "bag":[["ItemInfo"],"感恩节活动-仓库"],
+      "scoreRank":[["fUserInfo","id"],"感恩节活动-个人积分排行"],
+      "clublist":[["Scblist","id"],"感恩节活动-联盟积分列表"],
+      "cfg":["ScgInfoDn","感恩节活动-配置信息"],
+      "win":["XghuodongTx","感恩节活动-弹窗特效"],
+      "rwdLog":[["XgLog"],"感恩节活动-奖励日志"],
+      "myScore":["XgMyScore","感恩节活动-我的排名"],
+      "myclubRid":["XgMyclubRid","感恩节活动-我的联盟排名"],
+      "score":["XgScore","感恩节活动-积分"],
+      "leiji":["DnLeiji","感恩节活动-累计充值"]
+    }
+  },
+  {
+    "n":"CS_Gzj",
+    "a":"国子监",
+    "p":{
+      "gzj":["NULL","国子监-进入"],
+      "addDesk":["NULL","国子监-购买读书位"],
+      "startStudy":["GzjStartStudy","国子监-开始学习"],
+      "bribery":["GzjBribery","国子监-行贿"],
+      "overWork":["GzjOverWork","国子监-毕业"],
+      "alloverWork":["NULL","国子监-一键毕业"],
+      "getdayreward":["GzjgetdReward","国子监-获取每日奖励-个人"],
+      "alldayreward":["NULL","国子监-一键获取每日奖励"]
+    }
+  },
+  {
+    "n":"GzjStartStudy",
+    "a":"国子监-开始学习",
+    "p":{
+      "wid":[0,"国子监-位置id"],
+      "sid":[0,"国子监-子嗣id"]
+    }
+  },
+  {
+    "n":"GzjBribery",
+    "a":"国子监-行贿",
+    "p":{
+      "sid":[0,"国子监-子嗣id"],
+      "level":[0,"国子监-档次 1:初级 2:中级 3:高级"]
+    }
+  },
+  {
+    "n":"GzjOverWork",
+    "a":"国子监-毕业",
+    "p":{
+      "wid":[0,"国子监-位置id"]
+    }
+  },
+  {
+    "n":"GzjgetdReward",
+    "a":"国子监-获取每日奖励-个人",
+    "p":{
+      "sid":[0,"子嗣id"]
+    }
+  },
+  {
+    "n":"SC_Gzj",
+    "a":"国子监",
+    "p":{
+      "base":["GzjBase","国子监-位置个数"],
+      "list":[["GzjList","id"],"国子监-学习列表"],
+      "graduation":[["GzjGraduation","id"],"国子监-已毕业列表"],
+      "dgift":[["GjzGiftList"],"国子监-每日奖励列表"],
+      "reward":[["GjzGiftList"],"国子监-结算奖励列表"],
+      "gifts":["GzjGift","国子监-送礼"]
+    }
+  },
+  {
+    "n":"GzjGift",
+    "a":"国子监-送礼",
+    "p":{
+      "primary":["CdLabel","初级倒计时"],
+      "middle":["CdLabel","中级倒计时"]
+    }
+  },
+  {
+    "n":"GzjBase",
+    "a":"国子监位置个数",
+    "p":{
+      "desk":[1,"位置个数"]
+    }
+  },
+  {
+    "n":"GzjList",
+    "a":"国子监-学习信息",
+    "p":{
+      "id":[0,"位置id"],
+      "sid":[0,"子嗣id"],
+      "popular":[0,"声望"],
+      "level":[0,"职称等级"],
+      "giftId":[0,"每日礼包id 0表示没有"],
+      "cd":["CdLabel","倒计时"],
+      "lqcd":["CdLabel","领取倒计时"]
+    }
+  },
+  {
+    "n":"GzjGraduation",
+    "a":"国子监-已毕业列表",
+    "p":{
+      "sid":[0,"子嗣id"]
+    }
+  },
+  {
+    "n":"GjzGiftList",
+    "a":"国子监-奖励列表",
+    "p":{
+      "sid":[0,"子嗣id"],
+      "items":[["ItemInfo"],"道具"]
+    }
+  }
+]

@@ -1,0 +1,48 @@
+
+xuanzhong.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lightspot
+  rotate: false
+  xy: 90, 36
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+quan
+  rotate: false
+  xy: 2, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 184, 74
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+蝴蝶1
+  rotate: true
+  xy: 2, 18
+  size: 54, 86
+  orig: 54, 86
+  offset: 0, 0
+  index: -1
+蝴蝶1-1
+  rotate: false
+  xy: 90, 2
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+蝴蝶1-2
+  rotate: false
+  xy: 366, 174
+  size: 49, 80
+  orig: 49, 80
+  offset: 0, 0
+  index: -1

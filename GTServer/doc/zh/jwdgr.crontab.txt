@@ -1,0 +1,682 @@
+#-----------------------------------------以下是在第1台服务器上跑脚本----------------------------------------------------------------------------
+#叫我大官人-jwdgr
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/cfg_houtai.php > /data/logs/jwdgr_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/delete.php > /data/logs/jwdgr_log/delete 2>&1
+
+#叫我大官人-jwdgr 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 1 >> /data/logs/jwdgr_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 1 > /data/logs/jwdgr_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 1 > /data/logs/jwdgr_log/Sync1 2>&1
+
+#叫我大官人-jwdgr 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 2 >> /data/logs/jwdgr_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 2 > /data/logs/jwdgr_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 2 > /data/logs/jwdgr_log/Sync2 2>&1
+
+#叫我大官人-jwdgr 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 3 >> /data/logs/jwdgr_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 3 > /data/logs/jwdgr_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 3 > /data/logs/jwdgr_log/Sync3 2>&1
+
+#叫我大官人-jwdgr 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 5 >> /data/logs/jwdgr_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 5 > /data/logs/jwdgr_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 5 > /data/logs/jwdgr_log/Sync5 2>&1
+
+#叫我大官人-jwdgr 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 6 >> /data/logs/jwdgr_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 6 > /data/logs/jwdgr_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 6 > /data/logs/jwdgr_log/Sync6 2>&1
+
+#叫我大官人-jwdgr 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 7 >> /data/logs/jwdgr_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 7 > /data/logs/jwdgr_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 7 > /data/logs/jwdgr_log/Sync7 2>&1
+
+#叫我大官人-jwdgr 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 8 >> /data/logs/jwdgr_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 8 > /data/logs/jwdgr_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 8 > /data/logs/jwdgr_log/Sync8 2>&1
+
+#叫我大官人-jwdgr 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 9 >> /data/logs/jwdgr_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 9 > /data/logs/jwdgr_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 9 > /data/logs/jwdgr_log/Sync9 2>&1
+
+#叫我大官人-jwdgr 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 10 >> /data/logs/jwdgr_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 10 > /data/logs/jwdgr_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 10 > /data/logs/jwdgr_log/Sync10 2>&1
+
+#叫我大官人-jwdgr 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 11 >> /data/logs/jwdgr_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 11 > /data/logs/jwdgr_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 11 > /data/logs/jwdgr_log/Sync11 2>&1
+
+
+#叫我大官人-jwdgr 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 12 >> /data/logs/jwdgr_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 12 > /data/logs/jwdgr_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 12 > /data/logs/jwdgr_log/Sync12 2>&1
+
+#叫我大官人-jwdgr 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 13 >> /data/logs/jwdgr_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 13 > /data/logs/jwdgr_log/flow13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 13 > /data/logs/jwdgr_log/Sync13 2>&1
+
+#叫我大官人-jwdgr 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 14 >> /data/logs/jwdgr_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 14 > /data/logs/jwdgr_log/flow14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 14 > /data/logs/jwdgr_log/Sync14 2>&1
+
+#叫我大官人-jwdgr 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 15 >> /data/logs/jwdgr_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 15 > /data/logs/jwdgr_log/flow15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 15 > /data/logs/jwdgr_log/Sync15 2>&1
+
+#叫我大官人-jwdgr 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 16 >> /data/logs/jwdgr_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 16 > /data/logs/jwdgr_log/flow16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 16 > /data/logs/jwdgr_log/Sync16 2>&1
+
+
+#-----------------------------------------以下是在第2台服务器上跑脚本----------------------------------------------------------------------------
+#叫我大官人-jwdgr 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 17 >> /data/logs/jwdgr_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 17 > /data/logs/jwdgr_log/flow17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 17 > /data/logs/jwdgr_log/Sync17 2>&1
+
+#叫我大官人-jwdgr 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 18 >> /data/logs/jwdgr_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 18 > /data/logs/jwdgr_log/flow18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 18 > /data/logs/jwdgr_log/Sync18 2>&1
+
+#叫我大官人-jwdgr 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 19 >> /data/logs/jwdgr_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 19 > /data/logs/jwdgr_log/flow19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 19 > /data/logs/jwdgr_log/Sync19 2>&1
+
+#叫我大官人-jwdgr 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 20 >> /data/logs/jwdgr_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 20 > /data/logs/jwdgr_log/flow20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 20 > /data/logs/jwdgr_log/Sync20 2>&1
+
+#叫我大官人-jwdgr 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 21 >> /data/logs/jwdgr_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 21 > /data/logs/jwdgr_log/flow21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 21 > /data/logs/jwdgr_log/Sync21 2>&1
+
+
+#叫我大官人-jwdgr 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 22 >> /data/logs/jwdgr_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 22 > /data/logs/jwdgr_log/flow22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 22 > /data/logs/jwdgr_log/Sync22 2>&1
+
+#叫我大官人-jwdgr 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 23 >> /data/logs/jwdgr_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 23 > /data/logs/jwdgr_log/flow23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 23 > /data/logs/jwdgr_log/Sync23 2>&1
+
+#叫我大官人-jwdgr 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 24 >> /data/logs/jwdgr_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 24 > /data/logs/jwdgr_log/flow24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 24 > /data/logs/jwdgr_log/Sync24 2>&1
+
+#叫我大官人-jwdgr 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 25 >> /data/logs/jwdgr_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 25 > /data/logs/jwdgr_log/flow25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 25 > /data/logs/jwdgr_log/Sync25 2>&1
+
+#叫我大官人-jwdgr 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 26 >> /data/logs/jwdgr_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 26 > /data/logs/jwdgr_log/flow26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 26 > /data/logs/jwdgr_log/Sync26 2>&1
+
+#叫我大官人-jwdgr 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 27 >> /data/logs/jwdgr_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 27 > /data/logs/jwdgr_log/flow27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 27 > /data/logs/jwdgr_log/Sync27 2>&1
+
+#叫我大官人-jwdgr 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 28 >> /data/logs/jwdgr_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 28 > /data/logs/jwdgr_log/flow28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 28 > /data/logs/jwdgr_log/Sync28 2>&1
+
+#叫我大官人-jwdgr 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 29 >> /data/logs/jwdgr_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 29 > /data/logs/jwdgr_log/flow29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 29 > /data/logs/jwdgr_log/Sync29 2>&1
+
+#叫我大官人-jwdgr 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 30 >> /data/logs/jwdgr_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 30 > /data/logs/jwdgr_log/flow30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 30 > /data/logs/jwdgr_log/Sync30 2>&1
+
+#叫我大官人-jwdgr 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 31 >> /data/logs/jwdgr_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 31 > /data/logs/jwdgr_log/flow31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 31 > /data/logs/jwdgr_log/Sync31 2>&1
+
+#叫我大官人-jwdgr 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 32 >> /data/logs/jwdgr_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 32 > /data/logs/jwdgr_log/flow32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 32 > /data/logs/jwdgr_log/Sync32 2>&1
+
+#叫我大官人-jwdgr 33区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 33 >> /data/logs/jwdgr_log/30minutes33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 33 > /data/logs/jwdgr_log/flow33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 33 > /data/logs/jwdgr_log/Sync33 2>&1
+
+#叫我大官人-jwdgr 34区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 34 >> /data/logs/jwdgr_log/30minutes34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 34 > /data/logs/jwdgr_log/flow34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 34 > /data/logs/jwdgr_log/Sync34 2>&1
+
+#叫我大官人-jwdgr 35区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 35 >> /data/logs/jwdgr_log/30minutes35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 35 > /data/logs/jwdgr_log/flow35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 35 > /data/logs/jwdgr_log/Sync35 2>&1
+
+#叫我大官人-jwdgr 36区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 36 >> /data/logs/jwdgr_log/30minutes36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 36 > /data/logs/jwdgr_log/flow36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 36 > /data/logs/jwdgr_log/Sync36 2>&1
+
+#叫我大官人-jwdgr 37区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 37 >> /data/logs/jwdgr_log/30minutes37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 37 > /data/logs/jwdgr_log/flow37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 37 > /data/logs/jwdgr_log/Sync37 2>&1
+
+#叫我大官人-jwdgr 38区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 38 >> /data/logs/jwdgr_log/30minutes38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 38 > /data/logs/jwdgr_log/flow38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 38 > /data/logs/jwdgr_log/Sync38 2>&1
+
+#叫我大官人-jwdgr 39区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 39 >> /data/logs/jwdgr_log/30minutes39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 39 > /data/logs/jwdgr_log/flow39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 39 > /data/logs/jwdgr_log/Sync39 2>&1
+
+#叫我大官人-jwdgr 40区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 40 >> /data/logs/jwdgr_log/30minutes40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 40 > /data/logs/jwdgr_log/flow40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 40 > /data/logs/jwdgr_log/Sync40 2>&1
+
+#叫我大官人-jwdgr 41区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 41 >> /data/logs/jwdgr_log/30minutes41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 41 > /data/logs/jwdgr_log/flow41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 41 > /data/logs/jwdgr_log/Sync41 2>&1
+
+#叫我大官人-jwdgr 42区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 42 >> /data/logs/jwdgr_log/30minutes42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 42 > /data/logs/jwdgr_log/flow42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 42 > /data/logs/jwdgr_log/Sync42 2>&1
+
+#叫我大官人-jwdgr 43区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 43 >> /data/logs/jwdgr_log/30minutes43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 43 > /data/logs/jwdgr_log/flow43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 43 > /data/logs/jwdgr_log/Sync43 2>&1
+
+#叫我大官人-jwdgr 44区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 44 >> /data/logs/jwdgr_log/30minutes44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 44 > /data/logs/jwdgr_log/flow44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 44 > /data/logs/jwdgr_log/Sync44 2>&1
+
+#叫我大官人-jwdgr 45区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 45 >> /data/logs/jwdgr_log/30minutes45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 45 > /data/logs/jwdgr_log/flow45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 45 > /data/logs/jwdgr_log/Sync45 2>&1
+
+#叫我大官人-jwdgr 46区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 46 >> /data/logs/jwdgr_log/30minutes46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 46 > /data/logs/jwdgr_log/flow46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 46 > /data/logs/jwdgr_log/Sync46 2>&1
+
+#叫我大官人-jwdgr 47区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 47 >> /data/logs/jwdgr_log/30minutes47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 47 > /data/logs/jwdgr_log/flow47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 47 > /data/logs/jwdgr_log/Sync47 2>&1
+
+#叫我大官人-jwdgr 48区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 48 >> /data/logs/jwdgr_log/30minutes48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 48 > /data/logs/jwdgr_log/flow48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 48 > /data/logs/jwdgr_log/Sync48 2>&1
+
+#叫我大官人-jwdgr 49区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 49 >> /data/logs/jwdgr_log/30minutes49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 49 > /data/logs/jwdgr_log/flow49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 49 > /data/logs/jwdgr_log/Sync49 2>&1
+
+#叫我大官人-jwdgr 50区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 50 >> /data/logs/jwdgr_log/30minutes50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 50 > /data/logs/jwdgr_log/flow50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 50 > /data/logs/jwdgr_log/Sync50 2>&1
+
+#jwdgr 51区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 51 >> /data/logs/jwdgr_log/30minutes51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 51 > /data/logs/jwdgr_log/flow51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 51 > /data/logs/jwdgr_log/Sync51 2>&1
+
+#jwdgr 52区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 52 >> /data/logs/jwdgr_log/30minutes52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 52 > /data/logs/jwdgr_log/flow52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 52 > /data/logs/jwdgr_log/Sync52 2>&1
+
+#jwdgr 53区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 53 >> /data/logs/jwdgr_log/30minutes53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 53 > /data/logs/jwdgr_log/flow53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 53 > /data/logs/jwdgr_log/Sync53 2>&1
+
+#jwdgr 54区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 54 >> /data/logs/jwdgr_log/30minutes54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 54 > /data/logs/jwdgr_log/flow54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 54 > /data/logs/jwdgr_log/Sync54 2>&1
+
+#jwdgr 55区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 55 >> /data/logs/jwdgr_log/30minutes55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 55 > /data/logs/jwdgr_log/flow55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 55 > /data/logs/jwdgr_log/Sync55 2>&1
+
+#jwdgr 56区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 56 >> /data/logs/jwdgr_log/30minutes56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 56 > /data/logs/jwdgr_log/flow56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 56 > /data/logs/jwdgr_log/Sync56 2>&1
+
+#jwdgr 57区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 57 >> /data/logs/jwdgr_log/30minutes57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 57 > /data/logs/jwdgr_log/flow57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 57 > /data/logs/jwdgr_log/Sync57 2>&1
+
+#jwdgr 58区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 58 >> /data/logs/jwdgr_log/30minutes58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 58 > /data/logs/jwdgr_log/flow58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 58 > /data/logs/jwdgr_log/Sync58 2>&1
+
+#jwdgr 59区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 59 >> /data/logs/jwdgr_log/30minutes59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 59 > /data/logs/jwdgr_log/flow59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 59 > /data/logs/jwdgr_log/Sync59 2>&1
+
+#jwdgr 60区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 60 >> /data/logs/jwdgr_log/30minutes60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 60 > /data/logs/jwdgr_log/flow60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 60 > /data/logs/jwdgr_log/Sync60 2>&1
+
+#jwdgr 61区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 61 >> /data/logs/jwdgr_log/30minutes61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 61 > /data/logs/jwdgr_log/flow61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 61 > /data/logs/jwdgr_log/Sync61 2>&1
+
+#jwdgr 62区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 62 >> /data/logs/jwdgr_log/30minutes62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 62 > /data/logs/jwdgr_log/flow62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 62 > /data/logs/jwdgr_log/Sync62 2>&1
+
+#jwdgr 63区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 63 >> /data/logs/jwdgr_log/30minutes63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 63 > /data/logs/jwdgr_log/flow63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 63 > /data/logs/jwdgr_log/Sync63 2>&1
+
+#jwdgr 64区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 64 >> /data/logs/jwdgr_log/30minutes64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 64 > /data/logs/jwdgr_log/flow64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 64 > /data/logs/jwdgr_log/Sync64 2>&1
+
+#jwdgr 65区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 65 >> /data/logs/jwdgr_log/30minutes65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 65 > /data/logs/jwdgr_log/flow65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 65 > /data/logs/jwdgr_log/Sync65 2>&1
+
+#jwdgr 66区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 66 >> /data/logs/jwdgr_log/30minutes66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 66 > /data/logs/jwdgr_log/flow66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 66 > /data/logs/jwdgr_log/Sync66 2>&1
+
+#jwdgr 67区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 67 >> /data/logs/jwdgr_log/30minutes67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 67 > /data/logs/jwdgr_log/flow67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 67 > /data/logs/jwdgr_log/Sync67 2>&1
+
+#jwdgr 68区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 68 >> /data/logs/jwdgr_log/30minutes68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 68 > /data/logs/jwdgr_log/flow68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 68 > /data/logs/jwdgr_log/Sync68 2>&1
+
+#jwdgr 69区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 69 >> /data/logs/jwdgr_log/30minutes69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 69 > /data/logs/jwdgr_log/flow69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 69 > /data/logs/jwdgr_log/Sync69 2>&1
+
+#jwdgr 70区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 70 >> /data/logs/jwdgr_log/30minutes70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/flow.php 70 > /data/logs/jwdgr_log/flow70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 70 > /data/logs/jwdgr_log/Sync70 2>&1
+
+#jwdgr 71区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 71 >> /data/logs/jwdgr_log/30minutes71 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 71 > /data/logs/jwdgr_log/Sync71 2>&1
+
+#jwdgr 72区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 72 >> /data/logs/jwdgr_log/30minutes72 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 72 > /data/logs/jwdgr_log/Sync72 2>&1
+
+#jwdgr 73区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 73 >> /data/logs/jwdgr_log/30minutes73 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 73 > /data/logs/jwdgr_log/Sync73 2>&1
+
+#jwdgr 74区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 74 >> /data/logs/jwdgr_log/30minutes74 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 74 > /data/logs/jwdgr_log/Sync74 2>&1
+
+#jwdgr 75区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 75 >> /data/logs/jwdgr_log/30minutes75 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 75 > /data/logs/jwdgr_log/Sync75 2>&1
+
+#jwdgr 76区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 76 >> /data/logs/jwdgr_log/30minutes76 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 76 > /data/logs/jwdgr_log/Sync76 2>&1
+
+#jwdgr 77区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 77 >> /data/logs/jwdgr_log/30minutes77 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 77 > /data/logs/jwdgr_log/Sync77 2>&1
+
+#jwdgr 78区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 78 >> /data/logs/jwdgr_log/30minutes78 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 78 > /data/logs/jwdgr_log/Sync78 2>&1
+
+#jwdgr 79区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 79 >> /data/logs/jwdgr_log/30minutes79 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 79 > /data/logs/jwdgr_log/Sync79 2>&1
+
+#jwdgr 80区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 80 >> /data/logs/jwdgr_log/30minutes80 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 80 > /data/logs/jwdgr_log/Sync80 2>&1
+
+#jwdgr 81区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 81 >> /data/logs/jwdgr_log/30minutes81 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 81 > /data/logs/jwdgr_log/Sync81 2>&1
+
+#jwdgr 82区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 82 >> /data/logs/jwdgr_log/30minutes82 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 82 > /data/logs/jwdgr_log/Sync82 2>&1
+
+#jwdgr 83区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 83 >> /data/logs/jwdgr_log/30minutes83 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 83 > /data/logs/jwdgr_log/Sync83 2>&1
+
+#jwdgr 84区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 84 >> /data/logs/jwdgr_log/30minutes84 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 84 > /data/logs/jwdgr_log/Sync84 2>&1
+
+#jwdgr 85区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 85 >> /data/logs/jwdgr_log/30minutes85 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 85 > /data/logs/jwdgr_log/Sync85 2>&1
+
+#jwdgr 86区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 86 >> /data/logs/jwdgr_log/30minutes86 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 86 > /data/logs/jwdgr_log/Sync86 2>&1
+
+#jwdgr 87区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 87 >> /data/logs/jwdgr_log/30minutes87 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 87 > /data/logs/jwdgr_log/Sync87 2>&1
+
+#jwdgr 88区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 88 >> /data/logs/jwdgr_log/30minutes88 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 88 > /data/logs/jwdgr_log/Sync88 2>&1
+
+#jwdgr 89区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 89 >> /data/logs/jwdgr_log/30minutes89 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 89 > /data/logs/jwdgr_log/Sync89 2>&1
+
+#jwdgr 90区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 90 >> /data/logs/jwdgr_log/30minutes90 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 90 > /data/logs/jwdgr_log/Sync90 2>&1
+
+#jwdgr 91区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 91 >> /data/logs/jwdgr_log/30minutes91 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 91 > /data/logs/jwdgr_log/Sync91 2>&1
+
+#jwdgr 92区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 92 >> /data/logs/jwdgr_log/30minutes92 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 92 > /data/logs/jwdgr_log/Sync92 2>&1
+
+#jwdgr 93区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 93 >> /data/logs/jwdgr_log/30minutes93 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 93 > /data/logs/jwdgr_log/Sync93 2>&1
+
+#jwdgr 94区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 94 >> /data/logs/jwdgr_log/30minutes94 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 94 > /data/logs/jwdgr_log/Sync94 2>&1
+
+#jwdgr 95区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 95 >> /data/logs/jwdgr_log/30minutes95 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 95 > /data/logs/jwdgr_log/Sync95 2>&1
+
+#jwdgr 96区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 96 >> /data/logs/jwdgr_log/30minutes96 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 96 > /data/logs/jwdgr_log/Sync96 2>&1
+
+#jwdgr 97区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 97 >> /data/logs/jwdgr_log/30minutes97 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 97 > /data/logs/jwdgr_log/Sync97 2>&1
+
+#jwdgr 98区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 98 >> /data/logs/jwdgr_log/30minutes98 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 98 > /data/logs/jwdgr_log/Sync98 2>&1
+
+#jwdgr 99区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 99 >> /data/logs/jwdgr_log/30minutes99 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 99 > /data/logs/jwdgr_log/Sync99 2>&1
+
+#jwdgr 100区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 100 >> /data/logs/jwdgr_log/30minutes100 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 100 > /data/logs/jwdgr_log/Sync100 2>&1
+
+#jwdgr 101区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 101 >> /data/logs/jwdgr_log/30minutes101 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 101 > /data/logs/jwdgr_log/Sync101 2>&1
+
+#jwdgr 102区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 102 >> /data/logs/jwdgr_log/30minutes102 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 102 > /data/logs/jwdgr_log/Sync102 2>&1
+
+#jwdgr 103区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 103 >> /data/logs/jwdgr_log/30minutes103 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 103 > /data/logs/jwdgr_log/Sync103 2>&1
+
+#jwdgr 104区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 104 >> /data/logs/jwdgr_log/30minutes104 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 104 > /data/logs/jwdgr_log/Sync104 2>&1
+
+#jwdgr 105区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 105 >> /data/logs/jwdgr_log/30minutes105 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 105 > /data/logs/jwdgr_log/Sync105 2>&1
+
+#jwdgr 106区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 106 >> /data/logs/jwdgr_log/30minutes106 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 106 > /data/logs/jwdgr_log/Sync106 2>&1
+
+#jwdgr 107区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 107 >> /data/logs/jwdgr_log/30minutes107 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 107 > /data/logs/jwdgr_log/Sync107 2>&1
+
+#jwdgr 108区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 108 >> /data/logs/jwdgr_log/30minutes108 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 108 > /data/logs/jwdgr_log/Sync108 2>&1
+
+#jwdgr 109区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 109 >> /data/logs/jwdgr_log/30minutes109 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 109 > /data/logs/jwdgr_log/Sync109 2>&1
+
+#jwdgr 110区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 110 >> /data/logs/jwdgr_log/30minutes110 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 110 > /data/logs/jwdgr_log/Sync110 2>&1
+
+#jwdgr 111区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 111 >> /data/logs/jwdgr_log/30minutes111 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 111 > /data/logs/jwdgr_log/Sync111 2>&1
+
+#jwdgr 112区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 112 >> /data/logs/jwdgr_log/30minutes112 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 112 > /data/logs/jwdgr_log/Sync112 2>&1
+
+#jwdgr 113区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 113 >> /data/logs/jwdgr_log/30minutes113 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 113 > /data/logs/jwdgr_log/Sync113 2>&1
+
+#jwdgr 114区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 114 >> /data/logs/jwdgr_log/30minutes114 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 114 > /data/logs/jwdgr_log/Sync114 2>&1
+
+#jwdgr 115区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 115 >> /data/logs/jwdgr_log/30minutes115 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 115 > /data/logs/jwdgr_log/Sync115 2>&1
+
+#jwdgr 116区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 116 >> /data/logs/jwdgr_log/30minutes116 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 116 > /data/logs/jwdgr_log/Sync116 2>&1
+
+#jwdgr 117区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 117 >> /data/logs/jwdgr_log/30minutes117 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 117 > /data/logs/jwdgr_log/Sync117 2>&1
+
+#jwdgr 118区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 118 >> /data/logs/jwdgr_log/30minutes118 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 118 > /data/logs/jwdgr_log/Sync118 2>&1
+
+#jwdgr 119区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 119 >> /data/logs/jwdgr_log/30minutes119 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 119 > /data/logs/jwdgr_log/Sync119 2>&1
+
+#jwdgr 120区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 120 >> /data/logs/jwdgr_log/30minutes120 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 120 > /data/logs/jwdgr_log/Sync120 2>&1
+
+#jwdgr 121区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 121 >> /data/logs/jwdgr_log/30minutes121 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 121 > /data/logs/jwdgr_log/Sync121 2>&1
+
+#jwdgr 122区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 122 >> /data/logs/jwdgr_log/30minutes122 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 122 > /data/logs/jwdgr_log/Sync122 2>&1
+
+#jwdgr 123区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 123 >> /data/logs/jwdgr_log/30minutes123 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 123 > /data/logs/jwdgr_log/Sync123 2>&1
+
+#jwdgr 124区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 124 >> /data/logs/jwdgr_log/30minutes124 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 124 > /data/logs/jwdgr_log/Sync124 2>&1
+
+#jwdgr 125区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 125 >> /data/logs/jwdgr_log/30minutes125 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 125 > /data/logs/jwdgr_log/Sync125 2>&1
+
+#jwdgr 126区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 126 >> /data/logs/jwdgr_log/30minutes126 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 126 > /data/logs/jwdgr_log/Sync126 2>&1
+
+#jwdgr 127区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 127 >> /data/logs/jwdgr_log/30minutes127 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 127 > /data/logs/jwdgr_log/Sync127 2>&1
+
+#jwdgr 128区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 128 >> /data/logs/jwdgr_log/30minutes128 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 128 > /data/logs/jwdgr_log/Sync128 2>&1
+
+#jwdgr 129区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 129 >> /data/logs/jwdgr_log/30minutes129 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 129 > /data/logs/jwdgr_log/Sync129 2>&1
+
+#jwdgr 130区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 130 >> /data/logs/jwdgr_log/30minutes130 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 130 > /data/logs/jwdgr_log/Sync130 2>&1
+
+#jwdgr 131区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 131 >> /data/logs/jwdgr_log/30minutes131 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 131 > /data/logs/jwdgr_log/Sync131 2>&1
+
+#jwdgr 132区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 132 >> /data/logs/jwdgr_log/30minutes132 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 132 > /data/logs/jwdgr_log/Sync132 2>&1
+
+#jwdgr 133区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 133 >> /data/logs/jwdgr_log/30minutes133 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 133 > /data/logs/jwdgr_log/Sync133 2>&1
+
+#jwdgr 134区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 134 >> /data/logs/jwdgr_log/30minutes134 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 134 > /data/logs/jwdgr_log/Sync134 2>&1
+
+#jwdgr 135区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 135 >> /data/logs/jwdgr_log/30minutes135 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 135 > /data/logs/jwdgr_log/Sync135 2>&1
+
+#jwdgr 136区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 136 >> /data/logs/jwdgr_log/30minutes136 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 136 > /data/logs/jwdgr_log/Sync136 2>&1
+
+#jwdgr 137区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 137 >> /data/logs/jwdgr_log/30minutes137 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 137 > /data/logs/jwdgr_log/Sync137 2>&1
+
+#jwdgr 138区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 138 >> /data/logs/jwdgr_log/30minutes138 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 138 > /data/logs/jwdgr_log/Sync138 2>&1
+
+#jwdgr 139区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 139 >> /data/logs/jwdgr_log/30minutes139 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 139 > /data/logs/jwdgr_log/Sync139 2>&1
+
+#jwdgr 140区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 140 >> /data/logs/jwdgr_log/30minutes140 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 140 > /data/logs/jwdgr_log/Sync140 2>&1
+
+#jwdgr 141区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 141 >> /data/logs/jwdgr_log/30minutes141 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 141 > /data/logs/jwdgr_log/Sync141 2>&1
+
+#jwdgr 142区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 142 >> /data/logs/jwdgr_log/30minutes142 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 142 > /data/logs/jwdgr_log/Sync142 2>&1
+
+#jwdgr 143区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 143 >> /data/logs/jwdgr_log/30minutes143 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 143 > /data/logs/jwdgr_log/Sync143 2>&1
+
+#jwdgr 144区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 144 >> /data/logs/jwdgr_log/30minutes144 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 144 > /data/logs/jwdgr_log/Sync144 2>&1
+
+#jwdgr 145区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 145 >> /data/logs/jwdgr_log/30minutes145 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 145 > /data/logs/jwdgr_log/Sync145 2>&1
+
+#jwdgr 146区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 146 >> /data/logs/jwdgr_log/30minutes146 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 146 > /data/logs/jwdgr_log/Sync146 2>&1
+
+#jwdgr 147区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 147 >> /data/logs/jwdgr_log/30minutes147 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 147 > /data/logs/jwdgr_log/Sync147 2>&1
+
+#jwdgr 148区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 148 >> /data/logs/jwdgr_log/30minutes148 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 148 > /data/logs/jwdgr_log/Sync148 2>&1
+
+#jwdgr 149区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 149 >> /data/logs/jwdgr_log/30minutes149 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 149 > /data/logs/jwdgr_log/Sync149 2>&1
+
+#jwdgr 150区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/30minutes.php 150 >> /data/logs/jwdgr_log/30minutes150 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/jwdgr/s1_jwdgr/crontab/Sync.php 150 > /data/logs/jwdgr_log/Sync150 2>&1
+
+//------------end-----------------
+
+
+
+
+
+
+

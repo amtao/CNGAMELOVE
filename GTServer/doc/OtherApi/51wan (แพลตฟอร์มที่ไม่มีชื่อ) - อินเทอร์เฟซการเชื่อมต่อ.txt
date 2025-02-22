@@ -1,0 +1,10 @@
+登录接口 loginAccount 传递以下参数
+openid : SDK登录返回的WMUser user.userId
+openkey : SDK登录返回的WMUser user.token
+parm1 : SDK登录返回的WMUser user.tokenTime
+parm2 : SDK登录返回的WMUser user.client
+
+
+
+
+

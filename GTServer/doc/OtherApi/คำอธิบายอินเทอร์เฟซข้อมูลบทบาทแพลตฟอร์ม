@@ -1,0 +1,9 @@
+
+1、角色查询接口
+接口说明：
+    1、查询对应平台玩家信息
+接口地址：
+    pfapi/userinfo.php?_pf={渠道平台标识}
+例如：
+	94玩-老爷吉祥：
+	http://jwdgr.zhisnet.cn/pfapi/userinfo.php?_pf=94wanlyjx

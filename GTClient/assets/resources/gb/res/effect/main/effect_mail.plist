@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 472}, {162, 197}}</string>
+			<key>offset</key>
+			<string>{-329, -16}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{237, 152}, {148, 217}}</string>
+			<key>offset</key>
+			<string>{-229, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 322}, {148, 201}}</string>
+			<key>offset</key>
+			<string>{-123, 31}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{237, 2}, {148, 219}}</string>
+			<key>offset</key>
+			<string>{-22, 40}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 172}, {148, 213}}</string>
+			<key>offset</key>
+			<string>{79, 37}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2, 2}, {168, 233}}</string>
+			<key>offset</key>
+			<string>{190, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+		<key>6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{217, 302}, {204, 177}}</string>
+			<key>offset</key>
+			<string>{308, -61}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceSize</key>
+			<string>{820, 299}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>realTextureFileName</key>
+		<string>effect_mail.png</string>
+		<key>size</key>
+		<string>{512, 1024}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:241bb17f92f86f9916246fbaf8448136:1/1$</string>
+		<key>textureFileName</key>
+		<string>effect_mail.png</string>
+	</dict>
+</dict>
+</plist>

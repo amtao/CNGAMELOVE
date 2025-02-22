@@ -1,0 +1,48 @@
+{
+  "sample": 70,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6840a485-3ee6-4602-b6c2-53c3b0bbece4"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2d3d277d-5469-4456-b4b8-2a2b0e237418"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "4388289c-1946-4132-9c56-a9d8c83731ff"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "4a98ff1d-f0a4-4c9e-932f-8631c4e063f4"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "4dd12587-96c5-4efb-adfc-0654fa8624f9"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": null
+          }
+        ]
+      }
+    }
+  },
+  "__type__": "cc.AnimationClip",
+  "_duration": 0.5142857142857142,
+  "_name": "bosshit"
+}

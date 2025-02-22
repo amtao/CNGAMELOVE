@@ -1,0 +1,61 @@
+{
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1472a930-37ee-4d6d-9756-6c4dca52b76d"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "aef9122f-ed43-433d-a9a5-24795984a0f8"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "a64f1574-a872-4234-a2a6-8b66b1bfdf80"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "d133870e-bf88-4eb7-946b-4bdacf3abac1"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "71cf746e-fb8f-4709-9f64-96971918a32f"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "21df8a59-6850-4112-b1b5-b03e32b1e75c"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "d8f87760-dd0b-4052-a3be-21a9c8786bad"
+            }
+          },
+          {
+            "frame": 0.5833333333333334,
+            "value": {
+              "__uuid__": "31b8adce-f455-4c9e-b9c7-9c0e581e539a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "__type__": "cc.AnimationClip",
+  "_duration": 0.6,
+  "_name": "bossatk"
+}

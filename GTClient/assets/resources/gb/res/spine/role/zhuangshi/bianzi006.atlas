@@ -1,0 +1,34 @@
+
+bianzi006.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianzi
+  rotate: true
+  xy: 175, 2
+  size: 59, 140
+  orig: 59, 140
+  offset: 0, 0
+  index: -1
+bianzi2
+  rotate: true
+  xy: 2, 10
+  size: 51, 171
+  orig: 51, 171
+  offset: 0, 0
+  index: -1
+bianzijie1
+  rotate: false
+  xy: 317, 24
+  size: 20, 37
+  orig: 20, 37
+  offset: 0, 0
+  index: -1
+bianzijie2
+  rotate: false
+  xy: 339, 26
+  size: 19, 35
+  orig: 19, 35
+  offset: 0, 0
+  index: -1

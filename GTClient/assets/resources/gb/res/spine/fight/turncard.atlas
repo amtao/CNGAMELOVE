@@ -1,0 +1,27 @@
+
+turncard.png
+size: 490,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cardE
+  rotate: false
+  xy: 2, 2
+  size: 252, 338
+  orig: 252, 338
+  offset: 0, 0
+  index: -1
+images/cq_bg_kapai1
+  rotate: true
+  xy: 256, 179
+  size: 161, 232
+  orig: 161, 232
+  offset: 0, 0
+  index: -1
+images/cq_bg_kapai2
+  rotate: true
+  xy: 256, 16
+  size: 161, 232
+  orig: 161, 232
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "decBlood",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.0166666666666666,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 255
+        },
+        {
+          "frame": 2.0166666666666666,
+          "value": 0
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": -115
+        },
+        {
+          "frame": 2.0166666666666666,
+          "value": -65
+        }
+      ]
+    }
+  },
+  "events": []
+}

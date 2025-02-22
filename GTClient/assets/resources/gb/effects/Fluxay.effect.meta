@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "4d57c739-ede3-4fcf-9969-7767066f8ba4",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nattribute vec3 a_position;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n}",
+        "frag": "\nprecision highp float;\nuniform sampler2D texture;\nvarying mediump vec2 v_uv0;\nuniform vec4 scolor;\nuniform float width;\nuniform float strength;\nuniform float offsett;\nuniform float time;\nvoid main () {\n  vec4 color = scolor * texture2D(texture, v_uv0).rgba;\n  float start = tan(time/1.414);\n  if(v_uv0.x < (start - offsett * v_uv0.y) &&  v_uv0.x > (start - offsett * v_uv0.y - width))\n  {\n    vec3 improve = strength * vec3(255, 255, 255);\n    vec3 result = improve * vec3( color.r, color.g, color.b);\n    gl_FragColor = vec4(result, color.a);\n  }else{\n    gl_FragColor = color;\n  }\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nin vec3 a_position;\nin mediump vec2 a_uv0;\nout mediump vec2 v_uv0;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n}",
+        "frag": "\nprecision highp float;\nuniform sampler2D texture;\nin mediump vec2 v_uv0;\nuniform FragConstants {\n  vec4 scolor;\n  float width;\n  float strength;\n  float offsett;\n  float time;\n};\nvoid main () {\n  vec4 color = scolor * texture2D(texture, v_uv0).rgba;\n  float start = tan(time/1.414);\n  if(v_uv0.x < (start - offsett * v_uv0.y) &&  v_uv0.x > (start - offsett * v_uv0.y - width))\n  {\n    vec3 improve = strength * vec3(255, 255, 255);\n    vec3 result = improve * vec3( color.r, color.g, color.b);\n    gl_FragColor = vec4(result, color.a);\n  }else{\n    gl_FragColor = color;\n  }\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "28472558-f1ab-4e0d-ac49-b0c7d5906b05",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 48,
+  "height": 155,
+  "platformSettings": {},
+  "subMetas": {
+    "nobleOrderRewardPreview_denglong": {
+      "ver": "1.0.4",
+      "uuid": "1bb07650-2e0f-4c2f-97ac-9a2b19d88b82",
+      "rawTextureUuid": "28472558-f1ab-4e0d-ac49-b0c7d5906b05",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 44,
+      "height": 151,
+      "rawWidth": 48,
+      "rawHeight": 155,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

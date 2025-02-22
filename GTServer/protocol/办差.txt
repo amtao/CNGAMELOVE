@@ -1,0 +1,81 @@
+﻿{"user":{"jingYing":{"jyid":2}}}	2:阅历 3:银两 4:名声
+
+{
+	"s": 1,
+	"a": {
+		"msgwin": {
+			"items": [{
+				"kind": 2,
+				"id": 2,
+				"count": 1484
+			}]
+		},
+		"jingYing": {
+			"coin": {
+				"next": 1557715364, //上次时间
+				"num": 6, //剩余次数
+				"label": "jingying",
+				"max": 7 //最大次数
+			},
+			"food": {
+				"next": 0,
+				"num": 7,
+				"label": "jingying",
+				"max": 7
+			},
+			"army": {
+				"next": 0,
+				"num": 7,
+				"label": "jingying",
+				"max": 7
+			},
+			"win": {
+				"id": 0, //事件ID
+				"heroid": 0,//伙伴ID
+				"get": 0 // 收益
+			}
+		},
+		"system": {
+			"sys": {
+				"time": 1557715304
+			}
+		}
+	},
+	"u": {
+		"user": {
+			"user": {
+				"coin": 26424
+			}
+		},
+		"huodonglist": {
+			"all": [{
+				"id": 212, // 212  213 214
+				"title": "\u9650\u65f6\u529e\u7406\u9605\u5386\u5dee\u4e8b\u6b21\u6570",
+				"pindex": 212,
+				"type": 2,
+				"sTime": 1554652800,
+				"eTime": 1576339198,
+				"showTime": 1576339198,
+				"hid": 190408,
+				"cd": {
+					"next": 1576339198,
+					"label": "huodong_212_ltime"
+				},
+				"news": 0
+			}]
+		},
+		"chengjiu": {
+			"cjlist": [{
+				"id": 6,
+				"num": 62,
+				"rwd": 2
+			}]
+		},
+		"daily": {
+			"tasks": [{
+				"id": 10,
+				"num": 1
+			}]
+		}
+	}
+}

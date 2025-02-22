@@ -1,0 +1,9 @@
+#header-epdevlocal
+* * * * *  /usr/local/services/php/bin/php /data/www/epdevlocal/s1_epdevlocal/crontab/cfg_houtai.php > /data/logs/epdevlocal_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epdevlocal/s1_epdevlocal/crontab/delete.php > /data/logs/epdevlocal_log/delete 2>&1
+
+#epdevlocal 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epdevlocal/s1_epdevlocal/crontab/30minutes.php 999 >> /data/logs/epdevlocal_log/30minutes999 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epdevlocal/s1_epdevlocal/crontab/Sync.php 999 > /data/logs/epdevlocal_log/Sync999 2>&1
+
+//------------end-----------------

@@ -1,0 +1,57 @@
+#老爷吉祥IOS-lyjxios
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/cfg_houtai.php > /data/logs/lyjxios_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/delete.php > /data/logs/lyjxios_log/delete 2>&1
+
+#老爷吉祥IOS-lyjxios 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 1 >> /data/logs/lyjxios_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 1 > /data/logs/lyjxios_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 1 > /data/logs/lyjxios_log/Sync1 2>&1
+
+
+#老爷吉祥IOS-lyjxios 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 2 >> /data/logs/lyjxios_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 2 > /data/logs/lyjxios_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 2 > /data/logs/lyjxios_log/Sync2 2>&1
+
+
+#老爷吉祥IOS-lyjxios 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 3 >> /data/logs/lyjxios_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 3 > /data/logs/lyjxios_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 3 > /data/logs/lyjxios_log/Sync3 2>&1
+
+#老爷吉祥IOS-lyjxios 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 4 >> /data/logs/lyjxios_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 4 > /data/logs/lyjxios_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 4 > /data/logs/lyjxios_log/Sync4 2>&1
+
+#老爷吉祥IOS-lyjxios 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 5 >> /data/logs/lyjxios_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 5 > /data/logs/lyjxios_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 5 > /data/logs/lyjxios_log/Sync5 2>&1
+
+#老爷吉祥IOS-lyjxios 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 6 >> /data/logs/lyjxios_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 6 > /data/logs/lyjxios_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 6 > /data/logs/lyjxios_log/Sync6 2>&1
+
+#老爷吉祥IOS-lyjxios 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 7 >> /data/logs/lyjxios_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 7 > /data/logs/lyjxios_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 7 > /data/logs/lyjxios_log/Sync7 2>&1
+
+#老爷吉祥IOS-lyjxios 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/30minutes.php 8 >> /data/logs/lyjxios_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/flow.php 8 > /data/logs/lyjxios_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjxios/s1_lyjxios/crontab/Sync.php 8 > /data/logs/lyjxios_log/Sync8 2>&1
+
+//------------end-----------------
+
+
+
+
+
+
+
+
+
+

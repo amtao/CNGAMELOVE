@@ -1,0 +1,52 @@
+登录接口 loginAccount 传递以下参数：
+openid : 能获取到就传值，获取不到就传1
+openkey : SDK端登录会返回对应code的值
+
+
+预下单接口：
+接口地址：登录接口 loginAccount 返回的backurl值
+请求方式：get 或 post，
+请求参数：
+orderid    游戏内订单号;
+productname  商品标题;
+money      金额,单位元;
+openid      用户平台唯一标识,即登录接口返回的num1字段
+serverid   区服id;
+servername   区服名称;
+uid        玩家游戏内角色id;
+rolename     玩家角色名称;
+package_name 游戏包包名，例如：com.kwai.opensdkdemo
+biaoshi      固定值1;
+
+响应结果：格式JSON
+errorCode : 处理结果，0：成功，1：失败
+data ： 平台下单后平台返回的结果, 成功情况下返回支付需要的参数（数组型），失败情况下是失败原因（字符串型）
+    成功情况返回以下值:
+    app_id : 平台应用标识ID
+    prepay_id ： 快手预支付交易易会话标识
+    timestamp ： 发送请求的时间，格式为标准unix时间戳，单位为毫秒
+    sign ： 签名结果
+    
+
+例子：
+request: 
+
+	POST /pay/kuaishou_callback.php HTTP/1.1
+	Accept: */*
+	Accept-Language: zh-cn
+	host: http://jwdgr.zhisnet.cn
+	
+	Content-Type: application/x-www-form-urlencoded
+	Content-Length: 12
+	Connection:close
+	orderid=14546_999&money=6.......
+	
+response:
+成功：
+{"errorCode":0,"data":{"app_id":"ks685673047210945076","prepay_id":"ks021929292929","timestamp":1505650358000,"sign":"xxxx"}}
+失败：
+{"errorCode":1,"data":"createOrder error"}
+
+
+
+

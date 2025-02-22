@@ -1,0 +1,2 @@
+node pngpremultiplyalpha.js
+pause

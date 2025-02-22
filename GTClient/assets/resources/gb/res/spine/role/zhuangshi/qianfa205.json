@@ -1,0 +1,2464 @@
+{
+"skeleton": { "hash": "tap6qQswEz2axoiVLLp7HvoroA4", "spine": "3.6.53", "width": 364.25, "height": 1015.25, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1", "parent": "root", "x": -427.69, "y": 1091.2, "scaleX": 0.31, "scaleY": 0.31 },
+	{ "name": "body", "parent": "1", "length": 465.46, "rotation": 104.91, "x": 1474.57, "y": -1318.94 },
+	{ "name": "leftarm", "parent": "body", "length": 417.2, "rotation": 154.09, "x": 393.45, "y": 200.98 },
+	{ "name": "5", "parent": "leftarm", "length": 385.36, "rotation": -12.59, "x": 417.2 },
+	{ "name": "6", "parent": "5", "length": 207.68, "rotation": -14.93, "x": 385.36 },
+	{ "name": "7", "parent": "5", "length": 94.81, "rotation": 61.16, "x": 360.88, "y": 38.93 },
+	{ "name": "rightarm", "parent": "body", "length": 412.23, "rotation": -175.16, "x": 256.08, "y": -50.7 },
+	{ "name": "8", "parent": "rightarm", "length": 402.36, "rotation": 11.26, "x": 412.23 },
+	{ "name": "9", "parent": "8", "length": 160.97, "rotation": 10.24, "x": 402.36 },
+	{ "name": "head", "parent": "body", "length": 288.19, "rotation": -20.75, "x": 485.61, "y": -5.37 },
+	{ "name": "10", "parent": "head", "length": 151.79, "rotation": -174.16, "x": 66.16, "y": 94.95 },
+	{ "name": "11", "parent": "10", "length": 153.38, "rotation": 21.34, "x": 151.79 },
+	{ "name": "12", "parent": "11", "length": 158.22, "rotation": -4.95, "x": 156.9, "y": -0.18 },
+	{ "name": "13", "parent": "12", "length": 179.16, "rotation": -8.51, "x": 158.22 },
+	{ "name": "14", "parent": "head", "length": 138.37, "rotation": -149.87, "x": 18.38, "y": -41.2 },
+	{ "name": "15", "parent": "14", "length": 131.01, "rotation": 9.09, "x": 144.76, "y": -2 },
+	{ "name": "16", "parent": "15", "length": 157.03, "rotation": -11.23, "x": 131.01 },
+	{ "name": "17", "parent": "16", "length": 217.61, "rotation": -23.84, "x": 157.03 },
+	{ "name": "18", "parent": "head", "length": 198.07, "rotation": 173.31, "x": 155.43, "y": 134.79 },
+	{ "name": "19", "parent": "18", "length": 177.57, "rotation": -10.42, "x": 198.07 },
+	{ "name": "20", "parent": "19", "length": 187.91, "rotation": -2.64, "x": 177.57 },
+	{ "name": "21", "parent": "20", "length": 198.19, "rotation": 16.58, "x": 187.92 },
+	{ "name": "22", "parent": "head", "length": 190.56, "rotation": -166.66, "x": 155.53, "y": -72.77 },
+	{ "name": "23", "parent": "22", "length": 211.27, "rotation": 0.06, "x": 210.01, "y": 1.87 },
+	{ "name": "24", "parent": "23", "length": 236.01, "rotation": -10.06, "x": 211.27 },
+	{ "name": "25", "parent": "24", "length": 188.7, "rotation": -13.27, "x": 236.01 },
+	{ "name": "26", "parent": "1", "length": 358.89, "rotation": -97.17, "x": 1231.02, "y": -1617.25 },
+	{ "name": "27", "parent": "26", "length": 360.07, "rotation": -3.41, "x": 345.4, "y": 4.75 },
+	{ "name": "28", "parent": "27", "length": 371.34, "rotation": -0.34, "x": 360.07 },
+	{ "name": "29", "parent": "28", "length": 366.18, "rotation": -8.46, "x": 371.34 },
+	{ "name": "30", "parent": "29", "length": 236.86, "rotation": -3.95, "x": 366.18 },
+	{ "name": "31", "parent": "1", "length": 347.55, "rotation": -83.66, "x": 1589.24, "y": -1621.52 },
+	{ "name": "32", "parent": "31", "length": 324.45, "rotation": -3.7, "x": 347.55 },
+	{ "name": "33", "parent": "32", "length": 400.57, "rotation": 2.86, "x": 324.45 },
+	{ "name": "34", "parent": "33", "length": 356.5, "rotation": 3.8, "x": 400.58 },
+	{ "name": "35", "parent": "34", "length": 301.09, "rotation": 6.32, "x": 356.5 },
+	{ "name": "36", "parent": "1", "length": 410.76, "rotation": -90.44, "x": 1433.62, "y": -1610.63 },
+	{ "name": "37", "parent": "36", "length": 376.27, "rotation": -0.04, "x": 407.6, "y": 3.11 },
+	{ "name": "38", "parent": "37", "length": 410.76, "rotation": 0.91, "x": 376.27 },
+	{ "name": "39", "parent": "38", "length": 351.17, "rotation": -0.44, "x": 410.76 },
+	{ "name": "40", "parent": "39", "length": 338.69, "rotation": 1.06, "x": 351.17 },
+	{ "name": "41", "parent": "7", "length": 106.94, "rotation": -18.64, "x": 94.81 },
+	{ "name": "42", "parent": "8", "length": 71.39, "rotation": -62.76, "x": 425.34, "y": -28.72 },
+	{ "name": "43", "parent": "42", "length": 71.56, "rotation": -14.88, "x": 71.39 },
+	{ "name": "body2", "parent": "body", "length": 95.71, "rotation": 128.22, "x": -58.17, "y": 30.06 },
+	{ "name": "body3", "parent": "body", "length": 94.23, "rotation": -152.06, "x": -70.81, "y": -17.38 },
+	{ "name": "body4", "parent": "body", "length": 190.94, "rotation": 168.59, "x": -101.85, "y": 13.27 },
+	{ "name": "body5", "parent": "body4", "length": 216.4, "rotation": 1.58, "x": 190.94 },
+	{ "name": "body6", "parent": "body5", "length": 206.08, "rotation": -0.94, "x": 222.36, "y": -2.05 },
+	{ "name": "body7", "parent": "body6", "length": 188.54, "rotation": -2.05, "x": 206.08 },
+	{ "name": "body8", "parent": "body7", "length": 168.11, "rotation": 1.03, "x": 188.54 },
+	{ "name": "body9", "parent": "body8", "length": 127.22, "rotation": 1, "x": 172.71, "y": 0.63 },
+	{ "name": "body10", "parent": "body4", "length": 199.56, "rotation": -6.94, "x": 34.09, "y": -18.19 },
+	{ "name": "body11", "parent": "body10", "length": 232.3, "rotation": -0.55, "x": 214.31, "y": -2.79 },
+	{ "name": "body12", "parent": "body", "length": 143.17, "rotation": 2.03, "x": 128.12, "y": -20.02 },
+	{ "name": "body13", "parent": "body9", "length": 141.54, "rotation": 2.55, "x": 127.22 },
+	{ "name": "body14", "parent": "body", "length": 250.67, "rotation": 168.25, "x": -148.35, "y": -23.25 },
+	{ "name": "body15", "parent": "body14", "length": 204.22, "rotation": -3.16, "x": 250.66 },
+	{ "name": "body16", "parent": "body15", "length": 227.44, "rotation": -2.32, "x": 204.22 },
+	{ "name": "body17", "parent": "body16", "length": 218.38, "rotation": -0.9, "x": 227.44 },
+	{ "name": "body18", "parent": "body", "length": 249.51, "rotation": 157.31, "x": -108.94, "y": 118.8 },
+	{ "name": "body19", "parent": "body18", "length": 201.52, "rotation": -4.98, "x": 249.51 },
+	{ "name": "body20", "parent": "body19", "length": 217.87, "rotation": -0.68, "x": 201.52 },
+	{ "name": "body21", "parent": "body20", "length": 227.19, "rotation": 0.16, "x": 217.87 }
+],
+"slots": [
+	{ "name": "001", "bone": "head", "attachment": "001" },
+	{ "name": "000", "bone": "head", "attachment": "000" }
+],
+"skins": {
+	"default": {
+		"000": {
+			"000": { "x": 247.69, "y": 131.66, "rotation": -84.16, "width": 120, "height": 139 }
+		},
+		"001": {
+			"001": { "x": -13.77, "y": -44.34, "rotation": -84.16, "width": 363, "height": 765 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"x": 0,
+						"y": 8.76,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"leftarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.12,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": 2.76,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": 0.12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"5": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.23,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": -5.49,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": -0.23 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"6": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.36,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": 8.57,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": 0.36 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"rightarm": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.18,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": -4.22,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": -0.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"8": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.23,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": 5.49,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": 0.23 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"9": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.27,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": -6.28,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": -0.27 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"10": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.52,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 0.14,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 1.52 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"11": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.34,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 0.45,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -0.4,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": 0.34 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"12": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.74,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 2.79,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": -0.06,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": 1.74 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"13": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 3.73,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": 7.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": 1.47,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 3.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"14": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.4,
+						"curve": [ 0.364, 0.64, 0.7, 1 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 0.42,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8667,
+						"angle": 0,
+						"curve": [ 0.244, 0, 0.704, 0.81 ]
+					},
+					{ "time": 3.3333, "angle": 0.4 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"15": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.67,
+						"curve": [ 0.346, 0.38, 0.682, 0.72 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 0.79,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": 0.91,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.2,
+						"angle": 0,
+						"curve": [ 0.243, 0, 0.651, 0.61 ]
+					},
+					{ "time": 3.3333, "angle": 0.67 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"16": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.13,
+						"curve": [ 0.334, 0.34, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 2.83,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"angle": 4.48,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.5333,
+						"angle": 0,
+						"curve": [ 0.251, 0, 0.623, 0.49 ]
+					},
+					{ "time": 3.3333, "angle": 2.13 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"17": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.24,
+						"curve": [ 0.323, 0.3, 0.659, 0.64 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 3.79,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": 10.32,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.8667,
+						"angle": 0,
+						"curve": [ 0.272, 0, 0.619, 0.41 ]
+					},
+					{ "time": 3.3333, "angle": 2.24 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"18": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -2.52,
+						"curve": [ 0.364, 0.64, 0.7, 1 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -2.75,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8667,
+						"angle": 1.19,
+						"curve": [ 0.244, 0, 0.704, 0.81 ]
+					},
+					{ "time": 3.3333, "angle": -2.52 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"19": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.94,
+						"curve": [ 0.346, 0.38, 0.682, 0.72 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -1.86,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": -2.75,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.2,
+						"angle": 4.12,
+						"curve": [ 0.243, 0, 0.651, 0.61 ]
+					},
+					{ "time": 3.3333, "angle": -0.94 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"20": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.64,
+						"curve": [ 0.334, 0.34, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -0.92,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"angle": -4.55,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.5333,
+						"angle": 5.32,
+						"curve": [ 0.251, 0, 0.623, 0.49 ]
+					},
+					{ "time": 3.3333, "angle": 0.64 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"21": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.05,
+						"curve": [ 0.323, 0.3, 0.659, 0.64 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -1.67,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -8.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.8667,
+						"angle": 2.27,
+						"curve": [ 0.272, 0, 0.619, 0.41 ]
+					},
+					{ "time": 3.3333, "angle": -0.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"22": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -1.12,
+						"curve": [ 0.346, 0.38, 0.682, 0.72 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -1.75,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": -2.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.2,
+						"angle": 2.32,
+						"curve": [ 0.243, 0, 0.651, 0.61 ]
+					},
+					{ "time": 3.3333, "angle": -1.12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"23": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.47,
+						"curve": [ 0.334, 0.34, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -0.39,
+						"curve": [ 0.349, 0.39, 0.689, 0.74 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": -1.65,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.8667,
+						"angle": -2.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.5333,
+						"angle": 3.05,
+						"curve": [ 0.251, 0, 0.623, 0.49 ]
+					},
+					{ "time": 3.3333, "angle": 0.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"24": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.83,
+						"curve": [ 0.323, 0.3, 0.659, 0.64 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 1.83,
+						"curve": [ 0.33, 0.32, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": 0.08,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 1.2,
+						"angle": -2.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.8667,
+						"angle": 4.27,
+						"curve": [ 0.272, 0, 0.619, 0.41 ]
+					},
+					{ "time": 3.3333, "angle": 2.83 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"25": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.14,
+						"curve": [ 0.309, 0.21, 0.645, 0.55 ]
+					},
+					{
+						"time": 0.2,
+						"angle": 4.36,
+						"curve": [ 0.311, 0.26, 0.651, 0.61 ]
+					},
+					{
+						"time": 0.5333,
+						"angle": 2.51,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1.5333,
+						"angle": -2.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3.2,
+						"angle": 5.34,
+						"curve": [ 0.31, 0, 0.645, 0.35 ]
+					},
+					{ "time": 3.3333, "angle": 5.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"26": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -1.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 0.63,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": -1.88 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"27": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -1.38,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -1.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 1.98,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": -1.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"28": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.18,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -1.88,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": 2.74,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": -0.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"29": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 4.87,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": -2.35,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": 9.07,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 4.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"30": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.57,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": -4.38,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3,
+						"angle": 7.06,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{ "time": 3.3333, "angle": 5.57 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"31": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 3.21,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3,
+						"angle": 3.51,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{ "time": 3.3333, "angle": 3.21 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"32": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 3.97,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": 0.5,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 3.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"33": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.47,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 1.59,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": 0.26,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -0.51,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": 1.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"34": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.08,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 2.54,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": -0.08,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": -4.57,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": 0.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"35": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -3.84,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": 6.11,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": 4.03,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": -9.88,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": -3.84 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"36": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.4,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -1.64,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": 1.72,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": -0.4 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"37": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.47,
+						"curve": [ 0.339, 0.35, 0.697, 0.76 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -1.2,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": -1.64,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": 1.72,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 0.47 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"38": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.74,
+						"curve": [ 0.303, 0.24, 0.661, 0.65 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -0.49,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": -2.11,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3,
+						"angle": 2.32,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{ "time": 3.3333, "angle": 1.74 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"39": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.11,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 0.2,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": -3.07,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 2.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"40": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 3.71,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 4.77,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 3.71,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -3.38,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": 3.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body2": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -8.01,
+						"curve": [ 0.364, 0.64, 0.7, 1 ]
+					},
+					{
+						"time": 0.2,
+						"angle": -8.51,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8667,
+						"angle": 0,
+						"curve": [ 0.244, 0, 0.704, 0.81 ]
+					},
+					{ "time": 3.3333, "angle": -8.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body3": {
+				"rotate": [
+					{ "time": 0, "angle": 6.38 },
+					{
+						"time": 0.2,
+						"angle": 7.25,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.8667, "angle": 0 },
+					{ "time": 3.3333, "angle": 6.38 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body4": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.6,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": -1.56,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 2.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body5": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.55,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 1.04,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": -2.22,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": -2.7,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": 0.55 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body6": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.6,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": 3.73,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 0.06,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": -2.08,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": 1.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body7": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 1.84,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": 5.23,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 3.25,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": -0.13,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 1.84 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body8": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -4.04,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": 3.83,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 2.65,
+						"curve": [ 0.32, 0.29, 0.757, 1 ]
+					},
+					{
+						"time": 3,
+						"angle": -5.21,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{ "time": 3.3333, "angle": -4.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body10": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 3.33,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 3.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body11": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": -5.83,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 0.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body12": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": -5.38,
+						"y": 0,
+						"curve": [ 0.364, 0.64, 0.7, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": -7.28,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.8667,
+						"x": 25.04,
+						"y": 0,
+						"curve": [ 0.244, 0, 0.704, 0.81 ]
+					},
+					{ "time": 3.3333, "x": -5.38, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body13": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -14.15,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": -15.18,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 8,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 1.8333,
+						"angle": 9.02,
+						"curve": [ 0.245, 0, 0.711, 0.83 ]
+					},
+					{ "time": 3.3333, "angle": -14.15 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body9": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -6.43,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 5.46,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": -6.43 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6667, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6667, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body19": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -0.73,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -2.08,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 8.26,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": -0.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body20": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -3.1,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -8.47,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": 6.11,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": -3.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body21": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.34,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": -14.4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": 8.93,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 0.34 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body15": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0.07,
+						"curve": [ 0.349, 0.39, 0.689, 0.74 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -2.05,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"angle": -3.23,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.3333,
+						"angle": 5.84,
+						"curve": [ 0.245, 0, 0.637, 0.56 ]
+					},
+					{ "time": 3.3333, "angle": 0.07 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body16": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.37,
+						"curve": [ 0.33, 0.32, 0.67, 0.68 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -0.91,
+						"curve": [ 0.381, 0.55, 0.742, 1 ]
+					},
+					{
+						"time": 1,
+						"angle": -5.5,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.6667,
+						"angle": 6.98,
+						"curve": [ 0.258, 0, 0.619, 0.45 ]
+					},
+					{ "time": 3.3333, "angle": 2.37 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body17": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.91,
+						"curve": [ 0.311, 0.26, 0.651, 0.61 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -0.03,
+						"curve": [ 0.363, 0.44, 0.755, 1 ]
+					},
+					{
+						"time": 1.3333,
+						"angle": -15.68,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 3,
+						"angle": 9.07,
+						"curve": [ 0.284, 0, 0.625, 0.38 ]
+					},
+					{ "time": 3.3333, "angle": 5.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body18": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.6667,
+						"angle": 5.9,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 3.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body14": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -1.86,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -2.78,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 4.33,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": -1.86 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"7": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 2.07,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 2.38,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 0,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": 2.07 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"41": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 5.02,
+						"curve": [ 0.36, 0.45, 0.701, 0.81 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": 6.3,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.5,
+						"angle": 6.58,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.1667,
+						"angle": 0,
+						"curve": [ 0.243, 0, 0.655, 0.63 ]
+					},
+					{ "time": 3.3333, "angle": 5.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"42": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -4.88,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -5.62,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"angle": 0,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "angle": -4.88 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 10.02,
+						"y": -4.61,
+						"curve": [ 0.375, 0.62, 0.716, 1 ]
+					},
+					{
+						"time": 0.3333,
+						"x": 11.52,
+						"y": -5.3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.243, 0, 0.68, 0.71 ]
+					},
+					{ "time": 3.3333, "x": 10.02, "y": -4.61 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			},
+			"43": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": -4.28,
+						"curve": [ 0.36, 0.45, 0.701, 0.81 ]
+					},
+					{
+						"time": 0.3333,
+						"angle": -5.38,
+						"curve": [ 0.36, 0.64, 0.695, 1 ]
+					},
+					{
+						"time": 0.5,
+						"angle": -5.62,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.1667,
+						"angle": 0,
+						"curve": [ 0.243, 0, 0.655, 0.63 ]
+					},
+					{ "time": 3.3333, "angle": -4.28 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

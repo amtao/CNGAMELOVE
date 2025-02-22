@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ServantLobbyViewOut",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.15,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "top/left": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -286.5
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": -481.069
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "top/diban2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -35
+            },
+            {
+              "frame": 0.11666666666666667,
+              "value": 94.2
+            }
+          ]
+        }
+      },
+      "top/btnhelp": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 4
+            },
+            {
+              "frame": 0.15,
+              "value": 158.186
+            }
+          ]
+        }
+      },
+      "bot": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -834.041
+            },
+            {
+              "frame": 0.15,
+              "value": -992.769
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

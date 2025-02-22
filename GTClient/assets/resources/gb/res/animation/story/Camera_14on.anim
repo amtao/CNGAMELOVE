@@ -1,0 +1,86 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Camera_14on",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scale": []
+    },
+    "paths": {
+      "right": {
+        "props": {
+          "scale": [],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -782,
+                300,
+                0
+              ],
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                300,
+                0
+              ],
+              "curve": [
+                0.3013131313131313,
+                0,
+                0.7012121212121211,
+                1
+              ]
+            }
+          ]
+        }
+      },
+      "bg": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -20,
+                0,
+                0
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "curve": [
+                0.2003030303030303,
+                -0.002525252525252597,
+                0.7996969696969696,
+                0.9949494949494949
+              ]
+            }
+          ],
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.2,
+                "y": 1.2
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

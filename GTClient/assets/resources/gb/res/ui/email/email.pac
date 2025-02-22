@@ -1,0 +1,1 @@
+{"__type__": "cc.SpriteAtlas", "_spriteFrames": {"ditu1": {"__uuid__": "5e21c098-b339-45e0-be85-178f267db913"}, "diban": {"__uuid__": "7da26eba-ef6d-4be7-923f-bb2fc7dc6510"}, "btn": {"__uuid__": "fd816800-86fb-4965-b938-8e3505292636"}, "weidu": {"__uuid__": "4402bf5f-3e2b-4af4-a78a-658dae77ee10"}, "yidu": {"__uuid__": "1b1f64ab-6710-4f92-986b-433c86e58a88"}}}

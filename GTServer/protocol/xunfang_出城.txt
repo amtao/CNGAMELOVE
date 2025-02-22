@@ -1,0 +1,283 @@
+随处看看
+api:
+    xunfang
+method:
+    xunfan
+param:
+    type 1:出城N次(vip>2) 0:出城1次 城市id+1000
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 4,
+    				"count": 35916
+    			}]
+    		},
+    		"xunfang": {
+    			"win": {
+    				"xfAll": [{
+    					"npcid": 6,         npcId
+    					"type": 1,          0:没人 1加道具 2减道具 3加好感 4获得红颜 5加亲密 6增加门客羁绊 7特殊事件
+    					"haogan": 0,        知己好感度
+    					"items": [{         道具
+    						"id": 4,
+    						"count": 35916
+    					}],
+    					"build": 0,         城市id
+    					"id": 0             xf_clientevent 时间id
+    				}]
+    			},
+    			"xfInfo": {
+    				"count": 0,             今日使用元宝进城的次数
+    				"lastTime": 1558580515, 用于0点恢复
+    				"num": 0,               体力数量
+    				"next": 1558582179,     下一次恢复时间
+    				"label": "xunfangtili"
+    			},
+    			"recover": {                运势
+    				"num": 90,              运势
+    				"auto2": 1,             自动阅历占卜
+    				"auto3": 1,             自动银两占卜
+    				"ysSet": 90             运势设置值
+    			},
+    			"zhenZai": {
+    				"used": 0,              已使用的免费转运次数
+    				"num": 3                赈灾次数
+    			}
+    		},
+    		"flower": {                     御花园数据
+    			"base": [{
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 7,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"cur": 8,
+    				"rwd": 1
+    			}, {
+    				"id": 11,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 18,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 9,
+    				"cur": 0,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 140,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 46,
+    				"rwd": 1
+    			}, {
+    				"id": 6,
+    				"cur": 4,
+    				"rwd": 1
+    			}],
+    			"protect": {
+    				"cur": 1,
+    				"ctime": 1558437780,
+    				"cd": [{
+    					"id": 1,
+    					"over": 1558441380
+    				}]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558580515
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"army": 37842280
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 16,
+    				"num": 404,
+    				"rwd": 13
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 4,
+    				"num": 6
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+逆天转运
+api:
+    xunfang
+method:
+    zzHand
+param:
+    type    1:元宝 2:阅历 3:银两
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"xunfang": {
+    			"win": {
+    				"yunsi": {
+    					"ys": 10
+    				}
+    			},
+    			"zhenZai": {
+    				"used": 1,
+    				"num": 4
+    			},
+    			"recover": {
+    				"num": 100,
+    				"auto2": 0,
+    				"auto3": 1,
+    				"ysSet": 87
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558581625
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+
+保存自动占卜信息
+api:
+    xunfang
+method:
+    yunshi
+param:
+    auto2   自动阅历占卜
+    auto3   自动银两占卜
+    ysSet   运势设置
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"xunfang": {
+    			"recover": {
+    				"num": 100,
+    				"auto2": 1,
+    				"auto3": 1,
+    				"ysSet": 86
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558581785
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+恢复体力
+api:
+    xunfang
+method:
+    recover
+param:
+    type 数量
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"xunfang": {
+    			"xfInfo": {
+    				"count": 2,
+    				"lastTime": 1558582116,
+    				"num": 10,
+    				"next": 0,
+    				"label": "xunfangtili"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558582116
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 72,
+    				"count": 0
+    			}]
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 219,
+    				"title": "\u9650\u65f6\u4f53\u529b\u4e39\u6d88\u8017",
+    				"pindex": 219,
+    				"type": 2,
+    				"sTime": 1512057600,
+    				"eTime": 1575734398,
+    				"showTime": 1575734398,
+    				"hid": 2018121424,
+    				"cd": {
+    					"next": 1575734398,
+    					"label": "huodong_219_ltime"
+    				},
+    				"news": 1
+    			}]
+    		}
+    	}
+    }

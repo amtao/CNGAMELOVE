@@ -1,0 +1,3 @@
+
+python modifyJs.py
+pause

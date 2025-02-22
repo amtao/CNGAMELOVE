@@ -1,0 +1,12 @@
+#header-dqhd
+* * * * *  /usr/local/services/php/bin/php /data/www/dqhd/s1_dqhd/crontab/cfg_houtai.php > /data/logs/dqhd_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/dqhd/s1_dqhd/crontab/delete.php > /data/logs/dqhd_log/delete 2>&1
+
+#dqhd 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/dqhd/s1_dqhd/crontab/30minutes.php 1 >> /data/logs/dqhd_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dqhd/s1_dqhd/crontab/Sync.php 1 > /data/logs/dqhd_log/Sync1 2>&1
+
+//------------end-----------------
+
+
+

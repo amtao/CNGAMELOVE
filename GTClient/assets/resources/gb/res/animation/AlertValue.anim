@@ -1,0 +1,96 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "AlertValue",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.3333333333333335,
+  "sample": 60,
+  "speed": 1.45,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "imgbg": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "curve": "cubicOut",
+              "value": 0
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 255
+            },
+            {
+              "frame": 2,
+              "curve": "cubicIn",
+              "value": 255
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 0
+            }
+          ],
+          "scaleX": [
+            {
+              "frame": 0,
+              "curve": "cubicOut",
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "curve": "cubicOut",
+              "value": 1.1
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "curve": "cubicIn",
+              "value": 1
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "curve": "cubicOut",
+              "value": 0
+            },
+            {
+              "frame": 0.25,
+              "curve": "cubicOut",
+              "value": 1.1
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "curve": "cubicIn",
+              "value": 1
+            },
+            {
+              "frame": 2.3333333333333335,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "props": {}
+  },
+  "events": [
+    {
+      "frame": 2.3333333333333335,
+      "params": [],
+      "func": "onClickClost"
+    }
+  ]
+}

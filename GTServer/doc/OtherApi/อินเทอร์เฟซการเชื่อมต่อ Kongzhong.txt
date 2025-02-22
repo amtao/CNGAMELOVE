@@ -1,0 +1,10 @@
+登录接口 loginAccount
+除openkey外多传递一个参数， parm1，客户端的渠道号
+
+
+客户端支付时，需要对订单的cburl进行封装，在cuburl后面拼接上我们游戏的订单号，透传参数名，game_order_id
+
+
+
+
+

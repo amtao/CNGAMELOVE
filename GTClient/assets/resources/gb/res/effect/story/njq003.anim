@@ -1,0 +1,105 @@
+{
+  "sample": 40,
+  "curveData": {
+    "paths": {
+      "jq003_bg001": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 1,
+              "value": 0
+            },
+            {
+              "frame": 18.75,
+              "value": 0
+            },
+            {
+              "frame": 19.775,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "jq003_word003": {
+        "comps": {
+          "SoundItem": {
+            "enabled": [
+              {
+                "frame": 7.525,
+                "value": false
+              },
+              {
+                "frame": 7.775,
+                "value": true
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 7.5,
+              "value": 0
+            },
+            {
+              "frame": 8,
+              "value": 255
+            },
+            {
+              "frame": 18,
+              "value": 255
+            },
+            {
+              "frame": 18.5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "jq003_word001": {
+        "comps": {
+          "SoundItem": {
+            "enabled": [
+              {
+                "frame": 0.75,
+                "value": false
+              },
+              {
+                "frame": 1,
+                "value": true
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 255
+            },
+            {
+              "frame": 6.7,
+              "value": 255
+            },
+            {
+              "frame": 7.175,
+              "value": 0
+            }
+          ]
+        }
+      }
+    },
+    "props": {}
+  },
+  "__type__": "cc.AnimationClip",
+  "_duration": 19.775,
+  "_name": "njq003"
+}

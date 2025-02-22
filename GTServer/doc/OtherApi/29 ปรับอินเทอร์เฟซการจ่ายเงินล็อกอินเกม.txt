@@ -1,0 +1,6 @@
+登录接口 loginAccount 传递以下参数：
+openid : 用户唯一标识，无法获得就传1
+openkey : 客户端登录回调里的loginToken
+
+支付：
+- 客户端需要将游戏订单号透传到privateField中

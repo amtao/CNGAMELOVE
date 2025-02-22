@@ -1,0 +1,11 @@
+#官居一品拇指游玩-datanglocal
+* * * * *  /usr/local/services/php/bin/php /data/www/datanglocal/s1_datanglocal/crontab/cfg_houtai.php > /data/logs/datanglocal_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/datanglocal/s1_datanglocal/crontab/delete.php > /data/logs/datanglocal_log/delete 2>&1
+
+#官居一品拇指游玩-datanglocal 999区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/datanglocal/s1_datanglocal/crontab/30minutes.php 999 >> /data/logs/datanglocal_log/30minutes999 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/datanglocallocal/s1_datanglocal/crontab/flow.php 999 > /data/logs/datanglocal_log/flow999 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/datanglocal/s1_datanglocal/crontab/Sync.php 999 > /data/logs/datanglocal_log/Sync999 2>&1
+
+
+//------------end-----------------

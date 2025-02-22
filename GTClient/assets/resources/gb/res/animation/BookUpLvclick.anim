@@ -1,0 +1,101 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BookUpLvclick",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.21666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "TanKuangCommon/InfoBG": {
+        "comps": {},
+        "props": {
+          "position": []
+        }
+      },
+      "TanKuangCommon/ContentBG": {
+        "comps": {},
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.016666666666666666,
+              "value": 0
+            },
+            {
+              "frame": 0.2,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "TanKuangCommon/ContentBG/BtnNode/btnUp1": {
+        "comps": {},
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.1,
+                "y": 0.1
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.15,
+                "y": 1.15
+              }
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      },
+      "TanKuangCommon/ContentBG/BtnNode/btnUp2": {
+        "comps": {},
+        "props": {
+          "scale": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 0.1,
+                "y": 0.1
+              }
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1.15,
+                "y": 1.15
+              }
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": {
+                "__type__": "cc.Vec2",
+                "x": 1,
+                "y": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "opacity": []
+    }
+  },
+  "events": []
+}

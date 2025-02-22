@@ -1,0 +1,210 @@
+
+1、奖励发放接口
+接口说明：
+    1、充值金额由草花平台进行统计，玩家满足条件后领取奖励调用发放接口
+    2、奖励内容由CP方和草花平台约定好，用档位序号进行标识，档位序号为两位数字，如：01、02……11……
+接口地址：
+    pfapi/reward2active.php?_pf={渠道平台标识}
+例如：
+	草花-官居一品：
+	http://gjjpch.zhisnet.cn/pfapi/reward2active.php?_pf=caohuagjjp
+
+更新：
+1、涉及文件
+svn up controller/caohua/Api.php
+svn up controller/caohua/SDK.php
+svn up doc/OtherApi
+svn up doc/OtherApi/草花平台运营活动相关接口说明
+svn up initalter
+svn up initalter/readme
+svn up initalter/reward2active.php
+svn up public/pfapi
+svn up public/pfapi/reward2active.php
+2、新增表
+php initalter/reward2active.php
+3、后台-活动-通服基础活动 新增配置 reward2act : 
+例如：
+//运营活动充值兑换配置
+array(
+	'info' => array (
+		'title' => '充值奖励',
+		'content' => '感谢您一直以来对游戏的理解和支持~祝您游戏愉快！',
+	),
+
+	'rwd'=>array(
+		'01' => array(
+			'name' => '100-499元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>3),//精力丹
+				array('id'=>72,'count'=>3),//体力丹
+				array('id'=>73,'count'=>3),//活力丹
+				array('id'=>92,'count'=>3),//翡翠心
+			),
+		),
+		'02' => array(
+			'name' => '100-499元宴会礼包',
+			'items' => array(
+				array('id'=>142,'count'=>2),//家宴佐料
+				array('id'=>141,'count'=>2),//家宴食材
+				array('id'=>52,'count'=>5),//属性散
+			),
+		),
+		'03' => array(
+			'name' => '100-499元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>1),//檀木指环
+				array('id'=>161,'count'=>1),//檀木腰牌
+				array('id'=>162,'count'=>1),//檀木剑
+			),
+		),
+		
+		'04' => array(
+			'name' => '500-999元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>5),//精力丹
+				array('id'=>72,'count'=>5),//体力丹
+				array('id'=>73,'count'=>5),//活力丹
+				array('id'=>77,'count'=>5),//卷轴礼包
+			),
+		),
+		'05' => array(
+			'name' => '500-999元宴会礼包',
+			'items' => array(
+				array('id'=>142,'count'=>3),//家宴佐料
+				array('id'=>141,'count'=>3),//家宴食材
+				array('id'=>77,'count'=>5),//卷轴礼包
+				array('id'=>52,'count'=>10),//属性散
+			),
+		),
+		'06' => array(
+			'name' => '500-999元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>1),//檀木指环
+				array('id'=>161,'count'=>1),//檀木腰牌
+				array('id'=>162,'count'=>1),//檀木剑
+				array('id'=>52,'count'=>5),//属性散
+			),
+		),
+		
+		'07' => array(
+			'name' => '1000-2999元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>8),//精力丹
+				array('id'=>72,'count'=>10),//体力丹
+				array('id'=>73,'count'=>10),//活力丹
+				array('id'=>77,'count'=>10),//卷轴礼包
+			),
+		),
+		'08' => array(
+			'name' => '1000-2999元宴会礼包',
+			'items' => array(
+				array('id'=>142,'count'=>5),//家宴佐料
+				array('id'=>141,'count'=>5),//家宴食材
+				array('id'=>77,'count'=>10),//卷轴礼包
+				array('id'=>52,'count'=>20),//属性散
+			),
+		),
+		'09' => array(
+			'name' => '1000-2999元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>2),//檀木指环
+				array('id'=>161,'count'=>2),//檀木腰牌
+				array('id'=>162,'count'=>2),//檀木剑
+				array('id'=>52,'count'=>10),//属性散
+			),
+		),
+		
+		'10' => array(
+			'name' => '3000-4999元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>10),//精力丹
+				array('id'=>72,'count'=>20),//体力丹
+				array('id'=>73,'count'=>20),//活力丹
+				array('id'=>77,'count'=>10),//卷轴礼包
+				array('id'=>130,'count'=>2),//谋士令
+			),
+		),
+		'11' => array(
+			'name' => '3000-4999元宴会礼包',
+			'items' => array(
+				array('id'=>144,'count'=>2),//官宴佐料
+				array('id'=>143,'count'=>2),//官宴食材
+				array('id'=>145,'count'=>1),//宴会贺礼
+				array('id'=>77,'count'=>10),//卷轴礼包
+				array('id'=>130,'count'=>2),//谋士令
+			),
+		),
+		'12' => array(
+			'name' => '3000-4999元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>5),//檀木指环
+				array('id'=>161,'count'=>5),//檀木腰牌
+				array('id'=>162,'count'=>5),//檀木剑
+				array('id'=>77,'count'=>10),//卷轴礼包
+				array('id'=>130,'count'=>2),//谋士令
+			),
+		),
+		
+		'13' => array(
+			'name' => '5000-7999元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>15),//精力丹
+				array('id'=>72,'count'=>20),//体力丹
+				array('id'=>73,'count'=>20),//活力丹
+				array('id'=>77,'count'=>20),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+		'14' => array(
+			'name' => '5000-7999元宴会礼包',
+			'items' => array(
+				array('id'=>144,'count'=>5),//官宴佐料
+				array('id'=>143,'count'=>5),//官宴食材
+				array('id'=>145,'count'=>5),//宴会贺礼
+				array('id'=>77,'count'=>20),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+		'15' => array(
+			'name' => '5000-7999元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>8),//檀木指环
+				array('id'=>161,'count'=>8),//檀木腰牌
+				array('id'=>162,'count'=>8),//檀木剑
+				array('id'=>77,'count'=>20),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+		
+		'16' => array(
+			'name' => '8000元佳人礼包',
+			'items' => array(
+				array('id'=>71,'count'=>30),//精力丹
+				array('id'=>72,'count'=>50),//体力丹
+				array('id'=>73,'count'=>50),//活力丹
+				array('id'=>77,'count'=>50),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+		'17' => array(
+			'name' => '8000元宴会礼包',
+			'items' => array(
+				array('id'=>144,'count'=>12),//官宴佐料
+				array('id'=>143,'count'=>12),//官宴食材
+				array('id'=>145,'count'=>12),//宴会贺礼
+				array('id'=>77,'count'=>50),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+		'18' => array(
+			'name' => '8000元门客礼包',
+			'items' => array(
+				array('id'=>160,'count'=>12),//檀木指环
+				array('id'=>161,'count'=>12),//檀木腰牌
+				array('id'=>162,'count'=>12),//檀木剑
+				array('id'=>77,'count'=>50),//卷轴礼包
+				array('id'=>130,'count'=>5),//谋士令
+			),
+		),
+	),
+);

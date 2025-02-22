@@ -1,0 +1,13 @@
+#header-lzqdgft
+* * * * *  /usr/local/services/php/bin/php /data/www/lzqdgft/s1_lzqdgft/crontab/cfg_houtai.php > /data/logs/lzqdgft_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/lzqdgft/s1_lzqdgft/crontab/delete.php > /data/logs/lzqdgft_log/delete 2>&1
+
+#lzqdgft 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lzqdgft/s1_lzqdgft/crontab/30minutes.php 1 >> /data/logs/lzqdgft_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lzqdgft/s1_lzqdgft/crontab/Sync.php 1 > /data/logs/lzqdgft_log/Sync1 2>&1
+
+//------------end-----------------
+
+
+
+

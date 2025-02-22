@@ -1,0 +1,8 @@
+#大唐 爱奇艺-dtqmgdtgaqy
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgaqy/s1_dtqmgdtgaqy/crontab/cfg_houtai.php > /data/logs/dtqmgdtgaqy_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgaqy/s1_dtqmgdtgaqy/crontab/delete.php > /data/logs/dtqmgdtgaqy_log/delete 2>&1
+
+#大唐 爱奇艺-dtqmgdtgaqy 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgaqy/s1_dtqmgdtgaqy/crontab/30minutes.php 1 >> /data/logs/dtqmgdtgaqy_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgaqy/s1_dtqmgdtgaqy/crontab/flow.php 1 > /data/logs/dtqmgdtgaqy_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgaqy/s1_dtqmgdtgaqy/crontab/Sync.php 1 > /data/logs/dtqmgdtgaqy_log/Sync1 2>&1

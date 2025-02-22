@@ -1,0 +1,20 @@
+
+bangzhu.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/db
+  rotate: true
+  xy: 2, 2
+  size: 42, 122
+  orig: 42, 122
+  offset: 0, 0
+  index: -1
+images/hua
+  rotate: false
+  xy: 175, 15
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1

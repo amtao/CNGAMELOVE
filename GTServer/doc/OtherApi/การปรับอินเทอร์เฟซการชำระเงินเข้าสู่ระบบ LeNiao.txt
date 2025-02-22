@@ -1,0 +1,9 @@
+登录接口 loginAccount 传递以下参数：
+openid : 用户唯一标识,logincallback.userId
+openkey : 验证时间戳,logincallback.logintime
+parm1 : 登录验证签名,logincallback.sign
+
+
+
+
+

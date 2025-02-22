@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Camera_14off",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.7166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scale": []
+    },
+    "paths": {
+      "right": {
+        "props": {
+          "y": [],
+          "scale": [],
+          "x": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 1076.876
+            }
+          ]
+        }
+      },
+      "bg": {
+        "props": {
+          "position": [],
+          "scale": []
+        }
+      }
+    }
+  },
+  "events": []
+}

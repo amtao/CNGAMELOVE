@@ -1,0 +1,10 @@
+登录接口 loginAccount 传递以下参数：
+openid : 用户UID标识,SDK登录返回的uid值
+openkey : 用户令牌标识,SDK端登录会返回对应gametoken的值
+parm1 : 验证时间戳,SDK端登录会返回的time值
+parm2 : 额外验证参数,SDK端初始化返回的sessid对应值
+
+
+
+
+

@@ -1,0 +1,21 @@
+#紫禁繁花海外正式服 - epzjfhover
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/cfg_houtai.php > /data/logs/epzjfhover_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/delete.php > /data/logs/epzjfhover_log/delete 2>&1
+
+#紫禁繁花海外正式服 - epzjfhover
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/30minutes.php 1 >> /data/logs/epzjfhover_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/flow.php 1 > /data/logs/epzjfhover_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/Sync.php 1 > /data/logs/epzjfhover_log/Sync1 2>&1
+
+#紫禁繁花海外正式服 - epzjfhover
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/30minutes.php 2 >> /data/logs/epzjfhover_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/flow.php 2 > /data/logs/epzjfhover_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/Sync.php 2 > /data/logs/epzjfhover_log/Sync2 2>&1
+
+#紫禁繁花海外正式服 - epzjfhover
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/30minutes.php 3 >> /data/logs/epzjfhover_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/flow.php 3 > /data/logs/epzjfhover_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhover/s1_epzjfhover/crontab/Sync.php 3 > /data/logs/epzjfhover_log/Sync3 2>&1
+
+
+//------------end-----------------

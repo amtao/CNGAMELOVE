@@ -1,0 +1,90 @@
+google/欧美发行
+
+
+1、登录接口（loginAccount）
+请求：param=[{type}, {account}, {password}, {isReg}]
+响应(成功)：[1,role_id,token,open_id,{"account":username, "bindFB":false|true, "bindEmail":false|true}]]
+响应(失败)：[0,"具体原因描述"]
+
+(1) 默认登录方式, type=local, 需要自动注册新账户, account传空值会自动生成一个默认账户
+例如：
+请求：param=["local", "", ""]
+响应：[1,10086,"adfafgagdag","omfx_098f6bcd4621d373cade4e832627b4f6",{"account":"098f6bcd4621d373cade4e832627b4f6","bindFB":false,"bindEmail":false}]
+
+(2) 默认登录方式， type=local, 已有账户
+例如：
+请求：param=["local", "098f6bcd4621d373cade4e832627b4f6", ""]
+响应：[1,10086,"adfafgagdag","omfx_098f6bcd4621d373cade4e832627b4f6",{"account":"098f6bcd4621d373cade4e832627b4f6","bindFB":false,"bindEmail":false}]
+
+(3) facebook登录, type=fb, 客户端在登录成功后会获取到fbid(fb唯一账户标识), account传fbid
+例如：
+请求：param=["fb", "125465465644", ""]
+响应：[1,10086,"adfafgagdag","omfx_098f6bcd4621d373cade4e832627b4f6",{"account":"098f6bcd4621d373cade4e832627b4f6","bindFB":true,"bindEmail":false}]
+
+(4) email登录, type=email, account传email, password传未加密的密码串
+请求参数说明：针对邮箱登录，isReg=1时作为注册处理，否则判断是已有账号登录
+例如：
+请求：param=["email", "test@youdong.com", "123123", "1"]
+响应：[1,10086,"adfafgagdag","omfx_098f6bcd4621d373cade4e832627b4f6",{"account":"098f6bcd4621d373cade4e832627b4f6","bindFB":false,"bindEmail":true}]
+
+(5) 其它登录, type != local | fb | email, 不会生成账户信息, 直接作为游戏标识
+例如：
+请求：param=["", "test", "123123"]
+响应：[1,10086,"adfafgagdag","omfx_test",""]
+
+
+
+2. 绑定/解绑接口(bindAccount), account= loginAccount响应返回的account值
+请求：param=[{type}, {account}, {fbid|email}, {password}]
+响应(成功)：[1]
+响应(失败)：[0,"具体原因描述"]
+
+(1) 绑定facebook, type=bindFB
+例如：
+请求：param=["bindFB", "098f6bcd4621d373cade4e832627b4f6", "125465465644"]
+响应：[1]
+
+(2) 解绑facebook, type=unbindFB
+例如：
+请求：param=["unbindFB", "098f6bcd4621d373cade4e832627b4f6", "125465465644"]
+响应：[1]
+
+(3) 绑定email, type=bindEmail
+例如：
+请求：param=["bindEmail", "098f6bcd4621d373cade4e832627b4f6", "test@youdong.com", "123123"]
+响应：[1]
+
+(4) 解绑email, type=unbindEmail
+例如：
+请求：param=["unbindEmail", "098f6bcd4621d373cade4e832627b4f6", "test@youdong.com", "123123"]
+响应：[1]
+
+
+
+3. 密码重置/忘记密码接口(forgotPassword), 执行成功会自动向目标邮箱发送重置的密码邮件
+请求：param=[email]
+响应(成功)：[1]
+响应(失败)：[0,"具体原因描述"]
+
+例如：
+请求：param=["test@youdong.com"]
+响应：[1]
+
+
+4、支付接口（getTradeCodeNew）
+略
+
+
+5、支付回调接口(服务器端提供的接口地址)
+描述：客户端在gg支付成功后需要想服务器端发起回调通知
+请求：（post）
+	purchase : gg返回的订单凭证信息
+	signature ：gg返回的订单验签
+	serverid ：服务器标识
+	userid ：loginAccount接口返回的open_id值，即游戏账号的唯一标识（注意，不是平台账户的唯一标识）
+	itemid ：略
+	orderid ：略
+响应：（json格式）
+	status ：等于0表示成功，其它状态值为失败
+	
+	

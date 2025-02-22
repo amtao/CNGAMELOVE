@@ -1,0 +1,158 @@
+#老爷吉祥6kw-lyjx6kw
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/cfg_houtai.php > /data/logs/lyjx6kw_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/delete.php > /data/logs/lyjx6kw_log/delete 2>&1
+
+#老爷吉祥6kw-lyjx6kw 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 1 >> /data/logs/lyjx6kw_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 1 > /data/logs/lyjx6kw_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 1 > /data/logs/lyjx6kw_log/Sync1 2>&1
+
+
+#老爷吉祥6kw-lyjx6kw 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 2 >> /data/logs/lyjx6kw_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 2 > /data/logs/lyjx6kw_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 2 > /data/logs/lyjx6kw_log/Sync2 2>&1
+
+
+#老爷吉祥6kw-lyjx6kw 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 3 >> /data/logs/lyjx6kw_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 3 > /data/logs/lyjx6kw_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 3 > /data/logs/lyjx6kw_log/Sync3 2>&1
+
+#老爷吉祥6kw-lyjx6kw 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 4 >> /data/logs/lyjx6kw_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 4 > /data/logs/lyjx6kw_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 4 > /data/logs/lyjx6kw_log/Sync4 2>&1
+
+#老爷吉祥6kw-lyjx6kw 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 5 >> /data/logs/lyjx6kw_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 5 > /data/logs/lyjx6kw_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 5 > /data/logs/lyjx6kw_log/Sync5 2>&1
+
+#老爷吉祥6kw-lyjx6kw 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 6 >> /data/logs/lyjx6kw_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 6 > /data/logs/lyjx6kw_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 6 > /data/logs/lyjx6kw_log/Sync6 2>&1
+
+#老爷吉祥6kw-lyjx6kw 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 7 >> /data/logs/lyjx6kw_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 7 > /data/logs/lyjx6kw_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 7 > /data/logs/lyjx6kw_log/Sync7 2>&1
+
+#lyjx6kw 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 8 >> /data/logs/lyjx6kw_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 8 > /data/logs/lyjx6kw_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 8 > /data/logs/lyjx6kw_log/Sync8 2>&1
+
+#lyjx6kw 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 9 >> /data/logs/lyjx6kw_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 9 > /data/logs/lyjx6kw_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 9 > /data/logs/lyjx6kw_log/Sync9 2>&1
+
+#lyjx6kw 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 10 >> /data/logs/lyjx6kw_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 10 > /data/logs/lyjx6kw_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 10 > /data/logs/lyjx6kw_log/Sync10 2>&1
+
+#lyjx6kw 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 11 >> /data/logs/lyjx6kw_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 11 > /data/logs/lyjx6kw_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 11 > /data/logs/lyjx6kw_log/Sync11 2>&1
+
+#lyjx6kw 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 12 >> /data/logs/lyjx6kw_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/flow.php 12 > /data/logs/lyjx6kw_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 12 > /data/logs/lyjx6kw_log/Sync12 2>&1
+
+#lyjx6kw 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 13 >> /data/logs/lyjx6kw_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 13 > /data/logs/lyjx6kw_log/Sync13 2>&1
+
+#lyjx6kw 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 14 >> /data/logs/lyjx6kw_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 14 > /data/logs/lyjx6kw_log/Sync14 2>&1
+
+#lyjx6kw 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 15 >> /data/logs/lyjx6kw_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 15 > /data/logs/lyjx6kw_log/Sync15 2>&1
+
+#lyjx6kw 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 16 >> /data/logs/lyjx6kw_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 16 > /data/logs/lyjx6kw_log/Sync16 2>&1
+
+#lyjx6kw 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 17 >> /data/logs/lyjx6kw_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 17 > /data/logs/lyjx6kw_log/Sync17 2>&1
+
+#lyjx6kw 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 18 >> /data/logs/lyjx6kw_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 18 > /data/logs/lyjx6kw_log/Sync18 2>&1
+
+#lyjx6kw 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 19 >> /data/logs/lyjx6kw_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 19 > /data/logs/lyjx6kw_log/Sync19 2>&1
+
+#lyjx6kw 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 20 >> /data/logs/lyjx6kw_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 20 > /data/logs/lyjx6kw_log/Sync20 2>&1
+
+#lyjx6kw 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 21 >> /data/logs/lyjx6kw_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 21 > /data/logs/lyjx6kw_log/Sync21 2>&1
+
+#lyjx6kw 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 22 >> /data/logs/lyjx6kw_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 22 > /data/logs/lyjx6kw_log/Sync22 2>&1
+
+#lyjx6kw 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 23 >> /data/logs/lyjx6kw_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 23 > /data/logs/lyjx6kw_log/Sync23 2>&1
+
+#lyjx6kw 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 24 >> /data/logs/lyjx6kw_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 24 > /data/logs/lyjx6kw_log/Sync24 2>&1
+
+#lyjx6kw 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 25 >> /data/logs/lyjx6kw_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 25 > /data/logs/lyjx6kw_log/Sync25 2>&1
+
+#lyjx6kw 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 26 >> /data/logs/lyjx6kw_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 26 > /data/logs/lyjx6kw_log/Sync26 2>&1
+
+#lyjx6kw 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 27 >> /data/logs/lyjx6kw_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 27 > /data/logs/lyjx6kw_log/Sync27 2>&1
+
+#lyjx6kw 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 28 >> /data/logs/lyjx6kw_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 28 > /data/logs/lyjx6kw_log/Sync28 2>&1
+
+#lyjx6kw 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 29 >> /data/logs/lyjx6kw_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 29 > /data/logs/lyjx6kw_log/Sync29 2>&1
+
+#lyjx6kw 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 30 >> /data/logs/lyjx6kw_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 30 > /data/logs/lyjx6kw_log/Sync30 2>&1
+
+#lyjx6kw 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 31 >> /data/logs/lyjx6kw_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 31 > /data/logs/lyjx6kw_log/Sync31 2>&1
+
+#lyjx6kw 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/30minutes.php 32 >> /data/logs/lyjx6kw_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/lyjx6kw/s1_lyjx6kw/crontab/Sync.php 32 > /data/logs/lyjx6kw_log/Sync32 2>&1
+
+//------------end-----------------
+
+
+
+
+
+
+
+
+
+
+

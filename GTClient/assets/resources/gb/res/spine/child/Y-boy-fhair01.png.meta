@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "20711a5c-cb60-4166-aa68-180a7453e73c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1024,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "Y-boy-fhair01": {
+      "ver": "1.0.4",
+      "uuid": "ab5b1d0e-a73a-46ef-b2d6-e5d0d4ce09c0",
+      "rawTextureUuid": "20711a5c-cb60-4166-aa68-180a7453e73c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -166,
+      "offsetY": 11.5,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 688,
+      "height": 229,
+      "rawWidth": 1024,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BBVboss_xiayi",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 1027.7
+        },
+        {
+          "frame": 0.16666666666666666,
+          "value": 1036.021
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": 1105
+        }
+      ],
+      "scale": []
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "glowcircle",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "7856eaf7-be2d-471c-bce2-3f1b3aa9005b"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

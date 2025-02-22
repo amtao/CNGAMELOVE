@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FightShowBattle",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "top/Image_1/role2": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.25,
+              "curve": "cubicOut",
+              "value": 649
+            },
+            {
+              "frame": 0.5,
+              "value": 192
+            }
+          ]
+        }
+      },
+      "top/Image_1/role": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.25,
+              "curve": "cubicOut",
+              "value": -643
+            },
+            {
+              "frame": 0.5,
+              "value": -192
+            }
+          ]
+        }
+      },
+      "top/Image_1/list": {
+        "props": {
+          "x": [
+            {
+              "frame": 0.25,
+              "curve": "cubicOut",
+              "value": -785
+            },
+            {
+              "frame": 0.5,
+              "value": -354.7
+            }
+          ]
+        }
+      },
+      "beijing1/FightShit_Bg_2": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 719
+            }
+          ]
+        }
+      },
+      "top/Image_1": {
+        "props": {
+          "y": []
+        }
+      },
+      "beijing1/FightShit_Bg": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "top/Image_1/a_vs": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.25,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

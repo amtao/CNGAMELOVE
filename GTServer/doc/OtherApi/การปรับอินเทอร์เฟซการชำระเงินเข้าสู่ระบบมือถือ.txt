@@ -1,0 +1,7 @@
+登录接口 loginAccount 传递以下参数：
+openid : SDK登录返回的用户唯一标识ID
+openkey : SDK端登录会返回对应timestamp的值
+parm1 : SDK端登录会返回对应sign的值
+
+支付：
+- 客户端需要将游戏订单号透传到exInfo中

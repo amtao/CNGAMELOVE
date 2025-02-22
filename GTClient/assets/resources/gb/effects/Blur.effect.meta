@@ -1,0 +1,17 @@
+{
+  "ver": "1.0.25",
+  "uuid": "87deb431-bb81-4fa8-95fe-a278233a9af0",
+  "compiledShaders": [
+    {
+      "glsl1": {
+        "vert": "\nprecision highp float;\nuniform mat4 cc_matViewProj;\nattribute vec3 a_position;\nattribute mediump vec2 a_uv0;\nvarying mediump vec2 v_uv0;\nattribute vec4 a_color;\nvarying vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+        "frag": "\nprecision highp float;\nuniform float blurThreshold;\nuniform sampler2D texture;\nvarying mediump vec2 v_uv0;\nvarying vec4 v_color;\nvoid main () {\n  float scale = 40.0 * blurThreshold;\n  vec2 blurSize=vec2(scale,scale);\n  vec4 sum=vec4(0.0);\n  sum+=texture2D(texture,v_uv0-0.0004*blurSize)*0.05;\n  sum+=texture2D(texture,v_uv0-0.0003*blurSize)*0.09;\n  sum+=texture2D(texture,v_uv0-0.0002*blurSize)*0.12;\n  sum+=texture2D(texture,v_uv0-0.0001*blurSize)*0.15;\n  sum+=texture2D(texture,v_uv0)*0.16;\n  sum+=texture2D(texture,v_uv0+0.0001*blurSize)*0.15;\n  sum+=texture2D(texture,v_uv0+0.0002*blurSize)*0.12;\n  sum+=texture2D(texture,v_uv0+0.0003*blurSize)*0.09;\n  sum+=texture2D(texture,v_uv0+0.0004*blurSize)*0.05;\n  gl_FragColor = v_color*sum;\n}"
+      },
+      "glsl3": {
+        "vert": "\nprecision highp float;\nuniform CCGlobal {\n  mat4 cc_matView;\n  mat4 cc_matViewInv;\n  mat4 cc_matProj;\n  mat4 cc_matProjInv;\n  mat4 cc_matViewProj;\n  mat4 cc_matViewProjInv;\n  vec4 cc_cameraPos;\n  vec4 cc_time;\n  mediump vec4 cc_screenSize;\n  mediump vec4 cc_screenScale;\n};\nin vec3 a_position;\nin mediump vec2 a_uv0;\nout mediump vec2 v_uv0;\nin vec4 a_color;\nout vec4 v_color;\nvoid main () {\n  gl_Position = cc_matViewProj * vec4(a_position, 1);\n  v_uv0 = a_uv0;\n  v_color = a_color;\n}",
+        "frag": "\nprecision highp float;\nuniform FragConstants {\n  float blurThreshold;\n};\nuniform sampler2D texture;\nin mediump vec2 v_uv0;\nin vec4 v_color;\nvoid main () {\n  float scale = 40.0 * blurThreshold;\n  vec2 blurSize=vec2(scale,scale);\n  vec4 sum=vec4(0.0);\n  sum+=texture2D(texture,v_uv0-0.0004*blurSize)*0.05;\n  sum+=texture2D(texture,v_uv0-0.0003*blurSize)*0.09;\n  sum+=texture2D(texture,v_uv0-0.0002*blurSize)*0.12;\n  sum+=texture2D(texture,v_uv0-0.0001*blurSize)*0.15;\n  sum+=texture2D(texture,v_uv0)*0.16;\n  sum+=texture2D(texture,v_uv0+0.0001*blurSize)*0.15;\n  sum+=texture2D(texture,v_uv0+0.0002*blurSize)*0.12;\n  sum+=texture2D(texture,v_uv0+0.0003*blurSize)*0.09;\n  sum+=texture2D(texture,v_uv0+0.0004*blurSize)*0.05;\n  gl_FragColor = v_color*sum;\n}"
+      }
+    }
+  ],
+  "subMetas": {}
+}

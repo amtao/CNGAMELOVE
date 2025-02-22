@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MainTanHeView_botL",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Animation1": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 13.566,
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -735
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

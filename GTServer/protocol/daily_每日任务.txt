@@ -1,0 +1,169 @@
+每日任务领奖
+api:
+    daily
+method:
+    gettask
+param:
+    id 日常任务id(dailyrwd)
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 7,
+    				"count": 10
+    			}, {
+    				"kind": 2,
+    				"id": 5,
+    				"count": 2
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558321438
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"exp": 85
+    			}
+    		},
+    		"daily": {
+    			"score": 10,
+    			"tasks": [{
+    				"id": 2,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+领取活跃奖励
+api:
+    daily
+method:
+    getrwd
+param:
+    id (dailyrwd_rwd)
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 5,
+    				"count": 40
+    			}, {
+    				"kind": 2,
+    				"id": 2,
+    				"count": 15000
+    			}, {
+    				"kind": 2,
+    				"id": 3,
+    				"count": 15000
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 15000
+    			}, {
+    				"kind": 1,
+    				"id": 121,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 122,
+    				"count": 1
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558321666
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"exp": 125,
+    				"coin": 349671,
+    				"food": 296244,
+    				"army": 151878
+    			}
+    		},
+    		"item": {
+    			"itemList": [{
+    				"id": 121,
+    				"count": 1
+    			}, {
+    				"id": 122,
+    				"count": 4
+    			}]
+    		},
+    		"daily": {
+    			"rwds": [{
+    				"id": 1,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+科举
+api:
+    daily
+method:
+    answer
+param:
+    id (dailyrwd_rwd)
+return:
+    {
+    	"s": 1,
+    	"a": {
+            "msgwin": {
+                "items": [{
+                    "kind": 2,
+                    "id": 3,
+                    "count": 11000
+                }]
+            },
+    		"daily": {
+    			"base": [{
+    				"id": 1,    // exam_type id
+    				"num": 1,   // 剩余次数
+    				"answer": 3,    // 第几天
+    				"error": 2,     // 当前错误的题目数量
+    				"item": {       // 奖励物品
+    					"kind": 1,
+    					"id": 0,
+    					"count": 0
+    				},
+    				"count": 2      // 举行了多少次
+    			}],
+    			"level": {
+                    "level": 1,     等级
+                    "exp": 14       经验
+                }
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558425835
+    			}
+    		}
+    	},
+    	"u": {
+            "user": {
+                "user": {
+                    "food": 24492467
+                }
+            }
+        }
+    }

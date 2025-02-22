@@ -1,0 +1,2267 @@
+修改昵称
+api:
+    user
+method:
+    resetName
+param:
+    name 昵称
+return:
+    a:
+        // 可能出现的数据
+        huodonglist:all // 活动信息(挖宝锄头-每日任务)
+    {
+    	"s": 1,
+    	"a": {
+    		"flower": {
+    			"chenlu": [{                //  御花园数据(暂时不清楚数据结构)
+    				"type": 4,
+    				"id": 245585,
+    				"time": 1557837491,
+    				"chen": 100,
+    				"rwd": 0,
+    				"sUids": []             //
+    			}],
+    			"base": [{                  // 御花园晨露数据(暂时不清楚数据结构)
+    				"id": 12,
+    				"cur": 15,
+    				"rwd": 0
+    			}, {
+    				"id": 4,
+    				"cur": 100,
+    				"rwd": 1
+    			}, {
+    				"id": 2,
+    				"cur": 100,
+    				"rwd": 0
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557826691
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"cash": 10900,
+    				"cashbuy": "0",
+    				"name": "123456"
+    			}
+    		}
+    	}
+    }
+
+
+
+易容:
+api:
+    user
+method:
+    resetImage
+param:
+    sex 性别
+    job clothe_job里的id
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"system": {
+    			"sys": {
+    				"time": 1557887579
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 1001,
+    				"count": 9990
+    			}]
+    		},
+    		"user": {
+    			"user": {
+    				"sex": 2,
+    				"job": 2
+    			}
+    		}
+    	}
+    }
+
+
+
+办差
+api:
+    user
+method:
+    jingYing
+param:
+    jyid    2:阅历 3:银两 4:名声
+return:
+
+{
+	"s": 1,
+	"a": {
+		"msgwin": {
+			"items": [{
+				"kind": 2,
+				"id": 2,
+				"count": 1484
+			}]
+		},
+		"jingYing": {
+			"coin": {
+				"next": 1557715364, //上次时间
+				"num": 6, //剩余次数
+				"label": "jingying",
+				"max": 7 //最大次数
+			},
+			"food": {
+				"next": 0,
+				"num": 7,
+				"label": "jingying",
+				"max": 7
+			},
+			"army": {
+				"next": 0,
+				"num": 7,
+				"label": "jingying",
+				"max": 7
+			},
+			"win": {
+				"id": 0, //事件ID
+				"heroid": 0,//伙伴ID
+				"get": 0 // 收益
+			},
+			"qzam": {
+                "now": 0, // 当前次数
+                "max": 60
+            }
+		},
+		"system": {
+			"sys": {
+				"time": 1557715304
+			}
+		}
+	},
+	"u": {
+		"user": {
+			"user": {
+				"coin": 26424
+			}
+		},
+		"huodonglist": {
+			"all": [{
+				"id": 212, // 可能会有多个(212  213 214)
+				"title": "\u9650\u65f6\u529e\u7406\u9605\u5386\u5dee\u4e8b\u6b21\u6570",
+				"pindex": 212,
+				"type": 2,
+				"sTime": 1554652800,
+				"eTime": 1576339198,
+				"showTime": 1576339198,
+				"hid": 190408,
+				"cd": {
+					"next": 1576339198,
+					"label": "huodong_212_ltime"
+				},
+				"news": 0
+			}]
+		},
+		"chengjiu": {
+			"cjlist": [{ cj_info
+				"id": 6, // 任务id
+				"num": 62,
+				"rwd": 2 // 当前领奖的档次
+			}]
+		},
+		"daily": {
+			"tasks": [{
+				"id": 10, // dailyrwd
+				"num": 1
+			}]
+		}
+	}
+}
+
+
+
+勤政爱民
+api:
+    user
+method:
+    qzam
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 8632
+    			}, {
+    				"kind": 2,
+    				"id": 3,
+    				"count": 7344
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 6704
+    			}]
+    		},
+    		"jingYing": {
+    			"qzam": {
+    				"now": 0,
+    				"max": 60
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557902395
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"coin": 205169,
+    				"food": 258036,
+    				"army": 15081
+    			}
+    		}
+    	}
+    }
+
+
+
+委派
+api:
+    user
+method:
+    weipai
+param:
+    type        2:阅历 3:银两 4:名声
+    heroId1     伙伴id
+    heroId2
+    heroId3
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"jingYing": {
+    			"weipai": {
+    				"coin": [3],
+    				"food": [11],
+    				"army": [1]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557902838
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+使用办差令
+api:
+    user
+method:
+    weipai
+param:
+    jyid    2:阅历 3:银两 4:名声
+    num     数量
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"jingYing": {
+    			"coin": {
+    				"next": 1557903283,
+    				"num": 1,
+    				"label": "jingying",
+    				"max": 9
+    			},
+    			"food": {
+    				"next": 0,
+    				"num": 9,
+    				"label": "jingying",
+    				"max": 9
+    			},
+    			"army": {
+    				"next": 0,
+    				"num": 9,
+    				"label": "jingying",
+    				"max": 9
+    			},
+    			"win": {
+    				"id": 0,
+    				"heroid": 0,
+    				"get": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557903190
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 122,
+    				"count": 3
+    			}]
+    		}
+    	}
+    }
+
+
+
+使用办差令
+api:
+    user
+method:
+    jingYingAll
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 2040
+    			}, {
+    				"kind": 2,
+    				"id": 3,
+    				"count": 3060
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 3060
+    			}]
+    		},
+    		"jingYing": {
+    			"coin": {
+    				"next": 1558059675,
+    				"num": 0,
+    				"label": "jingying",
+    				"max": 3
+    			},
+    			"food": {
+    				"next": 1558059707,
+    				"num": 0,
+    				"label": "jingying",
+    				"max": 3
+    			},
+    			"army": {
+    				"next": 1558059707,
+    				"num": 0,
+    				"label": "jingying",
+    				"max": 3
+    			},
+    			"win": {
+    				"id": 0,
+    				"heroid": 0,
+    				"get": 0
+    			},
+    			"qzam": {
+    				"now": 14,
+    				"max": 60
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558059647
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"coin": 30028619,
+    				"food": 30033177,
+    				"army": 30027387
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 6,
+    				"num": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"num": 7,
+    				"rwd": 0
+    			}, {
+    				"id": 8,
+    				"num": 3,
+    				"rwd": 0
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 10,
+    				"num": 3
+    			}, {
+    				"id": 11,
+    				"num": 3
+    			}, {
+    				"id": 12,
+    				"num": 3
+    			}]
+    		}
+    	}
+    }
+
+
+办差
+api:
+    user
+method:
+    zhengWu
+param:
+    act 1:名声/阅历 2:威望
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 5,
+    				"count": 2
+    			}]
+    		},
+    		"jingYing": {
+    			"exp": {
+    				"type": 10,
+    				"count": 1,
+    				"itemid": 51,
+    				"heroId": 0,
+    				"cd": {
+    					"next": 1558061583,
+    					"num": 5,
+    					"label": "zhengwu"
+    				}
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558059843
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"exp": 21,
+    				"coin": 21
+    			}
+    		},
+    		"item": {
+                "itemList": [{
+                    "id": 51,
+                    "count": 1
+                }]
+            },
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 9,
+    				"num": 92,
+    				"rwd": 4
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 13,
+    				"num": 6
+    			}]
+    		}
+    	}
+    }
+
+
+
+复活伙伴
+api:
+    user
+method:
+    zhengWuLing
+param:
+    num 数量
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 14,
+    				"count": 2
+    			}]
+    		},
+    		"jingYing": {
+    			"exp": {
+    				"type": 2,
+    				"count": 2082,
+    				"itemid": 2,
+    				"heroId": 0,
+    				"cd": {
+    					"next": 1558061583,
+    					"num": 2,
+    					"label": "zhengwu"
+    				}
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558059984
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 121,
+    				"count": 0
+    			}]
+    		}
+    	}
+    }
+
+
+pve
+api:
+    user
+method:
+    pve
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"win": {
+    				"pvewin": {
+    					"kill": 31392,
+    					"items": [{
+    						"kind": 1,
+    						"id": 2,
+    						"count": 1135
+    					}, {
+    						"kind": 1,
+    						"id": 5,
+    						"count": 5
+    					}],
+    					"deil": 28634
+    				}
+    			}
+    		},
+    		"task": {
+    			"tmain": {
+    				"id": 537,
+    				"num": 35,
+    				"max": 36
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558060188
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"coin": 281894,
+    				"exp": 37,
+    				"smap": 29,
+    				"mmap": 30,
+    				"mkill": 0,
+    				"army": 1600
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 5,
+    				"num": 35,
+    				"rwd": 0
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 1,
+    				"num": 2
+    			}]
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 202,
+    				"title": "\u9650\u65f6\u540d\u58f0\u6d88\u8017",
+    				"pindex": 212,
+    				"type": 2,
+    				"sTime": 1555948800,
+    				"eTime": 1558972799,
+    				"showTime": 1558972799,
+    				"hid": 190225,
+    				"cd": {
+    					"next": 1558972799,
+    					"label": "huodong_202_ltime"
+    				},
+    				"news": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+pvb
+api:
+    user
+method:
+    pvb
+param:
+    id 伙伴id
+return
+    {
+    	"s": 2,
+    	"a": {
+    		"user": {
+    			"win": {
+    				"pvbwin": {
+    					"bmid": 5,
+    					"damage": 35
+    				}
+    			},
+    			"pvb": [{
+    				"id": 10,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}, {
+    				"id": 11,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}, {
+    				"id": 1,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}, {
+    				"id": 3,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557889288
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"mkill": 488
+    			}
+    		}
+    	}
+    }
+
+
+
+复活伙伴
+api:
+    user
+method:
+    comeback
+param:
+    id 伙伴id
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"flower": {
+    			"chenlu": [{
+    				"type": 4,
+    				"id": 549425,
+    				"time": 1557900114,
+    				"chen": 100,
+    				"rwd": 0,
+    				"sUids": []
+    			}],
+    			"base": [{
+    				"id": 15,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 10,
+    				"cur": 2,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 24,
+    				"rwd": 0
+    			}, {
+    				"id": 8,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 5,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 8,
+    				"rwd": 0
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 150,
+    				"rwd": 1
+    			}, {
+    				"id": 2,
+    				"cur": 187,
+    				"rwd": 0
+    			}],
+    			"protect": []
+    		},
+    		"user": {
+    			"pvb": [{
+    				"id": 10, // 伙伴id
+    				"h": 1,	  // 当前 生1/死0
+    				"f": 1,   // 打了几次
+    				"b": null // 复活的次数
+    			}, {
+    				"id": 11,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}, {
+    				"id": 1,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}, {
+    				"id": 3,
+    				"h": 0,
+    				"f": 1,
+    				"b": null
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1557889314
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"cash": 63,
+    				"cashbuy": "0"
+    			}
+    		}
+    	}
+    }
+
+
+
+获取玩家信息
+api:
+    user
+method:
+    getFuserMember
+param:
+    id 用户id
+    spid 6142为盛装出席的套装
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"fuser": {
+    				"id": "1000722",
+    				"name": "1134563",
+    				"level": 1,
+    				"sex": 2,
+    				"job": 2,
+    				"exp": 30000042,
+    				"vip": "0",
+    				"clothe": {
+    					"body": 0,
+    					"head": 0,
+    					"ear": 0,
+    					"background": 0,
+    					"effect": 0,
+    					"animal": 0
+    				},
+    				"headavatar": {
+    					"head": 0,
+    					"blank": 1
+    				},
+    				"bmap": "1",
+    				"mmap": 2,
+    				"smap": 1,
+    				"ep": {
+    					"e1": 20,
+    					"e2": 20,
+    					"e3": 20,
+    					"e4": 20
+    				},
+    				"shili": 80,
+    				"love": 0,
+    				"clubid": "0",
+    				"clubname": "",
+    				"chenghao": 0,
+    				"xuanyan": "",
+    				"chlist": [{    // 称号列表
+    					"id": 13
+    				}, {
+    					"id": 12
+    				}, {
+    					"id": 11
+    				}, {
+    					"id": 10
+    				}, {
+    					"id": 5
+    				}, {
+    					"id": 4
+    				}, {
+    					"id": 3
+    				}, {
+    					"id": 2
+    				}, {
+    					"id": 1
+    				}, {
+    					"id": 14
+    				}, {
+    					"id": 9
+    				}, {
+    					"id": 8
+    				}, {
+    					"id": 7
+    				}, {
+    					"id": 6
+    				}]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558060772
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+晋升
+api:
+    user
+method:
+    shengguan
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"clothe": {
+    			"clothes": [1, 201, 2, 202],
+    			"limittime": [],
+    			"score": {
+    				"score": 30
+    			},
+    			"suitlv": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558062108
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"exp": 30000022,
+    				"level": 2
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 2,
+    				"num": 2,
+    				"rwd": 0
+    			}]
+    		}
+    	}
+    }
+
+
+
+获取用户场景
+api:
+    user
+method:
+    getuback
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"changjing": {
+    				"ver": 1,
+    				"set": 0,
+    				"list": [{
+    					"id": 0,
+    					"cd": {
+    						"num": 0,
+    						"next": 0,
+    						"label": "userChangJingTime"
+    					}
+    				}]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558062261
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+设置用户场景
+api:
+    user
+method:
+    setuback
+param:
+    id
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"changjing": {
+    				"ver": 1,
+    				"set": 0,
+    				"list": [{
+    					"id": 0,
+    					"cd": {
+    						"num": 0,
+    						"next": 0,
+    						"label": "userChangJingTime"
+    					}
+    				}]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558063046
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+办差信息
+api:
+    user
+method:
+    refjingying
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"jingYing": {
+    			"coin": {
+    				"next": 0,
+    				"num": 5,
+    				"label": "jingying",
+    				"max": 5
+    			},
+    			"food": {
+    				"next": 0,
+    				"num": 5,
+    				"label": "jingying",
+    				"max": 5
+    			},
+    			"army": {
+    				"next": 0,
+    				"num": 5,
+    				"label": "jingying",
+    				"max": 5
+    			},
+    			"win": {
+    				"id": 0,
+    				"heroid": 0,
+    				"get": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558064874
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+出城信息
+api:
+    user
+method:
+    refxunfang
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"xunfang": {
+    			"xfInfo": {
+    				"count": 0,             // 暂时未知
+    				"lastTime": 1558065033, // 用于判断是否为当日
+    				"num": 5,               // 当前体力
+    				"next": 0,              // 下次刷新体力的时间
+    				"label": "xunfangtili"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558065033
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+
+获取知己问候信息
+api:
+    user
+method:
+    refwife
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"wife": {
+    			"jingLi": {
+    				"next": 0,
+    				"num": 10,
+    				"label": "jingli"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558065740
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+获取徒弟信息
+api:
+    user
+method:
+    refson
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"son": {
+    			"sonList": [{
+    				"id": 1,
+    				"name": "\u5c09\u8fdf\u76fc\u76fc",
+    				"sex": 2,
+    				"mom": 1,
+    				"state": 1,
+    				"ep": {
+    					"e1": 12,
+    					"e2": 20,
+    					"e3": 18,
+    					"e4": 7
+    				},
+    				"talent": 1,
+    				"cpoto": 3,
+    				"level": 3,
+    				"exp": 10,
+    				"power": 1,
+    				"cd": {
+    					"next": 1558076712,
+    					"label": "sonpow"
+    				},
+    				"honor": 1,
+    				"tquid": 0,
+    				"tqitem": 0,
+    				"tqcd": {
+    					"next": 0,
+    					"label": "tiqintime"
+    				},
+    				"sptime": 0,
+    				"spouse": [],
+    				"myqjadd": 0,
+    				"fqjadd": 0,
+    				"liLianStatus": 1
+    			}],
+    			"base": {
+    				"seat": 2
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558065931
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+设置伙伴管事
+api:
+    user
+method:
+    serHeroShow
+param:
+    id 伙伴id
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"heroShow": {
+    				"id": 18
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558066097
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+
+换装
+api:
+    user
+method:
+    setClothe
+param:
+    head        头饰
+    body        衣服
+    ear         耳饰
+    background  背景
+    effect      特效
+    animal      灵宠
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"clothe": {
+    			"userClothe": {
+    				"body": 3,
+    				"head": 206,
+    				"ear": 302,
+    				"background": 0,
+    				"effect": 0,
+    				"animal": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558062475
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+更换头像
+api:
+    user
+method:
+    setAvatar
+param:
+    head    头像
+    blank   头像框
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"userhead": {
+    			"headavatar": {
+    				"head": 11,
+    				"blank": 1
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558066314
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+解锁衣服
+api:
+    user
+method:
+    lockClothe
+param:
+    id      use_clothe
+    id1     1
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"ep": {
+    				"e1": 758,      // 气势
+    				"e2": 457,      // 智谋
+    				"e3": 144,      // 政略
+    				"e4": 351       // 魅力
+    			}
+    		},
+    		"clothe": {
+    			"clothes": [1, 201, 2, 202, 35, 235, 32, 232, 332, 17, 23],
+    			"limittime": [],
+    			"score": {
+    				"score": 190
+    			},
+    			"suitlv": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558077271
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 1001,
+    				"count": 90
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 1710,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+华服榜
+api:
+    user
+method:
+    clotheRank
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"clothe": {
+    			"rankList": [{
+    				"uid": "14930",
+    				"name": "\u5c91\u7af9\u60a6",
+    				"job": 9,
+    				"sex": 2,
+    				"level": 40,
+    				"vip": 10,
+    				"clothe": {
+    					"body": 18,
+    					"head": 227,
+    					"ear": 314,
+    					"background": 1017,
+    					"effect": 2004,
+    					"animal": 3009
+    				},
+    				"headavatar": {
+    					"head": 10009,
+    					"blank": 4
+    				},
+    				"chenghao": 0,
+    				"rid": 1,
+    				"num": 1705
+    			}, {
+    				"uid": "12525",
+    				"name": "\u53f6\u65bd\u8bd7",
+    				"job": 9,
+    				"sex": 2,
+    				"level": 39,
+    				"vip": 8,
+    				"clothe": {
+    					"body": 0,
+    					"head": 0,
+    					"ear": 333,
+    					"background": 1013,
+    					"effect": 2004,
+    					"animal": 3003
+    				},
+    				"headavatar": {
+    					"head": 10010,
+    					"blank": 11
+    				},
+    				"chenghao": 0,
+    				"rid": 2,
+    				"num": 1695
+    			}],
+    			"myClotheRank": {
+    				"rid": 55,
+    				"score": 190,
+    				"name": "\u4e91\u5357\u6674"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558077494
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+
+套装升级
+api:
+    user
+method:
+    lvupSuit
+param:
+    id  clothe_suit里的id
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"clothe": {
+    			"suitlv": [{
+    				"id": 1,
+    				"lv": 3
+    			}]
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 758,
+    				"e2": 457,
+    				"e3": 144,
+    				"e4": 351
+    			}
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": 1,
+    				"level": 11,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 2,
+    					"level": 1
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 5,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 2,
+    					"e2": 2,
+    					"e3": 2,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 40,
+    					"e2": 40,
+    					"e3": 40,
+    					"e4": 40
+    				},
+    				"wep": {
+    					"e1": 4,
+    					"e2": 4,
+    					"e3": 4,
+    					"e4": 4
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 49,
+    					"e2": 44,
+    					"e3": 44,
+    					"e4": 44
+    				}
+    			}, {
+    				"id": 10,
+    				"level": 20,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 29,
+    					"level": 1
+    				}, {
+    					"id": 8,
+    					"level": 1
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 11,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 5,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 5,
+    					"e2": 5,
+    					"e3": 1,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 145,
+    					"e2": 145,
+    					"e3": 29,
+    					"e4": 58
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 150,
+    					"e2": 145,
+    					"e3": 29,
+    					"e4": 58
+    				}
+    			}, {
+    				"id": 3,
+    				"level": 1,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 22,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 1,
+    					"e2": 5,
+    					"e3": 2,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 10,
+    					"e2": 50,
+    					"e3": 20,
+    					"e4": 20
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 10,
+    					"e2": 50,
+    					"e3": 20,
+    					"e4": 20
+    				}
+    			}, {
+    				"id": 45,
+    				"level": 1,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 3,
+    					"level": 1
+    				}, {
+    					"id": 21,
+    					"level": 1
+    				}, {
+    					"id": 6,
+    					"level": 1
+    				}, {
+    					"id": 13,
+    					"level": 1
+    				}, {
+    					"id": 18,
+    					"level": 1
+    				}, {
+    					"id": 19,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 7,
+    					"e2": 1,
+    					"e3": 3,
+    					"e4": 7
+    				},
+    				"zep": {
+    					"e1": 70,
+    					"e2": 10,
+    					"e3": 30,
+    					"e4": 70
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 70,
+    					"e2": 10,
+    					"e3": 30,
+    					"e4": 70
+    				}
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558078307
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 1001,
+    				"count": 49
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 1710,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+许愿树
+api:
+    user
+method:
+    qifu
+param:
+    jyid    2:阅历 3:银两 4:名声
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 6183
+    			}]
+    		},
+    		"user": {
+    			"qifu": {
+    				"free": 1,          // 已使用的免费次数
+                    "buy": 0,           // 使用元宝的次数
+                    "lastTime": 1558079357, // 用于判断当日
+                    "ten": 1,           // 每N次中大奖
+                    "isten": 0          // 下次是否中大奖
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 15,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 25,
+    				"rwd": 0
+    			}, {
+    				"id": 8,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 99,
+    				"rwd": 1
+    			}, {
+    				"id": 6,
+    				"cur": 3,
+    				"rwd": 0
+    			}, {
+    				"id": 12,
+    				"cur": 85,
+    				"rwd": 0
+    			}, {
+    				"id": 4,
+    				"cur": 4956,
+    				"rwd": 1
+    			}, {
+    				"id": 2,
+    				"cur": 456,
+    				"rwd": 1
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 0
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558079710
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"cash": 51264,
+    				"cashbuy": 19260,
+    				"coin": 417997
+    			}
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 201,
+    				"title": "\u9650\u65f6\u5143\u5b9d\u6d88\u8017",
+    				"pindex": 201,
+    				"type": 2,
+    				"sTime": 1545719151,
+    				"eTime": 1577807998,
+    				"showTime": 1577807998,
+    				"hid": 190121,
+    				"cd": {
+    					"next": 1577807998,
+    					"label": "huodong_201_ltime"
+    				},
+    				"news": 1
+    			}, {
+    				"id": 6171,
+    				"title": "\u9650\u65f6\u7948\u798f\u6b21\u6570",
+    				"pindex": 6171,
+    				"type": 997,
+    				"skin": 16171,
+    				"sTime": 1557417600,
+    				"eTime": 1558281598,
+    				"showTime": 1558281598,
+    				"hid": 190510,
+    				"cd": {
+    					"next": 1558281598,
+    					"label": "huodong_6171_ltime"
+    				},
+    				"news": 0
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 21,
+    				"num": 3
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 25,
+    				"num": 6,
+    				"rwd": 0
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+属性详情
+api:
+    user
+method:
+    addition
+param:
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"addition": {
+    				"hero": {
+    					"e1": 279,
+    					"e2": 249,
+    					"e3": 123,
+    					"e4": 192
+    				},
+    				"son": {
+    					"e1": 19,
+    					"e2": 8,
+    					"e3": 21,
+    					"e4": 9
+    				},
+    				"clothe": {
+    					"e1": 460,
+    					"e2": 200,
+    					"e3": 0,
+    					"e4": 150
+    				}
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558079855
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+许愿树
+api:
+    user
+method:
+    wishPlay
+param:
+    num 许愿次数
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 1,
+    				"id": 11,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 31610,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 900,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 21110,
+    				"count": 1
+    			}, {
+    				"kind": 96,
+    				"id": "jiban45",
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 80,
+    				"count": 5
+    			}, {
+    				"kind": 1,
+    				"id": 21,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 900,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 81,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 41,
+    				"count": 1
+    			}]
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 21299,
+    				"e2": 17267,
+    				"e3": 18958,
+    				"e4": 18176,
+    				"e": 0
+    			},
+    			"plotFragments": ["jiban45"],
+    			"wishTree": {
+    				"countInfo": [{
+    					"id": 1,
+    					"count": 11
+    				}, {
+    					"id": 2,
+    					"count": 0
+    				}],
+    				"have": ["jiban35", "jiban45", "jiban32", "jiban18", "jiban13"]
+    			}
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": "1",
+    				"level": 20,
+    				"senior": 2,
+    				"exp": 0,
+    				"zzexp": 290,
+    				"pkexp": 300,
+    				"epskill": [{
+    					"id": 2,
+    					"level": 11
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 6
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 10,
+    					"e2": "0",
+    					"e3": "0",
+    					"e4": "0"
+    				},
+    				"zz": {
+    					"e1": 22,
+    					"e2": 2,
+    					"e3": 2,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 78,
+    					"e2": 58,
+    					"e3": 58,
+    					"e4": 58
+    				},
+    				"wep": {
+    					"e1": 48,
+    					"e2": 48,
+    					"e3": 48,
+    					"e4": 48
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 2,
+    					"e2": 2,
+    					"e3": 82,
+    					"e4": 2
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 138,
+    					"e2": 108,
+    					"e3": 188,
+    					"e4": 135,
+    					"e": 0
+    				}
+    			}]
+    		},
+    		"scpoint": {        羁绊剧情等级
+    			"jbItem": [{
+    				"id": 17,
+    				"jibans": [{
+    					"id": "jiban35",
+    					"level": 1,
+    					"exp": 0
+    				}, {
+    					"id": "jiban45",
+    					"level": 1,
+    					"exp": 0
+    				}],
+    				"ep": {
+    					"e1": 0,
+    					"e2": 30,
+    					"e3": 0,
+    					"e4": 10
+    				}
+    			}, {
+    				"id": 18,
+    				"jibans": [{
+    					"id": "jiban32",
+    					"level": 2,
+    					"exp": 1
+    				}],
+    				"ep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 20
+    				}
+    			}, {
+    				"id": 14,
+    				"jibans": [{
+    					"id": "jiban18",
+    					"level": 1,
+    					"exp": 0
+    				}],
+    				"ep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 10,
+    					"e4": 0
+    				}
+    			}, {
+    				"id": 15,
+    				"jibans": [{
+    					"id": "jiban13",
+    					"level": 1,
+    					"exp": 0
+    				}],
+    				"ep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 10
+    				}
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558080559
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"army": 35013389
+    			}
+    		},
+    		"item": {
+    			"itemList": [{
+    				"id": 11,
+    				"count": 17
+    			}, {
+    				"id": 31610,
+    				"count": 1
+    			}, {
+    				"id": 900,
+    				"count": 13
+    			}, {
+    				"id": 21110,
+    				"count": 4
+    			}, {
+    				"id": 80,
+    				"count": 207
+    			}, {
+    				"id": 21,
+    				"count": 4
+    			}, {
+    				"id": 900,
+    				"count": 14
+    			}, {
+    				"id": 81,
+    				"count": 60
+    			}, {
+    				"id": 41,
+    				"count": 12
+    			}]
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 202,
+    				"title": "\u9650\u65f6\u540d\u58f0\u6d88\u8017",
+    				"pindex": 202,
+    				"type": 2,
+    				"sTime": 1544112000,
+    				"eTime": 1576252798,
+    				"showTime": 1576252798,
+    				"hid": 190121,
+    				"cd": {
+    					"next": 1576252798,
+    					"label": "huodong_202_ltime"
+    				},
+    				"news": 0
+    			}, {
+    				"id": 257,
+    				"title": "\u540d\u58f0\u6d88\u8017\u51b2\u699c",
+    				"pindex": 259,
+    				"type": 3,
+    				"sTime": 1545719151,
+    				"eTime": 1577800800,
+    				"showTime": 1577807998,
+    				"hid": 201811112,
+    				"cd": {
+    					"next": 1577800800,
+    					"label": "huodong_257_ltime"
+    				},
+    				"news": 0
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 75700,
+    				"rwd": 8
+    			}]
+    		}
+    	}
+    }
+
+
+
+

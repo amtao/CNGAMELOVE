@@ -1,0 +1,1863 @@
+登录接口
+    {"login":{"loginAccount":{"openid":"账号","openkey":"平台的验证参数","platform":"平台信息"}}}
+    返回:
+       {
+        "s": 1,
+        "a": {
+            "loginMod": {
+                "loginAccount": {
+                    "uid": 1000037, // 用户id
+                    "token": "f3e2fbbc8ec4fe289a2cac153b47388b",  // token
+                    "backurl": "", // 回调地址
+                    "num1": "qgym_wp0001", // 平台_账号信息
+                    "gamename": ""  // 回调的游戏
+                }
+            },
+            "system": {
+                "sys": {
+                    "time": 1557368184
+                }
+            }
+        },
+        "u": []
+       }
+
+
+登录接口:
+    {"guide":{"login":{"platform":"epandxianyu_qgym"}}}
+    返回:
+        {
+        	"s": 1,
+        	"a": {
+        		"user": {
+        			"pvb": [],
+        			"user": {
+                        "uid": "1000039",       // 用户id
+                        "name": "",             // 昵称
+                        "job": "0",             // 脸型
+                        "sex": "0",             // 表情
+                        "level": "0",           // 等级
+                        "exp": "0",             // 威望
+                        "vip": "0",             // vip等级
+                        "cashbuy": 0,           // 购买的元宝数量
+                        "step": "0",            // 账号进度(0:未取名 1:已取名)
+                        "guide": "0",           // 新手引导进度
+                        "cash": 0,              // 元宝
+                        "coin": "20000",        // 阅历
+                        "food": "20000",        // 银两 == 粮草
+                        "army": "20000",        // 名声
+                        "bmap": "1",            // 地图大关ID
+                        "smap": 0,              // 地图小关ID
+                        "mkill": "0",           // 已经打掉的小兵数量/BOSS血量
+                        "xuanyan": "",          // 宣言
+                        "voice": 0,             // 声音开关
+                        "music": 0,             // 音乐开关
+                        "regtime": "1557370379",// 注册时间
+                        "mmap": 1,              // 剧情小章节
+                        "chenghao": 0           // 称号
+                    },
+        			"guide": {                  // 新手引导
+        				"gnew": 926,            // 新手剧情引导步骤
+        				"smap": 0,              // 小地图引导步骤
+        				"mmap": 0,              // 中地图引导步骤
+        				"bmap": 0               //  大地图引导步骤
+        			},
+        			"ep": {                     // 属性
+        				"e1": 461,              // 气势
+        				"e2": 482,              // 智谋
+        				"e3": 336,              // 政略
+        				"e4": 277               // 魅力
+        			},
+        			"qifu": {                   // 祈福
+        				"free": 0,              // 使用的免费次数
+        				"buy": 0,               // 使用的购买次数
+        				"lastTime": 1557387305, // 最后更新时间
+        				"ten": 11,              // 配置-必出倍数大奖次数
+        				"isten": 0              // 是否必出倍数大奖 0:未出 1:出
+        			},
+        			"wishTree": {               // 许愿树
+        				"countInfo": [{
+        					"id": 1,            // 活动id
+        					"count": 0          // 次数
+        				}]
+        			},
+        			"heroShow": {               // 显示的伙伴id
+        				"id": 1
+        			}
+        		},
+        		"item": {               // 道具
+        			"itemList": [{
+        				"id": 71,       // 道具id
+        				"count": 16     // 数量
+        			}]
+        		},
+        		"hero": {               // 伙伴
+        			"heroList": [{
+        				"id": 1,        // 伙伴id(hero配置id)
+        				"level": 24,    // 等级
+        				"senior": 2,    // 伙伴官位(hero_senior配置id)
+        				"exp": 4144,    // 阅历
+        				"zzexp": 50,    // 资质经验
+        				"pkexp": 0,     // 特长经验
+        				"epskill": [{   // 资质技能(hero_epskill)
+        					"id": 2,
+        					"level": 1
+        				}],
+        				"pkskill": [{   // 特长(hero_pkskill)
+        					"id": 1,
+        					"level": 1
+        				}],
+        				"ghskill": [],  // 灵宠技能(光换技能/hero_pkskill)
+        				"hep": {        // 嗑药属性
+        					"e1": 5,
+        					"e2": 0,
+        					"e3": 0,
+        					"e4": 0
+        				},
+        				"zz": {         // 总资质属性
+        					"e1": 2,
+        					"e2": 4,
+        					"e3": 2,
+        					"e4": 2
+        				},
+        				"zep": {        // 资质属性
+        					"e1": 66,
+        					"e2": 68,
+        					"e3": 66,
+        					"e4": 66
+        				},
+        				"wep": {        // 红颜加成属性
+        					"e1": 13,
+        					"e2": 13,
+        					"e3": 13,
+        					"e4": 13
+        				},
+        				"gep": {        // 光环加成
+        					"e1": 0,
+        					"e2": 0,
+        					"e3": 0,
+        					"e4": 0
+        				},
+        				"lep": {        // 领袖气质加成
+        					"e4": 0,
+        					"e3": 0,
+        					"e2": 0,
+        					"e1": 0
+        				},
+        				"jep": {        // 羁绊剧情属性加成
+        					"e1": 0,
+        					"e2": 0,
+        					"e3": 0,
+        					"e4": 0
+        				},
+        				"cep": {        // 套装属性加成
+        					"e1": 0,
+        					"e2": 0,
+        					"e3": 0,
+        					"e4": 0
+        				},
+        				"aep": {        // 总属性
+        					"e1": 84,   // 气势
+        					"e2": 81,   // 智谋
+        					"e3": 79,   // 正略
+        					"e4": 79    // 魅力
+        				}
+        			}
+        		},
+        		"wife": {               // 知己
+        			"wifeList": [{
+        				"id": 3,        // 知己id(配置wife)
+        				"love": 7,      // 好感度
+        				"flower": 39,   // 能力
+        				"exp": 246,     // 经验
+        				"skill": [{     // wife_skill
+        					"id": 13,
+        					"level": 0,
+        					"exp": 5
+        				}}],
+        				"state": 1,     // 暂时未知
+        				"num": 0        // 孩子个数
+        			}],
+        			"jingLi": {         // 精力(随机问候)
+        				"next": 0,      // 下次刷新的时间
+        				"num": 10,      // 数量
+        				"label": "jingli"
+        			},
+        			"jiaQi": {          // 出游(随机出游)
+        				"next": 0,      // 下次刷新时间
+        				"num": 3,       // 数量
+        				"label": "jiaQi"
+        			},
+        			"base": {
+        				"allLove": 25   // 总亲密度
+        			}
+        		},
+        		"son": {
+        			"sonList": [{
+        				"id": 1,
+        				"name": "\u5c09\u8fdf\u76fc\u76fc",
+        				"sex": 2,
+        				"mom": 1,
+        				"state": 1,
+        				"ep": {
+        					"e1": 11,
+        					"e2": 19,
+        					"e3": 17,
+        					"e4": 6
+        				},
+        				"talent": 1,
+        				"cpoto": 3,
+        				"level": 2,
+        				"exp": 0,
+        				"power": 2,
+        				"cd": {
+        					"next": 0,
+        					"label": "sonpow"
+        				},
+        				"honor": 1,
+        				"tquid": 0,
+        				"tqitem": 0,
+        				"tqcd": {
+        					"next": 0,
+        					"label": "tiqintime"
+        				},
+        				"sptime": 0,
+        				"spouse": [],
+        				"myqjadd": 0,
+        				"fqjadd": 0,
+        				"liLianStatus": 0
+        			}],
+        			"base": {
+        				"seat": 2
+        			},
+        			"qList": [],
+        			"lilianList": []
+        		},
+        		"jingYing": {
+        			"coin": {
+        				"next": 0,
+        				"num": 7,
+        				"label": "jingying",
+        				"max": 7
+        			},
+        			"food": {
+        				"next": 0,
+        				"num": 7,
+        				"label": "jingying",
+        				"max": 7
+        			},
+        			"army": {
+        				"next": 0,
+        				"num": 7,
+        				"label": "jingying",
+        				"max": 7
+        			},
+        			"win": {
+        				"id": 0,
+        				"heroid": 0,
+        				"get": 0
+        			},
+        			"qzam": {
+        				"now": 60,
+        				"max": 60
+        			},
+        			"exp": {
+        				"type": 4,
+        				"count": 1336,
+        				"itemid": 3,
+        				"heroId": 0,
+        				"cd": {
+        					"next": 0,
+        					"num": 11,
+        					"label": "zhengwu"
+        				}
+        			},
+        			"weipai": {
+        				"coin": [],
+        				"food": [],
+        				"army": []
+        			}
+        		},
+        		"school": {
+        			"base": {
+        				"desk": 1
+        			},
+        			"list": [{
+        				"id": 1,
+        				"hid": 10,
+        				"cd": {
+        					"next": 0,
+        					"label": "school"
+        				}
+        			}],
+        			"level": {
+        				"level": 1,
+        				"exp": 0
+        			}
+        		},
+        		"ranking": {
+        			"mobai": {
+        				"shili": 0,
+        				"guanka": 0,
+        				"love": 0,
+        				"shiliKua": 0,
+        				"clubKua": 0
+        			}
+        		},
+        		"laofang": {
+        			"pets": [],
+        			"mingwang": {
+        				"eday": 75,
+        				"mw": 150,
+        				"maxmw": 150
+        			}
+        		},
+        		"wordboss": {
+        			"shop": {
+        				"score": 21,
+        				"buys": []
+        			},
+        			"ge2dan": {
+        				"cd": {
+        					"next": 1557399600,
+        					"label": "wordboss2"
+        				},
+        				"state": 1,
+        				"allhp": 500000,
+        				"damage": 0,
+        				"heroId": 18
+        			},
+        			"g2dft": [],
+        			"hurtRank": [],
+        			"ge2danMyDmg": {
+        				"g2dmydamage": 0,
+        				"g2dmyrank": 0,
+        				"g2dallman": 0
+        			}
+        		},
+        		"xunfang": {
+        			"xfInfo": {
+        				"count": 0,
+        				"lastTime": 1557387305,
+        				"num": 5,
+        				"next": 0,
+        				"label": "xunfangtili"
+        			},
+        			"zhenZai": {
+        				"used": 0,
+        				"num": 0
+        			},
+        			"recover": {
+        				"num": 90,
+        				"auto2": 0,
+        				"auto3": 0,
+        				"ysSet": 90
+        			}
+        		},
+        		"daily": {
+        			"score": 0,
+        			"rwds": [{
+        				"id": 1,
+        				"rwd": 0
+        			}, {
+        				"id": 2,
+        				"rwd": 0
+        			}, {
+        				"id": 3,
+        				"rwd": 0
+        			}, {
+        				"id": 4,
+        				"rwd": 0
+        			}, {
+        				"id": 5,
+        				"rwd": 0
+        			}],
+        			"tasks": [{
+        				"id": 1,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 2,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 3,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 4,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 9,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 10,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 11,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 12,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 13,
+        				"num": 7,
+        				"rwd": 0
+        			}, {
+        				"id": 17,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 18,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 19,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 20,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 21,
+        				"num": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 22,
+        				"num": 0,
+        				"rwd": 0
+        			}],
+        			"base": [{
+        				"id": 1,
+        				"num": 0,
+        				"answer": 0,
+        				"error": 0,
+        				"item": {
+        					"kind": 1,
+        					"id": 0,
+        					"count": 0
+        				},
+        				"count": 0
+        			}],
+        			"level": {
+        				"level": 1,
+        				"exp": 0
+        			}
+        		},
+        		"fuli": {
+        			"qiandao": {
+        				"days": 3,
+        				"qiandao": 0
+        			},
+        			"mGift": {
+        				"isrwd": 0
+        			},
+        			"mooncard": [],
+        			"fchofuli": {
+        				"type": 0
+        			},
+        			"vipfuli": []
+        		},
+        		"huodonglist": {
+        			"all": [{
+        				"id": 260,
+        				"title": "\u6bcf\u65e5\u5145\u503c",
+        				"pindex": 260,
+        				"type": 4,
+        				"ycdc": 12,
+        				"sTime": 1512576000,
+        				"eTime": 1765641598,
+        				"showTime": 1765641598,
+        				"hid": 20190509,
+        				"cd": {
+        					"next": 1765641598,
+        					"label": "huodong_260_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 202,
+        				"title": "\u9650\u65f6\u540d\u58f0\u6d88\u8017",
+        				"pindex": 212,
+        				"type": 2,
+        				"sTime": 1555948800,
+        				"eTime": 1558972799,
+        				"showTime": 1558972799,
+        				"hid": 190225,
+        				"cd": {
+        					"next": 1558972799,
+        					"label": "huodong_202_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 212,
+        				"title": "\u9650\u65f6\u529e\u7406\u9605\u5386\u5dee\u4e8b\u6b21\u6570",
+        				"pindex": 212,
+        				"type": 2,
+        				"sTime": 1554652800,
+        				"eTime": 1576339198,
+        				"showTime": 1576339198,
+        				"hid": 190408,
+        				"cd": {
+        					"next": 1576339198,
+        					"label": "huodong_212_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6187,
+        				"title": "\u56fd\u529b\u5e86\u5178",
+        				"pindex": 6187,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6187_ltime"
+        				},
+        				"news": 1
+        			}, {
+        				"id": 6200,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u603b\u6392\u884c",
+        				"pindex": 6200,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6200_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6201,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u5143\u5b9d\u6d88\u8017\u6392\u884c",
+        				"pindex": 6201,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6201_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6202,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u9605\u5386\u6d88\u8017\u6392\u884c",
+        				"pindex": 6202,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6202_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6203,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u94f6\u4e24\u6d88\u8017\u6392\u884c",
+        				"pindex": 6203,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6203_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6204,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u540d\u58f0\u6d88\u8017\u6392\u884c",
+        				"pindex": 6204,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6204_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6205,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u4e0a\u4ea4\u73cd\u5b9d\u6b21\u6570\u6392\u884c",
+        				"pindex": 6205,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6205_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6206,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u529e\u7406\u65e5\u5e38\u6b21\u6570\u6392\u884c",
+        				"pindex": 6206,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6206_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6207,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u51fa\u57ce\u5bfb\u8bbf\u6392\u884c",
+        				"pindex": 6207,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6207_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6208,
+        				"title": "\u56fd\u529b\u5e86\u5178-\u6bcf\u65e5\u8054\u59fb\u6b21\u6570\u6392\u884c",
+        				"pindex": 6208,
+        				"type": 6187,
+        				"sTime": 1556453184,
+        				"eTime": 1557403592,
+        				"showTime": 1557489990,
+        				"hid": 20190501,
+        				"cd": {
+        					"next": 1557403592,
+        					"label": "huodong_6208_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6169,
+        				"title": "\u547d\u76d8",
+        				"pindex": 6169,
+        				"type": 6169,
+        				"sTime": 1550160000,
+        				"eTime": 1576684798,
+        				"showTime": 1576684798,
+        				"hid": 20190215,
+        				"cd": {
+        					"next": 1576684798,
+        					"label": "huodong_6169_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6181,
+        				"title": "\u56db\u9f99\u987e\u4e3b",
+        				"pindex": 6181,
+        				"type": 6181,
+        				"sTime": 1550566450,
+        				"eTime": 1577264053,
+        				"showTime": 1577264053,
+        				"hid": 20190505,
+        				"cd": {
+        					"next": 1577264053,
+        					"label": "huodong_6181_ltime"
+        				},
+        				"news": 0
+        			}, {
+        				"id": 6222,
+        				"title": "\u6625\u65e5\u8e0f\u9752",
+        				"pindex": 6222,
+        				"type": 6222,
+        				"sTime": 1555603200,
+        				"eTime": 1561730400,
+        				"showTime": 1561737598,
+        				"hid": 190505,
+        				"cd": {
+        					"next": 1561730400,
+        					"label": "huodong_6222_ltime"
+        				},
+        				"news": 0
+        			}]
+        		},
+        		"treasure": {
+        			"treasure": [{
+        				"id": 30610
+        			}],
+        			"groups": [],
+        			"base": {
+        				"isClear": 0,
+        				"score": 200
+        			},
+        			"treatidy": {
+        				"curgate": 1,
+        				"curlost": 0,
+        				"count": 0,
+        				"pics": [4, 3, 3, 6, 5, 2, 1, 1, 5, 2, 4, 6],
+        				"lastTime": 1557373223,
+        				"dayOver": 0,
+        				"buyCount": 0
+        			}
+        		},
+        		"flower": {
+        			"base": [{
+        				"id": 15,
+        				"cur": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 7,
+        				"cur": 1,
+        				"rwd": 0
+        			}, {
+        				"id": 6,
+        				"cur": 6,
+        				"rwd": 0
+        			}, {
+        				"id": 4,
+        				"cur": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 2,
+        				"cur": 35,
+        				"rwd": 0
+        			}, {
+        				"id": 13,
+        				"cur": 22,
+        				"rwd": 0
+        			}, {
+        				"id": 8,
+        				"cur": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 12,
+        				"cur": 67,
+        				"rwd": 1
+        			}, {
+        				"id": 14,
+        				"cur": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 17,
+        				"cur": 0,
+        				"rwd": 0
+        			}, {
+        				"id": 10,
+        				"cur": 2,
+        				"rwd": 0
+        			}],
+        			"level": {
+        				"lv": 1,
+        				"exp": 0,
+        				"chenlu": 180,
+        				"gx": 0,
+        				"isNewChenlu": 0,
+        				"isNewFlower": 0
+        			}
+        		},
+        		"club": {
+        			"memberInfo": {
+        				"cid": 0,
+        				"allgx": 0,
+        				"leftgx": 0,
+        				"dcid": 0,
+        				"post": 0,
+        				"ltime": {
+        					"next": 86400,
+        					"label": "clubInTime"
+        				}
+        			}
+        		},
+        		"mail": {
+        			"mailList": [{
+        				"id": 8,
+        				"mtitle": "MAIL_GUOLIQINGDIAN_YUELI_LIST",
+        				"mcontent": "MAIL_GUOLIQINGDIAN_LIST_EVERYDAY_YUELI_CONTENT_HEAD|2|MAIL_GUOLIQINGDIAN_LIST_EVERYDAY_YUELI_CONTENT_FOOT",
+        				"items": [{
+        					"id": 80,
+        					"count": 120
+        				}, {
+        					"id": 919,
+        					"count": 8
+        				}],
+        				"mtype": 1,
+        				"fts": 1557244801,
+        				"rts": 0
+        			}, {
+        				"id": 9,
+        				"mtitle": "MAIL_GUOLIQINGDIAN_RICHANG_LIST",
+        				"mcontent": "MAIL_GUOLIQINGDIAN_LIST_EVERYDAY_RICHANG_CONTENT_HEAD|2|MAIL_GUOLIQINGDIAN_LIST_EVERYDAY_RICHANG_CONTENT_FOOT",
+        				"items": [{
+        					"id": 916,
+        					"count": 8
+        				}, {
+        					"id": 922,
+        					"count": 8
+        				}],
+        				"mtype": 1,
+        				"fts": 1557244801,
+        				"rts": 0
+        			}]
+        		},
+        		"chengjiu": {
+        			"cjlist": [{
+        				"id": 1,
+        				"num": 3,
+        				"rwd": 2
+        			}, {
+        				"id": 2,
+        				"num": 5,
+        				"rwd": 4
+        			}, {
+        				"id": 3,
+        				"num": 1556,
+        				"rwd": 1
+        			}, {
+        				"id": 4,
+        				"num": 4,
+        				"rwd": 0
+        			}, {
+        				"id": 5,
+        				"num": 18,
+        				"rwd": 0
+        			}, {
+        				"id": 6,
+        				"num": 54,
+        				"rwd": 2
+        			}, {
+        				"id": 7,
+        				"num": 54,
+        				"rwd": 2
+        			}, {
+        				"id": 8,
+        				"num": 46,
+        				"rwd": 2
+        			}, {
+        				"id": 16,
+        				"num": 6,
+        				"rwd": 2
+        			}, {
+        				"id": 14,
+        				"num": 3,
+        				"rwd": 3
+        			}, {
+        				"id": 15,
+        				"num": 12,
+        				"rwd": 3
+        			}, {
+        				"id": 17,
+        				"num": 1,
+        				"rwd": 1
+        			}, {
+        				"id": 9,
+        				"num": 43,
+        				"rwd": 1
+        			}, {
+        				"id": 25,
+        				"num": 11,
+        				"rwd": 3
+        			}, {
+        				"id": 12,
+        				"num": 1,
+        				"rwd": 0
+        			}, {
+        				"id": 26,
+        				"num": 1,
+        				"rwd": 0
+        			}]
+        		},
+        		"task": {
+        			"tmain": {
+        				"id": 400,
+        				"num": 1556,
+        				"max": 1700
+        			}
+        		},
+        		"order": {
+        			"rshop": [{
+        				"dc": 1,
+        				"rmb": "\uffe56",
+        				"ormb": 6,
+        				"diamond": 60,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 2,
+        				"rmb": "\uffe528",
+        				"ormb": 28,
+        				"diamond": 280,
+        				"type": 2,
+        				"beishu": 1
+        			}, {
+        				"dc": 3,
+        				"rmb": "\uffe530",
+        				"ormb": 30,
+        				"diamond": 300,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 4,
+        				"rmb": "\uffe568",
+        				"ormb": 68,
+        				"diamond": 680,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 5,
+        				"rmb": "\uffe5198",
+        				"ormb": 198,
+        				"diamond": 1980,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 6,
+        				"rmb": "\uffe5288",
+        				"ormb": 288,
+        				"diamond": 2880,
+        				"type": 3,
+        				"beishu": 1
+        			}, {
+        				"dc": 7,
+        				"rmb": "\uffe5328",
+        				"ormb": 328,
+        				"diamond": 3280,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 8,
+        				"rmb": "\uffe5648",
+        				"ormb": 648,
+        				"diamond": 6480,
+        				"type": 1,
+        				"beishu": 1
+        			}, {
+        				"dc": 9,
+        				"rmb": "\uffe51",
+        				"ormb": 1,
+        				"diamond": 10,
+        				"type": 4,
+        				"beishu": 1
+        			}, {
+        				"dc": 10,
+        				"rmb": "\uffe53",
+        				"ormb": 3,
+        				"diamond": 30,
+        				"type": 4,
+        				"beishu": 1
+        			}, {
+        				"dc": 11,
+        				"rmb": "\uffe58",
+        				"ormb": 8,
+        				"diamond": 80,
+        				"type": 4,
+        				"beishu": 1
+        			}, {
+        				"dc": 12,
+        				"rmb": "\uffe512",
+        				"ormb": 12,
+        				"diamond": 120,
+        				"type": 4,
+        				"beishu": 1
+        			}, {
+        				"dc": 13,
+        				"rmb": "\uffe518",
+        				"ormb": 18,
+        				"diamond": 180,
+        				"type": 4,
+        				"beishu": 1
+        			}, {
+        				"dc": 14,
+        				"rmb": "\uffe525",
+        				"ormb": 25,
+        				"diamond": 250,
+        				"type": 4,
+        				"beishu": 1
+        			}],
+        			"vipexp": [{
+        				"level": 0,
+        				"recharge": 0
+        			}, {
+        				"level": 1,
+        				"recharge": 300
+        			}, {
+        				"level": 2,
+        				"recharge": 1000
+        			}, {
+        				"level": 3,
+        				"recharge": 2560
+        			}, {
+        				"level": 4,
+        				"recharge": 5800
+        			}, {
+        				"level": 5,
+        				"recharge": 10000
+        			}, {
+        				"level": 6,
+        				"recharge": 40000
+        			}, {
+        				"level": 7,
+        				"recharge": 100000
+        			}, {
+        				"level": 8,
+        				"recharge": 300000
+        			}, {
+        				"level": 9,
+        				"recharge": 1000000
+        			}, {
+        				"level": 10,
+        				"recharge": 2000000
+        			}, {
+        				"level": 11,
+        				"recharge": 4000000
+        			}, {
+        				"level": 12,
+        				"recharge": 8000000
+        			}]
+        		},
+        		"notice": {
+        			"list": [],
+        			"activity": []
+        		},
+        		"scpoint": {
+        			"list": [{
+        				"id": "100",
+        				"type": 1,
+        				"roleid": 10,
+        				"jbs": []
+        			}, {
+        				"id": "2101",
+        				"type": 2,
+        				"roleid": 1,
+        				"jbs": []
+        			}, {
+        				"id": "2202",
+        				"type": 2,
+        				"roleid": 2,
+        				"jbs": []
+        			}, {
+        				"id": "2301",
+        				"type": 2,
+        				"roleid": 3,
+        				"jbs": []
+        			}, {
+        				"id": "900",
+        				"type": 1,
+        				"roleid": 9,
+        				"jbs": []
+        			}, {
+        				"id": "110",
+        				"type": 1,
+        				"roleid": 11,
+        				"jbs": []
+        			}],
+        			"heroJB": [{
+        				"id": 18,
+        				"num": 15
+        			}, {
+        				"id": 10,
+        				"num": 50
+        			}, {
+        				"id": 11,
+        				"num": 20
+        			}, {
+        				"id": 3,
+        				"num": 10
+        			}, {
+        				"id": 2,
+        				"num": 12
+        			}, {
+        				"id": 9,
+        				"num": 30
+        			}, {
+        				"id": 16,
+        				"num": 30
+        			}],
+        			"wifeJB": [{
+        				"id": 2,
+        				"num": 150
+        			}, {
+        				"id": 3,
+        				"num": 15
+        			}],
+        			"heroSW": [{
+        				"id": 18,
+        				"num": 150
+        			}, {
+        				"id": 10,
+        				"num": 150
+        			}, {
+        				"id": 11,
+        				"num": 100
+        			}, {
+        				"id": 16,
+        				"num": 50
+        			}],
+        			"belief": {
+        				"id": 5
+        			},
+        			"selectGroup": {
+        				"id": 3455
+        			},
+        			"jbItem": []
+        		},
+        		"feige": {
+        			"feige": [{
+        				"id": 1000,
+        				"select": ["e10001_12", "e10002_11", "e10003_12"]
+        			}, {
+        				"id": 600,
+        				"select": ["e6001_11", "e6002_11", "e6003_11"]
+        			}, {
+        				"id": 2000,
+        				"select": ["e20001_11", "e20002_11"]
+        			}, {
+        				"id": 3000,
+        				"select": ["e30001_11", "e30002_12"]
+        			}, {
+        				"id": 4000,
+        				"select": ["e40001_11", "e40002_12", "e40003_11"]
+        			}, {
+        				"id": 5000,
+        				"select": ["e50001_12", "e50002_11"]
+        			}, {
+        				"id": 6000,
+        				"select": ["e60001_12", "e60002_11"]
+        			}],
+        			"sonFeige": []
+        		},
+        		"clothe": {
+        			"clothes": [1, 201, 2, 202, 3, 203, 4, 204, 5, 205],
+        			"limittime": [],
+        			"score": {
+        				"score": 75
+        			},
+        			"suitlv": [],
+        			"userClothe": {
+        				"body": 0,
+        				"head": 0,
+        				"ear": 0,
+        				"background": 0,
+        				"effect": 0,
+        				"animal": 0
+        			}
+        		},
+        		"userhead": {
+        			"blanks": [1],
+        			"blanktime": [],
+        			"headavatar": {
+        				"head": 0,
+        				"blank": 1
+        			}
+        		},
+        		"kitchen": {
+        			"base": {
+        				"stove": 3,
+        				"overCount": 2
+        			},
+        			"list": [{
+        				"id": 1,
+        				"wid": 2,
+        				"itemId": 2,
+        				"cd": {
+        					"next": 0,
+        					"label": "kitchen"
+        				}
+        			}],
+        			"foods": [1],
+        			"level": {
+        				"level": 1,
+        				"exp": 1
+        			}
+        		},
+        		"voice": {
+        			"voices": {
+        				"heroVoice": [1, 10, 20, 30, 33, 40, 50, 60, 70, 80, 90, 91, 92, 93, 100, 110, 111, 112, 113, 120, 130, 131, 132, 133, 140, 150, 151, 152, 153, 160, 170, 171, 172, 173, 180, 190, 191, 192, 193, 200, 210, 211, 212, 213, 220, 230, 231, 232, 233, 240, 250, 251, 252, 253, 260, 280, 290, 300, 310, 320, 330, 331, 332, 333, 340, 350, 351, 352, 353, 360, 370, 371, 372, 373, 380, 400, 420, 430, 450, 460],
+        				"wifeVoice": [1, 20, 21, 22, 23, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 530, 540]
+        			}
+        		},
+        		"system": {
+        			"sys": {
+        				"time": 1557387305
+        			}
+        		}
+        	},
+        	"u": {
+        		"chat": {
+        			"sev": [{
+        				"type": 1,
+        				"msg": "2",
+        				"time": 1556597207,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000022",
+        					"name": "\u5bb9\u51ac\u6613",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 4
+        			}, {
+        				"type": 1,
+        				"msg": "\u55f7\u545c\u55b5",
+        				"time": 1556543513,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 3
+        			}, {
+        				"type": 1,
+        				"msg": "\u256f^\u2570",
+        				"time": 1556269026,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 4,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 2
+        			}, {
+        				"type": 1,
+        				"msg": "\u6c6a\uff01",
+        				"time": 1556183681,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 3,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 1
+        			}],
+        			"sys": [{
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557369381,
+        				"user": {
+        					"uid": "1000029",
+        					"name": "\u8d1d\u6167\u5fc3",
+        					"job": 1,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 9
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557312501,
+        				"user": {
+        					"uid": "1000029",
+        					"name": "\u8d1d\u6167\u5fc3",
+        					"job": 1,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 8
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557051357,
+        				"user": {
+        					"uid": "1000022",
+        					"name": "\u5bb9\u51ac\u6613",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 7
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557044535,
+        				"user": {
+        					"uid": "1000017",
+        					"name": "\u5357\u5bab\u82e5\u5170",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 9,
+        					"vip": 5,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 6
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557032993,
+        				"user": {
+        					"uid": "1000001",
+        					"name": "\u6c5f\u79c0\u5a9a",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 6,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 5
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556541240,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 4
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556450997,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 3
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556435570,
+        				"user": {
+        					"uid": "1000017",
+        					"name": "\u5357\u5bab\u82e5\u5170",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 2
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556286411,
+        				"user": {
+        					"uid": "1000022",
+        					"name": "\u5bb9\u51ac\u6613",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 1
+        			}]
+        		}
+        	}
+        }
+        {
+        	"s": 1,
+        	"a": {
+        		"user": {
+        			"pvb": [], // pve信息
+
+        		},
+        		"system": {
+        			"sys": {
+        				"time": 1557370379
+        			}
+        		}
+        	},
+        	"u": {
+        		"chat": {
+        			"sev": [{
+        				"type": 1,
+        				"msg": "2",
+        				"time": 1556597207,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000022",
+        					"name": "\u5bb9\u51ac\u6613",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 4
+        			}, {
+        				"type": 1,
+        				"msg": "\u55f7\u545c\u55b5",
+        				"time": 1556543513,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 3
+        			}, {
+        				"type": 1,
+        				"msg": "\u256f^\u2570",
+        				"time": 1556269026,
+        				"isGM": 0,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 4,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 2
+        			}],
+        			"sys": [{
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557369381,
+        				"user": {
+        					"uid": "1000029",
+        					"name": "\u8d1d\u6167\u5fc3",
+        					"job": 1,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 9
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557312501,
+        				"user": {
+        					"uid": "1000029",
+        					"name": "\u8d1d\u6167\u5fc3",
+        					"job": 1,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 8
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557051357,
+        				"user": {
+        					"uid": "1000022",
+        					"name": "\u5bb9\u51ac\u6613",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 7
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557044535,
+        				"user": {
+        					"uid": "1000017",
+        					"name": "\u5357\u5bab\u82e5\u5170",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 9,
+        					"vip": 5,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 6
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1557032993,
+        				"user": {
+        					"uid": "1000001",
+        					"name": "\u6c5f\u79c0\u5a9a",
+        					"job": 2,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 6,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 5
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556541240,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 4
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556450997,
+        				"user": {
+        					"uid": "1000003",
+        					"name": "\u82b1\u5fc6\u7136",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 4,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 3
+        			}, {
+        				"type": 3,
+        				"msg": "#boite#::1",
+        				"time": 1556435570,
+        				"user": {
+        					"uid": "1000017",
+        					"name": "\u5357\u5bab\u82e5\u5170",
+        					"job": 3,
+        					"sex": 2,
+        					"level": 5,
+        					"vip": 0,
+        					"clothe": {
+        						"body": 0,
+        						"head": 0,
+        						"ear": 0,
+        						"background": 0,
+        						"effect": 0,
+        						"animal": 0
+        					},
+        					"headavatar": {
+        						"head": 0,
+        						"blank": 1
+        					},
+        					"chenghao": 0
+        				},
+        				"id": 2
+        			}]
+        		},
+        		"chengjiu": {
+        			"cjlist": [{
+        				"id": 1,
+        				"num": 1,
+        				"rwd": 0
+        			}]
+        		}
+        	}
+        }
+
+
+随机名字接口:
+    {"guide":{"randName":{}}}

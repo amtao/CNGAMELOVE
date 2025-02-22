@@ -1,0 +1,364 @@
+#紫禁繁花港澳台正式服 - epzjfhovergat
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/cfg_houtai.php > /data/logs/epzjfhovergat_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/delete.php > /data/logs/epzjfhovergat_log/delete 2>&1
+
+
+
+
+#header-epzjfhovergat
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/cfg_houtai.php > /data/logs/epzjfhovergat_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/delete.php > /data/logs/epzjfhovergat_log/delete 2>&1
+35 0 * * 1,3,5  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/clubkua_match.php > /data/logs/epzjfhovergat_log/clubkua_match 2>&1
+01 12 * * 1,3,5  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/clubkua_pk.php > /data/logs/epzjfhovergat_log/clubkua_pk 2>&1
+
+#epzjfhovergat 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 1 >> /data/logs/epzjfhovergat_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 1 > /data/logs/epzjfhovergat_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 1 > /data/logs/epzjfhovergat_log/Sync1 2>&1
+
+#epzjfhovergat 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 2 >> /data/logs/epzjfhovergat_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 2 > /data/logs/epzjfhovergat_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 2 > /data/logs/epzjfhovergat_log/Sync2 2>&1
+
+#epzjfhovergat 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 3 >> /data/logs/epzjfhovergat_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 3 > /data/logs/epzjfhovergat_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 3 > /data/logs/epzjfhovergat_log/Sync3 2>&1
+
+#epzjfhovergat 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 4 >> /data/logs/epzjfhovergat_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 4 > /data/logs/epzjfhovergat_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 4 > /data/logs/epzjfhovergat_log/Sync4 2>&1
+
+#epzjfhovergat 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 5 >> /data/logs/epzjfhovergat_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 5 > /data/logs/epzjfhovergat_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 5 > /data/logs/epzjfhovergat_log/Sync5 2>&1
+
+#epzjfhovergat 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 6 >> /data/logs/epzjfhovergat_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 6 > /data/logs/epzjfhovergat_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 6 > /data/logs/epzjfhovergat_log/Sync6 2>&1
+
+#epzjfhovergat 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 7 >> /data/logs/epzjfhovergat_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 7 > /data/logs/epzjfhovergat_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 7 > /data/logs/epzjfhovergat_log/Sync7 2>&1
+
+#epzjfhovergat 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 8 >> /data/logs/epzjfhovergat_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 8 > /data/logs/epzjfhovergat_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 8 > /data/logs/epzjfhovergat_log/Sync8 2>&1
+
+#epzjfhovergat 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 9 >> /data/logs/epzjfhovergat_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 9 > /data/logs/epzjfhovergat_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 9 > /data/logs/epzjfhovergat_log/Sync9 2>&1
+
+#epzjfhovergat 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 10 >> /data/logs/epzjfhovergat_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 10 > /data/logs/epzjfhovergat_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 10 > /data/logs/epzjfhovergat_log/Sync10 2>&1
+
+#epzjfhovergat 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 11 >> /data/logs/epzjfhovergat_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 11 > /data/logs/epzjfhovergat_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 11 > /data/logs/epzjfhovergat_log/Sync11 2>&1
+
+#epzjfhovergat 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 12 >> /data/logs/epzjfhovergat_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 12 > /data/logs/epzjfhovergat_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 12 > /data/logs/epzjfhovergat_log/Sync12 2>&1
+
+#epzjfhovergat 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 13 >> /data/logs/epzjfhovergat_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 13 > /data/logs/epzjfhovergat_log/flow13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 13 > /data/logs/epzjfhovergat_log/Sync13 2>&1
+
+#epzjfhovergat 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 14 >> /data/logs/epzjfhovergat_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 14 > /data/logs/epzjfhovergat_log/flow14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 14 > /data/logs/epzjfhovergat_log/Sync14 2>&1
+
+#epzjfhovergat 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 15 >> /data/logs/epzjfhovergat_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 15 > /data/logs/epzjfhovergat_log/flow15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 15 > /data/logs/epzjfhovergat_log/Sync15 2>&1
+
+#epzjfhovergat 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 16 >> /data/logs/epzjfhovergat_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 16 > /data/logs/epzjfhovergat_log/flow16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 16 > /data/logs/epzjfhovergat_log/Sync16 2>&1
+
+#epzjfhovergat 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 17 >> /data/logs/epzjfhovergat_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 17 > /data/logs/epzjfhovergat_log/flow17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 17 > /data/logs/epzjfhovergat_log/Sync17 2>&1
+
+#epzjfhovergat 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 18 >> /data/logs/epzjfhovergat_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 18 > /data/logs/epzjfhovergat_log/flow18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 18 > /data/logs/epzjfhovergat_log/Sync18 2>&1
+
+#epzjfhovergat 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 19 >> /data/logs/epzjfhovergat_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 19 > /data/logs/epzjfhovergat_log/flow19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 19 > /data/logs/epzjfhovergat_log/Sync19 2>&1
+
+#epzjfhovergat 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 20 >> /data/logs/epzjfhovergat_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 20 > /data/logs/epzjfhovergat_log/flow20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 20 > /data/logs/epzjfhovergat_log/Sync20 2>&1
+
+#epzjfhovergat 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 21 >> /data/logs/epzjfhovergat_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 21 > /data/logs/epzjfhovergat_log/flow21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 21 > /data/logs/epzjfhovergat_log/Sync21 2>&1
+
+#epzjfhovergat 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 22 >> /data/logs/epzjfhovergat_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 22 > /data/logs/epzjfhovergat_log/flow22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 22 > /data/logs/epzjfhovergat_log/Sync22 2>&1
+
+#epzjfhovergat 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 23 >> /data/logs/epzjfhovergat_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 23 > /data/logs/epzjfhovergat_log/flow23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 23 > /data/logs/epzjfhovergat_log/Sync23 2>&1
+
+#epzjfhovergat 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 24 >> /data/logs/epzjfhovergat_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 24 > /data/logs/epzjfhovergat_log/flow24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 24 > /data/logs/epzjfhovergat_log/Sync24 2>&1
+
+#epzjfhovergat 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 25 >> /data/logs/epzjfhovergat_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 25 > /data/logs/epzjfhovergat_log/flow25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 25 > /data/logs/epzjfhovergat_log/Sync25 2>&1
+
+#epzjfhovergat 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 26 >> /data/logs/epzjfhovergat_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 26 > /data/logs/epzjfhovergat_log/flow26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 26 > /data/logs/epzjfhovergat_log/Sync26 2>&1
+
+#epzjfhovergat 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 27 >> /data/logs/epzjfhovergat_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 27 > /data/logs/epzjfhovergat_log/flow27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 27 > /data/logs/epzjfhovergat_log/Sync27 2>&1
+
+#epzjfhovergat 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 28 >> /data/logs/epzjfhovergat_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 28 > /data/logs/epzjfhovergat_log/flow28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 28 > /data/logs/epzjfhovergat_log/Sync28 2>&1
+
+#epzjfhovergat 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 29 >> /data/logs/epzjfhovergat_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 29 > /data/logs/epzjfhovergat_log/flow29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 29 > /data/logs/epzjfhovergat_log/Sync29 2>&1
+
+#epzjfhovergat 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 30 >> /data/logs/epzjfhovergat_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 30 > /data/logs/epzjfhovergat_log/flow30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 30 > /data/logs/epzjfhovergat_log/Sync30 2>&1
+
+#epzjfhovergat 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 31 >> /data/logs/epzjfhovergat_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 31 > /data/logs/epzjfhovergat_log/flow31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 31 > /data/logs/epzjfhovergat_log/Sync31 2>&1
+
+#epzjfhovergat 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 32 >> /data/logs/epzjfhovergat_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 32 > /data/logs/epzjfhovergat_log/flow32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 32 > /data/logs/epzjfhovergat_log/Sync32 2>&1
+
+#epzjfhovergat 33区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 33 >> /data/logs/epzjfhovergat_log/30minutes33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 33 > /data/logs/epzjfhovergat_log/flow33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 33 > /data/logs/epzjfhovergat_log/Sync33 2>&1
+
+#epzjfhovergat 34区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 34 >> /data/logs/epzjfhovergat_log/30minutes34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 34 > /data/logs/epzjfhovergat_log/flow34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 34 > /data/logs/epzjfhovergat_log/Sync34 2>&1
+
+#epzjfhovergat 35区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 35 >> /data/logs/epzjfhovergat_log/30minutes35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 35 > /data/logs/epzjfhovergat_log/flow35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 35 > /data/logs/epzjfhovergat_log/Sync35 2>&1
+
+#epzjfhovergat 36区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 36 >> /data/logs/epzjfhovergat_log/30minutes36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 36 > /data/logs/epzjfhovergat_log/flow36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 36 > /data/logs/epzjfhovergat_log/Sync36 2>&1
+
+#epzjfhovergat 37区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 37 >> /data/logs/epzjfhovergat_log/30minutes37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 37 > /data/logs/epzjfhovergat_log/flow37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 37 > /data/logs/epzjfhovergat_log/Sync37 2>&1
+
+#epzjfhovergat 38区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 38 >> /data/logs/epzjfhovergat_log/30minutes38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 38 > /data/logs/epzjfhovergat_log/flow38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 38 > /data/logs/epzjfhovergat_log/Sync38 2>&1
+
+#epzjfhovergat 39区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 39 >> /data/logs/epzjfhovergat_log/30minutes39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 39 > /data/logs/epzjfhovergat_log/flow39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 39 > /data/logs/epzjfhovergat_log/Sync39 2>&1
+
+#epzjfhovergat 40区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 40 >> /data/logs/epzjfhovergat_log/30minutes40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 40 > /data/logs/epzjfhovergat_log/flow40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 40 > /data/logs/epzjfhovergat_log/Sync40 2>&1
+
+#epzjfhovergat 41区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 41 >> /data/logs/epzjfhovergat_log/30minutes41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 41 > /data/logs/epzjfhovergat_log/flow41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 41 > /data/logs/epzjfhovergat_log/Sync41 2>&1
+
+#epzjfhovergat 42区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 42 >> /data/logs/epzjfhovergat_log/30minutes42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 42 > /data/logs/epzjfhovergat_log/flow42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 42 > /data/logs/epzjfhovergat_log/Sync42 2>&1
+
+#epzjfhovergat 43区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 43 >> /data/logs/epzjfhovergat_log/30minutes43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 43 > /data/logs/epzjfhovergat_log/flow43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 43 > /data/logs/epzjfhovergat_log/Sync43 2>&1
+
+#epzjfhovergat 44区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 44 >> /data/logs/epzjfhovergat_log/30minutes44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 44 > /data/logs/epzjfhovergat_log/flow44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 44 > /data/logs/epzjfhovergat_log/Sync44 2>&1
+
+#epzjfhovergat 45区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 45 >> /data/logs/epzjfhovergat_log/30minutes45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 45 > /data/logs/epzjfhovergat_log/flow45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 45 > /data/logs/epzjfhovergat_log/Sync45 2>&1
+
+#epzjfhovergat 46区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 46 >> /data/logs/epzjfhovergat_log/30minutes46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 46 > /data/logs/epzjfhovergat_log/flow46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 46 > /data/logs/epzjfhovergat_log/Sync46 2>&1
+
+#epzjfhovergat 47区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 47 >> /data/logs/epzjfhovergat_log/30minutes47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 47 > /data/logs/epzjfhovergat_log/flow47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 47 > /data/logs/epzjfhovergat_log/Sync47 2>&1
+
+#epzjfhovergat 48区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 48 >> /data/logs/epzjfhovergat_log/30minutes48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 48 > /data/logs/epzjfhovergat_log/flow48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 48 > /data/logs/epzjfhovergat_log/Sync48 2>&1
+
+#epzjfhovergat 49区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 49 >> /data/logs/epzjfhovergat_log/30minutes49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 49 > /data/logs/epzjfhovergat_log/flow49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 49 > /data/logs/epzjfhovergat_log/Sync49 2>&1
+
+#epzjfhovergat 50区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 50 >> /data/logs/epzjfhovergat_log/30minutes50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 50 > /data/logs/epzjfhovergat_log/flow50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 50 > /data/logs/epzjfhovergat_log/Sync50 2>&1
+
+#epzjfhovergat 51区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 51 >> /data/logs/epzjfhovergat_log/30minutes51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 51 > /data/logs/epzjfhovergat_log/flow51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 51 > /data/logs/epzjfhovergat_log/Sync51 2>&1
+
+#epzjfhovergat 52区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 52 >> /data/logs/epzjfhovergat_log/30minutes52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 52 > /data/logs/epzjfhovergat_log/flow52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 52 > /data/logs/epzjfhovergat_log/Sync52 2>&1
+
+#epzjfhovergat 53区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 53 >> /data/logs/epzjfhovergat_log/30minutes53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 53 > /data/logs/epzjfhovergat_log/flow53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 53 > /data/logs/epzjfhovergat_log/Sync53 2>&1
+
+#epzjfhovergat 54区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 54 >> /data/logs/epzjfhovergat_log/30minutes54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 54 > /data/logs/epzjfhovergat_log/flow54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 54 > /data/logs/epzjfhovergat_log/Sync54 2>&1
+
+#epzjfhovergat 55区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 55 >> /data/logs/epzjfhovergat_log/30minutes55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 55 > /data/logs/epzjfhovergat_log/flow55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 55 > /data/logs/epzjfhovergat_log/Sync55 2>&1
+
+#epzjfhovergat 56区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 56 >> /data/logs/epzjfhovergat_log/30minutes56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 56 > /data/logs/epzjfhovergat_log/flow56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 56 > /data/logs/epzjfhovergat_log/Sync56 2>&1
+
+#epzjfhovergat 57区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 57 >> /data/logs/epzjfhovergat_log/30minutes57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 57 > /data/logs/epzjfhovergat_log/flow57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 57 > /data/logs/epzjfhovergat_log/Sync57 2>&1
+
+#epzjfhovergat 58区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 58 >> /data/logs/epzjfhovergat_log/30minutes58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 58 > /data/logs/epzjfhovergat_log/flow58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 58 > /data/logs/epzjfhovergat_log/Sync58 2>&1
+
+#epzjfhovergat 59区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 59 >> /data/logs/epzjfhovergat_log/30minutes59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 59 > /data/logs/epzjfhovergat_log/flow59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 59 > /data/logs/epzjfhovergat_log/Sync59 2>&1
+
+#epzjfhovergat 60区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 60 >> /data/logs/epzjfhovergat_log/30minutes60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 60 > /data/logs/epzjfhovergat_log/flow60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 60 > /data/logs/epzjfhovergat_log/Sync60 2>&1
+
+#epzjfhovergat 61区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 61 >> /data/logs/epzjfhovergat_log/30minutes61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 61 > /data/logs/epzjfhovergat_log/flow61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 61 > /data/logs/epzjfhovergat_log/Sync61 2>&1
+
+#epzjfhovergat 62区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 62 >> /data/logs/epzjfhovergat_log/30minutes62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 62 > /data/logs/epzjfhovergat_log/flow62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 62 > /data/logs/epzjfhovergat_log/Sync62 2>&1
+
+#epzjfhovergat 63区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 63 >> /data/logs/epzjfhovergat_log/30minutes63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 63 > /data/logs/epzjfhovergat_log/flow63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 63 > /data/logs/epzjfhovergat_log/Sync63 2>&1
+
+#epzjfhovergat 64区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 64 >> /data/logs/epzjfhovergat_log/30minutes64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 64 > /data/logs/epzjfhovergat_log/flow64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 64 > /data/logs/epzjfhovergat_log/Sync64 2>&1
+
+#epzjfhovergat 65区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 65 >> /data/logs/epzjfhovergat_log/30minutes65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 65 > /data/logs/epzjfhovergat_log/flow65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 65 > /data/logs/epzjfhovergat_log/Sync65 2>&1
+
+#epzjfhovergat 66区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 66 >> /data/logs/epzjfhovergat_log/30minutes66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 66 > /data/logs/epzjfhovergat_log/flow66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 66 > /data/logs/epzjfhovergat_log/Sync66 2>&1
+
+#epzjfhovergat 67区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 67 >> /data/logs/epzjfhovergat_log/30minutes67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 67 > /data/logs/epzjfhovergat_log/flow67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 67 > /data/logs/epzjfhovergat_log/Sync67 2>&1
+
+#epzjfhovergat 68区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 68 >> /data/logs/epzjfhovergat_log/30minutes68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 68 > /data/logs/epzjfhovergat_log/flow68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 68 > /data/logs/epzjfhovergat_log/Sync68 2>&1
+
+#epzjfhovergat 69区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 69 >> /data/logs/epzjfhovergat_log/30minutes69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 69 > /data/logs/epzjfhovergat_log/flow69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 69 > /data/logs/epzjfhovergat_log/Sync69 2>&1
+
+#epzjfhovergat 70区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/30minutes.php 70 >> /data/logs/epzjfhovergat_log/30minutes70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/flow.php 70 > /data/logs/epzjfhovergat_log/flow70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/epzjfhovergat/s1_epzjfhovergat/crontab/Sync.php 70 > /data/logs/epzjfhovergat_log/Sync70 2>&1
+
+//------------end-----------------

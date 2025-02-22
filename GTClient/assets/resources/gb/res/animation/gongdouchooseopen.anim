@@ -1,0 +1,107 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gongdouchooseopen",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "0001/DalishiServantItem/btn": {
+        "comps": {
+          "cc.Button": {}
+        },
+        "props": {}
+      },
+      "0001/DalishiServantItem": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "top/item/toumingdi": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "top/item/diban47": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -595
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -150.5
+            }
+          ]
+        }
+      },
+      "bot/item": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -105
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 20
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 255
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

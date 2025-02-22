@@ -1,0 +1,52 @@
+#header-wsdqg
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/cfg_houtai.php > /data/logs/wsdqg_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/delete.php > /data/logs/wsdqg_log/delete 2>&1
+
+#wsdqg 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 1 >> /data/logs/wsdqg_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/flow.php 1 > /data/logs/wsdqg_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 1 > /data/logs/wsdqg_log/Sync1 2>&1
+
+#wsdqg 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 2 >> /data/logs/wsdqg_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/flow.php 2 > /data/logs/wsdqg_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 2 > /data/logs/wsdqg_log/Sync2 2>&1
+
+#wsdqg 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 3 >> /data/logs/wsdqg_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/flow.php 3 > /data/logs/wsdqg_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 3 > /data/logs/wsdqg_log/Sync3 2>&1
+
+#wsdqg 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 4 >> /data/logs/wsdqg_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 4 > /data/logs/wsdqg_log/Sync4 2>&1
+
+#wsdqg 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 5 >> /data/logs/wsdqg_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 5 > /data/logs/wsdqg_log/Sync5 2>&1
+
+#wsdqg 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 6 >> /data/logs/wsdqg_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 6 > /data/logs/wsdqg_log/Sync6 2>&1
+
+#wsdqg 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 7 >> /data/logs/wsdqg_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 7 > /data/logs/wsdqg_log/Sync7 2>&1
+
+#wsdqg 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 8 >> /data/logs/wsdqg_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 8 > /data/logs/wsdqg_log/Sync8 2>&1
+
+#wsdqg 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 9 >> /data/logs/wsdqg_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 9 > /data/logs/wsdqg_log/Sync9 2>&1
+
+#wsdqg 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/30minutes.php 10 >> /data/logs/wsdqg_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/wsdqg/s1_wsdqg/crontab/Sync.php 10 > /data/logs/wsdqg_log/Sync10 2>&1
+
+//------------end-----------------
+
+
+
+

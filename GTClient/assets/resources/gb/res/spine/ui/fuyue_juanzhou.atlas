@@ -1,0 +1,34 @@
+
+fuyue_juanzhou.png
+size: 621,198
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bg
+  rotate: true
+  xy: 2, 8
+  size: 188, 333
+  orig: 188, 333
+  offset: 0, 0
+  index: -1
+images/juanzhou2
+  rotate: false
+  xy: 337, 23
+  size: 121, 50
+  orig: 121, 50
+  offset: 0, 0
+  index: -1
+images/kuang
+  rotate: true
+  xy: 337, 75
+  size: 121, 282
+  orig: 121, 282
+  offset: 0, 0
+  index: -1
+images/zhezhao2
+  rotate: true
+  xy: 2, 2
+  size: 4, 205
+  orig: 4, 205
+  offset: 0, 0
+  index: -1

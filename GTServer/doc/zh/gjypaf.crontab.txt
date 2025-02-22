@@ -1,0 +1,626 @@
+#官居一品安锋-gjypaf
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/cfg_houtai.php > /data/logs/gjypaf_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/delete.php > /data/logs/gjypaf_log/delete 2>&1
+
+#官居一品安锋-gjypaf 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 1 >> /data/logs/gjypaf_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 1 > /data/logs/gjypaf_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 1 > /data/logs/gjypaf_log/Sync1 2>&1
+
+#官居一品安锋-gjypaf 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 2 >> /data/logs/gjypaf_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 2 > /data/logs/gjypaf_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 2 > /data/logs/gjypaf_log/Sync2 2>&1
+
+#官居一品安锋-gjypaf 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 3 >> /data/logs/gjypaf_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 3 > /data/logs/gjypaf_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 3 > /data/logs/gjypaf_log/Sync3 2>&1
+
+#官居一品安锋-gjypaf 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 4 >> /data/logs/gjypaf_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 4 > /data/logs/gjypaf_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 4 > /data/logs/gjypaf_log/Sync4 2>&1
+
+#官居一品安锋-gjypaf 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 5 >> /data/logs/gjypaf_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 5 > /data/logs/gjypaf_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 5 > /data/logs/gjypaf_log/Sync5 2>&1
+
+#官居一品安锋-gjypaf 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 6 >> /data/logs/gjypaf_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 6 > /data/logs/gjypaf_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 6 > /data/logs/gjypaf_log/Sync6 2>&1
+
+#官居一品安锋-gjypaf 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 7 >> /data/logs/gjypaf_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 7 > /data/logs/gjypaf_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 7 > /data/logs/gjypaf_log/Sync7 2>&1
+
+#官居一品安锋-gjypaf 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 8 >> /data/logs/gjypaf_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 8 > /data/logs/gjypaf_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 8 > /data/logs/gjypaf_log/Sync8 2>&1
+
+#官居一品安锋-gjypaf 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 9 >> /data/logs/gjypaf_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 9 > /data/logs/gjypaf_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 9 > /data/logs/gjypaf_log/Sync9 2>&1
+
+#官居一品安锋-gjypaf 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 10 >> /data/logs/gjypaf_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 10 > /data/logs/gjypaf_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 10 > /data/logs/gjypaf_log/Sync10 2>&1
+
+#官居一品安锋-gjypaf 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 11 >> /data/logs/gjypaf_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 11 > /data/logs/gjypaf_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 11 > /data/logs/gjypaf_log/Sync11 2>&1
+
+#官居一品安锋-gjypaf 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 12 >> /data/logs/gjypaf_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 12 > /data/logs/gjypaf_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 12 > /data/logs/gjypaf_log/Sync12 2>&1
+
+#官居一品安锋-gjypaf 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 13 >> /data/logs/gjypaf_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 13 > /data/logs/gjypaf_log/flow13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 13 > /data/logs/gjypaf_log/Sync13 2>&1
+
+#官居一品安锋-gjypaf 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 14 >> /data/logs/gjypaf_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 14 > /data/logs/gjypaf_log/flow14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 14 > /data/logs/gjypaf_log/Sync14 2>&1
+
+#官居一品安锋-gjypaf 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 15 >> /data/logs/gjypaf_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 15 > /data/logs/gjypaf_log/flow15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 15 > /data/logs/gjypaf_log/Sync15 2>&1
+
+#官居一品安锋-gjypaf 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 16 >> /data/logs/gjypaf_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 16 > /data/logs/gjypaf_log/flow16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 16 > /data/logs/gjypaf_log/Sync16 2>&1
+
+#官居一品安锋-gjypaf 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 17 >> /data/logs/gjypaf_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 17 > /data/logs/gjypaf_log/flow17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 17 > /data/logs/gjypaf_log/Sync17 2>&1
+
+#官居一品安锋-gjypaf 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 18 >> /data/logs/gjypaf_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 18 > /data/logs/gjypaf_log/flow18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 18 > /data/logs/gjypaf_log/Sync18 2>&1
+
+#官居一品安锋-gjypaf 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 19 >> /data/logs/gjypaf_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 19 > /data/logs/gjypaf_log/flow19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 19 > /data/logs/gjypaf_log/Sync19 2>&1
+
+#官居一品安锋-gjypaf 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 20 >> /data/logs/gjypaf_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 20 > /data/logs/gjypaf_log/flow20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 20 > /data/logs/gjypaf_log/Sync20 2>&1
+
+#官居一品安锋-gjypaf 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 21 >> /data/logs/gjypaf_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 21 > /data/logs/gjypaf_log/flow21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 21 > /data/logs/gjypaf_log/Sync21 2>&1
+
+#官居一品安锋-gjypaf 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 22 >> /data/logs/gjypaf_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 22 > /data/logs/gjypaf_log/flow22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 22 > /data/logs/gjypaf_log/Sync22 2>&1
+
+#gjypaf 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 23 >> /data/logs/gjypaf_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 23 > /data/logs/gjypaf_log/flow23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 23 > /data/logs/gjypaf_log/Sync23 2>&1
+
+#gjypaf 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 24 >> /data/logs/gjypaf_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 24 > /data/logs/gjypaf_log/flow24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 24 > /data/logs/gjypaf_log/Sync24 2>&1
+
+#gjypaf 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 25 >> /data/logs/gjypaf_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 25 > /data/logs/gjypaf_log/flow25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 25 > /data/logs/gjypaf_log/Sync25 2>&1
+
+#gjypaf 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 26 >> /data/logs/gjypaf_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 26 > /data/logs/gjypaf_log/flow26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 26 > /data/logs/gjypaf_log/Sync26 2>&1
+
+#gjypaf 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 27 >> /data/logs/gjypaf_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 27 > /data/logs/gjypaf_log/flow27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 27 > /data/logs/gjypaf_log/Sync27 2>&1
+
+#gjypaf 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 28 >> /data/logs/gjypaf_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 28 > /data/logs/gjypaf_log/flow28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 28 > /data/logs/gjypaf_log/Sync28 2>&1
+
+#gjypaf 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 29 >> /data/logs/gjypaf_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 29 > /data/logs/gjypaf_log/flow29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 29 > /data/logs/gjypaf_log/Sync29 2>&1
+
+#gjypaf 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 30 >> /data/logs/gjypaf_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 30 > /data/logs/gjypaf_log/flow30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 30 > /data/logs/gjypaf_log/Sync30 2>&1
+
+#gjypaf 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 31 >> /data/logs/gjypaf_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 31 > /data/logs/gjypaf_log/flow31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 31 > /data/logs/gjypaf_log/Sync31 2>&1
+
+#gjypaf 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 32 >> /data/logs/gjypaf_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 32 > /data/logs/gjypaf_log/flow32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 32 > /data/logs/gjypaf_log/Sync32 2>&1
+
+#gjypaf 33区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 33 >> /data/logs/gjypaf_log/30minutes33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 33 > /data/logs/gjypaf_log/flow33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 33 > /data/logs/gjypaf_log/Sync33 2>&1
+
+#gjypaf 34区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 34 >> /data/logs/gjypaf_log/30minutes34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 34 > /data/logs/gjypaf_log/flow34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 34 > /data/logs/gjypaf_log/Sync34 2>&1
+
+#gjypaf 35区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 35 >> /data/logs/gjypaf_log/30minutes35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 35 > /data/logs/gjypaf_log/flow35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 35 > /data/logs/gjypaf_log/Sync35 2>&1
+
+#gjypaf 36区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 36 >> /data/logs/gjypaf_log/30minutes36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 36 > /data/logs/gjypaf_log/flow36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 36 > /data/logs/gjypaf_log/Sync36 2>&1
+
+#gjypaf 37区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 37 >> /data/logs/gjypaf_log/30minutes37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 37 > /data/logs/gjypaf_log/flow37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 37 > /data/logs/gjypaf_log/Sync37 2>&1
+
+#gjypaf 38区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 38 >> /data/logs/gjypaf_log/30minutes38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 38 > /data/logs/gjypaf_log/flow38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 38 > /data/logs/gjypaf_log/Sync38 2>&1
+
+#gjypaf 39区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 39 >> /data/logs/gjypaf_log/30minutes39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 39 > /data/logs/gjypaf_log/flow39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 39 > /data/logs/gjypaf_log/Sync39 2>&1
+
+#gjypaf 40区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 40 >> /data/logs/gjypaf_log/30minutes40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 40 > /data/logs/gjypaf_log/flow40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 40 > /data/logs/gjypaf_log/Sync40 2>&1
+
+#gjypaf 41区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 41 >> /data/logs/gjypaf_log/30minutes41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 41 > /data/logs/gjypaf_log/flow41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 41 > /data/logs/gjypaf_log/Sync41 2>&1
+
+#gjypaf 42区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 42 >> /data/logs/gjypaf_log/30minutes42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 42 > /data/logs/gjypaf_log/flow42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 42 > /data/logs/gjypaf_log/Sync42 2>&1
+
+#gjypaf 43区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 43 >> /data/logs/gjypaf_log/30minutes43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 43 > /data/logs/gjypaf_log/flow43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 43 > /data/logs/gjypaf_log/Sync43 2>&1
+
+#gjypaf 44区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 44 >> /data/logs/gjypaf_log/30minutes44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 44 > /data/logs/gjypaf_log/flow44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 44 > /data/logs/gjypaf_log/Sync44 2>&1
+
+#gjypaf 45区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 45 >> /data/logs/gjypaf_log/30minutes45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 45 > /data/logs/gjypaf_log/flow45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 45 > /data/logs/gjypaf_log/Sync45 2>&1
+
+#gjypaf 46区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 46 >> /data/logs/gjypaf_log/30minutes46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 46 > /data/logs/gjypaf_log/flow46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 46 > /data/logs/gjypaf_log/Sync46 2>&1
+
+#gjypaf 47区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 47 >> /data/logs/gjypaf_log/30minutes47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 47 > /data/logs/gjypaf_log/flow47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 47 > /data/logs/gjypaf_log/Sync47 2>&1
+
+#gjypaf 48区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 48 >> /data/logs/gjypaf_log/30minutes48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 48 > /data/logs/gjypaf_log/flow48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 48 > /data/logs/gjypaf_log/Sync48 2>&1
+
+#gjypaf 49区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 49 >> /data/logs/gjypaf_log/30minutes49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 49 > /data/logs/gjypaf_log/flow49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 49 > /data/logs/gjypaf_log/Sync49 2>&1
+
+#gjypaf 50区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 50 >> /data/logs/gjypaf_log/30minutes50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 50 > /data/logs/gjypaf_log/flow50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 50 > /data/logs/gjypaf_log/Sync50 2>&1
+
+#gjypaf 51区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 51 >> /data/logs/gjypaf_log/30minutes51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 51 > /data/logs/gjypaf_log/flow51 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 51 > /data/logs/gjypaf_log/Sync51 2>&1
+
+#gjypaf 52区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 52 >> /data/logs/gjypaf_log/30minutes52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 52 > /data/logs/gjypaf_log/flow52 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 52 > /data/logs/gjypaf_log/Sync52 2>&1
+
+#gjypaf 53区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 53 >> /data/logs/gjypaf_log/30minutes53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 53 > /data/logs/gjypaf_log/flow53 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 53 > /data/logs/gjypaf_log/Sync53 2>&1
+
+#gjypaf 54区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 54 >> /data/logs/gjypaf_log/30minutes54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 54 > /data/logs/gjypaf_log/flow54 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 54 > /data/logs/gjypaf_log/Sync54 2>&1
+
+#gjypaf 55区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 55 >> /data/logs/gjypaf_log/30minutes55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 55 > /data/logs/gjypaf_log/flow55 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 55 > /data/logs/gjypaf_log/Sync55 2>&1
+
+#gjypaf 56区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 56 >> /data/logs/gjypaf_log/30minutes56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 56 > /data/logs/gjypaf_log/flow56 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 56 > /data/logs/gjypaf_log/Sync56 2>&1
+
+#gjypaf 57区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 57 >> /data/logs/gjypaf_log/30minutes57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 57 > /data/logs/gjypaf_log/flow57 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 57 > /data/logs/gjypaf_log/Sync57 2>&1
+
+#gjypaf 58区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 58 >> /data/logs/gjypaf_log/30minutes58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 58 > /data/logs/gjypaf_log/flow58 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 58 > /data/logs/gjypaf_log/Sync58 2>&1
+
+#gjypaf 59区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 59 >> /data/logs/gjypaf_log/30minutes59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 59 > /data/logs/gjypaf_log/flow59 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 59 > /data/logs/gjypaf_log/Sync59 2>&1
+
+#gjypaf 60区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 60 >> /data/logs/gjypaf_log/30minutes60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 60 > /data/logs/gjypaf_log/flow60 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 60 > /data/logs/gjypaf_log/Sync60 2>&1
+
+#gjypaf 61区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 61 >> /data/logs/gjypaf_log/30minutes61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 61 > /data/logs/gjypaf_log/flow61 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 61 > /data/logs/gjypaf_log/Sync61 2>&1
+
+#gjypaf 62区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 62 >> /data/logs/gjypaf_log/30minutes62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 62 > /data/logs/gjypaf_log/flow62 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 62 > /data/logs/gjypaf_log/Sync62 2>&1
+
+#gjypaf 63区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 63 >> /data/logs/gjypaf_log/30minutes63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 63 > /data/logs/gjypaf_log/flow63 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 63 > /data/logs/gjypaf_log/Sync63 2>&1
+
+#gjypaf 64区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 64 >> /data/logs/gjypaf_log/30minutes64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 64 > /data/logs/gjypaf_log/flow64 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 64 > /data/logs/gjypaf_log/Sync64 2>&1
+
+#gjypaf 65区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 65 >> /data/logs/gjypaf_log/30minutes65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 65 > /data/logs/gjypaf_log/flow65 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 65 > /data/logs/gjypaf_log/Sync65 2>&1
+
+#gjypaf 66区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 66 >> /data/logs/gjypaf_log/30minutes66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 66 > /data/logs/gjypaf_log/flow66 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 66 > /data/logs/gjypaf_log/Sync66 2>&1
+
+#gjypaf 67区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 67 >> /data/logs/gjypaf_log/30minutes67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 67 > /data/logs/gjypaf_log/flow67 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 67 > /data/logs/gjypaf_log/Sync67 2>&1
+
+#gjypaf 68区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 68 >> /data/logs/gjypaf_log/30minutes68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 68 > /data/logs/gjypaf_log/flow68 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 68 > /data/logs/gjypaf_log/Sync68 2>&1
+
+#gjypaf 69区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 69 >> /data/logs/gjypaf_log/30minutes69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 69 > /data/logs/gjypaf_log/flow69 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 69 > /data/logs/gjypaf_log/Sync69 2>&1
+
+#gjypaf 70区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 70 >> /data/logs/gjypaf_log/30minutes70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 70 > /data/logs/gjypaf_log/flow70 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 70 > /data/logs/gjypaf_log/Sync70 2>&1
+
+#gjypaf 71区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 71 >> /data/logs/gjypaf_log/30minutes71 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 71 > /data/logs/gjypaf_log/flow71 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 71 > /data/logs/gjypaf_log/Sync71 2>&1
+
+#gjypaf 72区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 72 >> /data/logs/gjypaf_log/30minutes72 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 72 > /data/logs/gjypaf_log/flow72 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 72 > /data/logs/gjypaf_log/Sync72 2>&1
+
+#gjypaf 73区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 73 >> /data/logs/gjypaf_log/30minutes73 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 73 > /data/logs/gjypaf_log/flow73 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 73 > /data/logs/gjypaf_log/Sync73 2>&1
+
+#gjypaf 74区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 74 >> /data/logs/gjypaf_log/30minutes74 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 74 > /data/logs/gjypaf_log/flow74 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 74 > /data/logs/gjypaf_log/Sync74 2>&1
+
+#gjypaf 75区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 75 >> /data/logs/gjypaf_log/30minutes75 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 75 > /data/logs/gjypaf_log/flow75 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 75 > /data/logs/gjypaf_log/Sync75 2>&1
+
+#gjypaf 76区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 76 >> /data/logs/gjypaf_log/30minutes76 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 76 > /data/logs/gjypaf_log/flow76 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 76 > /data/logs/gjypaf_log/Sync76 2>&1
+
+#gjypaf 77区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 77 >> /data/logs/gjypaf_log/30minutes77 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 77 > /data/logs/gjypaf_log/flow77 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 77 > /data/logs/gjypaf_log/Sync77 2>&1
+
+#gjypaf 78区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 78 >> /data/logs/gjypaf_log/30minutes78 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 78 > /data/logs/gjypaf_log/flow78 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 78 > /data/logs/gjypaf_log/Sync78 2>&1
+
+#gjypaf 79区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 79 >> /data/logs/gjypaf_log/30minutes79 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 79 > /data/logs/gjypaf_log/flow79 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 79 > /data/logs/gjypaf_log/Sync79 2>&1
+
+#gjypaf 80区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 80 >> /data/logs/gjypaf_log/30minutes80 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/flow.php 80 > /data/logs/gjypaf_log/flow80 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 80 > /data/logs/gjypaf_log/Sync80 2>&1
+
+#gjypaf 81区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 81 >> /data/logs/gjypaf_log/30minutes81 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 81 > /data/logs/gjypaf_log/Sync81 2>&1
+
+#gjypaf 82区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 82 >> /data/logs/gjypaf_log/30minutes82 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 82 > /data/logs/gjypaf_log/Sync82 2>&1
+
+#gjypaf 83区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 83 >> /data/logs/gjypaf_log/30minutes83 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 83 > /data/logs/gjypaf_log/Sync83 2>&1
+
+#gjypaf 84区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 84 >> /data/logs/gjypaf_log/30minutes84 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 84 > /data/logs/gjypaf_log/Sync84 2>&1
+
+#gjypaf 85区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 85 >> /data/logs/gjypaf_log/30minutes85 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 85 > /data/logs/gjypaf_log/Sync85 2>&1
+
+#gjypaf 86区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 86 >> /data/logs/gjypaf_log/30minutes86 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 86 > /data/logs/gjypaf_log/Sync86 2>&1
+
+#gjypaf 87区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 87 >> /data/logs/gjypaf_log/30minutes87 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 87 > /data/logs/gjypaf_log/Sync87 2>&1
+
+#gjypaf 88区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 88 >> /data/logs/gjypaf_log/30minutes88 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 88 > /data/logs/gjypaf_log/Sync88 2>&1
+
+#gjypaf 89区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 89 >> /data/logs/gjypaf_log/30minutes89 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 89 > /data/logs/gjypaf_log/Sync89 2>&1
+
+#gjypaf 90区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 90 >> /data/logs/gjypaf_log/30minutes90 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 90 > /data/logs/gjypaf_log/Sync90 2>&1
+
+#gjypaf 91区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 91 >> /data/logs/gjypaf_log/30minutes91 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 91 > /data/logs/gjypaf_log/Sync91 2>&1
+
+#gjypaf 92区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 92 >> /data/logs/gjypaf_log/30minutes92 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 92 > /data/logs/gjypaf_log/Sync92 2>&1
+
+#gjypaf 93区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 93 >> /data/logs/gjypaf_log/30minutes93 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 93 > /data/logs/gjypaf_log/Sync93 2>&1
+
+#gjypaf 94区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 94 >> /data/logs/gjypaf_log/30minutes94 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 94 > /data/logs/gjypaf_log/Sync94 2>&1
+
+#gjypaf 95区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 95 >> /data/logs/gjypaf_log/30minutes95 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 95 > /data/logs/gjypaf_log/Sync95 2>&1
+
+#gjypaf 96区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 96 >> /data/logs/gjypaf_log/30minutes96 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 96 > /data/logs/gjypaf_log/Sync96 2>&1
+
+#gjypaf 97区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 97 >> /data/logs/gjypaf_log/30minutes97 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 97 > /data/logs/gjypaf_log/Sync97 2>&1
+
+#gjypaf 98区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 98 >> /data/logs/gjypaf_log/30minutes98 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 98 > /data/logs/gjypaf_log/Sync98 2>&1
+
+#gjypaf 99区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 99 >> /data/logs/gjypaf_log/30minutes99 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 99 > /data/logs/gjypaf_log/Sync99 2>&1
+
+#gjypaf 100区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 100 >> /data/logs/gjypaf_log/30minutes100 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 100 > /data/logs/gjypaf_log/Sync100 2>&1
+
+#gjypaf 101区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 101 >> /data/logs/gjypaf_log/30minutes101 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 101 > /data/logs/gjypaf_log/Sync101 2>&1
+
+#gjypaf 102区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 102 >> /data/logs/gjypaf_log/30minutes102 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 102 > /data/logs/gjypaf_log/Sync102 2>&1
+
+#gjypaf 103区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 103 >> /data/logs/gjypaf_log/30minutes103 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 103 > /data/logs/gjypaf_log/Sync103 2>&1
+
+#gjypaf 104区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 104 >> /data/logs/gjypaf_log/30minutes104 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 104 > /data/logs/gjypaf_log/Sync104 2>&1
+
+#gjypaf 105区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 105 >> /data/logs/gjypaf_log/30minutes105 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 105 > /data/logs/gjypaf_log/Sync105 2>&1
+
+#gjypaf 106区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 106 >> /data/logs/gjypaf_log/30minutes106 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 106 > /data/logs/gjypaf_log/Sync106 2>&1
+
+#gjypaf 107区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 107 >> /data/logs/gjypaf_log/30minutes107 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 107 > /data/logs/gjypaf_log/Sync107 2>&1
+
+#gjypaf 108区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 108 >> /data/logs/gjypaf_log/30minutes108 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 108 > /data/logs/gjypaf_log/Sync108 2>&1
+
+#gjypaf 109区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 109 >> /data/logs/gjypaf_log/30minutes109 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 109 > /data/logs/gjypaf_log/Sync109 2>&1
+
+#gjypaf 110区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 110 >> /data/logs/gjypaf_log/30minutes110 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 110 > /data/logs/gjypaf_log/Sync110 2>&1
+
+#gjypaf 111区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 111 >> /data/logs/gjypaf_log/30minutes111 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 111 > /data/logs/gjypaf_log/Sync111 2>&1
+
+#gjypaf 112区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 112 >> /data/logs/gjypaf_log/30minutes112 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 112 > /data/logs/gjypaf_log/Sync112 2>&1
+
+#gjypaf 113区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 113 >> /data/logs/gjypaf_log/30minutes113 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 113 > /data/logs/gjypaf_log/Sync113 2>&1
+
+#gjypaf 114区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 114 >> /data/logs/gjypaf_log/30minutes114 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 114 > /data/logs/gjypaf_log/Sync114 2>&1
+
+#gjypaf 115区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 115 >> /data/logs/gjypaf_log/30minutes115 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 115 > /data/logs/gjypaf_log/Sync115 2>&1
+
+#gjypaf 116区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 116 >> /data/logs/gjypaf_log/30minutes116 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 116 > /data/logs/gjypaf_log/Sync116 2>&1
+
+#gjypaf 117区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 117 >> /data/logs/gjypaf_log/30minutes117 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 117 > /data/logs/gjypaf_log/Sync117 2>&1
+
+#gjypaf 118区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 118 >> /data/logs/gjypaf_log/30minutes118 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 118 > /data/logs/gjypaf_log/Sync118 2>&1
+
+#gjypaf 119区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 119 >> /data/logs/gjypaf_log/30minutes119 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 119 > /data/logs/gjypaf_log/Sync119 2>&1
+
+#gjypaf 120区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 120 >> /data/logs/gjypaf_log/30minutes120 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 120 > /data/logs/gjypaf_log/Sync120 2>&1
+
+#gjypaf 121区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 121 >> /data/logs/gjypaf_log/30minutes121 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 121 > /data/logs/gjypaf_log/Sync121 2>&1
+
+#gjypaf 122区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 122 >> /data/logs/gjypaf_log/30minutes122 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 122 > /data/logs/gjypaf_log/Sync122 2>&1
+
+#gjypaf 123区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 123 >> /data/logs/gjypaf_log/30minutes123 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 123 > /data/logs/gjypaf_log/Sync123 2>&1
+
+#gjypaf 124区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 124 >> /data/logs/gjypaf_log/30minutes124 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 124 > /data/logs/gjypaf_log/Sync124 2>&1
+
+#gjypaf 125区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 125 >> /data/logs/gjypaf_log/30minutes125 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 125 > /data/logs/gjypaf_log/Sync125 2>&1
+
+#gjypaf 126区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 126 >> /data/logs/gjypaf_log/30minutes126 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 126 > /data/logs/gjypaf_log/Sync126 2>&1
+
+#gjypaf 127区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 127 >> /data/logs/gjypaf_log/30minutes127 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 127 > /data/logs/gjypaf_log/Sync127 2>&1
+
+#gjypaf 128区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 128 >> /data/logs/gjypaf_log/30minutes128 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 128 > /data/logs/gjypaf_log/Sync128 2>&1
+
+#gjypaf 129区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 129 >> /data/logs/gjypaf_log/30minutes129 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 129 > /data/logs/gjypaf_log/Sync129 2>&1
+
+#gjypaf 130区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/30minutes.php 130 >> /data/logs/gjypaf_log/30minutes130 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjypaf/s1_gjypaf/crontab/Sync.php 130 > /data/logs/gjypaf_log/Sync130 2>&1
+
+//------------end-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+#大唐 应用宝-dtqmgdtgyyb
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgyyb/s1_dtqmgdtgyyb/crontab/cfg_houtai.php > /data/logs/dtqmgdtgyyb_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgyyb/s1_dtqmgdtgyyb/crontab/delete.php > /data/logs/dtqmgdtgyyb_log/delete 2>&1
+
+#大唐 应用宝-dtqmgdtgyyb 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgyyb/s1_dtqmgdtgyyb/crontab/30minutes.php 1 >> /data/logs/dtqmgdtgyyb_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgyyb/s1_dtqmgdtgyyb/crontab/flow.php 1 > /data/logs/dtqmgdtgyyb_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmgdtgyyb/s1_dtqmgdtgyyb/crontab/Sync.php 1 > /data/logs/dtqmgdtgyyb_log/Sync1 2>&1

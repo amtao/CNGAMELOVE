@@ -1,0 +1,49 @@
+平台缩写：qiwan
+1、登录接口 loginAccount
+由于平台不提供验证登录接口，只需要传openid过来，不为空值即可
+
+2、订单签名接口：
+接口地址：即支付回调地址
+请求方式：get 或 post，
+请求参数：参考 http://wiki.qiwanw.com/doku.php?id=%E5%A5%87%E7%8E%A9:sdk%E5%AF%B9%E6%8E%A5%E6%96%87%E6%A1%A3-%E6%9C%8D%E5%8A%A1%E7%AB%AF
+orderid         游戏内订单号;
+productname     商品标题;
+money           金额,单位元；
+openid          用户平台唯一标识,即登录接口返回的num1字段
+serverid        区服id;
+servername      区服名称；
+uid             玩家游戏内角色id；
+rolename        玩家角色名称；
+biaoshi         固定值1;
+timestamp       客户端下单的时间戳值，秒为单位
+ext             客户端下单的透传的数据
+model           可选，支付模式，默认为2。1：登录+支付；2：支付
+（请注意如果model模式不同，客户端的sdkuid\cpuid\cpusername值应该做调整）
+
+响应结果：格式JSON
+errorCode : 处理结果，0：成功，1：失败
+data ： 成功时值为订单签名(md5)值
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+例子：
+叫我一品官: http://jwdgr.zhisnet.cn/pay/qiwanjwypg_callback.php
+request: 
+
+	POST /pay/qiwanjwypg_callback.php HTTP/1.1
+	Accept: */*
+	Accept-Language: zh-cn
+	host: http://jwdgr.zhisnet.cn
+	
+	Content-Type: application/x-www-form-urlencoded
+	Content-Length: 12
+	Connection:close
+	orderid=14546_999&money=6.......
+	
+response:
+成功：
+{"errorCode":0,"data":"859c213cc1e873859c213cc1e8af"}
+失败：
+{"errorCode":1,"data":"createOrder error"}
+
+
+
+

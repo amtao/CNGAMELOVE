@@ -1,0 +1,74 @@
+
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vs
+      frag: fs
+      blendState:
+        targets:
+        - blend: true
+      rasterizerState:
+        cullMode: none
+      properties:
+        texture: { value: white }
+        time: { value: 0.0 }
+        scolor: { value: [1,1,1,1] }
+        width: { value: 0.08 }
+        strength: { value: 0.005 }
+        offsett: { value: 0.08 }
+}%
+
+CCProgram vs %{
+
+precision highp float;
+
+#include <cc-global>
+
+in vec3 a_position;
+
+in mediump vec2 a_uv0;
+out mediump vec2 v_uv0;
+
+
+void main () {
+  gl_Position = cc_matViewProj * vec4(a_position, 1);
+  v_uv0 = a_uv0;
+}
+
+}%
+
+CCProgram fs %{
+
+precision highp float;
+
+#include <texture>
+
+uniform sampler2D texture;
+in mediump vec2 v_uv0;
+
+uniform FragConstants {
+  vec4 scolor;
+  float width;
+  float strength;
+  float offsett;
+  float time;
+};
+
+void main () {
+  //vec4 color = scolor;
+
+  //CCTexture(texture, v_uv0, color);
+  vec4 color = scolor * texture2D(texture, v_uv0).rgba;
+  float start = tan(time/1.414);
+  if(v_uv0.x < (start - offsett * v_uv0.y) &&  v_uv0.x > (start - offsett * v_uv0.y - width))
+  {
+    vec3 improve = strength * vec3(255, 255, 255);
+    vec3 result = improve * vec3( color.r, color.g, color.b);
+    gl_FragColor = vec4(result, color.a);
+
+  }else{
+    gl_FragColor = color;
+  }
+}
+
+}%

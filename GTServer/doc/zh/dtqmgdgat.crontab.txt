@@ -1,0 +1,7 @@
+#大唐 港澳台-dtqmggat
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmggat/s1_dtqmggat/crontab/cfg_houtai.php > /data/logs/dtqmggat_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/dtqmggat/s1_dtqmggat/crontab/delete.php > /data/logs/dtqmggat_log/delete 2>&1
+
+#大唐 港澳台-dtqmggat 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/dtqmggat/s1_dtqmggat/crontab/30minutes.php 1 >> /data/logs/dtqmggat_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/dtqmggat/s1_dtqmggat/crontab/Sync.php 1 > /data/logs/dtqmggat_log/Sync1 2>&1

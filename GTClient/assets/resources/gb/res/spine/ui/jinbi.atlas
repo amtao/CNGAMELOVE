@@ -1,0 +1,34 @@
+
+jinbi.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/10
+  rotate: false
+  xy: 69, 39
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+images/ce1
+  rotate: true
+  xy: 2, 2
+  size: 9, 43
+  orig: 9, 43
+  offset: 0, 0
+  index: -1
+images/ce2
+  rotate: false
+  xy: 46, 13
+  size: 21, 43
+  orig: 21, 43
+  offset: 0, 0
+  index: -1
+images/zheng
+  rotate: false
+  xy: 2, 13
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1

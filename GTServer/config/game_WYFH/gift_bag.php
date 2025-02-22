@@ -1,0 +1,735 @@
+<?php
+//直购礼包
+return array (
+  1001 => 
+  array (
+    'id' => 1001,
+    'icon' => 1210,
+    'name' => '成长助力礼包',
+    'type' => 1,
+    'present' => 0.99,
+    'prime' => 5.0,
+    'diamondpresent' => 60,
+    'diamondprime' => 300,
+    'grade' => 3,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 6,
+    'dollar' => 6,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.1',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:01',
+    'endTime' => 46065,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 60,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 897,
+        'count' => 20,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 6000,
+        'count' => 1,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 1,
+    'set' => 1,
+    'exp' => 60,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 11,
+  ),
+  1002 => 
+  array (
+    'id' => 1002,
+    'icon' => 1210,
+    'name' => '卡牌礼包',
+    'type' => 1,
+    'present' => 4.99,
+    'prime' => 25.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.5',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46067,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 300,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5999,
+        'count' => 1,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 2,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 2,
+    'set' => 4,
+    'exp' => 300,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 15,
+  ),
+  1004 => 
+  array (
+    'id' => 1004,
+    'icon' => 1210,
+    'name' => '徒弟成长礼包',
+    'type' => 1,
+    'present' => 1.99,
+    'prime' => 6.25,
+    'diamondpresent' => 64,
+    'diamondprime' => 304,
+    'grade' => 28,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 25,
+    'dollar' => 25,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.2',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:05',
+    'endTime' => 46069,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 120,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 73,
+        'count' => 2,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 77,
+        'count' => 5,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 4,
+    'set' => 1,
+    'exp' => 120,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 12,
+  ),
+  1005 => 
+  array (
+    'id' => 1005,
+    'icon' => 1210,
+    'name' => '成长助力礼包',
+    'type' => 1,
+    'present' => 1.99,
+    'prime' => 8.0,
+    'diamondpresent' => 65,
+    'diamondprime' => 305,
+    'grade' => 3,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 6,
+    'dollar' => 6,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.2',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:06',
+    'endTime' => 46070,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 120,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 897,
+        'count' => 40,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 6000,
+        'count' => 1,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 5,
+    'set' => 1,
+    'exp' => 120,
+    'duration' => 21600,
+    'pre_gift' => 
+    array (
+      0 => 1001,
+    ),
+    'vip' => 0,
+    'dc' => 12,
+  ),
+  1006 => 
+  array (
+    'id' => 1006,
+    'icon' => 1210,
+    'name' => '心动许愿礼包',
+    'type' => 1,
+    'present' => 9.99,
+    'prime' => 31.25,
+    'diamondpresent' => 67,
+    'diamondprime' => 307,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.9',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:08',
+    'endTime' => 46072,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 680,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5998,
+        'count' => 3,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 6000,
+        'count' => 2,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 7,
+    'set' => 10,
+    'exp' => 680,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 19,
+  ),
+  1007 => 
+  array (
+    'id' => 1007,
+    'icon' => 1210,
+    'name' => '奇珍寻访礼包',
+    'type' => 1,
+    'present' => 9.99,
+    'prime' => 40.0,
+    'diamondpresent' => 68,
+    'diamondprime' => 308,
+    'grade' => 25,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 25,
+    'dollar' => 25,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.9',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:09',
+    'endTime' => 46073,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 680,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 1001,
+        'count' => 60,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 80000,
+        'count' => 2,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 8,
+    'set' => 10,
+    'exp' => 680,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 19,
+  ),
+  1011 => 
+  array (
+    'id' => 1011,
+    'icon' => 1210,
+    'name' => '卡牌礼包',
+    'type' => 1,
+    'present' => 9.99,
+    'prime' => 50.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.9',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 680,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5999,
+        'count' => 2,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 4,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 2,
+    'set' => 4,
+    'exp' => 680,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 2,
+    'dc' => 19,
+  ),
+  1012 => 
+  array (
+    'id' => 1012,
+    'icon' => 1210,
+    'name' => '卡牌礼包',
+    'type' => 1,
+    'present' => 19.99,
+    'prime' => 100.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.10',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 1280,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5999,
+        'count' => 4,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 8,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 2,
+    'set' => 4,
+    'exp' => 1280,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 4,
+    'dc' => 20,
+  ),
+  1013 => 
+  array (
+    'id' => 1013,
+    'icon' => 1210,
+    'name' => '卡牌礼包',
+    'type' => 1,
+    'present' => 49.99,
+    'prime' => 200.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.12',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 3280,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5999,
+        'count' => 8,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 16,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 2,
+    'set' => 4,
+    'exp' => 3280,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 6,
+    'dc' => 22,
+  ),
+  1014 => 
+  array (
+    'id' => 1014,
+    'icon' => 1210,
+    'name' => '卡牌礼包',
+    'type' => 1,
+    'present' => 99.99,
+    'prime' => 400.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.13',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 6480,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 5999,
+        'count' => 16,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 24,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 2,
+    'set' => 4,
+    'exp' => 6480,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 8,
+    'dc' => 23,
+  ),
+  1019 => 
+  array (
+    'id' => 1019,
+    'icon' => 1210,
+    'name' => '主线助力礼包',
+    'type' => 1,
+    'present' => 0.99,
+    'prime' => 5.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.1',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 60,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 898,
+        'count' => 5,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 5996,
+        'count' => 3,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 6,
+    'set' => 350,
+    'exp' => 60,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 11,
+  ),
+  1020 => 
+  array (
+    'id' => 1020,
+    'icon' => 1210,
+    'name' => '主线助力礼包',
+    'type' => 1,
+    'present' => 1.99,
+    'prime' => 10.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.2',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 120,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 899,
+        'count' => 4,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 6000,
+        'count' => 2,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 6,
+    'set' => 366,
+    'exp' => 120,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 12,
+  ),
+  1021 => 
+  array (
+    'id' => 1021,
+    'icon' => 1210,
+    'name' => '主线助力礼包',
+    'type' => 1,
+    'present' => 0.99,
+    'prime' => 5.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.1',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 60,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 901,
+        'count' => 3,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 902,
+        'count' => 1,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 6,
+    'set' => 530,
+    'exp' => 60,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 11,
+  ),
+  1022 => 
+  array (
+    'id' => 1022,
+    'icon' => 1210,
+    'name' => '主线助力礼包',
+    'type' => 1,
+    'present' => 1.99,
+    'prime' => 8.0,
+    'diamondpresent' => 62,
+    'diamondprime' => 302,
+    'grade' => 12,
+    'sign' => '$',
+    'symbol' => '¥',
+    'krw' => 18,
+    'dollar' => 18,
+    'cpId' => 'com.tomatoganmes.hlca.and.bundle.2',
+    'limit' => 1,
+    'islimit' => 1,
+    'startDay' => 0,
+    'endDay' => 0,
+    'startTime' => '2016-02-12 00:00:03',
+    'endTime' => 46062,
+    'items' => 
+    array (
+      0 => 
+      array (
+        'kind' => 1,
+        'id' => 1,
+        'count' => 120,
+      ),
+      1 => 
+      array (
+        'kind' => 1,
+        'id' => 155,
+        'count' => 3,
+      ),
+      2 => 
+      array (
+        'kind' => 1,
+        'id' => 77,
+        'count' => 20,
+      ),
+    ),
+    'actid' => NULL,
+    'condition' => 6,
+    'set' => 723,
+    'exp' => 120,
+    'duration' => 21600,
+    'pre_gift' => NULL,
+    'vip' => 0,
+    'dc' => 12,
+  ),
+);

@@ -1,0 +1,40 @@
+成就领奖
+api:
+    chengjiu
+method:
+    rwd
+param:
+    id      成就id(cj_info)
+return:
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 1,
+    				"id": 77,
+    				"count": 1
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558320049
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 77,
+    				"count": 10138
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 1,
+    				"num": 37,
+    				"rwd": 18   (已领取的奖励)cj_info中key
+    			}]
+    		}
+    	}
+    }

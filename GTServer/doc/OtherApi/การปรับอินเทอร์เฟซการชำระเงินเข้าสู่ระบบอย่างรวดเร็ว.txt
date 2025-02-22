@@ -1,0 +1,9 @@
+登录接口 loginAccount 传递以下参数：
+openid : 用户ID，SDK返回的唯一ID
+openkey : 用户验证token
+parm1 : 渠道ID,通过“public int getChannelType()”获取
+
+
+
+
+

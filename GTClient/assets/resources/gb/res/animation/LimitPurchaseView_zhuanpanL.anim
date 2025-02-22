@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "LimitPurchaseView_zhuanpan",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.75,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "panzi1": {
+        "comps": {},
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                0,
+                0
+              ],
+              "curve": "quartOut"
+            },
+            {
+              "frame": 0.25,
+              "value": [
+                15.265,
+                0,
+                0
+              ],
+              "curve": "cubicIn"
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": [
+                -718.992,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "panzi2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                693.917,
+                0,
+                0
+              ],
+              "curve": "cubicInOut"
+            },
+            {
+              "frame": 0.75,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

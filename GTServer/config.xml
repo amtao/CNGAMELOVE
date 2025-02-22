@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Eagle>
+<Global>
+    <superserver port="30000">127.0.0.1</superserver>
+    <configdir>config/</configdir>
+    <sndaconfigdir>sndaconfig/</sndaconfigdir>
+	<bfconfigdir>bfconfig/</bfconfigdir>
+    <broadcastsize>500</broadcastsize>
+    <ifname>eth1</ifname>
+    <sceneinfofile>scenesinfo.xml</sceneinfofile>
+    <gm_mode>true</gm_mode>
+    <validtime>true</validtime>
+	<use_nameserver>true</use_nameserver>
+	<ischangezone>false</ischangezone>
+	<zonelimit>false</zonelimit>
+	<iscountryzone>false</iscountryzone>
+    <jingfen_tag>hw</jingfen_tag>
+    <JingFenSystemKey_zh>628s36yk8sg8ak0</JingFenSystemKey_zh>
+    <JingFenSystemKey>preuhy21ugrs7u9</JingFenSystemKey>
+    <allgm>true</allgm>
+</Global>
+<InfoServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <port>8001</port>
+    <logfilename>/home/dev/log/infoserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_login</mysql>
+</InfoServer>
+<NameServer>
+	<threadPoolCapacity>20</threadPoolCapacity>
+	<port>8002</port>
+	<logfilename>/home/dev/log/nameserver.log</logfilename>
+	<mysql>mysql://root:111111@127.0.0.1:3306/rysyr_login</mysql>
+</NameServer>
+<DumpServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <port>6001</port>
+    <logfilename>/home/dev/log/dumpserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_login</mysql>
+    <SendMode>0</SendMode>
+    <FileMask>1,2,3,4</FileMask>
+    <verifyversion>false</verifyversion>
+</DumpServer>
+<BillServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+	<port>8003</port>
+    <logfilename>/home/dev/log/billserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_login</mysql>
+	<googlePayPublicKey>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwKLDUOP3QyGTZrn1YpbZFZy8QTV2JmQQ8Rsn4QbvriGcj9D8N0N+LgMDSwNTvdPy/YkXx2OzA5eEiDUpucSuTh6UJIv6GxFp24/bX2k8UMNOrixXI1bDhxGv9BsivZ797QYyc4q0l8lu5bo2P8a0P9jcFOXOpyekkt9KiIi7F9VWk+bS/gVdLbun7hyN/shT5WRYaaiY/0KyyaxjsF3HSjtMUfUm2Fzt0k+izVPg/SpMpEjVFqsH5AWBj4VO69guFdHfulCg7/v6jjqcdksJCcaEeBjGKCTPqdB1BJmgbjSPDksjQFH20QNXmkRBgAsw9ngUgPPeQN86zq90vvb1ZQIDAQAB</googlePayPublicKey>
+</BillServer>
+<SceneServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/sceneserver.log</logfilename>
+	<goldlogname>/home/dev/log/gold.log</goldlogname>
+	<itemlogname>/home/dev/log/item.log</itemlogname>
+    <objectlogfilename>/home/dev/log/object.log</objectlogfilename>
+    <luaerrlogname>/home/dev/log/luaerr.log</luaerrlogname>
+    <billlogname>/home/dev/log/bill.log</billlogname>
+    <gmlogfilename>/home/dev/log/gm.log</gmlogfilename>
+    <scriptlogfilename>/home/dev/log/scenescript.log</scriptlogfilename>
+    <mapfileDirect>./map/</mapfileDirect>
+    <savetimer>300</savetimer>
+    <SpecialtyIdList>SpecialObjectIDList.xml,SpecialtySkill.xml</SpecialtyIdList>
+    <tbldir>./TblResource</tbldir>
+    <OpenPerformance>true</OpenPerformance>
+    <PerformanceTimeout>100</PerformanceTimeout>
+    <scriptdir>luascript/scriptscene/</scriptdir>
+</SceneServer>
+<RecordServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/recordserver.log</logfilename>
+	<goldlogfile>/home/dev/log/gold.log</goldlogfile>
+	<stocklogfile>/home/dev/log/stock.log</stocklogfile>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+</RecordServer>
+<SessionServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/sessionserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+    <scriptlogfilename>/home/dev/log/sessionscript.log</scriptlogfilename>
+	<countuserlogfilename>/home/dev/log/countuser.log</countuserlogfilename>
+    <tbldir>./TblResource</tbldir>
+</SessionServer>
+<GatewayServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/gatewayserver.log</logfilename>
+	<scriptlogfilename>/home/dev/log/gatewayscript.log</scriptlogfilename>
+    <dyncodebindir>./dynCodeBin/</dyncodebindir>
+    <authfiledir>../third_party_lib/snda/</authfiledir>
+    <AccountCmdTimer>1</AccountCmdTimer>
+    <AccountCmdType>0</AccountCmdType>
+    <AccountPrintNum>10</AccountPrintNum>
+    <AccountIsOpen>0</AccountIsOpen>
+    <usegpk>true</usegpk>
+    <verifyversion>true</verifyversion>
+</GatewayServer>
+<LoginServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/loginserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_login</mysql>
+    <InfoServerIP>10.20.20.121</InfoServerIP>
+    <InfoServerPort>8001</InfoServerPort>
+    <verifyversion>false</verifyversion>
+    <PlatformDebugPath>NULL</PlatformDebugPath>
+    <xianyu_url>http://sdk.xianyugame.com/sdkserver/vertifyxyidservice</xianyu_url>
+    <!--<google_proxy>127.0.0.1:1080</google_proxy>-->
+    <google_url>https://www.googleapis.com/oauth2/v3/tokeninfo</google_url>
+    <access_key>B7552cl7zp_B2v5A1WxVAveF</access_key>
+    <secret_key_16>DSbRg2VcIp0z3ifx</secret_key_16>
+    <secret_key_32>GmUu6rW896ZYqVZFXNBjvBb7dEMcTyNl</secret_key_32>
+    <secret_key_24>BB6rY932LBE29mXD8q4O0ti1</secret_key_24>
+    <gameid>3c788de7cc4e398e72835104776c4114</gameid>
+    <secret>e3f0cc1a3900a8057b837d05745096a5</secret>
+</LoginServer>
+<SuperServer>
+    <threadPoolCapacity>20</threadPoolCapacity>
+    <logfilename>/home/dev/log/superserver.log</logfilename>
+    <mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+    <InfoServerIP>10.20.20.121</InfoServerIP>
+    <InfoServerPort>8001</InfoServerPort>
+    <NameServerIP>10.20.20.121</NameServerIP>
+    <NameServerPort>8002</NameServerPort>
+    <BillServerIP>10.20.20.121</BillServerIP>
+    <BillServerPort>8003</BillServerPort>
+    <SupportServerIP>10.20.20.121</SupportServerIP>
+    <SupportServerPort>8004</SupportServerPort>
+</SuperServer>
+<JournalServer>
+	<threadPoolCapacity>20</threadPoolCapacity>
+	<logfilename>/home/dev/log/journalserver.log</logfilename>
+	<tbldir>./TblResource</tbldir>
+	<OpenPerformance>true</OpenPerformance>
+	<PerformanceTimeout>100</PerformanceTimeout>
+	<mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+</JournalServer>
+   
+<AuctionServer>
+	<threadPoolCapacity>20</threadPoolCapacity>
+	<logfilename>/home/dev/log/auctionserver.log</logfilename>
+	<tbldir>./TblResource</tbldir>
+	<OpenPerformance>true</OpenPerformance> 
+	<PerformanceTimeout>100</PerformanceTimeout>
+	<mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+</AuctionServer>
+
+<FightServer>
+	<threadPoolCapacity>20</threadPoolCapacity>
+        <pkthreadPoolCapacity>20</pkthreadPoolCapacity>
+	<logfilename>/home/dev/log/fightserver.log</logfilename>
+	<tbldir>./TblResource</tbldir>
+	<OpenPerformance>true</OpenPerformance> 
+	<PerformanceTimeout>100</PerformanceTimeout>
+	<mysql>mysql://root:111111@127.0.0.1:3306/rysyr_game</mysql>
+</FightServer>
+
+</Eagle>

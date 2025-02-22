@@ -1,0 +1,148 @@
+<?php
+//政务表
+return array (
+  1 => 
+  array (
+    'id' => 1,
+    'img' => 1,
+    'item' => 2,
+    'prob_1000' => 95,
+    'cond' => 2,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  2 => 
+  array (
+    'id' => 2,
+    'img' => 1,
+    'item' => 2,
+    'prob_1000' => 95,
+    'cond' => 2,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  3 => 
+  array (
+    'id' => 3,
+    'img' => 1,
+    'item' => 2,
+    'prob_1000' => 95,
+    'cond' => 2,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  4 => 
+  array (
+    'id' => 4,
+    'img' => 2,
+    'item' => 3,
+    'prob_1000' => 95,
+    'cond' => 3,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  5 => 
+  array (
+    'id' => 5,
+    'img' => 2,
+    'item' => 3,
+    'prob_1000' => 95,
+    'cond' => 3,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  6 => 
+  array (
+    'id' => 6,
+    'img' => 2,
+    'item' => 3,
+    'prob_1000' => 95,
+    'cond' => 3,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  7 => 
+  array (
+    'id' => 7,
+    'img' => 3,
+    'item' => 4,
+    'prob_1000' => 95,
+    'cond' => 4,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  8 => 
+  array (
+    'id' => 8,
+    'img' => 3,
+    'item' => 4,
+    'prob_1000' => 95,
+    'cond' => 4,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  9 => 
+  array (
+    'id' => 9,
+    'img' => 3,
+    'item' => 4,
+    'prob_1000' => 95,
+    'cond' => 4,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  10 => 
+  array (
+    'id' => 10,
+    'img' => 4,
+    'item' => 51,
+    'prob_1000' => 80,
+    'cond' => 1,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  11 => 
+  array (
+    'id' => 11,
+    'img' => 4,
+    'item' => 52,
+    'prob_1000' => 50,
+    'cond' => 1,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+  12 => 
+  array (
+    'id' => 12,
+    'img' => 4,
+    'item' => 53,
+    'prob_1000' => 15,
+    'cond' => 1,
+    'task' => 0,
+    'shuxing' => 0,
+    'para' => 0,
+    'prob2_1000' => 2000,
+  ),
+);

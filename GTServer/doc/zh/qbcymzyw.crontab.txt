@@ -1,0 +1,21 @@
+#header-qbcymzyw
+* * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/cfg_houtai.php > /data/logs/qbcymzyw_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/delete.php > /data/logs/qbcymzyw_log/delete 2>&1
+
+#qbcymzyw 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/30minutes.php 1 >> /data/logs/qbcymzyw_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/Sync.php 1 > /data/logs/qbcymzyw_log/Sync1 2>&1
+
+#qbcymzyw 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/30minutes.php 2 >> /data/logs/qbcymzyw_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/Sync.php 2 > /data/logs/qbcymzyw_log/Sync2 2>&1
+
+#qbcymzyw 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/30minutes.php 3 >> /data/logs/qbcymzyw_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/qbcymzyw/s1_qbcymzyw/crontab/Sync.php 3 > /data/logs/qbcymzyw_log/Sync3 2>&1
+
+//------------end-----------------
+
+
+
+

@@ -1,0 +1,518 @@
+登录接口新增参数
+对应功能都有这个参数
+"video": {
+			"list": [{
+				"id": 7,
+				"dailyNum": 1,
+				"roundNum": 0,
+				"roundVideoNum": 0,
+				"rwd": [],
+				"status": 0
+			}]
+		},
+
+
+
+
+视频接口
+user
+    videoReward
+参数
+    id  见配置表id
+
+id:1    每日签到
+返回
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 20000
+    			}, {
+    				"kind": 1,
+    				"id": 122,
+    				"count": 1
+    			}, {
+    				"kind": 1,
+    				"id": 121,
+    				"count": 1
+    			}]
+    		},
+    		"video": {
+    			"list": [{
+    			    "id":1 // id
+    				"dailyNum": 1,  // 今日视频次数
+    				"roundNum": 0,  // 此回合次数(配置参数group不为0用到)
+    				"roundVideoNum": 0, // 此回合视频次数(配置参数group不为0用到)
+    				"rwd": [],  // 奖励(id为 2 3 4 5 6 7用到)
+    				"status": 0 // 状态(id为2 3 4 5 6用到)
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560800647
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"coin": 9830873536
+    			}
+    		},
+    		"item": {
+    			"itemList": [{
+    				"id": 122,
+    				"count": 100000019
+    			}, {
+    				"id": 121,
+    				"count": 100000012
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 20
+    			}]
+    		}
+    	}
+    }
+
+
+id:2    普通祈福
+返回
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 3,
+    				"count": 134164
+    			}]
+    		},
+    		"video": {
+    			"list": [{
+    				"id": 2,
+    				"dailyNum": 1,
+    				"roundNum": 4,
+    				"roundVideoNum": 1,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 1,
+    				"dailyNum": 3,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 3,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": {
+    					"kind": 1,
+    					"itemId": 2,
+    					"count": 656780
+    				},
+    				"status": 1
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560801869
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"food": 10016286444
+    			}
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 25
+    			}]
+    		}
+    	}
+    }
+
+id:3    祈福五倍大奖
+返回  同上
+
+
+
+
+id:4    宫殿修整
+返回
+    {
+    	"s": 1,
+    	"a": {
+    		"club": {
+    			"clubInfo": {
+    				"id": "10018",
+    				"name": "21312",
+    				"level": 1,
+    				"exp": 20,
+    				"fund": 20,
+    				"qq": "0",
+    				"laoma": "",
+    				"outmsg": "CLUB_WELCOME",
+    				"notice": "CLUB_WELCOME",
+    				"members": [{
+    					"id": 1001727,
+    					"name": "12345676",
+    					"post": 1,
+    					"sex": 2,
+    					"job": 3,
+    					"shili": 1226969,
+    					"level": 25,
+    					"gx": 20,
+    					"allGx": 10,
+    					"chenghao": 0,
+    					"jianshe": 1,
+    					"loginTime": 1560801959,
+    					"headavatar": {
+    						"head": 10003,
+    						"blank": 2
+    					},
+    					"clothe": {
+    						"body": 0,
+    						"head": 0,
+    						"ear": 0,
+    						"background": 0,
+    						"effect": 0,
+    						"animal": 0
+    					}
+    				}],
+    				"isJoin": "1",
+    				"mzUID": 1001727
+    			},
+    			"memberInfo": {
+    				"cid": 10018,
+    				"allgx": 20,
+    				"leftgx": 30,
+    				"dcid": 1,
+    				"post": 1,
+    				"ltime": {
+    					"next": 1560888346,
+    					"label": "clubInTime"
+    				}
+    			}
+    		},
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 30,
+    				"count": 10
+    			}, {
+    				"kind": 2,
+    				"id": 31,
+    				"count": 10
+    			}, {
+    				"kind": 2,
+    				"id": 32,
+    				"count": 10
+    			}]
+    		},
+    		"video": {
+    			"list": [{
+    				"id": 2,
+    				"dailyNum": 1,
+    				"roundNum": 4,
+    				"roundVideoNum": 1,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 1,
+    				"dailyNum": 3,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 3,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": {
+    					"kind": 1,
+    					"itemId": 2,
+    					"count": 656780
+    				},
+    				"status": 1
+    			}, {
+    				"id": 4,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560802006
+    			}
+    		}
+    	},
+    	"u": {
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 26
+    			}]
+    		}
+    	}
+    }
+
+
+id:5    御膳房秒cd
+返回
+    {
+    	"s": 1,
+    	"a": {
+    		"video": {
+    			"list": [{
+    				"id": 2,
+    				"dailyNum": 1,
+    				"roundNum": 4,
+    				"roundVideoNum": 1,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 1,
+    				"dailyNum": 3,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 3,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": {
+    					"kind": 1,
+    					"itemId": 2,
+    					"count": 656780
+    				},
+    				"status": 1
+    			}, {
+    				"id": 4,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}, {
+    				"id": 5,
+    				"dailyNum": 1,
+    				"roundNum": 1,
+    				"roundVideoNum": 1,
+    				"rwd": [],
+    				"status": 0
+    			}]
+    		},
+    		"school": {
+    			"list": [{
+    				"id": 1,
+    				"hid": 43,
+    				"cd": {
+    					"next": 1560803659,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 2,
+    				"hid": 36,
+    				"cd": {
+    					"next": 1560812927,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 5,
+    				"hid": 33,
+    				"cd": {
+    					"next": 1560812935,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 6,
+    				"hid": 39,
+    				"cd": {
+    					"next": 1560812956,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 3,
+    				"hid": 3,
+    				"cd": {
+    					"next": 1560812891,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 4,
+    				"hid": 37,
+    				"cd": {
+    					"next": 1560812984,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 7,
+    				"hid": 40,
+    				"cd": {
+    					"next": 1560812998,
+    					"label": "school"
+    				}
+    			}, {
+    				"id": 8,
+    				"hid": 42,
+    				"cd": {
+    					"next": 0,
+    					"label": "school"
+    				}
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560802289
+    			}
+    		}
+    	},
+    	"u": {
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 27
+    			}]
+    		}
+    	}
+    }
+
+
+id:6
+返回  御膳房秒cd
+    {
+    	"s": 1,
+    	"a": {
+    		"video": {
+    			"list": [{
+    				"id": 6,
+    				"dailyNum": 1,
+    				"roundNum": 1,
+    				"roundVideoNum": 1,
+    				"rwd": [],
+    				"status": 0
+    			}]
+    		},
+    		"kitchen": {
+    			"list": [{
+    				"id": 1,
+    				"wid": 1,
+    				"itemId": 1,
+    				"cd": {
+    					"next": 1560825035,
+    					"label": "kitchen"
+    				}
+    			}, {
+    				"id": 2,
+    				"wid": 3,
+    				"itemId": 1,
+    				"cd": {
+    					"next": 1560825044,
+    					"label": "kitchen"
+    				}
+    			}, {
+    				"id": 3,
+    				"wid": 2,
+    				"itemId": 2,
+    				"cd": {
+    					"next": 0,
+    					"label": "kitchen"
+    				}
+    			}, {
+    				"id": 4,
+    				"wid": 0,
+    				"itemId": 0,
+    				"cd": {
+    					"next": 0,
+    					"label": "kitchen"
+    				}
+    			}, {
+    				"id": 5,
+    				"wid": 0,
+    				"itemId": 0,
+    				"cd": {
+    					"next": 0,
+    					"label": "kitchen"
+    				}
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560823326
+    			}
+    		}
+    	},
+    	"u": {
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 6
+    			}]
+    		}
+    	}
+    }
+
+
+id:7    boss
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 1004
+    			}, {
+    				"kind": 2,
+    				"id": 5,
+    				"count": 5
+    			}]
+    		},
+    		"video": {
+    			"list": [{
+    				"id": 7,
+    				"dailyNum": 1,
+    				"roundNum": 0,
+    				"roundVideoNum": 0,
+    				"rwd": [],
+    				"status": 0
+    			}]
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1560824551
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"coin": 29850,
+    				"exp": 20
+    			}
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 23,
+    				"num": 3
+    			}]
+    		}
+    	}
+    }

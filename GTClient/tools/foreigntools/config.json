@@ -1,0 +1,30 @@
+{
+  "trunk_path": "/Users/panyou/.jenkins/workspace/HGGT/branches/gt_love/03_client/GTLove",
+  "android_path":"/Users/panyou/.jenkins/workspace/HGGT/branches/gt_love/08_proj/foreign",
+  "create_path": "/Applications/CocosCreator.app/Contents/MacOS/CocosCreator",
+  "tortoise_path": "C:\\Progra~1\\TortoiseSVN\\bin",
+  "webtest_path": "http://129.211.18.70:90/",
+  "sgp":{
+    "develop_path": "https://ymg-xm-qa.tomatogames.com/",
+    "online_path": "https://ymg-xm-gs.tomatogames.com/",
+    "ios_online_path": "https://gs-ts.gmykkicy.com/",
+    "cos_bucket_name_develop": "hkymg-test-1258096766",
+    "cos_region_develop": "ap-shanghai",
+    "cos_bucket_name_online": "hkymg-xinma-1258096766",
+    "cos_region_online": "ap-singapore"
+  },
+  "hk":{
+    "develop_path": "https://ymg-gt-qa.tomatogames.com/",
+    "online_path": "https://ymg-gt-gs.tomatogames.com/",
+    "ios_online_path": "https://ymgaudit.ewoage.com/",
+    "cos_bucket_name_develop": "hkymg-test-1258096766",
+    "cos_region_develop": "ap-shanghai",
+    "cos_bucket_name_online": "hkymg-taiwan-1258096766",
+    "cos_region_online": "ap-taipei"
+  },
+  "ios_cryptkey": "opv50fd30$^23fka",
+  "js_key": "cqs64yr-rb42-c30",
+
+  "cos_secret_id": "AKIDtZxJOCfwrUquucvC3dvwgL3g5C2cDzwh",
+  "cos_secret_key": "e1RaR2LO9dqXqsfANN5Vl0yjDPKyNcok"
+}

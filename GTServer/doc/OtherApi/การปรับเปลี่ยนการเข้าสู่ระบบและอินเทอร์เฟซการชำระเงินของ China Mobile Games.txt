@@ -1,0 +1,5 @@
+登录接口 loginAccount 传递以下参数：
+openid : userid,客户端登录回调中loginResult里面的数据
+openkey : timestamp,客户端登录回调中loginResult里面的数据
+parm1 : sign,客户端登录回调中loginResult里面的数据
+

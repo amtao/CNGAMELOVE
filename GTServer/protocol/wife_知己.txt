@@ -1,0 +1,2567 @@
+随机问候
+api
+    wife
+method
+    sjxo
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}]
+    		},
+    		"wife": {
+    			"hello": {
+    				"wifeid": 5,    知己id
+    				"exp": 46,      增加的经验值
+    				"love": 1,      增加的好感度
+    				"isgad": 0,
+    				"pro": 0,
+    				"type": 0
+    			},
+    			"jingLi": {         精力数据
+    				"next": 1558506885,
+    				"num": 9,
+    				"label": "jingli"
+    			}
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 22116,
+    				"e2": 18031,
+    				"e3": 19762,
+    				"e4": 19045
+    			}
+    		},
+    		"flower": {             御花园晨露数据
+    			"base": [{
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 7,
+    				"rwd": 1
+    			}, {
+    				"id": 18,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 15,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 9,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 7,
+    				"cur": 8,
+    				"rwd": 1
+    			}, {
+    				"id": 11,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 6,
+    				"cur": 16,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 78,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 4,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 133,
+    				"rwd": 0
+    			}],
+    			"protect": {
+    				"cur": 1,
+    				"ctime": 1558437780,
+    				"cd": [{
+    					"id": 1,
+    					"over": 1558441380
+    				}]
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558505418
+    			}
+    		}
+    	},
+    	"u": {
+    		"wife": {
+    			"wifeList": [{
+    				"id": "5",
+    				"love": 42,
+    				"flower": "40",
+    				"exp": 120,
+    				"skill": [{
+    					"id": 25,
+    					"level": 17,
+    					"exp": 51
+    				}, {
+    					"id": 26,
+    					"level": 16,
+    					"exp": 75
+    				}, {
+    					"id": 27,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 28,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 29,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 30,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": "1",
+    				"num": "0"
+    			}],
+    			"base": {
+    				"allLove": 260
+    			}
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 3,
+    				"num": 3
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 15,
+    				"num": 101,
+    				"rwd": 6
+    			}, {
+    				"id": 3,
+    				"num": 78954,
+    				"rwd": 8
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+随机出游
+api
+    wife
+method
+    sjcy
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"ep": {
+    				"e1": 1410,
+    				"e2": 810,
+    				"e3": 738,
+    				"e4": 897
+    			}
+    		},
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 3,
+    				"count": 10000
+    			}]
+    		},
+    		"wife": {
+    			"travel": {
+    				"type": 2,     0:物品 1:获得徒弟 2:资源    为1的时候数据格式
+    				"itemid": 3,                                "babyid" => 徒弟id
+    				"itemcount": 10000,                         "babysex" => 性别,
+    				"wifeid": 5
+    			},
+    			"jiaQi": {
+    				"next": 1558507607,
+    				"num": 6,
+    				"label": "jiaQi"
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 4,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 128,
+    				"rwd": 1
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 92,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 41,
+    				"rwd": 1
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558505815
+    			}
+    		}
+    	},
+    	"u": {
+    		"wife": {
+    			"wifeList": [{
+    				"id": 5,
+    				"love": 24,
+    				"flower": 40,
+    				"exp": 138,
+    				"skill": [{
+    					"id": 25,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 26,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 27,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 28,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 29,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 30,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}],
+    			"base": {
+    				"allLove": 96
+    			}
+    		},
+    		"user": {
+    			"user": {
+    				"food": 926632
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 3855,
+    				"rwd": 1
+    			}]
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": 18,
+    				"level": 20,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 37,
+    					"level": 1
+    				}, {
+    					"id": 13,
+    					"level": 1
+    				}, {
+    					"id": 18,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 1,
+    					"e2": 2,
+    					"e3": 8,
+    					"e4": 3
+    				},
+    				"zep": {
+    					"e1": 29,
+    					"e2": 58,
+    					"e3": 232,
+    					"e4": 87
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 4
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 29,
+    					"e2": 58,
+    					"e3": 232,
+    					"e4": 91,
+    					"e": 0
+    				}
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+出游
+api
+    wife
+method
+    xxoo
+param
+    id  知己id
+return
+    {
+    	"s": 1,
+    	"a": {                          消耗元宝公式  min((ceil(pow(好感度,0.585))*5)+10,3000);
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 2,
+    				"count": 10000
+    			}]
+    		},
+    		"wife": {
+    			"travel": {
+    				"type": 2,
+    				"itemid": 2,
+    				"itemcount": 10000,
+    				"wifeid": 1
+    			}
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 1410,
+    				"e2": 810,
+    				"e3": 738,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 92,
+    				"rwd": 0
+    			}, {
+    				"id": 4,
+    				"cur": 50,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 178,
+    				"rwd": 1
+    			}, {
+    				"id": 13,
+    				"cur": 46,
+    				"rwd": 1
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506212
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"cash": 52642,
+    				"cashbuy": 19260,
+    				"coin": 232166
+    			}
+    		},
+    		"wife": {
+    			"wifeList": [{
+    				"id": 1,
+    				"love": 33,
+    				"flower": 30,
+    				"exp": 444,
+    				"skill": [{
+    					"id": 1,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 2,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 3,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 4,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 5,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 6,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}],
+    			"base": {
+    				"allLove": 101
+    			}
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 201,
+    				"title": "\u9650\u65f6\u5143\u5b9d\u6d88\u8017",
+    				"pindex": 201,
+    				"type": 2,
+    				"sTime": 1545719151,
+    				"eTime": 1577807998,
+    				"showTime": 1577807998,
+    				"hid": 190121,
+    				"cd": {
+    					"next": 1577807998,
+    					"label": "huodong_201_ltime"
+    				},
+    				"news": 0
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 3855,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+一键问候
+api
+    wife
+method
+    yjxo
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 15,
+    				"count": 41
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 41
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 41
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 37
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 41
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 37
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 41
+    			}, {
+    				"kind": 2,
+    				"id": 15,
+    				"count": 46
+    			}]
+    		},
+    		"flower": {
+    			"chenlu": [{
+    				"type": 13,
+    				"id": 280061,
+    				"time": 1558517273,
+    				"chen": 50,
+    				"rwd": 0,
+    				"sUids": []
+    			}],
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 50,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 178,
+    				"rwd": 1
+    			}, {
+    				"id": 13,
+    				"cur": 8,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 601,
+    				"rwd": 0
+    			}],
+    			"protect": []
+    		},
+    		"wife": {
+    			"win": {
+    				"yjhello": [{
+    					"wifeid": 2,
+    					"exp": 41,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 3,
+    					"exp": 41,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 4,
+    					"exp": 46,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 3,
+    					"exp": 41,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 5,
+    					"exp": 46,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 5,
+    					"exp": 46,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 1,
+    					"exp": 37,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 3,
+    					"exp": 41,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 4,
+    					"exp": 46,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 1,
+    					"exp": 37,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 2,
+    					"exp": 41,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}, {
+    					"wifeid": 4,
+    					"exp": 46,
+    					"love": 1,
+    					"isgad": 0,
+    					"pro": 0,
+    					"type": 0
+    				}]
+    			},
+    			"jingLi": {
+    				"next": 1558507574,
+    				"num": 0,
+    				"label": "jingli"
+    			}
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 1410,
+    				"e2": 810,
+    				"e3": 738,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506473
+    			}
+    		}
+    	},
+    	"u": {
+    		"wife": {
+    			"wifeList": [{
+    				"id": 2,
+    				"love": 16,
+    				"flower": 35,
+    				"exp": 205,
+    				"skill": [{
+    					"id": 7,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 8,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 9,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 10,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 11,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 12,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 3,
+    				"love": 15,
+    				"flower": 35,
+    				"exp": 164,
+    				"skill": [{
+    					"id": 13,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 14,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 4,
+    				"love": 16,
+    				"flower": 40,
+    				"exp": 230,
+    				"skill": [{
+    					"id": 19,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 20,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 21,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 22,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 23,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 24,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 3,
+    				"love": 16,
+    				"flower": 35,
+    				"exp": 205,
+    				"skill": [{
+    					"id": 13,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 14,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 5,
+    				"love": 25,
+    				"flower": 40,
+    				"exp": 184,
+    				"skill": [{
+    					"id": 25,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 26,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 27,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 28,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 29,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 30,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 5,
+    				"love": 26,
+    				"flower": 40,
+    				"exp": 230,
+    				"skill": [{
+    					"id": 25,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 26,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 27,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 28,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 29,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 30,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 1,
+    				"love": 34,
+    				"flower": 30,
+    				"exp": 481,
+    				"skill": [{
+    					"id": 1,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 2,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 3,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 4,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 5,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 6,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 3,
+    				"love": 17,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 13,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 14,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 4,
+    				"love": 17,
+    				"flower": 40,
+    				"exp": 276,
+    				"skill": [{
+    					"id": 19,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 20,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 21,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 22,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 23,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 24,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 1,
+    				"love": 35,
+    				"flower": 30,
+    				"exp": 518,
+    				"skill": [{
+    					"id": 1,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 2,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 3,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 4,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 5,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 6,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 2,
+    				"love": 17,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 7,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 8,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 9,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 10,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 11,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 12,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 4,
+    				"love": 18,
+    				"flower": 40,
+    				"exp": 322,
+    				"skill": [{
+    					"id": 19,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 20,
+    					"level": 0,
+    					"exp": 11
+    				}, {
+    					"id": 21,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 22,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 23,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 24,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}],
+    			"base": {
+    				"allLove": 101
+    			}
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 3,
+    				"num": 3
+    			}, {
+    				"id": 3,
+    				"num": 4
+    			}, {
+    				"id": 3,
+    				"num": 5
+    			}, {
+    				"id": 3,
+    				"num": 6
+    			}, {
+    				"id": 3,
+    				"num": 7
+    			}, {
+    				"id": 3,
+    				"num": 8
+    			}, {
+    				"id": 3,
+    				"num": 9
+    			}, {
+    				"id": 3,
+    				"num": 10
+    			}, {
+    				"id": 3,
+    				"num": 11
+    			}, {
+    				"id": 3,
+    				"num": 12
+    			}, {
+    				"id": 3,
+    				"num": 13
+    			}, {
+    				"id": 3,
+    				"num": 14
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 15,
+    				"num": 38,
+    				"rwd": 4
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+
+一键出游
+api
+    wife
+method
+    yjxxoogetbaby
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"ep": {
+    				"e1": 1413,
+    				"e2": 813,
+    				"e3": 741,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 3,
+    				"count": 10000
+    			}, {
+    				"kind": 2,
+    				"id": 2,
+    				"count": 10000
+    			}, {
+    				"kind": 2,
+    				"id": 2,
+    				"count": 10000
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 10000
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 10000
+    			}, {
+    				"kind": 2,
+    				"id": 4,
+    				"count": 10000
+    			}]
+    		},
+    		"wife": {
+    			"win": {
+    				"yjtravel": []
+    			},
+    			"jiaQi": {
+    				"next": 1558507607,
+    				"num": 0,
+    				"label": "jiaQi"
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 50,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 178,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 601,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 38,
+    				"rwd": 1
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506629
+    			}
+    		}
+    	},
+    	"u": {
+    		"wife": {
+    			"wifeList": [{
+    				"id": 4,
+    				"love": 23,
+    				"flower": 40,
+    				"exp": 322,
+    				"skill": [{
+    					"id": 19,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 20,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 21,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 22,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 23,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 24,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 3,
+    				"love": 22,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 13,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 14,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 2,
+    				"love": 22,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 7,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 8,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 9,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 10,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 11,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 12,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 4,
+    				"love": 28,
+    				"flower": 40,
+    				"exp": 322,
+    				"skill": [{
+    					"id": 19,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 20,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 21,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 22,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 23,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 24,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}, {
+    				"id": 2,
+    				"love": 27,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 7,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 8,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 9,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 10,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 11,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 12,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}, {
+    				"id": 1,
+    				"love": 40,
+    				"flower": 30,
+    				"exp": 518,
+    				"skill": [{
+    					"id": 1,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 2,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 3,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 4,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 5,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 6,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}],
+    			"base": {
+    				"allLove": 128
+    			}
+    		},
+    		"user": {
+    			"user": {
+    				"food": 936632,
+    				"coin": 252166,
+    				"army": 573583
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 3864,
+    				"rwd": 1
+    			}]
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": 11,
+    				"level": 20,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 30,
+    					"level": 1
+    				}, {
+    					"id": 6,
+    					"level": 1
+    				}, {
+    					"id": 13,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 5,
+    					"e2": 1,
+    					"e3": 5,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 145,
+    					"e2": 29,
+    					"e3": 145,
+    					"e4": 58
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 4,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 145,
+    					"e2": 29,
+    					"e3": 149,
+    					"e4": 58,
+    					"e": 0
+    				}
+    			}, {
+    				"id": 3,
+    				"level": 20,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 22,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 1,
+    					"e2": 5,
+    					"e3": 2,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 29,
+    					"e2": 145,
+    					"e3": 58,
+    					"e4": 58
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 4,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 29,
+    					"e2": 149,
+    					"e3": 58,
+    					"e4": 58,
+    					"e": 0
+    				}
+    			}, {
+    				"id": 10,
+    				"level": 40,
+    				"senior": 2,
+    				"exp": 0,
+    				"zzexp": 90,
+    				"pkexp": 500,
+    				"epskill": [{
+    					"id": 29,
+    					"level": 1
+    				}, {
+    					"id": 8,
+    					"level": 1
+    				}, {
+    					"id": 7,
+    					"level": 1
+    				}, {
+    					"id": 11,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 5,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 5,
+    					"e2": 5,
+    					"e3": 1,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 245,
+    					"e2": 245,
+    					"e3": 49,
+    					"e4": 98
+    				},
+    				"wep": {
+    					"e1": 4,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 254,
+    					"e2": 245,
+    					"e3": 49,
+    					"e4": 98,
+    					"e": 0
+    				}
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+恢复精力
+api
+    wife
+method
+    weige
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"wife": {
+    			"jingLi": {
+    				"next": 0,
+    				"num": 14,
+    				"label": "jingli"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506704
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 71,
+    				"count": 15
+    			}]
+    		}
+    	}
+    }
+
+
+
+恢复出游
+api
+    wife
+method
+    hfjiaqi
+param
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"wife": {
+    			"jiaQi": {
+    				"next": 1558507607,
+    				"num": 1,
+    				"label": "jiaQi"
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506780
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 150,
+    				"count": 9
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+问候
+api
+    wife
+method
+    xxoonobaby
+param
+    id  知己id
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"msgwin": {
+    			"items": [{
+    				"kind": 2,
+    				"id": 15,
+    				"count": 37
+    			}]
+    		},
+    		"wife": {
+    			"hello": {
+    				"wifeid": 1,
+    				"exp": 37,
+    				"love": 1,
+    				"isgad": 0,
+    				"pro": 0,
+    				"type": 0
+    			}
+    		},
+    		"user": {
+    			"ep": {
+    				"e1": 1413,
+    				"e2": 813,
+    				"e3": 741,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 60,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 188,
+    				"rwd": 1
+    			}, {
+    				"id": 13,
+    				"cur": 39,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 638,
+    				"rwd": 0
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558506876
+    			}
+    		}
+    	},
+    	"u": {
+    		"user": {
+    			"user": {
+    				"cash": 52632,
+    				"cashbuy": 19260
+    			}
+    		},
+    		"wife": {
+    			"wifeList": [{
+    				"id": 1,
+    				"love": 41,
+    				"flower": 30,
+    				"exp": 555,
+    				"skill": [{
+    					"id": 1,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 2,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 3,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 4,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 5,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 6,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 1
+    			}],
+    			"base": {
+    				"allLove": 144
+    			}
+    		},
+    		"huodonglist": {
+    			"all": [{
+    				"id": 201,
+    				"title": "\u9650\u65f6\u5143\u5b9d\u6d88\u8017",
+    				"pindex": 201,
+    				"type": 2,
+    				"sTime": 1545719151,
+    				"eTime": 1577807998,
+    				"showTime": 1577807998,
+    				"hid": 190121,
+    				"cd": {
+    					"next": 1577807998,
+    					"label": "huodong_201_ltime"
+    				},
+    				"news": 0
+    			}]
+    		},
+    		"daily": {
+    			"tasks": [{
+    				"id": 3,
+    				"num": 15
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 15,
+    				"num": 39,
+    				"rwd": 4
+    			}, {
+    				"id": 3,
+    				"num": 3864,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+
+管事
+api:
+    user
+method:
+    serHeroShow
+param:
+    id 伙伴id
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"heroShow": {
+    				"id": 18
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558066097
+    			}
+    		}
+    	},
+    	"u": []
+    }
+
+
+
+
+送礼(增加非友情)
+api
+    wife
+method
+    reward
+param
+    id  知己id
+    itemId
+    count
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"ep": {
+    				"e1": 1413,
+    				"e2": 813,
+    				"e3": 741,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"msgwin": {
+    			"items": [{
+    				"kind": 3,
+    				"id": 3,
+    				"count": 2
+    			}]
+    		},
+    		"flower": {
+    			"base": [{
+    				"id": 7,
+    				"cur": 1,
+    				"rwd": 0
+    			}, {
+    				"id": 3,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 1,
+    				"cur": 60,
+    				"rwd": 1
+    			}, {
+    				"id": 5,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 11,
+    				"cur": 3,
+    				"rwd": 1
+    			}, {
+    				"id": 10,
+    				"cur": 4,
+    				"rwd": 0
+    			}, {
+    				"id": 14,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 17,
+    				"cur": 0,
+    				"rwd": 0
+    			}, {
+    				"id": 6,
+    				"cur": 2,
+    				"rwd": 1
+    			}, {
+    				"id": 12,
+    				"cur": 92,
+    				"rwd": 1
+    			}, {
+    				"id": 15,
+    				"cur": 1,
+    				"rwd": 1
+    			}, {
+    				"id": 4,
+    				"cur": 60,
+    				"rwd": 0
+    			}, {
+    				"id": 2,
+    				"cur": 188,
+    				"rwd": 1
+    			}, {
+    				"id": 8,
+    				"cur": 638,
+    				"rwd": 0
+    			}, {
+    				"id": 13,
+    				"cur": 41,
+    				"rwd": 1
+    			}],
+    			"protect": []
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558507003
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 91,
+    				"count": 4
+    			}]
+    		},
+    		"wife": {
+    			"wifeList": [{
+    				"id": 3,
+    				"love": 24,
+    				"flower": 35,
+    				"exp": 246,
+    				"skill": [{
+    					"id": 13,
+    					"level": 1,
+    					"exp": 6
+    				}, {
+    					"id": 14,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}],
+    			"base": {
+    				"allLove": 146
+    			}
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 3864,
+    				"rwd": 1
+    			}]
+    		}
+    	}
+    }
+
+
+
+送礼(增加友情)
+api
+    wife
+method
+    giveGift
+param
+     id  知己id
+     gid
+     num
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"system": {
+    			"sys": {
+    				"time": 1558507109
+    			}
+    		}
+    	},
+    	"u": {
+    		"item": {
+    			"itemList": [{
+    				"id": 921,
+    				"count": 199
+    			}]
+    		},
+    		"scpoint": {
+    			"wifeJB": [{
+    				"id": 3,
+    				"num": 30
+    			}]
+    		}
+    	}
+    }
+
+
+
+技能升级
+api
+    wife
+method
+    upskill
+param
+    id
+    skillId
+return
+    {
+    	"s": 1,
+    	"a": {
+    		"user": {
+    			"ep": {
+    				"e1": 1413,
+    				"e2": 814,
+    				"e3": 741,
+    				"e4": 897,
+    				"e": 0
+    			}
+    		},
+    		"system": {
+    			"sys": {
+    				"time": 1558507318
+    			}
+    		}
+    	},
+    	"u": {
+    		"wife": {
+    			"wifeList": [{
+    				"id": 3,
+    				"love": 24,
+    				"flower": 36,
+    				"exp": 240,
+    				"skill": [{
+    					"id": 13,
+    					"level": 2,
+    					"exp": 8
+    				}, {
+    					"id": 14,
+    					"level": 1,
+    					"exp": 12
+    				}, {
+    					"id": 15,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 16,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 17,
+    					"level": 0,
+    					"exp": 111
+    				}, {
+    					"id": 18,
+    					"level": 0,
+    					"exp": 111
+    				}],
+    				"state": 1,
+    				"num": 0
+    			}]
+    		},
+    		"chengjiu": {
+    			"cjlist": [{
+    				"id": 3,
+    				"num": 3865,
+    				"rwd": 1
+    			}]
+    		},
+    		"hero": {
+    			"heroList": [{
+    				"id": 3,
+    				"level": 20,
+    				"senior": 1,
+    				"exp": 0,
+    				"zzexp": 0,
+    				"pkexp": 0,
+    				"epskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 22,
+    					"level": 1
+    				}, {
+    					"id": 12,
+    					"level": 1
+    				}, {
+    					"id": 17,
+    					"level": 1
+    				}],
+    				"pkskill": [{
+    					"id": 1,
+    					"level": 1
+    				}, {
+    					"id": 2,
+    					"level": 1
+    				}],
+    				"ghskill": [],
+    				"hep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"zz": {
+    					"e1": 1,
+    					"e2": 5,
+    					"e3": 2,
+    					"e4": 2
+    				},
+    				"zep": {
+    					"e1": 29,
+    					"e2": 145,
+    					"e3": 58,
+    					"e4": 58
+    				},
+    				"wep": {
+    					"e1": 0,
+    					"e2": 5,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"gep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"lep": {
+    					"e4": 0,
+    					"e3": 0,
+    					"e2": 0,
+    					"e1": 0
+    				},
+    				"jep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"cep": {
+    					"e1": 0,
+    					"e2": 0,
+    					"e3": 0,
+    					"e4": 0
+    				},
+    				"aep": {
+    					"e1": 29,
+    					"e2": 150,
+    					"e3": 58,
+    					"e4": 58,
+    					"e": 0
+    				}
+    			}]
+    		}
+    	}
+    }
+
+
+
+知己闲谈(暂时未知)
+api
+    wife
+method
+    wchat
+param
+return
+
+
+
+

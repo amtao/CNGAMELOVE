@@ -1,0 +1,74 @@
+{
+  "sample": 40,
+  "curveData": {
+    "paths": {
+      "jq004_word001": {
+        "comps": {
+          "SoundItem": {
+            "enabled": [
+              {
+                "frame": 0.775,
+                "value": false
+              },
+              {
+                "frame": 1.175,
+                "value": true
+              }
+            ]
+          }
+        },
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.775,
+              "value": 0
+            },
+            {
+              "frame": 1.525,
+              "value": 255
+            },
+            {
+              "frame": 9.775,
+              "value": 255
+            },
+            {
+              "frame": 10.5,
+              "value": 25.500000000000483
+            }
+          ]
+        }
+      },
+      "jq003_bg001": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.75,
+              "value": 0
+            },
+            {
+              "frame": 10.5,
+              "value": 0
+            },
+            {
+              "frame": 11.225,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "jq004_bg001": {
+        "props": {
+          "scaleX": [],
+          "scaleY": []
+        }
+      }
+    }
+  },
+  "__type__": "cc.AnimationClip",
+  "_duration": 11.225,
+  "_name": "njq004"
+}

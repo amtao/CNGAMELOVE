@@ -1,0 +1,31 @@
+{
+  "name": "res-compress",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "工具/i18n:res-compress.title": {
+      "message": "res-compress:open",
+      "accelerator": "CmdOrCtrl+Shift+m"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "资源压缩",
+    "width": 400,
+    "height": 300
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "electron": "^8.2.5",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "lamejs": "^1.2.0"
+  },
+  "devDependencies": {
+    "pngquant": "^3.0.0"
+  }
+}

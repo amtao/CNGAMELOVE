@@ -1,0 +1,262 @@
+#官居几品草花-gjjpch
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/cfg_houtai.php > /data/logs/gjjpch_log/cfg_houtai 2>&1
+0 3 * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/delete.php > /data/logs/gjjpch_log/delete 2>&1
+
+#官居几品草花-gjjpch 1区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 1 >> /data/logs/gjjpch_log/30minutes1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 1 > /data/logs/gjjpch_log/flow1 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 1 > /data/logs/gjjpch_log/Sync1 2>&1
+
+#官居几品草花-gjjpch 2区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 2 >> /data/logs/gjjpch_log/30minutes2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 2 > /data/logs/gjjpch_log/flow2 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 2 > /data/logs/gjjpch_log/Sync2 2>&1
+
+#官居几品草花-gjjpch 3区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 3 >> /data/logs/gjjpch_log/30minutes3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 3 > /data/logs/gjjpch_log/flow3 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 3 > /data/logs/gjjpch_log/Sync3 2>&1
+
+#官居几品草花-gjjpch 4区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 4 >> /data/logs/gjjpch_log/30minutes4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 4 > /data/logs/gjjpch_log/flow4 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 4 > /data/logs/gjjpch_log/Sync4 2>&1
+
+#官居几品草花-gjjpch 5区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 5 >> /data/logs/gjjpch_log/30minutes5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 5 > /data/logs/gjjpch_log/flow5 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 5 > /data/logs/gjjpch_log/Sync5 2>&1
+
+#官居几品草花-gjjpch 6区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 6 >> /data/logs/gjjpch_log/30minutes6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 6 > /data/logs/gjjpch_log/flow6 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 6 > /data/logs/gjjpch_log/Sync6 2>&1
+
+#官居几品草花-gjjpch 7区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 7 >> /data/logs/gjjpch_log/30minutes7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 7 > /data/logs/gjjpch_log/flow7 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 7 > /data/logs/gjjpch_log/Sync7 2>&1
+
+
+#官居几品草花-gjjpch 8区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 8 >> /data/logs/gjjpch_log/30minutes8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 8 > /data/logs/gjjpch_log/flow8 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 8 > /data/logs/gjjpch_log/Sync8 2>&1
+
+#官居几品草花-gjjpch 9区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 9 >> /data/logs/gjjpch_log/30minutes9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 9 > /data/logs/gjjpch_log/flow9 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 9 > /data/logs/gjjpch_log/Sync9 2>&1
+
+
+#官居几品草花-gjjpch 10区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 10 >> /data/logs/gjjpch_log/30minutes10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 10 > /data/logs/gjjpch_log/flow10 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 10 > /data/logs/gjjpch_log/Sync10 2>&1
+
+#官居几品草花-gjjpch 11区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 11 >> /data/logs/gjjpch_log/30minutes11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 11 > /data/logs/gjjpch_log/flow11 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 11 > /data/logs/gjjpch_log/Sync11 2>&1
+
+
+#官居几品草花-gjjpch 12区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 12 >> /data/logs/gjjpch_log/30minutes12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 12 > /data/logs/gjjpch_log/flow12 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 12 > /data/logs/gjjpch_log/Sync12 2>&1
+
+#官居几品草花-gjjpch 13区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 13 >> /data/logs/gjjpch_log/30minutes13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 13 > /data/logs/gjjpch_log/flow13 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 13 > /data/logs/gjjpch_log/Sync13 2>&1
+
+#官居几品草花-gjjpch 14区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 14 >> /data/logs/gjjpch_log/30minutes14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 14 > /data/logs/gjjpch_log/flow14 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 14 > /data/logs/gjjpch_log/Sync14 2>&1
+
+#官居几品草花-gjjpch 15区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 15 >> /data/logs/gjjpch_log/30minutes15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 15 > /data/logs/gjjpch_log/flow15 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 15 > /data/logs/gjjpch_log/Sync15 2>&1
+
+#官居几品草花-gjjpch 16区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 16 >> /data/logs/gjjpch_log/30minutes16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 16 > /data/logs/gjjpch_log/flow16 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 16 > /data/logs/gjjpch_log/Sync16 2>&1
+
+#官居几品草花-gjjpch 17区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 17 >> /data/logs/gjjpch_log/30minutes17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 17 > /data/logs/gjjpch_log/flow17 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 17 > /data/logs/gjjpch_log/Sync17 2>&1
+
+#官居几品草花-gjjpch 18区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 18 >> /data/logs/gjjpch_log/30minutes18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 18 > /data/logs/gjjpch_log/flow18 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 18 > /data/logs/gjjpch_log/Sync18 2>&1
+
+#官居几品草花-gjjpch 19区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 19 >> /data/logs/gjjpch_log/30minutes19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 19 > /data/logs/gjjpch_log/flow19 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 19 > /data/logs/gjjpch_log/Sync19 2>&1
+
+#官居几品草花-gjjpch 20区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 20 >> /data/logs/gjjpch_log/30minutes20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 20 > /data/logs/gjjpch_log/flow20 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 20 > /data/logs/gjjpch_log/Sync20 2>&1
+
+#官居几品草花-gjjpch 21区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 21 >> /data/logs/gjjpch_log/30minutes21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 21 > /data/logs/gjjpch_log/flow21 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 21 > /data/logs/gjjpch_log/Sync21 2>&1
+
+#官居几品草花-gjjpch 22区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 22 >> /data/logs/gjjpch_log/30minutes22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 22 > /data/logs/gjjpch_log/flow22 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 22 > /data/logs/gjjpch_log/Sync22 2>&1
+
+#官居几品草花-gjjpch 23区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 23 >> /data/logs/gjjpch_log/30minutes23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 23 > /data/logs/gjjpch_log/flow23 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 23 > /data/logs/gjjpch_log/Sync23 2>&1
+
+#官居几品草花-gjjpch 24区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 24 >> /data/logs/gjjpch_log/30minutes24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 24 > /data/logs/gjjpch_log/flow24 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 24 > /data/logs/gjjpch_log/Sync24 2>&1
+
+#官居几品草花-gjjpch 25区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 25 >> /data/logs/gjjpch_log/30minutes25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 25 > /data/logs/gjjpch_log/flow25 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 25 > /data/logs/gjjpch_log/Sync25 2>&1
+
+#官居几品草花-gjjpch 26区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 26 >> /data/logs/gjjpch_log/30minutes26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 26 > /data/logs/gjjpch_log/flow26 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 26 > /data/logs/gjjpch_log/Sync26 2>&1
+
+#官居几品草花-gjjpch 27区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 27 >> /data/logs/gjjpch_log/30minutes27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 27 > /data/logs/gjjpch_log/flow27 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 27 > /data/logs/gjjpch_log/Sync27 2>&1
+
+#官居几品草花-gjjpch 28区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 28 >> /data/logs/gjjpch_log/30minutes28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 28 > /data/logs/gjjpch_log/flow28 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 28 > /data/logs/gjjpch_log/Sync28 2>&1
+
+#官居几品草花-gjjpch 29区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 29 >> /data/logs/gjjpch_log/30minutes29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 29 > /data/logs/gjjpch_log/flow29 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 29 > /data/logs/gjjpch_log/Sync29 2>&1
+
+#官居几品草花-gjjpch 30区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 30 >> /data/logs/gjjpch_log/30minutes30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 30 > /data/logs/gjjpch_log/flow30 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 30 > /data/logs/gjjpch_log/Sync30 2>&1
+
+#官居几品草花-gjjpch 31区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 31 >> /data/logs/gjjpch_log/30minutes31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 31 > /data/logs/gjjpch_log/flow31 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 31 > /data/logs/gjjpch_log/Sync31 2>&1
+
+#官居几品草花-gjjpch 32区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 32 >> /data/logs/gjjpch_log/30minutes32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 32 > /data/logs/gjjpch_log/flow32 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 32 > /data/logs/gjjpch_log/Sync32 2>&1
+
+#官居几品草花-gjjpch 33区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 33 >> /data/logs/gjjpch_log/30minutes33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 33 > /data/logs/gjjpch_log/flow33 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 33 > /data/logs/gjjpch_log/Sync33 2>&1
+
+#官居几品草花-gjjpch 34区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 34 >> /data/logs/gjjpch_log/30minutes34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 34 > /data/logs/gjjpch_log/flow34 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 34 > /data/logs/gjjpch_log/Sync34 2>&1
+
+#官居几品草花-gjjpch 35区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 35 >> /data/logs/gjjpch_log/30minutes35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 35 > /data/logs/gjjpch_log/flow35 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 35 > /data/logs/gjjpch_log/Sync35 2>&1
+
+#官居几品草花-gjjpch 36区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 36 >> /data/logs/gjjpch_log/30minutes36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 36 > /data/logs/gjjpch_log/flow36 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 36 > /data/logs/gjjpch_log/Sync36 2>&1
+
+#官居几品草花-gjjpch 37区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 37 >> /data/logs/gjjpch_log/30minutes37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 37 > /data/logs/gjjpch_log/flow37 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 37 > /data/logs/gjjpch_log/Sync37 2>&1
+
+#官居几品草花-gjjpch 38区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 38 >> /data/logs/gjjpch_log/30minutes38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 38 > /data/logs/gjjpch_log/flow38 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 38 > /data/logs/gjjpch_log/Sync38 2>&1
+
+#官居几品草花-gjjpch 39区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 39 >> /data/logs/gjjpch_log/30minutes39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 39 > /data/logs/gjjpch_log/flow39 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 39 > /data/logs/gjjpch_log/Sync39 2>&1
+
+#官居几品草花-gjjpch 40区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 40 >> /data/logs/gjjpch_log/30minutes40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 40 > /data/logs/gjjpch_log/flow40 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 40 > /data/logs/gjjpch_log/Sync40 2>&1
+
+#gjjpch 41区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 41 >> /data/logs/gjjpch_log/30minutes41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 41 > /data/logs/gjjpch_log/flow41 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 41 > /data/logs/gjjpch_log/Sync41 2>&1
+
+#gjjpch 42区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 42 >> /data/logs/gjjpch_log/30minutes42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 42 > /data/logs/gjjpch_log/flow42 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 42 > /data/logs/gjjpch_log/Sync42 2>&1
+
+#gjjpch 43区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 43 >> /data/logs/gjjpch_log/30minutes43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 43 > /data/logs/gjjpch_log/flow43 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 43 > /data/logs/gjjpch_log/Sync43 2>&1
+
+#gjjpch 44区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 44 >> /data/logs/gjjpch_log/30minutes44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 44 > /data/logs/gjjpch_log/flow44 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 44 > /data/logs/gjjpch_log/Sync44 2>&1
+
+#gjjpch 45区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 45 >> /data/logs/gjjpch_log/30minutes45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 45 > /data/logs/gjjpch_log/flow45 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 45 > /data/logs/gjjpch_log/Sync45 2>&1
+
+#gjjpch 46区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 46 >> /data/logs/gjjpch_log/30minutes46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 46 > /data/logs/gjjpch_log/flow46 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 46 > /data/logs/gjjpch_log/Sync46 2>&1
+
+#gjjpch 47区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 47 >> /data/logs/gjjpch_log/30minutes47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 47 > /data/logs/gjjpch_log/flow47 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 47 > /data/logs/gjjpch_log/Sync47 2>&1
+
+#gjjpch 48区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 48 >> /data/logs/gjjpch_log/30minutes48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 48 > /data/logs/gjjpch_log/flow48 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 48 > /data/logs/gjjpch_log/Sync48 2>&1
+
+#gjjpch 49区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 49 >> /data/logs/gjjpch_log/30minutes49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 49 > /data/logs/gjjpch_log/flow49 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 49 > /data/logs/gjjpch_log/Sync49 2>&1
+
+#gjjpch 50区
+*/30 * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/30minutes.php 50 >> /data/logs/gjjpch_log/30minutes50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/flow.php 50 > /data/logs/gjjpch_log/flow50 2>&1
+* * * * *  /usr/local/services/php/bin/php /data/www/gjjpch/s1_gjjpch/crontab/Sync.php 50 > /data/logs/gjjpch_log/Sync50 2>&1
+
+//------------end-----------------
+
+
+
+
